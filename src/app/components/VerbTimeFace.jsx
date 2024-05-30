@@ -10,21 +10,30 @@ export default function VerbTimeFace({label, correct_value, isCheck, id}) {
     let input;
 
 
+    function handleInputChange(event) {
+        if (event.target.value === "") {
+            setCheckInputClassName('');
+        }
+        setInputValue(event.target.value);
+    }
+
     if (isCheck) {
-        input = <input type="text" id={id} name={id} value={correct_value} disabled/>
+        input = <input type="text" id={id} name={id} value={correct_value} style={{fontSize: "14px"}} disabled/>
     } else {
 
 
         input = <input type="text" id={id} name={id}
                        value={inputValue}
-                       onChange={handleInputLeave}
+                       onChange={handleInputChange}
+                       onBlur={handleInputLeave}
                        className={styles[checkInputClassName]}
         />
     }
 
     function handleInputLeave(event) {
-        setInputValue(event.target.value);
-        if (event.target.value === correct_value) {
+        if (event.target.value === "") {
+            setCheckInputClassName('');
+        } else if (event.target.value === correct_value) {
             setCheckInputClassName('correct_input')
         } else {
             setCheckInputClassName('incorrect_input')

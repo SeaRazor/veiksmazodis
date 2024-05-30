@@ -13,7 +13,7 @@ export default function Verb({infinitive, present, past, translation}) {
 
     const translationMarkup = translationVisible
         ? translation
-        : <IconHelpOctagon size={24} className={styles.hoveredIcon}/>;
+        : <div title="Перевод"><IconHelpOctagon size={24} className={styles.hoveredIcon}/></div>;
     return (
         <>
             <div className={styles.flow}>

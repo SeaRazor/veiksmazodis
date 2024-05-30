@@ -56,8 +56,6 @@ export default function Home() {
                     <IconDice5Filled size={30} className={styles.hoveredIcon}/>
                 </div>
 
-                {/*<button className={styles.get_button} onClick={handleGetNewVerb}>Новый глагол</button>*/}
-
 
             </div>
             {verb && <Verb
