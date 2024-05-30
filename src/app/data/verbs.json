@@ -1,0 +1,629 @@
+[
+  {
+    "infinitive": "būti",
+    "present": {
+      "first_singular": "esu",
+      "second_singular": "esi",
+      "third_singular": "yra",
+      "first_plural": "esame",
+      "second_plural": "esate",
+      "third_plural": "yra"
+    },
+    "past_simple": {
+      "first_singular": "buvau",
+      "second_singular": "buvai",
+      "third_singular": "buvo",
+      "first_plural": "buvome",
+      "second_plural": "buvote",
+      "third_plural": "buvo"
+    },
+    "past_frequentative": {
+      "first_singular": "būdavo",
+      "second_singular": "būdavai",
+      "third_singular": "būdavo",
+      "first_plural": "būdavome",
+      "second_plural": "būdavote",
+      "third_plural": "būdavo"
+    },
+    "future": {
+      "first_singular": "būsiu",
+      "second_singular": "būsi",
+      "third_singular": "bus",
+      "first_plural": "būsime",
+      "second_plural": "būsite",
+      "third_plural": "bus"
+    },
+    "imperative": {
+      "second_singular": "būk",
+      "third_singular": "būtų",
+      "first_plural": "būkime",
+      "second_plural": "būkite",
+      "third_plural": "būtų"
+    },
+    "conditional": {
+      "first_singular": "būčiau",
+      "second_singular": "būtum",
+      "third_singular": "būtų",
+      "first_plural": "būtume",
+      "second_plural": "būtumėte",
+      "third_plural": "būtų"
+    },
+    "participle_present": "esantis",
+    "participle_past": "buvęs",
+    "participle_future": "būsiantis",
+    "participle_past_passive": "būtas",
+    "participle_present_passive": "esamas",
+    "participle_future_passive": "būsiamas",
+    "translation": "быть"
+  },
+  {
+    "infinitive": "turėti",
+    "present": {
+      "first_singular": "turiu",
+      "second_singular": "turi",
+      "third_singular": "turi",
+      "first_plural": "turime",
+      "second_plural": "turite",
+      "third_plural": "turi"
+    },
+    "past_simple": {
+      "first_singular": "turėjau",
+      "second_singular": "turėjai",
+      "third_singular": "turėjo",
+      "first_plural": "turėjome",
+      "second_plural": "turėjote",
+      "third_plural": "turėjo"
+    },
+    "past_frequentative": {
+      "first_singular": "turėdavau",
+      "second_singular": "turėdavai",
+      "third_singular": "turėdavo",
+      "first_plural": "turėdavome",
+      "second_plural": "turėdavote",
+      "third_plural": "turėdavo"
+    },
+    "future": {
+      "first_singular": "turėsiu",
+      "second_singular": "turėsi",
+      "third_singular": "turės",
+      "first_plural": "turėsime",
+      "second_plural": "turėsite",
+      "third_plural": "turės"
+    },
+    "imperative": {
+      "second_singular": "turėk",
+      "third_singular": "turėtų",
+      "first_plural": "turėkime",
+      "second_plural": "turėkite",
+      "third_plural": "turėtų"
+    },
+    "conditional": {
+      "first_singular": "turėčiau",
+      "second_singular": "turėtum",
+      "third_singular": "turėtų",
+      "first_plural": "turėtume",
+      "second_plural": "turėtumėte",
+      "third_plural": "turėtų"
+    },
+    "participle_present": "turintis",
+    "participle_past": "turėjęs",
+    "participle_future": "turėsiantis",
+    "participle_past_passive": "turėtas",
+    "participle_present_passive": "turimas",
+    "participle_future_passive": "turėsiamas",
+    "translation": "иметь"
+  },
+  {
+    "infinitive": "galėti",
+    "present": {
+      "first_singular": "galiu",
+      "second_singular": "gali",
+      "third_singular": "gali",
+      "first_plural": "galime",
+      "second_plural": "galite",
+      "third_plural": "gali"
+    },
+    "past_simple": {
+      "first_singular": "galėjau",
+      "second_singular": "galėjai",
+      "third_singular": "galėjo",
+      "first_plural": "galėjome",
+      "second_plural": "galėjote",
+      "third_plural": "galėjo"
+    },
+    "past_frequentative": {
+      "first_singular": "galėdavau",
+      "second_singular": "galėdavai",
+      "third_singular": "galėdavo",
+      "first_plural": "galėdavome",
+      "second_plural": "galėdavote",
+      "third_plural": "galėdavo"
+    },
+    "future": {
+      "first_singular": "galėsiu",
+      "second_singular": "galėsi",
+      "third_singular": "galės",
+      "first_plural": "galėsime",
+      "second_plural": "galėsite",
+      "third_plural": "galės"
+    },
+    "imperative": {
+      "second_singular": "galėk",
+      "third_singular": "galėtų",
+      "first_plural": "galėkime",
+      "second_plural": "galėkite",
+      "third_plural": "galėtų"
+    },
+    "conditional": {
+      "first_singular": "galėčiau",
+      "second_singular": "galėtum",
+      "third_singular": "galėtų",
+      "first_plural": "galėtume",
+      "second_plural": "galėtumėte",
+      "third_plural": "galėtų"
+    },
+    "participle_present": "galintis",
+    "participle_past": "galėjęs",
+    "participle_future": "galėsiantis",
+    "participle_past_passive": "galėtas",
+    "participle_present_passive": "galimas",
+    "participle_future_passive": "galėsiamas",
+    "translation": "мочь"
+  },
+  {
+    "infinitive": "norėti",
+    "present": {
+      "first_singular": "noriu",
+      "second_singular": "nori",
+      "third_singular": "nori",
+      "first_plural": "norime",
+      "second_plural": "norite",
+      "third_plural": "nori"
+    },
+    "past_simple": {
+      "first_singular": "norėjau",
+      "second_singular": "norėjai",
+      "third_singular": "norėjo",
+      "first_plural": "norėjome",
+      "second_plural": "norėjote",
+      "third_plural": "norėjo"
+    },
+    "past_frequentative": {
+      "first_singular": "norėdavau",
+      "second_singular": "norėdavai",
+      "third_singular": "norėdavo",
+      "first_plural": "norėdavome",
+      "second_plural": "norėdavote",
+      "third_plural": "norėdavo"
+    },
+    "future": {
+      "first_singular": "norėsiu",
+      "second_singular": "norėsi",
+      "third_singular": "norės",
+      "first_plural": "norėsime",
+      "second_plural": "norėsite",
+      "third_plural": "norės"
+    },
+    "imperative": {
+      "second_singular": "norėk",
+      "third_singular": "norėtų",
+      "first_plural": "norėkime",
+      "second_plural": "norėkite",
+      "third_plural": "norėtų"
+    },
+    "conditional": {
+      "first_singular": "norėčiau",
+      "second_singular": "norėtum",
+      "third_singular": "norėtų",
+      "first_plural": "norėtume",
+      "second_plural": "norėtumėte",
+      "third_plural": "norėtų"
+    },
+    "participle_present": "norintis",
+    "participle_past": "norėjęs",
+    "participle_future": "norėsiantis",
+    "participle_past_passive": "norėtas",
+    "participle_present_passive": "norimas",
+    "participle_future_passive": "norėsiamas",
+    "translation": "хотеть"
+  },
+  {
+    "infinitive": "eiti",
+    "present": {
+      "first_singular": "einu",
+      "second_singular": "eini",
+      "third_singular": "eina",
+      "first_plural": "einame",
+      "second_plural": "einate",
+      "third_plural": "eina"
+    },
+    "past_simple": {
+      "first_singular": "ėjau",
+      "second_singular": "ėjai",
+      "third_singular": "ėjo",
+      "first_plural": "ėjome",
+      "second_plural": "ėjote",
+      "third_plural": "ėjo"
+    },
+    "past_frequentative": {
+      "first_singular": "eidavau",
+      "second_singular": "eidavai",
+      "third_singular": "eidavo",
+      "first_plural": "eidavome",
+      "second_plural": "eidavote",
+      "third_plural": "eidavo"
+    },
+    "future": {
+      "first_singular": "eisiu",
+      "second_singular": "eisi",
+      "third_singular": "eis",
+      "first_plural": "eisime",
+      "second_plural": "eisite",
+      "third_plural": "eis"
+    },
+    "imperative": {
+      "second_singular": "eik",
+      "third_singular": "eitų",
+      "first_plural": "eikime",
+      "second_plural": "eikite",
+      "third_plural": "eitų"
+    },
+    "conditional": {
+      "first_singular": "eičiau",
+      "second_singular": "eitum",
+      "third_singular": "eitų",
+      "first_plural": "eitume",
+      "second_plural": "eitumėte",
+      "third_plural": "eitų"
+    },
+    "participle_present": "eitis",
+    "participle_past": "ėjęs",
+    "participle_future": "eisiantis",
+    "participle_past_passive": "eitas",
+    "participle_present_passive": "eimas",
+    "participle_future_passive": "eisiamas",
+    "translation": "идти"
+  },
+  {
+    "infinitive": "daryti",
+    "present": {
+      "first_singular": "darau",
+      "second_singular": "darai",
+      "third_singular": "daro",
+      "first_plural": "darome",
+      "second_plural": "darote",
+      "third_plural": "daro"
+    },
+    "past_simple": {
+      "first_singular": "darė",
+      "second_singular": "darė",
+      "third_singular": "darė",
+      "first_plural": "darėme",
+      "second_plural": "darėte",
+      "third_plural": "darė"
+    },
+    "past_frequentative": {
+      "first_singular": "darydavau",
+      "second_singular": "darydavai",
+      "third_singular": "darydavo",
+      "first_plural": "darydavome",
+      "second_plural": "darydavote",
+      "third_plural": "darydavo"
+    },
+    "future": {
+      "first_singular": "darysiu",
+      "second_singular": "darysi",
+      "third_singular": "darys",
+      "first_plural": "darysime",
+      "second_plural": "darysite",
+      "third_plural": "darys"
+    },
+    "imperative": {
+      "second_singular": "daryk",
+      "third_singular": "darytų",
+      "first_plural": "darykime",
+      "second_plural": "darykite",
+      "third_plural": "darytų"
+    },
+    "conditional": {
+      "first_singular": "daryčiau",
+      "second_singular": "darytum",
+      "third_singular": "darytų",
+      "first_plural": "darytume",
+      "second_plural": "darytumėte",
+      "third_plural": "darytų"
+    },
+    "participle_present": "darantis",
+    "participle_past": "daręs",
+    "participle_future": "darysiantis",
+    "participle_past_passive": "darytas",
+    "participle_present_passive": "daromas",
+    "participle_future_passive": "darysiamas",
+    "translation": "делать"
+  },
+  {
+    "infinitive": "matyti",
+    "present": {
+      "first_singular": "matau",
+      "second_singular": "matai",
+      "third_singular": "mato",
+      "first_plural": "matome",
+      "second_plural": "matote",
+      "third_plural": "mato"
+    },
+    "past_simple": {
+      "first_singular": "mačiau",
+      "second_singular": "matėi",
+      "third_singular": "matė",
+      "first_plural": "matėme",
+      "second_plural": "matėte",
+      "third_plural": "matė"
+    },
+    "past_frequentative": {
+      "first_singular": "matydavau",
+      "second_singular": "matydavai",
+      "third_singular": "matydavo",
+      "first_plural": "matydavome",
+      "second_plural": "matydavote",
+      "third_plural": "matydavo"
+    },
+    "future": {
+      "first_singular": "matysiu",
+      "second_singular": "matysi",
+      "third_singular": "matys",
+      "first_plural": "matysime",
+      "second_plural": "matysite",
+      "third_plural": "matys"
+    },
+    "imperative": {
+      "second_singular": "matyk",
+      "third_singular": "matytų",
+      "first_plural": "matykime",
+      "second_plural": "matykite",
+      "third_plural": "matytų"
+    },
+    "conditional": {
+      "first_singular": "matyčiau",
+      "second_singular": "matytum",
+      "third_singular": "matytų",
+      "first_plural": "matytume",
+      "second_plural": "matytumėte",
+      "third_plural": "matytų"
+    },
+    "participle_present": "matančius",
+    "participle_past": "matęs",
+    "participle_future": "matysiantis",
+    "participle_past_passive": "matytas",
+    "participle_present_passive": "matomas",
+    "participle_future_passive": "matysiamas",
+    "translation": "видеть"
+  },
+  {
+    "infinitive": "suprasti",
+    "present": {
+      "first_singular": "suprantu",
+      "second_singular": "supranti",
+      "third_singular": "supranta",
+      "first_plural": "suprantame",
+      "second_plural": "suprantate",
+      "third_plural": "supranta"
+    },
+    "past_simple": {
+      "first_singular": "supratau",
+      "second_singular": "supratai",
+      "third_singular": "suprato",
+      "first_plural": "supratome",
+      "second_plural": "supratote",
+      "third_plural": "suprato"
+    },
+    "past_frequentative": {
+      "first_singular": "suprasdavau",
+      "second_singular": "suprasdavai",
+      "third_singular": "suprasdavo",
+      "first_plural": "suprasdavome",
+      "second_plural": "suprasdavote",
+      "third_plural": "suprasdavo"
+    },
+    "future": {
+      "first_singular": "suprasiu",
+      "second_singular": "suprasi",
+      "third_singular": "supras",
+      "first_plural": "suprasime",
+      "second_plural": "supratote",
+      "third_plural": "supras"
+    },
+    "imperative": {
+      "second_singular": "suprask",
+      "third_singular": "suprastų",
+      "first_plural": "supraskime",
+      "second_plural": "supraskite",
+      "third_plural": "suprastų"
+    },
+    "conditional": {
+      "first_singular": "suprasčiau",
+      "second_singular": "suprastum",
+      "third_singular": "suprastų",
+      "first_plural": "suprastume",
+      "second_plural": "suprastumėte",
+      "third_plural": "suprastų"
+    },
+    "participle_present": "suprantantis",
+    "participle_past": "supratęs",
+    "participle_future": "suprasiantis",
+    "participle_past_passive": "suprastas",
+    "participle_present_passive": "suprantamas",
+    "participle_future_passive": "suprasiamas",
+    "translation": "понимать"
+  },
+  {
+    "infinitive": "valgyti",
+    "present": {
+      "first_singular": "valgau",
+      "second_singular": "valgai",
+      "third_singular": "valgo",
+      "first_plural": "valgome",
+      "second_plural": "valgote",
+      "third_plural": "valgo"
+    },
+    "past_simple": {
+      "first_singular": "valgiau",
+      "second_singular": "valgei",
+      "third_singular": "valgė",
+      "first_plural": "valgėme",
+      "second_plural": "valgėte",
+      "third_plural": "valgė"
+    },
+    "past_frequentative": {
+      "first_singular": "valgydavau",
+      "second_singular": "valgydavai",
+      "third_singular": "valgydavo",
+      "first_plural": "valgydavome",
+      "second_plural": "valgydavote",
+      "third_plural": "valgydavo"
+    },
+    "future": {
+      "first_singular": "valgysiu",
+      "second_singular": "valgysi",
+      "third_singular": "valgys",
+      "first_plural": "valgysime",
+      "second_plural": "valgysite",
+      "third_plural": "valgys"
+    },
+    "imperative": {
+      "second_singular": "valgyk",
+      "third_singular": "valgytų",
+      "first_plural": "valgykime",
+      "second_plural": "valgykite",
+      "third_plural": "valgytų"
+    },
+    "conditional": {
+      "first_singular": "valgyčiau",
+      "second_singular": "valgytum",
+      "third_singular": "valgytų",
+      "first_plural": "valgytume",
+      "second_plural": "valgytumėte",
+      "third_plural": "valgytų"
+    },
+    "participle_present": "valgantis",
+    "participle_past": "valgęs",
+    "participle_future": "valgysiantis",
+    "participle_past_passive": "valgytas",
+    "participle_present_passive": "valgomas",
+    "participle_future_passive": "valgysiamas",
+    "translation": "есть"
+  },
+  {
+    "infinitive": "gerti",
+    "present": {
+      "first_singular": "geriu",
+      "second_singular": "geri",
+      "third_singular": "geria",
+      "first_plural": "geriame",
+      "second_plural": "geriate",
+      "third_plural": "geria"
+    },
+    "past_simple": {
+      "first_singular": "gėriau",
+      "second_singular": "gėrei",
+      "third_singular": "gėrė",
+      "first_plural": "gėrėme",
+      "second_plural": "gėrėte",
+      "third_plural": "gėrė"
+    },
+    "past_frequentative": {
+      "first_singular": "gerdavau",
+      "second_singular": "gerdavai",
+      "third_singular": "gerdavo",
+      "first_plural": "gerdavome",
+      "second_plural": "gerdavote",
+      "third_plural": "gerdavo"
+    },
+    "future": {
+      "first_singular": "gersiu",
+      "second_singular": "gersi",
+      "third_singular": "gers",
+      "first_plural": "gersime",
+      "second_plural": "gersite",
+      "third_plural": "gers"
+    },
+    "imperative": {
+      "second_singular": "gerk",
+      "third_singular": "gertų",
+      "first_plural": "gerkime",
+      "second_plural": "gerkite",
+      "third_plural": "gertų"
+    },
+    "conditional": {
+      "first_singular": "gerčiau",
+      "second_singular": "gertum",
+      "third_singular": "gertų",
+      "first_plural": "gertume",
+      "second_plural": "gertumėte",
+      "third_plural": "gertų"
+    },
+    "participle_present": "geriantis",
+    "participle_past": "gėręs",
+    "participle_future": "gersiantis",
+    "participle_past_passive": "gertas",
+    "participle_present_passive": "geriamas",
+    "participle_future_passive": "gersiamas",
+    "translation": "пить"
+  },
+  {
+    "infinitive": "skaityti",
+    "present": {
+      "first_singular": "skaitau",
+      "second_singular": "skaitai",
+      "third_singular": "skaito",
+      "first_plural": "skaitome",
+      "second_plural": "skaitote",
+      "third_plural": "skaito"
+    },
+    "past_simple": {
+      "first_singular": "skaičiau",
+      "second_singular": "skaitei",
+      "third_singular": "skaitė",
+      "first_plural": "skaitėme",
+      "second_plural": "skaitėte",
+      "third_plural": "skaitė"
+    },
+    "past_frequentative": {
+      "first_singular": "skaitydavau",
+      "second_singular": "skaitydavai",
+      "third_singular": "skaitydavo",
+      "first_plural": "skaitydavome",
+      "second_plural": "skaitydavote",
+      "third_plural": "skaitydavo"
+    },
+    "future": {
+      "first_singular": "skaitysiu",
+      "second_singular": "skaitysi",
+      "third_singular": "skaitys",
+      "first_plural": "skaitysime",
+      "second_plural": "skaitysite",
+      "third_plural": "skaitys"
+    },
+    "imperative": {
+      "second_singular": "skaityk",
+      "third_singular": "skaitytų",
+      "first_plural": "skaitykime",
+      "second_plural": "skaitykite",
+      "third_plural": "skaitytų"
+    },
+    "conditional": {
+      "first_singular": "skaityčiau",
+      "second_singular": "skaitytum",
+      "third_singular": "skaitytų",
+      "first_plural": "skaitytume",
+      "second_plural": "skaitytumėte",
+      "third_plural": "skaitytų"
+    },
+    "participle_present": "skaitantis",
+    "participle_past": "skaitęs",
+    "participle_future": "skaitysiantis",
+    "participle_past_passive": "skaitytas",
+    "participle_present_passive": "skaitomas",
+    "participle_future_passive": "skaitysiamas",
+    "translation": "читать"
+  }
+]

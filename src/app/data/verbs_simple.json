@@ -1,0 +1,152 @@
+[
+  {
+    "infinitive": "būti",
+    "present": "yra",
+    "past": "buvo",
+    "translation": "быть"
+  },
+  {
+    "infinitive": "turėti",
+    "present": "turi",
+    "past": "turėjo",
+    "translation": "иметь"
+  },
+  {
+    "infinitive": "galėti",
+    "present": "gali",
+    "past": "galėjo",
+    "translation": "мочь"
+  },
+  {
+    "infinitive": "norėti",
+    "present": "nori",
+    "past": "norėjo",
+    "translation": "хотеть"
+  },
+  {
+    "infinitive": "daryti",
+    "present": "daro",
+    "past": "darė",
+    "translation": "делать"
+  },
+  {
+    "infinitive": "matyti",
+    "present": "mato",
+    "past": "matė",
+    "translation": "видеть"
+  },
+  {
+    "infinitive": "eiti",
+    "present": "eina",
+    "past": "ėjo",
+    "translation": "идти"
+  },
+  {
+    "infinitive": "duoti",
+    "present": "duoda",
+    "past": "davė",
+    "translation": "давать"
+  },
+  {
+    "infinitive": "gauti",
+    "present": "gauna",
+    "past": "gavo",
+    "translation": "получать"
+  },
+  {
+    "infinitive": "žinoti",
+    "present": "žino",
+    "past": "žinojo",
+    "translation": "знать"
+  },
+  {
+    "infinitive": "sakyti",
+    "present": "sako",
+    "past": "sakė",
+    "translation": "сказать"
+  },
+  {
+    "infinitive": "imti",
+    "present": "ima",
+    "past": "ėmė",
+    "translation": "брать"
+  },
+  {
+    "infinitive": "laukti",
+    "present": "laukia",
+    "past": "laukė",
+    "translation": "ждать"
+  },
+  {
+    "infinitive": "rašyti",
+    "present": "rašo",
+    "past": "rašė",
+    "translation": "писать"
+  },
+  {
+    "infinitive": "skaityti",
+    "present": "skaito",
+    "past": "skaitė",
+    "translation": "читать"
+  },
+  {
+    "infinitive": "valgyti",
+    "present": "valgo",
+    "past": "valgė",
+    "translation": "есть"
+  },
+  {
+    "infinitive": "mokėti",
+    "present": "moka",
+    "past": "mokėjo",
+    "translation": "уметь, платить"
+  },
+  {
+    "infinitive": "girdėti",
+    "present": "girdi",
+    "past": "girdėjo",
+    "translation": "слышать"
+  },
+  {
+    "infinitive": "žaisti",
+    "present": "žaidžia",
+    "past": "žaidė",
+    "translation": "играть"
+  },
+  {
+    "infinitive": "leisti",
+    "present": "leidžia",
+    "past": "leido",
+    "translation": "позволять"
+  },
+  {
+    "infinitive": "skambinti",
+    "present": "skambina",
+    "past": "skambino",
+    "translation": "звонить"
+  },
+  {
+    "infinitive": "mylėti",
+    "present": "myli",
+    "past": "mylėjo",
+    "translation": "любить"
+  },
+  {
+    "infinitive": "likti",
+    "present": "lieka",
+    "past": "liko",
+    "translation": "оставаться"
+  },
+  {
+    "infinitive": "žiūrėti",
+    "present": "žiūri",
+    "past": "žiūrėjo",
+    "translation": "смотреть"
+  },
+  {
+    "infinitive": "sėdėti",
+    "present": "sėdi",
+    "past": "sėdėjo",
+    "translation": "сидеть"
+  }
+]
