@@ -5,6 +5,7 @@ import Verb from "@/app/components/Verb";
 import {useState} from "react";
 import VerbFormsGrid from "@/app/components/VerbFormsGrid";
 import {IconDice5Filled} from "@tabler/icons-react";
+import {toast, ToastContainer} from "react-toastify";
 
 
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
             if (newVerb) {
                 setVerb(newVerb);
             } else {
+                toast.error('Глагол не найден. Попробуйте поискать другой или выберите случайный', {})
 
             }
 
@@ -36,6 +38,7 @@ export default function Home() {
 
     return (
         <main className={styles.main}>
+            <ToastContainer hideProgressBar={true} position="top-center" autoClose="3000" closeOnClick={true}/>
             <div className={styles.flow}>
                 <img src="/lithuania_64.png"/>
                 <h2>

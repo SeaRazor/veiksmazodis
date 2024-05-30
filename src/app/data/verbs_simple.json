@@ -18,46 +18,10 @@
     "translation": "мочь"
   },
   {
-    "infinitive": "norėti",
-    "present": "nori",
-    "past": "norėjo",
-    "translation": "хотеть"
-  },
-  {
     "infinitive": "daryti",
     "present": "daro",
     "past": "darė",
     "translation": "делать"
-  },
-  {
-    "infinitive": "matyti",
-    "present": "mato",
-    "past": "matė",
-    "translation": "видеть"
-  },
-  {
-    "infinitive": "eiti",
-    "present": "eina",
-    "past": "ėjo",
-    "translation": "идти"
-  },
-  {
-    "infinitive": "duoti",
-    "present": "duoda",
-    "past": "davė",
-    "translation": "давать"
-  },
-  {
-    "infinitive": "gauti",
-    "present": "gauna",
-    "past": "gavo",
-    "translation": "получать"
-  },
-  {
-    "infinitive": "žinoti",
-    "present": "žino",
-    "past": "žinojo",
-    "translation": "знать"
   },
   {
     "infinitive": "sakyti",
@@ -66,16 +30,64 @@
     "translation": "сказать"
   },
   {
+    "infinitive": "eiti",
+    "present": "eina",
+    "past": "ėjo",
+    "translation": "идти"
+  },
+  {
+    "infinitive": "matyti",
+    "present": "mato",
+    "past": "matė",
+    "translation": "видеть"
+  },
+  {
+    "infinitive": "žinoti",
+    "present": "žino",
+    "past": "žinojo",
+    "translation": "знать"
+  },
+  {
+    "infinitive": "norėti",
+    "present": "nori",
+    "past": "norėjo",
+    "translation": "хотеть"
+  },
+  {
+    "infinitive": "duoti",
+    "present": "duoda",
+    "past": "davė",
+    "translation": "давать"
+  },
+  {
     "infinitive": "imti",
     "present": "ima",
     "past": "ėmė",
     "translation": "брать"
   },
   {
-    "infinitive": "laukti",
-    "present": "laukia",
-    "past": "laukė",
-    "translation": "ждать"
+    "infinitive": "gauti",
+    "present": "gauna",
+    "past": "gavo",
+    "translation": "получать"
+  },
+  {
+    "infinitive": "atlikti",
+    "present": "atlieka",
+    "past": "atliko",
+    "translation": "выполнять"
+  },
+  {
+    "infinitive": "rasti",
+    "present": "randa",
+    "past": "rado",
+    "translation": "находить"
+  },
+  {
+    "infinitive": "palikti",
+    "present": "palieka",
+    "past": "paliko",
+    "translation": "оставить"
   },
   {
     "infinitive": "rašyti",
@@ -90,40 +102,88 @@
     "translation": "читать"
   },
   {
+    "infinitive": "mokėti",
+    "present": "moka",
+    "past": "mokėjo",
+    "translation": "платить"
+  },
+  {
+    "infinitive": "mokytis",
+    "present": "mokosi",
+    "past": "mokėsi",
+    "translation": "учиться"
+  },
+  {
+    "infinitive": "kalbėti",
+    "present": "kalba",
+    "past": "kalbėjo",
+    "translation": "говорить"
+  },
+  {
+    "infinitive": "klausti",
+    "present": "klausia",
+    "past": "klausė",
+    "translation": "спрашивать"
+  },
+  {
+    "infinitive": "atsakyti",
+    "present": "atsako",
+    "past": "atsakė",
+    "translation": "отвечать"
+  },
+  {
+    "infinitive": "galvoti",
+    "present": "galvoja",
+    "past": "galvojo",
+    "translation": "думать"
+  },
+  {
+    "infinitive": "dirbti",
+    "present": "dirba",
+    "past": "dirbo",
+    "translation": "работать"
+  },
+  {
+    "infinitive": "atsikelti",
+    "present": "atsikelia",
+    "past": "atsikėlė",
+    "translation": "вставать"
+  },
+  {
+    "infinitive": "miegoti",
+    "present": "miega",
+    "past": "miegojo",
+    "translation": "спать"
+  },
+  {
     "infinitive": "valgyti",
     "present": "valgo",
     "past": "valgė",
     "translation": "есть"
   },
   {
-    "infinitive": "mokėti",
-    "present": "moka",
-    "past": "mokėjo",
-    "translation": "уметь, платить"
+    "infinitive": "gerti",
+    "present": "geria",
+    "past": "gėrė",
+    "translation": "пить"
   },
   {
-    "infinitive": "girdėti",
-    "present": "girdi",
-    "past": "girdėjo",
-    "translation": "слышать"
+    "infinitive": "vesti",
+    "present": "veda",
+    "past": "vedė",
+    "translation": "вести"
   },
   {
-    "infinitive": "žaisti",
-    "present": "žaidžia",
-    "past": "žaidė",
-    "translation": "играть"
+    "infinitive": "pirkti",
+    "present": "perka",
+    "past": "pirko",
+    "translation": "покупать"
   },
   {
-    "infinitive": "leisti",
-    "present": "leidžia",
-    "past": "leido",
-    "translation": "позволять"
-  },
-  {
-    "infinitive": "skambinti",
-    "present": "skambina",
-    "past": "skambino",
-    "translation": "звонить"
+    "infinitive": "parduoti",
+    "present": "parduoda",
+    "past": "pardavė",
+    "translation": "продавать"
   },
   {
     "infinitive": "mylėti",
@@ -132,10 +192,142 @@
     "translation": "любить"
   },
   {
-    "infinitive": "likti",
-    "present": "lieka",
-    "past": "liko",
-    "translation": "оставаться"
+    "infinitive": "padėti",
+    "present": "padeda",
+    "past": "padėjo",
+    "translation": "помогать"
+  },
+  {
+    "infinitive": "bėgti",
+    "present": "bėga",
+    "past": "bėgo",
+    "translation": "бежать"
+  },
+  {
+    "infinitive": "skambinti",
+    "present": "skambina",
+    "past": "skambino",
+    "translation": "звонить"
+  },
+  {
+    "infinitive": "rodyti",
+    "present": "rodo",
+    "past": "rodė",
+    "translation": "показывать"
+  },
+  {
+    "infinitive": "rinkti",
+    "present": "renka",
+    "past": "rinko",
+    "translation": "собирать"
+  },
+  {
+    "infinitive": "siųsti",
+    "present": "siunčia",
+    "past": "siuntė",
+    "translation": "посылать"
+  },
+  {
+    "infinitive": "klausyti",
+    "present": "klauso",
+    "past": "klausė",
+    "translation": "слушать"
+  },
+  {
+    "infinitive": "šokti",
+    "present": "šoka",
+    "past": "šoko",
+    "translation": "танцевать"
+  },
+  {
+    "infinitive": "plaukti",
+    "present": "plaukia",
+    "past": "plaukė",
+    "translation": "плавать"
+  },
+  {
+    "infinitive": "važinėti",
+    "present": "važinėja",
+    "past": "važinėjo",
+    "translation": "кататься"
+  },
+  {
+    "infinitive": "grįžti",
+    "present": "grįžta",
+    "past": "grįžo",
+    "translation": "возвращаться"
+  },
+  {
+    "infinitive": "kepti",
+    "present": "kepa",
+    "past": "kepė",
+    "translation": "жарить"
+  },
+  {
+    "infinitive": "šaukti",
+    "present": "šaukia",
+    "past": "šaukė",
+    "translation": "кричать"
+  },
+  {
+    "infinitive": "augti",
+    "present": "auga",
+    "past": "augo",
+    "translation": "расти"
+  },
+  {
+    "infinitive": "skristi",
+    "present": "skrenda",
+    "past": "skrido",
+    "translation": "лететь"
+  },
+  {
+    "infinitive": "juoktis",
+    "present": "juokiasi",
+    "past": "juokėsi",
+    "translation": "смеяться"
+  },
+  {
+    "infinitive": "rūpintis",
+    "present": "rūpinasi",
+    "past": "rūpinosi",
+    "translation": "заботиться"
+  },
+  {
+    "infinitive": "pradėti",
+    "present": "pradeda",
+    "past": "pradėjo",
+    "translation": "начинать"
+  },
+  {
+    "infinitive": "sustoti",
+    "present": "sustoja",
+    "past": "sustojo",
+    "translation": "остановиться"
+  },
+  {
+    "infinitive": "sėdėti",
+    "present": "sėdi",
+    "past": "sėdėjo",
+    "translation": "сидеть"
+  },
+  {
+    "infinitive": "stovėti",
+    "present": "stovi",
+    "past": "stovėjo",
+    "translation": "стоять"
+  },
+  {
+    "infinitive": "veikti",
+    "present": "veikia",
+    "past": "veikė",
+    "translation": "действовать"
+  },
+  {
+    "infinitive": "žaisti",
+    "present": "žaidžia",
+    "past": "žaidė",
+    "translation": "играть"
   },
   {
     "infinitive": "žiūrėti",
@@ -144,9 +336,171 @@
     "translation": "смотреть"
   },
   {
+    "infinitive": "vaikščioti",
+    "present": "vaikšto",
+    "past": "vaikščiojo",
+    "translation": "гулять"
+  },
+  {
+    "infinitive": "šypsotis",
+    "present": "šypsosi",
+    "past": "šypsojosi",
+    "translation": "улыбаться"
+  },
+  {
+    "infinitive": "verkšlenti",
+    "present": "verkšlena",
+    "past": "verkšleno",
+    "translation": "ныть"
+  },
+  {
+    "infinitive": "šluoti",
+    "present": "šluoja",
+    "past": "šlavė",
+    "translation": "подметать"
+  },
+  {
+    "infinitive": "plauti",
+    "present": "plauna",
+    "past": "plovė",
+    "translation": "мыть"
+  },
+  {
+    "infinitive": "nešti",
+    "present": "neša",
+    "past": "nešė",
+    "translation": "нести"
+  },
+  {
+    "infinitive": "atvykti",
+    "present": "atvyksta",
+    "past": "atvyko",
+    "translation": "прибывать"
+  },
+  {
+    "infinitive": "parvežti",
+    "present": "parveža",
+    "past": "parvežė",
+    "translation": "привозить"
+  },
+  {
+    "infinitive": "laikyti",
+    "present": "laiko",
+    "past": "laikė",
+    "translation": "держать"
+  },
+  {
+    "infinitive": "jausti",
+    "present": "jaučia",
+    "past": "jautė",
+    "translation": "чувствовать"
+  },
+  {
+    "infinitive": "trūkti",
+    "present": "trūksta",
+    "past": "trūko",
+    "translation": "недоставать"
+  },
+  {
+    "infinitive": "judėti",
+    "present": "juda",
+    "past": "judėjo",
+    "translation": "двигаться"
+  },
+  {
+    "infinitive": "sukti",
+    "present": "suka",
+    "past": "suko",
+    "translation": "поворачивать"
+  },
+  {
+    "infinitive": "ieškoti",
+    "present": "ieško",
+    "past": "ieškojo",
+    "translation": "искать"
+  },
+  {
+    "infinitive": "sekti",
+    "present": "seka",
+    "past": "sekė",
+    "translation": "следовать"
+  },
+  {
+    "infinitive": "praleisti",
+    "present": "praleidžia",
+    "past": "praleido",
+    "translation": "пропускать"
+  },
+  {
+    "infinitive": "linkti",
+    "present": "linksta",
+    "past": "linko",
+    "translation": "наклоняться"
+  },
+  {
+    "infinitive": "prarasti",
+    "present": "praranda",
+    "past": "prarado",
+    "translation": "терять"
+  },
+  {
+    "infinitive": "stumti",
+    "present": "stumia",
+    "past": "stūmė",
+    "translation": "толкать"
+  },
+  {
+    "infinitive": "traukti",
+    "present": "traukia",
+    "past": "traukė",
+    "translation": "тянуть"
+  },
+  {
     "infinitive": "sėdėti",
     "present": "sėdi",
     "past": "sėdėjo",
     "translation": "сидеть"
+  },
+  {
+    "infinitive": "keisti",
+    "present": "keičia",
+    "past": "keitė",
+    "translation": "менять"
+  },
+  {
+    "infinitive": "skirti",
+    "present": "skiria",
+    "past": "skyrė",
+    "translation": "разделять"
+  },
+  {
+    "infinitive": "kviesti",
+    "present": "kviečia",
+    "past": "kvietė",
+    "translation": "приглашать"
+  },
+  {
+    "infinitive": "kvėpuoti",
+    "present": "kvėpuoja",
+    "past": "kvėpavo",
+    "translation": "дышать"
+  },
+  {
+    "infinitive": "giedoti",
+    "present": "gieda",
+    "past": "giedojo",
+    "translation": "петь"
+  },
+  {
+    "infinitive": "tirpti",
+    "present": "tirpsta",
+    "past": "tirpo",
+    "translation": "таять"
+  },
+  {
+    "infinitive": "šviesti",
+    "present": "šviečia",
+    "past": "švietė",
+    "translation": "светить"
   }
 ]
