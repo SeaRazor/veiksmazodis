@@ -17,7 +17,7 @@ export default function VerbFormItem({
     return (
         <div className={styles.card}>
             <h3>{name}</h3>
-            <div className={styles.flow}>
+            <div className={styles.item_grid}>
                 <VerbTimeFace key="first_singular" label="Aš" correct_value={first_singular} isCheck={isCheck}
                               id="first_singular"/>
                 <VerbTimeFace key="second_singular" label="Tu" correct_value={second_singular} isCheck={isCheck}
