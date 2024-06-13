@@ -1,0 +1,517 @@
+[
+  {
+    "noun": "žmogus",
+    "gender": "m",
+    "translation": "человек"
+  },
+  {
+    "noun": "metai",
+    "gender": "m",
+    "translation": "годы"
+  },
+  {
+    "noun": "laikas",
+    "gender": "m",
+    "translation": "время"
+  },
+  {
+    "noun": "diena",
+    "gender": "f",
+    "translation": "день"
+  },
+  {
+    "noun": "darbas",
+    "gender": "m",
+    "translation": "работа"
+  },
+  {
+    "noun": "vieta",
+    "gender": "f",
+    "translation": "место"
+  },
+  {
+    "noun": "valstybė",
+    "gender": "f",
+    "translation": "государство"
+  },
+  {
+    "noun": "šeima",
+    "gender": "f",
+    "translation": "семья"
+  },
+  {
+    "noun": "gyvenimas",
+    "gender": "m",
+    "translation": "жизнь"
+  },
+  {
+    "noun": "miestas",
+    "gender": "m",
+    "translation": "город"
+  },
+  {
+    "noun": "kelias",
+    "gender": "m",
+    "translation": "дорога"
+  },
+  {
+    "noun": "pinigai",
+    "gender": "m",
+    "translation": "деньги"
+  },
+  {
+    "noun": "rankos",
+    "gender": "f",
+    "translation": "руки"
+  },
+  {
+    "noun": "namai",
+    "gender": "m",
+    "translation": "дом"
+  },
+  {
+    "noun": "klausimas",
+    "gender": "m",
+    "translation": "вопрос"
+  },
+  {
+    "noun": "vyras",
+    "gender": "m",
+    "translation": "мужчина"
+  },
+  {
+    "noun": "moteris",
+    "gender": "f",
+    "translation": "женщина"
+  },
+  {
+    "noun": "vaikas",
+    "gender": "m",
+    "translation": "ребенок"
+  },
+  {
+    "noun": "vandenys",
+    "gender": "m",
+    "translation": "воды"
+  },
+  {
+    "noun": "maistas",
+    "gender": "m",
+    "translation": "еда"
+  },
+  {
+    "noun": "kelionė",
+    "gender": "f",
+    "translation": "путешествие"
+  },
+  {
+    "noun": "žemė",
+    "gender": "f",
+    "translation": "земля"
+  },
+  {
+    "noun": "oras",
+    "gender": "m",
+    "translation": "воздух"
+  },
+  {
+    "noun": "mokykla",
+    "gender": "f",
+    "translation": "школа"
+  },
+  {
+    "noun": "miškas",
+    "gender": "m",
+    "translation": "лес"
+  },
+  {
+    "noun": "kompiuteris",
+    "gender": "m",
+    "translation": "компьютер"
+  },
+  {
+    "noun": "mėnuo",
+    "gender": "m",
+    "translation": "месяц"
+  },
+  {
+    "noun": "savaitė",
+    "gender": "f",
+    "translation": "неделя"
+  },
+  {
+    "noun": "metas",
+    "gender": "m",
+    "translation": "сезон"
+  },
+  {
+    "noun": "vakaras",
+    "gender": "m",
+    "translation": "вечер"
+  },
+  {
+    "noun": "rytas",
+    "gender": "m",
+    "translation": "утро"
+  },
+  {
+    "noun": "naktis",
+    "gender": "f",
+    "translation": "ночь"
+  },
+  {
+    "noun": "sveikata",
+    "gender": "f",
+    "translation": "здоровье"
+  },
+  {
+    "noun": "medis",
+    "gender": "m",
+    "translation": "дерево"
+  },
+  {
+    "noun": "knyga",
+    "gender": "f",
+    "translation": "книга"
+  },
+  {
+    "noun": "žolė",
+    "gender": "f",
+    "translation": "трава"
+  },
+  {
+    "noun": "žmogaus teisės",
+    "gender": "f",
+    "translation": "права человека"
+  },
+  {
+    "noun": "mokslas",
+    "gender": "m",
+    "translation": "наука"
+  },
+  {
+    "noun": "istorija",
+    "gender": "f",
+    "translation": "история"
+  },
+  {
+    "noun": "dovana",
+    "gender": "f",
+    "translation": "подарок"
+  },
+  {
+    "noun": "mašina",
+    "gender": "f",
+    "translation": "машина"
+  },
+  {
+    "noun": "žvaigždė",
+    "gender": "f",
+    "translation": "звезда"
+  },
+  {
+    "noun": "nuotrauka",
+    "gender": "f",
+    "translation": "фотография"
+  },
+  {
+    "noun": "pasaulis",
+    "gender": "m",
+    "translation": "мир"
+  },
+  {
+    "noun": "langas",
+    "gender": "m",
+    "translation": "окно"
+  },
+  {
+    "noun": "dviratis",
+    "gender": "m",
+    "translation": "велосипед"
+  },
+  {
+    "noun": "mažylis",
+    "gender": "m",
+    "translation": "малыш"
+  },
+  {
+    "noun": "dienoraštis",
+    "gender": "m",
+    "translation": "дневник"
+  },
+  {
+    "noun": "pagalba",
+    "gender": "f",
+    "translation": "помощь"
+  },
+  {
+    "noun": "namelis",
+    "gender": "m",
+    "translation": "домик"
+  },
+  {
+    "noun": "katė",
+    "gender": "f",
+    "translation": "кошка"
+  },
+  {
+    "noun": "šuo",
+    "gender": "m",
+    "translation": "собака"
+  },
+  {
+    "noun": "motina",
+    "gender": "f",
+    "translation": "мать"
+  },
+  {
+    "noun": "tėvas",
+    "gender": "m",
+    "translation": "отец"
+  },
+  {
+    "noun": "draugas",
+    "gender": "m",
+    "translation": "друг"
+  },
+  {
+    "noun": "draugė",
+    "gender": "f",
+    "translation": "подруга"
+  },
+  {
+    "noun": "sūnus",
+    "gender": "m",
+    "translation": "сын"
+  },
+  {
+    "noun": "dukra",
+    "gender": "f",
+    "translation": "дочь"
+  },
+  {
+    "noun": "žaidimas",
+    "gender": "m",
+    "translation": "игра"
+  },
+  {
+    "noun": "šventė",
+    "gender": "f",
+    "translation": "праздник"
+  },
+  {
+    "noun": "lenta",
+    "gender": "f",
+    "translation": "доска"
+  },
+  {
+    "noun": "spinta",
+    "gender": "f",
+    "translation": "шкаф"
+  },
+  {
+    "noun": "lovos",
+    "gender": "f",
+    "translation": "кровати"
+  },
+  {
+    "noun": "krėslas",
+    "gender": "m",
+    "translation": "кресло"
+  },
+  {
+    "noun": "nuotaika",
+    "gender": "f",
+    "translation": "настроение"
+  },
+  {
+    "noun": "uodas",
+    "gender": "m",
+    "translation": "комар"
+  },
+  {
+    "noun": "automobilis",
+    "gender": "m",
+    "translation": "автомобиль"
+  },
+  {
+    "noun": "šaldytuvas",
+    "gender": "m",
+    "translation": "холодильник"
+  },
+  {
+    "noun": "žirklės",
+    "gender": "f",
+    "translation": "ножницы"
+  },
+  {
+    "noun": "butas",
+    "gender": "m",
+    "translation": "квартира"
+  },
+  {
+    "noun": "telefonas",
+    "gender": "m",
+    "translation": "телефон"
+  },
+  {
+    "noun": "medicina",
+    "gender": "f",
+    "translation": "медицина"
+  },
+  {
+    "noun": "poilsis",
+    "gender": "m",
+    "translation": "отдых"
+  },
+  {
+    "noun": "plaukai",
+    "gender": "m",
+    "translation": "волосы"
+  },
+  {
+    "noun": "akis",
+    "gender": "f",
+    "translation": "глаз"
+  },
+  {
+    "noun": "ausis",
+    "gender": "f",
+    "translation": "ухо"
+  },
+  {
+    "noun": "burna",
+    "gender": "f",
+    "translation": "рот"
+  },
+  {
+    "noun": "nosia",
+    "gender": "f",
+    "translation": "нос"
+  },
+  {
+    "noun": "sniegas",
+    "gender": "m",
+    "translation": "снег"
+  },
+  {
+    "noun": "lietus",
+    "gender": "m",
+    "translation": "дождь"
+  },
+  {
+    "noun": "audra",
+    "gender": "f",
+    "translation": "буря"
+  },
+  {
+    "noun": "saule",
+    "gender": "f",
+    "translation": "солнце"
+  },
+  {
+    "noun": "debesis",
+    "gender": "m",
+    "translation": "облако"
+  },
+  {
+    "noun": "vėjas",
+    "gender": "m",
+    "translation": "ветер"
+  },
+  {
+    "noun": "parkas",
+    "gender": "m",
+    "translation": "парк"
+  },
+  {
+    "noun": "kavinė",
+    "gender": "f",
+    "translation": "кафе"
+  },
+  {
+    "noun": "restoranas",
+    "gender": "m",
+    "translation": "ресторан"
+  },
+  {
+    "noun": "parduotuvė",
+    "gender": "f",
+    "translation": "магазин"
+  },
+  {
+    "noun": "rinka",
+    "gender": "f",
+    "translation": "рынок"
+  },
+  {
+    "noun": "turizmas",
+    "gender": "m",
+    "translation": "туризм"
+  },
+  {
+    "noun": "muziejus",
+    "gender": "m",
+    "translation": "музей"
+  },
+  {
+    "noun": "teatras",
+    "gender": "m",
+    "translation": "театр"
+  },
+  {
+    "noun": "kinas",
+    "gender": "m",
+    "translation": "кино"
+  },
+  {
+    "noun": "sportas",
+    "gender": "m",
+    "translation": "спорт"
+  },
+  {
+    "noun": "muzika",
+    "gender": "f",
+    "translation": "музыка"
+  },
+  {
+    "noun": "dailė",
+    "gender": "f",
+    "translation": "искусство"
+  },
+  {
+    "noun": "šokis",
+    "gender": "m",
+    "translation": "танец"
+  },
+  {
+    "noun": "filmas",
+    "gender": "m",
+    "translation": "фильм"
+  },
+  {
+    "noun": "alėja",
+    "gender": "f",
+    "translation": "аллея"
+  },
+  {
+    "noun": "upė",
+    "gender": "f",
+    "translation": "река"
+  },
+  {
+    "noun": "jūra",
+    "gender": "f",
+    "translation": "море"
+  },
+  {
+    "noun": "ežeras",
+    "gender": "m",
+    "translation": "озеро"
+  },
+  {
+    "noun": "kalnas",
+    "gender": "m",
+    "translation": "гора"
+  }
+]

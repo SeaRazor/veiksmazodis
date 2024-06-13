@@ -6,11 +6,11 @@ export function getRandomVerb() {
 }
 
 export function searchVerb(searchString) {
-    const searchResultByInfinitive = verbs_simple.find((v) => v.infinitive === searchString);
+    const searchResultByInfinitive = verbs_simple.find((v) => v.infinitive.toUpperCase() === searchString.toUpperCase());
     if (searchResultByInfinitive) {
         return searchResultByInfinitive;
     }
-    const searchResultByTranslation = verbs_simple.find((v) => v.translation === searchString);
+    const searchResultByTranslation = verbs_simple.find((v) => v.translation.toUpperCase() === searchString.toUpperCase());
     if (searchResultByTranslation) {
         return searchResultByTranslation;
     }

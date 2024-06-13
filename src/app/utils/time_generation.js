@@ -1,12 +1,12 @@
 export function generateFutureTime(infinitive) {
     const root = infinitive.slice(0, -2);
     const root_last = root.slice(-1);
-    const first_singular = `${root}siu`;
-    const second_singular = `${root}si`;
-    const third_singular = `${root}s`;
-    const first_plural = `${root}sime`;
-    const second_plural = `${root}site`;
-    const third_plural = `${root}s`;
+    const first_singular = composeTimeVerb(root, 'siu');
+    const second_singular = composeTimeVerb(root, 'si');
+    const third_singular = composeTimeVerb(root, 's');
+    const first_plural = composeTimeVerb(root, 'sime');
+    const second_plural = composeTimeVerb(root, 'site');
+    const third_plural = composeTimeVerb(root, 's');
     return {
         first_singular,
         second_singular,
@@ -20,12 +20,12 @@ export function generateFutureTime(infinitive) {
 export function generatePastFrequentativeTime(infinitive) {
     const root = infinitive.slice(0, -2);
     const root_last = root.slice(-1);
-    const first_singular = `${root}davau`;
-    const second_singular = `${root}davai`;
-    const third_singular = `${root}davo`;
-    const first_plural = `${root}davome`;
-    const second_plural = `${root}davote`;
-    const third_plural = `${root}davo`;
+    const first_singular = composeTimeVerb(root, 'davau');
+    const second_singular = composeTimeVerb(root, 'davai');
+    const third_singular = composeTimeVerb(root, 'davo');
+    const first_plural = composeTimeVerb(root, 'davome');
+    const second_plural = composeTimeVerb(root, 'davote');
+    const third_plural = composeTimeVerb(root, 'davo');
     return {
         first_singular,
         second_singular,
@@ -40,10 +40,10 @@ export function generateImperativeTime(infinitive) {
     const root = infinitive.slice(0, -2);
     const root_last = root.slice(-1);
     const first_singular = ``;
-    const second_singular = `${root}k`;
+    const second_singular = composeTimeVerb(root, 'k');
     const third_singular = ``;
-    const first_plural = `${root}kime`;
-    const second_plural = `${root}kite`;
+    const first_plural = composeTimeVerb(root, 'kime');
+    const second_plural = composeTimeVerb(root, 'kite');
     const third_plural = ``;
     return {
         first_singular,
@@ -61,30 +61,30 @@ export function generatePresentTime(present) {
     switch (ending) {
         case 'a':
             return {
-                first_singular: `${root}u`,
-                second_singular: `${root}i`,
-                third_singular: `${root}a`,
-                first_plural: `${root}ame`,
-                second_plural: `${root}ate`,
-                third_plural: `${root}a`
+                first_singular: composeTimeVerb(root, 'u'),
+                second_singular: composeTimeVerb(root, 'i'),
+                third_singular: composeTimeVerb(root, 'a'),
+                first_plural: composeTimeVerb(root, 'ame'),
+                second_plural: composeTimeVerb(root, 'ate'),
+                third_plural: composeTimeVerb(root, 'a')
             };
         case 'i':
             return {
-                first_singular: `${root}iu`,
-                second_singular: `${root}i`,
-                third_singular: `${root}i`,
-                first_plural: `${root}ime`,
-                second_plural: `${root}ite`,
-                third_plural: `${root}i`
+                first_singular: composeTimeVerb(root, 'iu'),
+                second_singular: composeTimeVerb(root, 'i'),
+                third_singular: composeTimeVerb(root, 'i'),
+                first_plural: composeTimeVerb(root, 'ime'),
+                second_plural: composeTimeVerb(root, 'ite'),
+                third_plural: composeTimeVerb(root, 'i')
             };
         case 'o':
             return {
-                first_singular: `${root}au`,
-                second_singular: `${root}ai`,
-                third_singular: `${root}o`,
-                first_plural: `${root}ome`,
-                second_plural: `${root}ote`,
-                third_plural: `${root}o`
+                first_singular: composeTimeVerb(root, 'au'),
+                second_singular: composeTimeVerb(root, 'ai'),
+                third_singular: composeTimeVerb(root, 'o'),
+                first_plural: composeTimeVerb(root, 'ome'),
+                second_plural: composeTimeVerb(root, 'ote'),
+                third_plural: composeTimeVerb(root, 'o')
             };
     }
 
@@ -94,12 +94,12 @@ export function generatePresentTime(present) {
 export function generateConditionalTime(infinitive) {
     const root = infinitive.slice(0, -2);
     const root_last = root.slice(-1);
-    const first_singular = `${root}čiau`;
-    const second_singular = `${root}tum`;
-    const third_singular = `${root}tų`;
-    const first_plural = `${root}tume`;
-    const second_plural = `${root}tute`;
-    const third_plural = `${root}tų`;
+    const first_singular = composeTimeVerb(root, 'čiau');
+    const second_singular = composeTimeVerb(root, 'tum');
+    const third_singular = composeTimeVerb(root, 'tų');
+    const first_plural = composeTimeVerb(root, 'tume');
+    const second_plural = composeTimeVerb(root, 'tute');
+    const third_plural = composeTimeVerb(root, 'tų');
     return {
         first_singular,
         second_singular,
@@ -116,22 +116,33 @@ export function generatePastSimpleTime(past) {
     switch (ending) {
         case 'ė':
             return {
-                first_singular: `${root}iau`,
-                second_singular: `${root}ei`,
-                third_singular: `${root}ė`,
-                first_plural: `${root}ėme`,
-                second_plural: `${root}ėte`,
-                third_plural: `${root}ė`
+                first_singular: composeTimeVerb(root, 'iau'),
+                second_singular: composeTimeVerb(root, 'ei'),
+                third_singular: composeTimeVerb(root, 'ė'),
+                first_plural: composeTimeVerb(root, 'ėme'),
+                second_plural: composeTimeVerb(root, 'ėte'),
+                third_plural: composeTimeVerb(root, 'ė')
             };
         case 'o':
             return {
-                first_singular: `${root}au`,
-                second_singular: `${root}ai`,
-                third_singular: `${root}o`,
-                first_plural: `${root}ome`,
-                second_plural: `${root}ote`,
-                third_plural: `${root}o`
+                first_singular: composeTimeVerb(root, 'au'),
+                second_singular: composeTimeVerb(root, 'ai'),
+                third_singular: composeTimeVerb(root, 'o'),
+                first_plural: composeTimeVerb(root, 'ome'),
+                second_plural: composeTimeVerb(root, 'ote'),
+                third_plural: composeTimeVerb(root, 'o')
             };
 
     }
+}
+
+function composeTimeVerb(root, ending) {
+    const lastRootLetter = root.slice(-1);
+    const firstEndingLetter = ending.slice(0, 1);
+    if (lastRootLetter === firstEndingLetter) {
+        return root.slice(0, -1) + ending;
+    }
+    ;
+    return root + ending;
+
 }
