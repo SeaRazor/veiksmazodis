@@ -1,12 +1,4 @@
-/*export default function VerbsTrainer() {
-    return <>
 
-        <h2>
-            Veiksmažodžiai!
-        </h2>
-
-    </>
-}*/
 'use client';
 import {useState} from "react";
 import {getRandomVerb, searchVerb} from "@/app/utils/verbs";
@@ -37,7 +29,7 @@ export default function VerbsTrainer(props) {
     }
 
     function handleSearchButtonClick() {
-        const searchValue = document.getElementById('searchVerbString').value;
+        const searchValue = document.getElementById('searchInput').value;
         searchVerbFromInput(searchValue);
 
     }
@@ -59,6 +51,7 @@ export default function VerbsTrainer(props) {
         <div className={styles.input_flow}>
 
             <input className={styles.search_input} type="text"
+                   id="searchInput"
                    placeholder="Введите инфинитив на литовском или перевод на русский"
                    onKeyUp={handleSearchInput}/>
 

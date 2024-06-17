@@ -23,7 +23,7 @@ export default function Cases() {
     }
 
     function handleSearchButtonClick() {
-        const searchValue = document.getElementById('searchVerbString').value;
+        const searchValue = document.getElementById('searchString').value;
         searchNounFromInput(searchValue);
 
     }
@@ -49,6 +49,7 @@ export default function Cases() {
             <div className={styles.input_flow}>
 
                 <input className={styles.search_input} type="text"
+                       id="searchString"
                        placeholder="Введите слово на литовском или перевод на русский"
                        onKeyUp={handleSearchInput}/>
 
