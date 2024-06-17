@@ -5,6 +5,7 @@ import {IconDice5Filled, IconSearch} from "@tabler/icons-react";
 import {useState} from "react";
 import {getRandomNoun, searchNoun} from "@/app/utils/nouns";
 import NounInfo from "@/app/components/Nouns/NounInfo";
+import NounCasesGrid from "@/app/components/Nouns/NounCasesGrid";
 
 export default function Cases() {
 
@@ -78,6 +79,9 @@ export default function Cases() {
             </div>
 
             <NounInfo  {...noun}/>
+            {(mode && noun) && <NounCasesGrid {...noun} mode={mode}/>}
+
+
         </>
     );
 
