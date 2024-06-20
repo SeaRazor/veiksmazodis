@@ -23,12 +23,7 @@ export default function VerbFormsGrid({verb_forms, mode}) {
                           mode={mode}/>
             <VerbFormItem {...generatePresentTime(verb_forms.present)} name="Настоящее время" mode={mode}/>
             <VerbFormItem {...generatePastSimpleTime(verb_forms.past)} name="Прошедшее единоразовое время" mode={mode}/>
-            {/*  <div className={styles.verb_card}>111</div>
-            <div className={styles.verb_card}>222</div>
-            <div className={styles.verb_card}>333</div>
-            <div className={styles.verb_card}>444</div>
-            <div className={styles.verb_card}>555</div>
-            <div className={styles.verb_card}>666</div>*/}
+
         </div>
     );
 }

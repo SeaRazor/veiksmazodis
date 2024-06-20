@@ -1,13 +1,9 @@
 import styles from "@/app/page.module.css";
-import {useRef, useState} from "react";
+import {useState} from "react";
 
-export default function VerbTimeFace({label, correct_value, isCheck, id}) {
-    const inputValueRef = useRef(null);
-    const [isCorrect, setIsCorrect] = useState();
+export default function InputField({label, correct_value, isCheck, id}) {
     const [inputValue, setInputValue] = useState('');
     const [checkInputClassName, setCheckInputClassName] = useState('');
-
-    let input;
 
 
     function handleInputChange(event) {
@@ -17,21 +13,6 @@ export default function VerbTimeFace({label, correct_value, isCheck, id}) {
         setInputValue(event.target.value);
     }
 
-    /*
-
-        if (isCheck) {
-            input = <input type="text" id={id} name={id} value={correct_value} style={{fontSize: "14px"}} disabled/>
-        } else {
-
-
-            input = <input type="text" id={id} name={id}
-                           value={inputValue}
-                           onChange={handleInputChange}
-                           onBlur={handleInputLeave}
-                           className={styles[checkInputClassName]}
-            />
-        }
-    */
 
     function handleInputLeave(event) {
         if (event.target.value === "") {

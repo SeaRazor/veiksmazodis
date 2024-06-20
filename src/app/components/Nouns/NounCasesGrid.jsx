@@ -1,16 +1,19 @@
 import {generateNounCases} from "@/app/utils/case_generation";
 import styles from "@/app/page.module.css";
+import NounCaseItem from "@/app/components/Nouns/NounCaseItem";
 
-export default function NounCasesGrid({noun, gender, translation, mode}){
-    const nounCases =  generateNounCases(noun, gender);
+export default function NounCasesGrid({noun, gender, mode}) {
+    const nounCases = generateNounCases(noun, gender);
+    if (!nounCases) {
+        return null;
+    }
     const singleNounCases = nounCases["single"];
     const pluralNounCases = nounCases["plural"];
+
     return (
         <div className={styles.flow}>
-            {for (const property in nounCases)
-
-            }
-
+            <NounCaseItem mode={mode} number="single" {...singleNounCases}/>
+            <NounCaseItem mode={mode} number="plural"  {...pluralNounCases}/>
         </div>
 
     );
