@@ -1,4 +1,3 @@
-
 'use client';
 import {useState} from "react";
 import {getRandomVerb, searchVerb} from "@/app/utils/verbs";
@@ -64,7 +63,7 @@ export default function VerbsTrainer(props) {
                 <IconDice5Filled size={20}/>
                 <span className={styles.hidden_on_mobile}>Случайный</span>
             </button>
-            <div onChange={handleUserMode} className={styles.radio}>
+            {verb && <div onChange={handleUserMode} className={styles.radio}>
                 <label>
                     <input type="radio" name="mode" value="check"/>
                     <span>Посмотреть</span>
@@ -74,7 +73,7 @@ export default function VerbsTrainer(props) {
                     <span>Проверить себя</span>
                 </label>
 
-            </div>
+            </div>}
 
 
         </div>

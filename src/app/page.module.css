@@ -87,6 +87,9 @@
     justify-content: center;
     gap: 0.2rem;
     text-align: center;
+    position: sticky !important;
+    top: 0px;
+    z-index: 10;
     /* min-height: 50px;*/
 
 }
@@ -114,15 +117,50 @@
 
 }
 
-.verb_header div {
+/*.verb_header div {
     height: 100%;
     background-color: #f5ea84;
     align-content: center;
 
-}
+}*/
 
 .verb_type_name {
     font-style: italic;
+}
+
+.card .tooltip {
+    visibility: hidden; /* Hidden by default */
+    width: 120px; /* Tooltip width */
+    background-color: black; /* Background color */
+    color: #fff; /* Text color */
+    text-align: center;
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px 0;
+    position: absolute; /* Position it relative to the tooltip container */
+    z-index: 1;
+    bottom: -125%; /* Position it above the text */
+    left: 50%;
+    margin-left: -60px; /* Centers the tooltip */
+    opacity: 0; /* Fully transparent by default */
+    transition: opacity 0.3s; /* Fade-in effect */
+}
+
+.card .tooltip::after {
+    content: '';
+    position: absolute;
+    bottom: 100%; /* At the top of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent; /* Arrow pointing up */
+
+}
+
+/* Show the tooltip when hovering */
+.card:hover .tooltip {
+    visibility: visible;
+    opacity: 1; /* Fully visible */
 }
 
 .default_button {
@@ -227,11 +265,14 @@
 
 .card {
     padding: 0.5rem;
-
     background: rgba(var(--card-rgb), 0.1);
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
+    border-radius: 10px;
     transition: background 200ms, border 200ms;
     font-family: var(--font-mono);
+    position: relative; /* Needed to position the tooltip content */
+    display: inline-block;
+    cursor: pointer; /* Changes the cursor to pointer */
 }
 
 .card span {
@@ -413,6 +454,7 @@
     margin-right: 10px;
 }
 
+/* Navigation */
 .menu {
     display: flex;
     flex-direction: row;
@@ -420,8 +462,8 @@
     align-items: center;
     gap: 1rem;
     padding: 0.5rem;
-    background: #7ca4e6;
-    border: 1px solid rgba(var(--card-border-rgb), 0.15);
+    /* background: #7ca4e6;*/
+    /*  border: 1px solid rgba(var(--card-border-rgb), 0.15);*/
     transition: background 200ms, border 200ms;
     font-family: var(--font-mono);
 }
@@ -432,21 +474,105 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background: #7ca4e6;
-    border: 1px solid rgba(var(--card-border-rgb), 0.15);
+    /*    background: #7ca4e6;*/
+    /* border: 1px solid rgba(var(--card-border-rgb), 0.15);*/
     transition: background 200ms, border 200ms;
     font-family: var(--font-mono);
-    color: white;
+    color: dimgrey;
 }
 
 .menu_item:hover {
-    color: black;
+    color: dimgrey;
     cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+/* toggle */
+.toggle {
+    display: none;
+}
+
+/* The container for the switch */
+.switch {
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    height: 34px;
+}
+
+/* The slider inside the switch */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+/* The round knob inside the slider */
+.slider::before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+/* This is the "checked" radio button styling */
+.toggle:checked + .slider {
+    background-color: #4cd964; /* iOS green color */
+}
+
+/* Move the knob to the right when the radio button is checked */
+.toggle:checked + .slider::before {
+    transform: translateX(26px);
+}
+
+/* Adding some text for labels */
+.label {
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 
 /* create media query for mobile devices */
-@media (max-width: 700px) {
+@media (max-width: 768px) {
     .main {
         padding: 0.5rem;
     }
@@ -547,6 +673,48 @@
         display: none;
 
     }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .menu {
+        position: absolute;
+        top: 50px;
+        right: 0;
+        background-color: #333;
+        width: 200px;
+        flex-direction: column;
+        align-items: flex-start;
+        display: none;
+    }
+
+    .menu li {
+        width: 100%;
+    }
+
+    .menu li a {
+        width: 100%;
+        padding: 15px;
+        border-bottom: 1px solid #444;
+    }
+
+    /* Open and close menu when hamburger is clicked */
+    .menu.active {
+        display: flex;
+    }
+
+    .hamburger.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .hamburger.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
 }
 
 /* Enable hover only on non-touch devices */
@@ -581,7 +749,9 @@
     }
 
     .card {
-        /*padding: 1rem 2.5rem;*/
+        position: relative; /* Needed to position the tooltip content */
+        display: inline-block;
+        cursor: pointer; /* Changes the cursor to pointer */
     }
 
     .card h2 {
