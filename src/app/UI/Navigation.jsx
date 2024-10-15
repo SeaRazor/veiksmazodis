@@ -2,39 +2,42 @@
 import styles from "@/app/page.module.css";
 import Link from "next/link";
 import {usePathname} from "next/navigation";
+import Hamburger from "@/app/UI/Hamburger";
+import {useState} from "react";
 
 export default function Navigation() {
     const pathname = usePathname();
 
-    function hamburgerClickHandler(event) {
-        const hamburger = document.querySelector('.logo');
-        const navMenu = document.querySelector('.menu');
-        hamburger.classList.toggle('active');
-        navMenu.classList.toggle('active');
+    const [hamburgerIsOpen, setHamburgerOpenState] = useState();
+    const logoStyle = hamburgerIsOpen ? 'pointer' : ''
+
+    function toggleHamburgerOpen() {
+        setHamburgerOpenState(prevState => !prevState);
     }
 
-    return <menu className={styles.menu}>
-        <header>
-            <nav className={styles.navbar}>
-                <div className={styles.logo}>
-                    <Link href="/"><img src="/lithuania_64.png"/></Link>
-                </div>
-                <div className={styles.hamburger} onClick={hamburgerClickHandler}>
-                    <span>sfsdf</span>
-                    <span>dfss</span>
-                </div>
-                <ul className={styles.menu}>
+    const imgStyle = hamburgerIsOpen ? "{cursor:pointer;}" : "";
 
-                    <div className={styles.menu_item}>
-                        <Link href="/verbs" className={pathname == '/verbs' ? 'active' : ''}>Veiksmažodžiai</Link>
-                    </div>
-                    <div className={styles.menu_item}>
-                        <Link href="/cases" className={pathname == '/cases' ? 'active' : ''}>Linksniai</Link>
-                    </div>
-                </ul>
-            </nav>
-        </header>
+    return (<header>
+        <nav className={styles.nav}>
+            <div className={styles.logo} onClick={toggleHamburgerOpen}>
+                <img src="/lithuania_64.png" className={styles.logo_img}/>
+                {hamburgerIsOpen && <Hamburger/>}
 
 
-    </menu>;
+            </div>
+
+
+            <ul className={styles.navbar}>
+
+                <li className={styles.menu_item}>
+                    <Link href="/verbs" className={pathname == '/verbs' ? 'active' : ''}>Veiksmažodžiai</Link>
+                </li>
+                <li className={styles.menu_item}>
+                    <Link href="/cases" className={pathname == '/cases' ? 'active' : ''}>Linksniai</Link>
+                </li>
+            </ul>
+        </nav>
+    </header>);
+
+
 }

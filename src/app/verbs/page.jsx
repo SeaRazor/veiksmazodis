@@ -6,6 +6,7 @@ import VerbInfo from "@/app/components/Verbs/VerbInfo";
 import VerbFormsGrid from "@/app/components/Verbs/VerbFormsGrid";
 import styles from "@/app/page.module.css";
 import {IconDice5Filled, IconSearch} from "@tabler/icons-react";
+import Toggle from "@/app/UI/Toggle";
 
 export default function VerbsTrainer(props) {
 
@@ -16,8 +17,8 @@ export default function VerbsTrainer(props) {
         setVerb(getRandomVerb());
     }
 
-    function handleUserMode() {
-        const selectedMode = document.querySelector('input[name="mode"]:checked').value;
+    function handleUserMode(selectedMode) {
+        /* const selectedMode = document.querySelector('input[name="mode"]:checked').value;*/
         setMode(selectedMode);
     }
 
@@ -63,7 +64,8 @@ export default function VerbsTrainer(props) {
                 <IconDice5Filled size={20}/>
                 <span className={styles.hidden_on_mobile}>Случайный</span>
             </button>
-            {verb && <div onChange={handleUserMode} className={styles.radio}>
+            {verb && <Toggle value1="check" value2="test" onChangeHandler={handleUserMode}/>}
+            {/*{verb && <div onChange={handleUserMode} className={styles.radio}>
                 <label>
                     <input type="radio" name="mode" value="check"/>
                     <span>Посмотреть</span>
@@ -73,7 +75,7 @@ export default function VerbsTrainer(props) {
                     <span>Проверить себя</span>
                 </label>
 
-            </div>}
+            </div>}*/}
 
 
         </div>

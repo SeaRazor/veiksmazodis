@@ -6,14 +6,14 @@ import {useState} from "react";
 import {getRandomNoun, searchNoun} from "@/app/utils/nouns";
 import NounInfo from "@/app/components/Nouns/NounInfo";
 import NounCasesGrid from "@/app/components/Nouns/NounCasesGrid";
+import Toggle from "@/app/UI/Toggle";
 
 export default function Cases() {
 
     const [noun, setNoun] = useState();
     const [mode, setMode] = useState();
 
-    function handleUserMode() {
-        const selectedMode = document.querySelector('input[name="mode"]:checked').value;
+    function handleUserMode(selectedMode) {
         setMode(selectedMode);
     }
 
@@ -63,17 +63,7 @@ export default function Cases() {
                     <IconDice5Filled size={20}/>
                     <span className={styles.hidden_on_mobile}>Случайный</span>
                 </button>
-                <div onChange={handleUserMode} className={styles.radio}>
-                    <label>
-                        <input type="radio" name="mode" value="check"/>
-                        <span>Посмотреть</span>
-                    </label>
-                    <label>
-                        <input type="radio" name="mode" value="test"/>
-                        <span>Проверить себя</span>
-                    </label>
-
-                </div>
+                {noun && <Toggle value1="check" value2="test" onChangeHandler={handleUserMode}/>}
 
 
             </div>

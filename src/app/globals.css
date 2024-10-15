@@ -6,7 +6,7 @@
     /*    --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
         "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
         "Fira Mono", "Droid Sans Mono", "Courier New", monospace;*/
-    --font-mono: 'Poppins', sans-serif;
+    ab81cd--font-mono: 'Poppins', sans-serif;
     --foreground-rgb: 0, 0, 0;
     --background-start-rgb: 214, 219, 220;
     --background-end-rgb: 255, 255, 255;
@@ -115,6 +115,7 @@ a.active {
     }
 }
 
+/*
 @media screen and (max-width: 600px) {
     .hamburger {
         display: block;
@@ -123,5 +124,5 @@ a.active {
     .menu {
         display: none;
     }
-}
+}*/
 
