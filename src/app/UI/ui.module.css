@@ -1,0 +1,174 @@
+.word_card {
+    border: 1px solid rgba(var(--card-border-rgb), 0.15);
+    transition: background 200ms, border 200ms;
+    border-radius: 5px;
+    background-color: #e9ecef;
+    font-family: var(--font-mono);
+    padding: 0.5rem;
+    align-content: center;
+    width: 200px;
+    font-size: 1rem;
+    position: relative;
+}
+
+/* Show the tooltip when hovering */
+.word_card:hover .tooltip {
+    visibility: visible;
+    opacity: 1; /* Fully visible */
+}
+
+.tooltip {
+    visibility: hidden; /* Hidden by default */
+    width: 120px; /* Tooltip width */
+    background-color: black; /* Background color */
+    color: #fff; /* Text color */
+    text-align: center;
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px 0;
+    position: absolute; /* Position it relative to the tooltip container */
+    z-index: 1;
+    bottom: -75%; /* Position it above the text */
+    left: 30%;
+    /* Centers the tooltip */
+    opacity: 0; /* Fully transparent by default */
+    transition: opacity 0.3s; /* Fade-in effect */
+}
+
+.tooltip::after {
+    content: '';
+    position: absolute;
+    bottom: 100%; /* At the top of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent; /* Arrow pointing up */
+
+}
+
+.flipCard {
+    -webkit-perspective: 800;
+    -ms-perspective: 800;
+    -moz-perspective: 800;
+    -o-perspective: 800;
+    border: 1px solid rgba(var(--card-border-rgb), 0.15);
+    transition: background 200ms, border 200ms;
+    border-radius: 5px;
+    background-color: #e9ecef;
+    font-family: var(--font-mono);
+
+    align-content: center;
+    min-width: 25%;
+    font-size: 1rem;
+    position: relative;
+    min-height: 45px;
+    /*  width: 400px;
+      height: 200px;*/
+    /* position: relative;
+     margin: 50px auto;*/
+}
+
+.card.flipped {
+    transform: rotatex(-180deg);
+    -ms-transform: rotatex(-180deg); /* IE 9 */
+    -moz-transform: rotatex(-180deg); /* Firefox */
+    -webkit-transform: rotatex(-180deg); /* Safari and Chrome */
+    -o-transform: rotatex(-180deg); /* Opera */
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: 0.5s;
+    -moz-transform-style: preserve-3d;
+    -moz-transition: 0.5s;
+    -ms-transform-style: preserve-3d;
+    -ms-transition: 0.5s;
+    -o-transform-style: preserve-3d;
+    -o-transition: 0.5s;
+    transform-style: preserve-3d;
+    transition: 0.5s;
+}
+
+
+.card .side {
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+    cursor: pointer;
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 2;
+    backface-visibility: hidden; /* W3C */
+    -webkit-backface-visibility: hidden; /* Safari & Chrome */
+    -moz-backface-visibility: hidden; /* Firefox */
+    -ms-backface-visibility: hidden; /* Internet Explorer */
+    -o-backface-visibility: hidden; /* Opera */
+    /*  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);*/
+    overflow: auto;
+}
+
+.card .back {
+    background: #3da35d;
+    color: white;
+    transform: rotatex(-180deg);
+    -ms-transform: rotatex(-180deg); /* IE 9 */
+    -moz-transform: rotatex(-180deg); /* Firefox */
+    -webkit-transform: rotatex(-180deg); /* Safari and Chrome */
+    -o-transform: rotatex(-180deg); /* Opera */
+}
+
+.flipCard:hover {
+    border: 1px solid #3da35d;
+}
+
+
+/* FlipCard 2*/
+.flipCard2 {
+    width: 200px;
+    transform-style: preserve-3d;
+    perspective: 600px;
+    transition: 0.5s;
+}
+
+.flipCard2:hover .cardFront2 {
+    transform: rotateX(-180deg);
+    cursor: pointer;
+}
+
+.flipCard2:hover .cardBack2 {
+    transform: rotateX(0deg);
+}
+
+.cardFront2 {
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgba(var(--card-border-rgb), 0.15);
+    /*transition: background 200ms, border 200ms;*/
+    border-radius: 5px;
+    background-color: #e9ecef;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: 0.5s;
+    min-height: 3rem;
+    align-content: center;
+}
+
+.cardBack2 {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid rgba(var(--card-border-rgb), 0.15);
+    border-radius: 5px;
+    background: #3da35d;
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: 0.5s;
+    color: #ffffff;
+    text-align: center;
+    min-height: 3rem;
+    align-content: center;
+}

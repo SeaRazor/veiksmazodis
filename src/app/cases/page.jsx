@@ -63,7 +63,8 @@ export default function Cases() {
                     <IconDice5Filled size={20}/>
                     <span className={styles.hidden_on_mobile}>Случайный</span>
                 </button>
-                {noun && <Toggle value1="check" value2="test" onChangeHandler={handleUserMode}/>}
+                {noun && <Toggle name1="Посмотреть" name2="Проверить" value1="check" value2="test" currentValue={mode}
+                                 onChangeHandler={handleUserMode}/>}
 
 
             </div>

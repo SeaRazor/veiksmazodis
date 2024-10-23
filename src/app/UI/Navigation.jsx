@@ -1,9 +1,8 @@
 'use client';
 import styles from "@/app/page.module.css";
-import Link from "next/link";
 import {usePathname} from "next/navigation";
-import Hamburger from "@/app/UI/Hamburger";
 import {useState} from "react";
+import {Menu} from "@/app/UI/Menu";
 
 export default function Navigation() {
     const pathname = usePathname();
@@ -21,21 +20,14 @@ export default function Navigation() {
         <nav className={styles.nav}>
             <div className={styles.logo} onClick={toggleHamburgerOpen}>
                 <img src="/lithuania_64.png" className={styles.logo_img}/>
-                {hamburgerIsOpen && <Hamburger/>}
+                {hamburgerIsOpen && <Menu className={styles.hamburger}/>}
 
 
             </div>
 
+            <Menu className={styles.navbar}/>
 
-            <ul className={styles.navbar}>
 
-                <li className={styles.menu_item}>
-                    <Link href="/verbs" className={pathname == '/verbs' ? 'active' : ''}>Veiksmažodžiai</Link>
-                </li>
-                <li className={styles.menu_item}>
-                    <Link href="/cases" className={pathname == '/cases' ? 'active' : ''}>Linksniai</Link>
-                </li>
-            </ul>
         </nav>
     </header>);
 

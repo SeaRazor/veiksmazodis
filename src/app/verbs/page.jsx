@@ -64,19 +64,8 @@ export default function VerbsTrainer(props) {
                 <IconDice5Filled size={20}/>
                 <span className={styles.hidden_on_mobile}>Случайный</span>
             </button>
-            {verb && <Toggle value1="check" value2="test" onChangeHandler={handleUserMode}/>}
-            {/*{verb && <div onChange={handleUserMode} className={styles.radio}>
-                <label>
-                    <input type="radio" name="mode" value="check"/>
-                    <span>Посмотреть</span>
-                </label>
-                <label>
-                    <input type="radio" name="mode" value="test"/>
-                    <span>Проверить себя</span>
-                </label>
-
-            </div>}*/}
-
+            {verb && <Toggle name1="Посмотреть" name2="Проверить" value1="check" value2="test" currentValue={mode}
+                             onChangeHandler={handleUserMode}/>}
 
         </div>
 

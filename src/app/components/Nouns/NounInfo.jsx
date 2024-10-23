@@ -1,14 +1,15 @@
 import styles from "@/app/page.module.css";
-import WordCard from "@/app/UI/WordCard";
+import FlipCard2 from "@/app/UI/FlipCard2";
 
-export default function NounInfo({noun, gender, translation}) {
+export default function NounInfo({noun, translation}) {
 
     if (!noun) return <div></div>
 
     return (
         <>
             <div className={styles.word_info}>
-                <WordCard word={noun} hint={translation}/>
+                <FlipCard2 front={noun} back={translation}/>
+
             </div>
 
         </>

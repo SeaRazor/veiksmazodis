@@ -1,0 +1,4706 @@
+{
+  "Asmens tapatybė": [
+    {
+      "word": "vardas",
+      "translation": "имя"
+    },
+    {
+      "word": "pavardė",
+      "translation": "фамилия"
+    },
+    {
+      "word": "ponas",
+      "translation": "господин"
+    },
+    {
+      "word": "ponia",
+      "translation": "госпожа"
+    },
+    {
+      "word": "panelė",
+      "translation": "девушка"
+    },
+    {
+      "word": "pasakyti paraidžiui",
+      "translation": "произнести по буквам"
+    },
+    {
+      "word": "rašyti",
+      "translation": "писать"
+    },
+    {
+      "word": "pasirašyti",
+      "translation": "подписывать"
+    },
+    {
+      "word": "parašas",
+      "translation": "подпись"
+    },
+    {
+      "word": "pasas",
+      "translation": "паспорт"
+    },
+    {
+      "word": "gyventi",
+      "translation": "жить"
+    },
+    {
+      "word": "adresas",
+      "translation": "адрес"
+    },
+    {
+      "word": "gatvė",
+      "translation": "улица"
+    },
+    {
+      "word": "prospektas",
+      "translation": "проспект"
+    },
+    {
+      "word": "namo",
+      "translation": "дом"
+    },
+    {
+      "word": "buto numeriai",
+      "translation": "номер квартиры"
+    },
+    {
+      "word": "pašto indeksas",
+      "translation": "почтовый индекс"
+    },
+    {
+      "word": "miestas",
+      "translation": "город"
+    },
+    {
+      "word": "miestelis",
+      "translation": "поселок"
+    },
+    {
+      "word": "kaimas",
+      "translation": "деревня"
+    },
+    {
+      "word": "telefonas",
+      "translation": "телефон"
+    },
+    {
+      "word": "mobilusis telefonas",
+      "translation": "мобильный телефон"
+    },
+    {
+      "word": "numeris",
+      "translation": "номер"
+    },
+    {
+      "word": "skambinti (telefonu)",
+      "translation": "звонить (по телефону)"
+    },
+    {
+      "word": "gimti",
+      "translation": "родиться"
+    },
+    {
+      "word": "gimimo data",
+      "translation": "дата рождения"
+    },
+    {
+      "word": "gimtadienis",
+      "translation": "день рождения"
+    },
+    {
+      "word": "kelintiniai skaitvardžiai",
+      "translation": "порядковые числительные"
+    },
+    {
+      "word": "gimimo vieta",
+      "translation": "место рождения"
+    },
+    {
+      "word": "metai",
+      "translation": "годы"
+    },
+    {
+      "word": "vyras",
+      "translation": "мужчина"
+    },
+    {
+      "word": "moteris",
+      "translation": "женщина"
+    },
+    {
+      "word": "vaikinas",
+      "translation": "парень"
+    },
+    {
+      "word": "mergina",
+      "translation": "девушка"
+    },
+    {
+      "word": "berniukas",
+      "translation": "мальчик"
+    },
+    {
+      "word": "mergaitė",
+      "translation": "девочка"
+    },
+    {
+      "word": "(ne)vedęs ir ištekėjusi",
+      "translation": "(не)женат и замужем"
+    },
+    {
+      "word": "netekėjusi",
+      "translation": "незамужняя"
+    },
+    {
+      "word": "išsiskyręs",
+      "translation": "разведенный"
+    },
+    {
+      "word": "išsiskyrusi",
+      "translation": "разведенная"
+    },
+    {
+      "word": "tautybė",
+      "translation": "национальность"
+    },
+    {
+      "word": "pilietis",
+      "translation": "гражданин"
+    },
+    {
+      "word": "pilietė",
+      "translation": "гражданка"
+    },
+    {
+      "word": "būti kurios nors šalies piliečiu",
+      "translation": "быть гражданином какой-либо страны"
+    },
+    {
+      "word": "būti iš kurios nors šalies",
+      "translation": "быть из какой-либо страны"
+    },
+    {
+      "word": "darbas",
+      "translation": "работа"
+    },
+    {
+      "word": "profesija",
+      "translation": "профессия"
+    },
+    {
+      "word": "mokinys",
+      "translation": "ученик"
+    },
+    {
+      "word": "studentas",
+      "translation": "студент"
+    },
+    {
+      "word": "aktorius",
+      "translation": "актер"
+    },
+    {
+      "word": "gydytojas",
+      "translation": "врач"
+    },
+    {
+      "word": "mokytojas",
+      "translation": "учитель"
+    },
+    {
+      "word": "pardavėjas",
+      "translation": "продавец"
+    },
+    {
+      "word": "rašytojas",
+      "translation": "писатель"
+    },
+    {
+      "word": "socialinis darbuotojas",
+      "translation": "социальный работник"
+    },
+    {
+      "word": "vairuotojas",
+      "translation": "водитель"
+    },
+    {
+      "word": "ūkininkas",
+      "translation": "фермер"
+    },
+    {
+      "word": "verslininkas",
+      "translation": "бизнесмен"
+    },
+    {
+      "word": "bankas",
+      "translation": "банк"
+    },
+    {
+      "word": "kompanija",
+      "translation": "компания"
+    },
+    {
+      "word": "gamykla",
+      "translation": "завод"
+    },
+    {
+      "word": "ligoninė",
+      "translation": "больница"
+    },
+    {
+      "word": "mokykla",
+      "translation": "школа"
+    },
+    {
+      "word": "parduotuvė",
+      "translation": "магазин"
+    },
+    {
+      "word": "ūkis",
+      "translation": "хозяйство"
+    },
+    {
+      "word": "mokyti",
+      "translation": "учить"
+    },
+    {
+      "word": "gydyti",
+      "translation": "лечить"
+    },
+    {
+      "word": "parduoti",
+      "translation": "продавать"
+    },
+    {
+      "word": "vairuoti",
+      "translation": "водить"
+    },
+    {
+      "word": "dirbti",
+      "translation": "работать"
+    },
+    {
+      "word": "mokytis",
+      "translation": "учиться"
+    },
+    {
+      "word": "šeima",
+      "translation": "семья"
+    },
+    {
+      "word": "tėvai",
+      "translation": "родители"
+    },
+    {
+      "word": "tėvas (tėtis)",
+      "translation": "отец (папа)"
+    },
+    {
+      "word": "motina (mama)",
+      "translation": "мать (мама)"
+    },
+    {
+      "word": "vyras",
+      "translation": "муж"
+    },
+    {
+      "word": "žmona",
+      "translation": "жена"
+    },
+    {
+      "word": "vaikas",
+      "translation": "ребенок"
+    },
+    {
+      "word": "sūnus",
+      "translation": "сын"
+    },
+    {
+      "word": "duktė",
+      "translation": "дочь"
+    },
+    {
+      "word": "brolis",
+      "translation": "брат"
+    },
+    {
+      "word": "sesuo",
+      "translation": "сестра"
+    },
+    {
+      "word": "giminės",
+      "translation": "родственники"
+    },
+    {
+      "word": "teta",
+      "translation": "тётя"
+    },
+    {
+      "word": "dėdė",
+      "translation": "дядя"
+    },
+    {
+      "word": "pusbrolis",
+      "translation": "двоюродный брат"
+    },
+    {
+      "word": "pusseserė",
+      "translation": "двоюродная сестра"
+    },
+    {
+      "word": "senelis",
+      "translation": "дедушка"
+    },
+    {
+      "word": "senelė",
+      "translation": "бабушка"
+    },
+    {
+      "word": "mėgti",
+      "translation": "нравиться"
+    },
+    {
+      "word": "patikti",
+      "translation": "нравиться"
+    },
+    {
+      "word": "geras",
+      "translation": "хороший"
+    },
+    {
+      "word": "draugiškas",
+      "translation": "дружелюбный"
+    },
+    {
+      "word": "darbštus",
+      "translation": "трудолюбивый"
+    },
+    {
+      "word": "įdomus",
+      "translation": "интересный"
+    },
+    {
+      "word": "linksmas",
+      "translation": "веселый"
+    },
+    {
+      "word": "malonus",
+      "translation": "приятный"
+    },
+    {
+      "word": "protingas",
+      "translation": "умный"
+    },
+    {
+      "word": "švelnus",
+      "translation": "нежный"
+    },
+    {
+      "word": "blogas",
+      "translation": "плохой"
+    },
+    {
+      "word": "piktas",
+      "translation": "злой"
+    },
+    {
+      "word": "tinginys",
+      "translation": "ленивый"
+    },
+    {
+      "word": "aukštas",
+      "translation": "высокий"
+    },
+    {
+      "word": "žemas",
+      "translation": "низкий"
+    },
+    {
+      "word": "šviesus",
+      "translation": "светлый"
+    },
+    {
+      "word": "tamsus",
+      "translation": "темный"
+    },
+    {
+      "word": "gražus",
+      "translation": "красивый"
+    },
+    {
+      "word": "ilgi (trumpi) plaukai",
+      "translation": "длинные (короткие) волосы"
+    },
+    {
+      "word": "tiesūs (garbanoti) plaukai",
+      "translation": "прямые (кудрявые) волосы"
+    },
+    {
+      "word": "kasa",
+      "translation": "коса"
+    },
+    {
+      "word": "barzda",
+      "translation": "борода"
+    },
+    {
+      "word": "ūsai",
+      "translation": "усы"
+    },
+    {
+      "word": "akiniai",
+      "translation": "очки"
+    }
+  ],
+  "Būstas": [
+    {
+      "word": "namas",
+      "translation": "дом"
+    },
+    {
+      "word": "namai",
+      "translation": "дома"
+    },
+    {
+      "word": "butas",
+      "translation": "квартира"
+    },
+    {
+      "word": "bendrabutis",
+      "translation": "общежитие"
+    },
+    {
+      "word": "laiptai",
+      "translation": "лестница"
+    },
+    {
+      "word": "aukštas",
+      "translation": "этаж"
+    },
+    {
+      "word": "liftas",
+      "translation": "лифт"
+    },
+    {
+      "word": "kiemas",
+      "translation": "двор"
+    },
+    {
+      "word": "viduje",
+      "translation": "внутри"
+    },
+    {
+      "word": "lauke",
+      "translation": "снаружи"
+    },
+    {
+      "word": "kambarys",
+      "translation": "комната"
+    },
+    {
+      "word": "vaikų kambarys",
+      "translation": "детская комната"
+    },
+    {
+      "word": "miegamasis",
+      "translation": "спальня"
+    },
+    {
+      "word": "svetainė",
+      "translation": "гостиная"
+    },
+    {
+      "word": "prieškambaris",
+      "translation": "прихожая"
+    },
+    {
+      "word": "virtuvė",
+      "translation": "кухня"
+    },
+    {
+      "word": "vonia",
+      "translation": "ванная"
+    },
+    {
+      "word": "tualetas",
+      "translation": "туалет"
+    },
+    {
+      "word": "valgomasis",
+      "translation": "столовая"
+    },
+    {
+      "word": "langas",
+      "translation": "окно"
+    },
+    {
+      "word": "durys",
+      "translation": "дверь"
+    },
+    {
+      "word": "atidaryti",
+      "translation": "открыть"
+    },
+    {
+      "word": "uždaryti",
+      "translation": "закрыть"
+    },
+    {
+      "word": "siena",
+      "translation": "стена"
+    },
+    {
+      "word": "grindys",
+      "translation": "пол"
+    },
+    {
+      "word": "lubos",
+      "translation": "потолок"
+    },
+    {
+      "word": "balkonas",
+      "translation": "балкон"
+    },
+    {
+      "word": "garažas",
+      "translation": "гараж"
+    },
+    {
+      "word": "raktas",
+      "translation": "ключ"
+    },
+    {
+      "word": "atrakinti",
+      "translation": "открыть (ключом)"
+    },
+    {
+      "word": "užrakinti",
+      "translation": "закрыть (ключом)"
+    },
+    {
+      "word": "skambutis",
+      "translation": "звонок"
+    },
+    {
+      "word": "tvora",
+      "translation": "забор"
+    },
+    {
+      "word": "vartai",
+      "translation": "ворота"
+    },
+    {
+      "word": "baldai",
+      "translation": "мебель"
+    },
+    {
+      "word": "stalas",
+      "translation": "стол"
+    },
+    {
+      "word": "kėdė",
+      "translation": "стул"
+    },
+    {
+      "word": "lentyna",
+      "translation": "полка"
+    },
+    {
+      "word": "lova",
+      "translation": "кровать"
+    },
+    {
+      "word": "sofa",
+      "translation": "диван"
+    },
+    {
+      "word": "spinta",
+      "translation": "шкаф"
+    },
+    {
+      "word": "kompiuteris",
+      "translation": "компьютер"
+    },
+    {
+      "word": "šaldytuvas",
+      "translation": "холодильник"
+    },
+    {
+      "word": "lempa",
+      "translation": "лампа"
+    },
+    {
+      "word": "kilimas",
+      "translation": "ковер"
+    },
+    {
+      "word": "užuolaidos",
+      "translation": "шторы"
+    },
+    {
+      "word": "veidrodis",
+      "translation": "зеркало"
+    },
+    {
+      "word": "antklodė",
+      "translation": "одеяло"
+    },
+    {
+      "word": "pagalvė",
+      "translation": "подушка"
+    },
+    {
+      "word": "paklodė",
+      "translation": "простыня"
+    },
+    {
+      "word": "rankšluostis",
+      "translation": "полотенце"
+    },
+    {
+      "word": "elektra",
+      "translation": "электричество"
+    },
+    {
+      "word": "šviesa",
+      "translation": "свет"
+    },
+    {
+      "word": "dujos",
+      "translation": "газ"
+    },
+    {
+      "word": "šildymas",
+      "translation": "отопление"
+    },
+    {
+      "word": "radiatorius",
+      "translation": "радиатор"
+    },
+    {
+      "word": "telefonas",
+      "translation": "телефон"
+    },
+    {
+      "word": "įjungti",
+      "translation": "включить"
+    },
+    {
+      "word": "išjungti",
+      "translation": "выключить"
+    },
+    {
+      "word": "dušas",
+      "translation": "душ"
+    },
+    {
+      "word": "tualetas",
+      "translation": "туалет"
+    },
+    {
+      "word": "vanduo (karštas, šaltas)",
+      "translation": "вода (горячая, холодная)"
+    },
+    {
+      "word": "internetas",
+      "translation": "интернет"
+    },
+    {
+      "word": "patogus",
+      "translation": "удобный"
+    },
+    {
+      "word": "veikia",
+      "translation": "работает"
+    },
+    {
+      "word": "neveikia",
+      "translation": "не работает"
+    },
+    {
+      "word": "švarus",
+      "translation": "чистый"
+    },
+    {
+      "word": "tvarkingas",
+      "translation": "аккуратный"
+    },
+    {
+      "word": "dulkių siurblys",
+      "translation": "пылесос"
+    },
+    {
+      "word": "siurbti",
+      "translation": "пылесосить"
+    },
+    {
+      "word": "plautuvė",
+      "translation": "раковина"
+    },
+    {
+      "word": "plauti indus",
+      "translation": "мыть посуду"
+    },
+    {
+      "word": "skalbyklė",
+      "translation": "стиральная машина"
+    },
+    {
+      "word": "skalbimo mašina",
+      "translation": "стиральная машина"
+    },
+    {
+      "word": "džiovyklė",
+      "translation": "сушилка"
+    },
+    {
+      "word": "džiovinti",
+      "translation": "сушить"
+    },
+    {
+      "word": "skuduras",
+      "translation": "тряпка"
+    },
+    {
+      "word": "šluostė",
+      "translation": "тряпка"
+    },
+    {
+      "word": "valyti",
+      "translation": "чистить"
+    },
+    {
+      "word": "šiukšlės",
+      "translation": "мусор"
+    },
+    {
+      "word": "nešti šiukšles",
+      "translation": "выносить мусор"
+    },
+    {
+      "word": "skalbti",
+      "translation": "стирать"
+    },
+    {
+      "word": "lyginti",
+      "translation": "гладить"
+    },
+    {
+      "word": "remontuoti",
+      "translation": "ремонтировать"
+    },
+    {
+      "word": "dažyti",
+      "translation": "красить"
+    }
+  ],
+  "Gamta, regionas": [
+    {
+      "word": "upė",
+      "translation": "река"
+    },
+    {
+      "word": "ežeras",
+      "translation": "озеро"
+    },
+    {
+      "word": "jūra",
+      "translation": "море"
+    },
+    {
+      "word": "vandenynas",
+      "translation": "океан"
+    },
+    {
+      "word": "laukai",
+      "translation": "поле"
+    },
+    {
+      "word": "kalnas",
+      "translation": "гора"
+    },
+    {
+      "word": "vanduo",
+      "translation": "вода"
+    },
+    {
+      "word": "miškas",
+      "translation": "лес"
+    },
+    {
+      "word": "sala",
+      "translation": "остров"
+    },
+    {
+      "word": "vaizdas",
+      "translation": "вид"
+    },
+    {
+      "word": "miestas",
+      "translation": "город"
+    },
+    {
+      "word": "rajonas",
+      "translation": "район"
+    },
+    {
+      "word": "centras",
+      "translation": "центр"
+    },
+    {
+      "word": "senamiestis",
+      "translation": "старый город"
+    },
+    {
+      "word": "užmiestis",
+      "translation": "пригород"
+    },
+    {
+      "word": "parkas",
+      "translation": "парк"
+    },
+    {
+      "word": "aikštė",
+      "translation": "площадь"
+    },
+    {
+      "word": "gatvė",
+      "translation": "улица"
+    },
+    {
+      "word": "gyvūnas",
+      "translation": "животное"
+    },
+    {
+      "word": "arklys",
+      "translation": "лошадь"
+    },
+    {
+      "word": "avis",
+      "translation": "овца"
+    },
+    {
+      "word": "karvė",
+      "translation": "корова"
+    },
+    {
+      "word": "katinas",
+      "translation": "кот"
+    },
+    {
+      "word": "kiaulė",
+      "translation": "свинья"
+    },
+    {
+      "word": "šuo",
+      "translation": "собака"
+    },
+    {
+      "word": "višta",
+      "translation": "курица"
+    },
+    {
+      "word": "kiškis",
+      "translation": "заяц"
+    },
+    {
+      "word": "lapė",
+      "translation": "лиса"
+    },
+    {
+      "word": "meška",
+      "translation": "медведь"
+    },
+    {
+      "word": "pelė",
+      "translation": "мышь"
+    },
+    {
+      "word": "vilkas",
+      "translation": "волк"
+    },
+    {
+      "word": "musė",
+      "translation": "муха"
+    },
+    {
+      "word": "uodas",
+      "translation": "комар"
+    },
+    {
+      "word": "augalas",
+      "translation": "растение"
+    },
+    {
+      "word": "medis",
+      "translation": "дерево"
+    },
+    {
+      "word": "krūmas",
+      "translation": "куст"
+    },
+    {
+      "word": "gėlė",
+      "translation": "цветок"
+    },
+    {
+      "word": "žolė",
+      "translation": "трава"
+    },
+    {
+      "word": "grybas",
+      "translation": "гриб"
+    },
+    {
+      "word": "oras",
+      "translation": "погода"
+    },
+    {
+      "word": "geras (gražus) oras",
+      "translation": "хорошая (красивая) погода"
+    },
+    {
+      "word": "blogas oras",
+      "translation": "плохая погода"
+    },
+    {
+      "word": "saulė",
+      "translation": "солнце"
+    },
+    {
+      "word": "šviesti",
+      "translation": "светить"
+    },
+    {
+      "word": "mėnulis",
+      "translation": "луна"
+    },
+    {
+      "word": "žvaigždė",
+      "translation": "звезда"
+    },
+    {
+      "word": "dangus",
+      "translation": "небо"
+    },
+    {
+      "word": "vėjas",
+      "translation": "ветер"
+    },
+    {
+      "word": "lietus",
+      "translation": "дождь"
+    },
+    {
+      "word": "lyti",
+      "translation": "идти (о дожде)"
+    },
+    {
+      "word": "sniegas",
+      "translation": "снег"
+    },
+    {
+      "word": "snigti",
+      "translation": "идти (о снеге)"
+    },
+    {
+      "word": "ledas",
+      "translation": "лед"
+    },
+    {
+      "word": "šaltis",
+      "translation": "холод"
+    },
+    {
+      "word": "šiluma",
+      "translation": "тепло"
+    },
+    {
+      "word": "debesis",
+      "translation": "облако"
+    },
+    {
+      "word": "rūkas",
+      "translation": "туман"
+    },
+    {
+      "word": "temperatūra",
+      "translation": "температура"
+    },
+    {
+      "word": "termometras",
+      "translation": "термометр"
+    },
+    {
+      "word": "šalta",
+      "translation": "холодно"
+    },
+    {
+      "word": "šilta",
+      "translation": "тепло"
+    },
+    {
+      "word": "karšta",
+      "translation": "жарко"
+    },
+    {
+      "word": "slidu",
+      "translation": "скользко"
+    },
+    {
+      "word": "drėgna",
+      "translation": "влажно"
+    },
+    {
+      "word": "sausa",
+      "translation": "сухо"
+    },
+    {
+      "word": "pavasaris",
+      "translation": "весна"
+    },
+    {
+      "word": "vasara",
+      "translation": "лето"
+    },
+    {
+      "word": "ruduo",
+      "translation": "осень"
+    },
+    {
+      "word": "žiema",
+      "translation": "зима"
+    }
+  ],
+  "Kasdienis gyvenimas": [
+    {
+      "word": "pabusti",
+      "translation": "просыпаться"
+    },
+    {
+      "word": "keltis",
+      "translation": "вставать"
+    },
+    {
+      "word": "praustis",
+      "translation": "умыться"
+    },
+    {
+      "word": "maudytis",
+      "translation": "купаться"
+    },
+    {
+      "word": "plauti",
+      "translation": "мыть"
+    },
+    {
+      "word": "valytis dantis",
+      "translation": "чистить зубы"
+    },
+    {
+      "word": "šukuotis",
+      "translation": "причесываться"
+    },
+    {
+      "word": "rengtis",
+      "translation": "одеваться"
+    },
+    {
+      "word": "autis",
+      "translation": "обуваться"
+    },
+    {
+      "word": "valgyti",
+      "translation": "есть"
+    },
+    {
+      "word": "pusryčiai",
+      "translation": "завтрак"
+    },
+    {
+      "word": "pietūs",
+      "translation": "обед"
+    },
+    {
+      "word": "vakarienė",
+      "translation": "ужин"
+    },
+    {
+      "word": "virti",
+      "translation": "варить"
+    },
+    {
+      "word": "kepti",
+      "translation": "жарить"
+    },
+    {
+      "word": "eiti į mokyklą",
+      "translation": "идти в школу"
+    },
+    {
+      "word": "pareiti arba grįžti (namo)",
+      "translation": "возвращаться (домой)"
+    },
+    {
+      "word": "būti namie",
+      "translation": "быть дома"
+    },
+    {
+      "word": "ruošti namų darbus",
+      "translation": "делать домашние задания"
+    },
+    {
+      "word": "žaisti",
+      "translation": "играть"
+    },
+    {
+      "word": "skaityti",
+      "translation": "читать"
+    },
+    {
+      "word": "eiti pasivaikščioti",
+      "translation": "идти на прогулку"
+    },
+    {
+      "word": "gultis",
+      "translation": "ложиться"
+    },
+    {
+      "word": "miegoti",
+      "translation": "спать"
+    },
+    {
+      "word": "pamoka",
+      "translation": "урок"
+    },
+    {
+      "word": "mokytis",
+      "translation": "учиться"
+    },
+    {
+      "word": "prasidėti",
+      "translation": "начинаться"
+    },
+    {
+      "word": "pasibaigti",
+      "translation": "заканчиваться"
+    },
+    {
+      "word": "pertrauka",
+      "translation": "перемена"
+    },
+    {
+      "word": "semestras",
+      "translation": "семестр"
+    },
+    {
+      "word": "atostogos",
+      "translation": "каникулы"
+    },
+    {
+      "word": "klasė",
+      "translation": "класс"
+    },
+    {
+      "word": "suolas",
+      "translation": "парта"
+    },
+    {
+      "word": "stalas",
+      "translation": "стол"
+    },
+    {
+      "word": "kompiuteris",
+      "translation": "компьютер"
+    },
+    {
+      "word": "sporto salė",
+      "translation": "спортзал"
+    },
+    {
+      "word": "stadionas",
+      "translation": "стадион"
+    }
+  ],
+  "Laisvalaikis": [
+    {
+      "word": "laisvalaikis",
+      "translation": "досуг"
+    },
+    {
+      "word": "savaitgalis",
+      "translation": "выходные"
+    },
+    {
+      "word": "pailsėti",
+      "translation": "отдыхать"
+    },
+    {
+      "word": "atostogos",
+      "translation": "отпуск"
+    },
+    {
+      "word": "atostogauti",
+      "translation": "быть в отпуске"
+    },
+    {
+      "word": "stovykla",
+      "translation": "лагерь"
+    },
+    {
+      "word": "stovyklauti",
+      "translation": "лагерить"
+    },
+    {
+      "word": "turistinis žygis",
+      "translation": "поход"
+    },
+    {
+      "word": "leisti laiką",
+      "translation": "проводить время"
+    },
+    {
+      "word": "būrelis",
+      "translation": "кружок"
+    },
+    {
+      "word": "mėgti",
+      "translation": "нравиться"
+    },
+    {
+      "word": "dainuoti",
+      "translation": "петь"
+    },
+    {
+      "word": "fotografuoti",
+      "translation": "фотографировать"
+    },
+    {
+      "word": "groti",
+      "translation": "играть (на инструменте)"
+    },
+    {
+      "word": "jodinėti",
+      "translation": "ездить верхом"
+    },
+    {
+      "word": "keliauti",
+      "translation": "путешествовать"
+    },
+    {
+      "word": "kolekcionuoti",
+      "translation": "коллекционировать"
+    },
+    {
+      "word": "megzti",
+      "translation": "вязать"
+    },
+    {
+      "word": "nardyti",
+      "translation": "нырять"
+    },
+    {
+      "word": "piešti",
+      "translation": "рисовать"
+    },
+    {
+      "word": "siūti",
+      "translation": "шить"
+    },
+    {
+      "word": "skaityti",
+      "translation": "читать"
+    },
+    {
+      "word": "slidinėti",
+      "translation": "кататься на лыжах"
+    },
+    {
+      "word": "sportuoti",
+      "translation": "заниматься спортом"
+    },
+    {
+      "word": "šokti",
+      "translation": "танцевать"
+    },
+    {
+      "word": "žvejoti",
+      "translation": "рыбачить"
+    },
+    {
+      "word": "dailė",
+      "translation": "искусство"
+    },
+    {
+      "word": "kinas",
+      "translation": "кино"
+    },
+    {
+      "word": "kompiuteriai",
+      "translation": "компьютеры"
+    },
+    {
+      "word": "muzika",
+      "translation": "музыка"
+    },
+    {
+      "word": "sportas",
+      "translation": "спорт"
+    },
+    {
+      "word": "šokiai",
+      "translation": "танцы"
+    },
+    {
+      "word": "teatras",
+      "translation": "театр"
+    },
+    {
+      "word": "radijas",
+      "translation": "радио"
+    },
+    {
+      "word": "klausyti",
+      "translation": "слушать"
+    },
+    {
+      "word": "įrašyti",
+      "translation": "записывать"
+    },
+    {
+      "word": "televizorius",
+      "translation": "телевизор"
+    },
+    {
+      "word": "rodyti",
+      "translation": "показывать"
+    },
+    {
+      "word": "žiūrėti televizorių",
+      "translation": "смотреть телевизор"
+    },
+    {
+      "word": "programa",
+      "translation": "программа"
+    },
+    {
+      "word": "mobilusis (išmanusis) telefonas",
+      "translation": "мобильный (смартфон) телефон"
+    },
+    {
+      "word": "kompaktinė plokštelė",
+      "translation": "компакт-диск"
+    },
+    {
+      "word": "ausinės",
+      "translation": "наушники"
+    },
+    {
+      "word": "muzika",
+      "translation": "музыка"
+    },
+    {
+      "word": "daina",
+      "translation": "песня"
+    },
+    {
+      "word": "kompiuteris",
+      "translation": "компьютер"
+    },
+    {
+      "word": "kompiuteriniai žaidimai",
+      "translation": "компьютерные игры"
+    },
+    {
+      "word": "internetas",
+      "translation": "интернет"
+    },
+    {
+      "word": "interneto adresas",
+      "translation": "интернет-адрес"
+    },
+    {
+      "word": "naršyti",
+      "translation": "серфить"
+    },
+    {
+      "word": "interneto puslapis",
+      "translation": "веб-страница"
+    },
+    {
+      "word": "kinas",
+      "translation": "кино"
+    },
+    {
+      "word": "teatras",
+      "translation": "театр"
+    },
+    {
+      "word": "koncertų salė",
+      "translation": "концертный зал"
+    },
+    {
+      "word": "išjungti mobiliuosius telefonu",
+      "translation": "выключить мобильные телефоны"
+    },
+    {
+      "word": "baletas",
+      "translation": "балет"
+    },
+    {
+      "word": "filmas",
+      "translation": "фильм"
+    },
+    {
+      "word": "festivalis",
+      "translation": "фестиваль"
+    },
+    {
+      "word": "koncertas",
+      "translation": "концерт"
+    },
+    {
+      "word": "konkursas",
+      "translation": "конкурс"
+    },
+    {
+      "word": "spektaklis",
+      "translation": "спектакль"
+    },
+    {
+      "word": "groti",
+      "translation": "играть (на инструменте)"
+    },
+    {
+      "word": "dainuoti",
+      "translation": "петь"
+    },
+    {
+      "word": "šokti",
+      "translation": "танцевать"
+    },
+    {
+      "word": "vaidinti",
+      "translation": "играть (в театре)"
+    },
+    {
+      "word": "bilietas",
+      "translation": "билет"
+    },
+    {
+      "word": "užsisakyti",
+      "translation": "заказать"
+    },
+    {
+      "word": "programa",
+      "translation": "программа"
+    },
+    {
+      "word": "salė",
+      "translation": "зал"
+    },
+    {
+      "word": "eilė",
+      "translation": "ряд"
+    },
+    {
+      "word": "vieta",
+      "translation": "место"
+    },
+    {
+      "word": "scena",
+      "translation": "сцена"
+    },
+    {
+      "word": "ekranas",
+      "translation": "экран"
+    },
+    {
+      "word": "pertrauka",
+      "translation": "перерыв"
+    },
+    {
+      "word": "klausyti",
+      "translation": "слушать"
+    },
+    {
+      "word": "žiūrėti",
+      "translation": "смотреть"
+    },
+    {
+      "word": "ploti",
+      "translation": "аплодировать"
+    },
+    {
+      "word": "galerija",
+      "translation": "галерея"
+    },
+    {
+      "word": "muziejus",
+      "translation": "музей"
+    },
+    {
+      "word": "paroda",
+      "translation": "выставка"
+    },
+    {
+      "word": "paveikslas",
+      "translation": "картина"
+    },
+    {
+      "word": "skulptūra",
+      "translation": "скульптура"
+    },
+    {
+      "word": "nuotrauka",
+      "translation": "фотография"
+    },
+    {
+      "word": "atidaryta",
+      "translation": "открыто"
+    },
+    {
+      "word": "uždaryta",
+      "translation": "закрыто"
+    },
+    {
+      "word": "biblioteka",
+      "translation": "библиотека"
+    },
+    {
+      "word": "knyga",
+      "translation": "книга"
+    },
+    {
+      "word": "pavadinimas",
+      "translation": "название"
+    },
+    {
+      "word": "autorius",
+      "translation": "автор"
+    },
+    {
+      "word": "puslapis",
+      "translation": "страница"
+    },
+    {
+      "word": "skaitytojo bilietas",
+      "translation": "читательский билет"
+    },
+    {
+      "word": "skaityti",
+      "translation": "читать"
+    },
+    {
+      "word": "rašyti",
+      "translation": "писать"
+    },
+    {
+      "word": "mokytis",
+      "translation": "учиться"
+    },
+    {
+      "word": "išmokti",
+      "translation": "выучить"
+    },
+    {
+      "word": "studijuoti",
+      "translation": "изучать"
+    },
+    {
+      "word": "fotografuoti",
+      "translation": "фотографировать"
+    },
+    {
+      "word": "piešti",
+      "translation": "рисовать"
+    },
+    {
+      "word": "vaidinti",
+      "translation": "играть (в театре)"
+    },
+    {
+      "word": "groti",
+      "translation": "играть (на инструменте)"
+    },
+    {
+      "word": "dainuoti",
+      "translation": "петь"
+    },
+    {
+      "word": "šokti",
+      "translation": "танцевать"
+    },
+    {
+      "word": "sportas",
+      "translation": "спорт"
+    },
+    {
+      "word": "futbolas",
+      "translation": "футбол"
+    },
+    {
+      "word": "krepšinis",
+      "translation": "баскетбол"
+    },
+    {
+      "word": "tenisas",
+      "translation": "теннис"
+    },
+    {
+      "word": "tinklinis",
+      "translation": "волейбол"
+    },
+    {
+      "word": "beisbolas",
+      "translation": "бейсбол"
+    },
+    {
+      "word": "lakrosas (vartinis tenisas)",
+      "translation": "лакросс (воротный теннис)"
+    },
+    {
+      "word": "plaukimas",
+      "translation": "плавание"
+    },
+    {
+      "word": "bėgimas",
+      "translation": "бег"
+    },
+    {
+      "word": "boksas",
+      "translation": "бокс"
+    },
+    {
+      "word": "imtynės",
+      "translation": "борьба"
+    },
+    {
+      "word": "dviratis",
+      "translation": "велосипед"
+    },
+    {
+      "word": "kamuolys",
+      "translation": "мяч"
+    },
+    {
+      "word": "teniso kamuoliukas",
+      "translation": "теннисный мяч"
+    },
+    {
+      "word": "riedlentė",
+      "translation": "скейтборд"
+    },
+    {
+      "word": "riedučiai",
+      "translation": "ролики"
+    },
+    {
+      "word": "rogutės",
+      "translation": "санки"
+    },
+    {
+      "word": "slidės",
+      "translation": "лыжи"
+    },
+    {
+      "word": "snieglentė",
+      "translation": "сноуборд"
+    },
+    {
+      "word": "banglentė",
+      "translation": "серфборд"
+    },
+    {
+      "word": "treniruoklis",
+      "translation": "тренажер"
+    },
+    {
+      "word": "vartai",
+      "translation": "ворота"
+    },
+    {
+      "word": "sportuoti",
+      "translation": "заниматься спортом"
+    },
+    {
+      "word": "bėgti",
+      "translation": "бежать"
+    },
+    {
+      "word": "bėgioti",
+      "translation": "бегать"
+    },
+    {
+      "word": "gaudyti",
+      "translation": "ловить"
+    },
+    {
+      "word": "mesti",
+      "translation": "бросать"
+    },
+    {
+      "word": "plaukti",
+      "translation": "плавать"
+    },
+    {
+      "word": "žaisti",
+      "translation": "играть"
+    },
+    {
+      "word": "žaidimas",
+      "translation": "игра"
+    },
+    {
+      "word": "stadionas",
+      "translation": "стадион"
+    },
+    {
+      "word": "aikštė",
+      "translation": "площадь"
+    },
+    {
+      "word": "aikštelė",
+      "translation": "площадка"
+    },
+    {
+      "word": "sporto salė",
+      "translation": "спортзал"
+    },
+    {
+      "word": "baseinas",
+      "translation": "бассейн"
+    },
+    {
+      "word": "sporto klubas",
+      "translation": "спортивный клуб"
+    },
+    {
+      "word": "treneris",
+      "translation": "тренер"
+    },
+    {
+      "word": "varžybos",
+      "translation": "соревнования"
+    },
+    {
+      "word": "olimpiada",
+      "translation": "олимпиада"
+    },
+    {
+      "word": "dalyvauti",
+      "translation": "участвовать"
+    },
+    {
+      "word": "laimėti",
+      "translation": "выиграть"
+    },
+    {
+      "word": "pralaimėti",
+      "translation": "проиграть"
+    },
+    {
+      "word": "pirmoji vieta",
+      "translation": "первое место"
+    },
+    {
+      "word": "antroji vieta",
+      "translation": "второе место"
+    },
+    {
+      "word": "trečioji vieta",
+      "translation": "третье место"
+    },
+    {
+      "word": "aukso medalis",
+      "translation": "золотая медаль"
+    },
+    {
+      "word": "sidabro medalis",
+      "translation": "серебряная медаль"
+    },
+    {
+      "word": "bronzos medalis",
+      "translation": "бронзовая медаль"
+    },
+    {
+      "word": "vėliava",
+      "translation": "флаг"
+    },
+    {
+      "word": "vadas",
+      "translation": "командир"
+    },
+    {
+      "word": "vadovas",
+      "translation": "руководитель"
+    },
+    {
+      "word": "laužas",
+      "translation": "костер"
+    },
+    {
+      "word": "palapinė",
+      "translation": "палатка"
+    },
+    {
+      "word": "grupė",
+      "translation": "группа"
+    },
+    {
+      "word": "namelis",
+      "translation": "домик"
+    },
+    {
+      "word": "laikraštis",
+      "translation": "газета"
+    },
+    {
+      "word": "žurnalas",
+      "translation": "журнал"
+    },
+    {
+      "word": "reklama",
+      "translation": "реклама"
+    },
+    {
+      "word": "skelbimas",
+      "translation": "объявление"
+    },
+    {
+      "word": "straipsnis",
+      "translation": "статья"
+    },
+    {
+      "word": "nuotrauka arba fotografija",
+      "translation": "фотография"
+    },
+    {
+      "word": "žurnalistas",
+      "translation": "журналист"
+    },
+    {
+      "word": "kioskas",
+      "translation": "киоск"
+    },
+    {
+      "word": "šventė",
+      "translation": "праздник"
+    },
+    {
+      "word": "tradicija",
+      "translation": "традиция"
+    },
+    {
+      "word": "dovana",
+      "translation": "подарок"
+    },
+    {
+      "word": "žvakė",
+      "translation": "свеча"
+    },
+    {
+      "word": "dovanoti",
+      "translation": "дарить"
+    },
+    {
+      "word": "sveikinti",
+      "translation": "поздравлять"
+    },
+    {
+      "word": "švęsti",
+      "translation": "праздновать"
+    },
+    {
+      "word": "gimimo diena arba gimtadienis",
+      "translation": "день рождения"
+    },
+    {
+      "word": "krikštynos",
+      "translation": "крестины"
+    },
+    {
+      "word": "vardo diena",
+      "translation": "именины"
+    },
+    {
+      "word": "vestuvės",
+      "translation": "свадьба"
+    },
+    {
+      "word": "Kalėdos",
+      "translation": "Рождество"
+    },
+    {
+      "word": "Naujieji metai",
+      "translation": "Новый год"
+    },
+    {
+      "word": "Velykos",
+      "translation": "Пасха"
+    },
+    {
+      "word": "Nepriklausomybės diena",
+      "translation": "День независимости"
+    }
+  ],
+  "Kelionės": [
+    {
+      "word": "vykti",
+      "translation": "отправляться"
+    },
+    {
+      "word": "važiuoti",
+      "translation": "ехать"
+    },
+    {
+      "word": "skristi",
+      "translation": "лететь"
+    },
+    {
+      "word": "plaukti",
+      "translation": "плыть"
+    },
+    {
+      "word": "keliauti",
+      "translation": "путешествовать"
+    },
+    {
+      "word": "kelionė",
+      "translation": "путешествие"
+    },
+    {
+      "word": "automobilis (mašina)",
+      "translation": "автомобиль (машина)"
+    },
+    {
+      "word": "taksi",
+      "translation": "такси"
+    },
+    {
+      "word": "autobusas",
+      "translation": "автобус"
+    },
+    {
+      "word": "troleibusas",
+      "translation": "троллейбус"
+    },
+    {
+      "word": "lėktuvas",
+      "translation": "самолет"
+    },
+    {
+      "word": "traukinys",
+      "translation": "поезд"
+    },
+    {
+      "word": "laivas",
+      "translation": "корабль"
+    },
+    {
+      "word": "bilietas",
+      "translation": "билет"
+    },
+    {
+      "word": "žymėti",
+      "translation": "отмечать"
+    },
+    {
+      "word": "mėnesinis bilietas",
+      "translation": "месячный билет"
+    },
+    {
+      "word": "bilietas į priekį ir atgal",
+      "translation": "билет туда и обратно"
+    },
+    {
+      "word": "kontrolierius",
+      "translation": "контролер"
+    },
+    {
+      "word": "kontrolė",
+      "translation": "контроль"
+    },
+    {
+      "word": "tikrinti",
+      "translation": "проверять"
+    },
+    {
+      "word": "bauda",
+      "translation": "штраф"
+    },
+    {
+      "word": "stotis",
+      "translation": "станция"
+    },
+    {
+      "word": "bagažas",
+      "translation": "багаж"
+    },
+    {
+      "word": "stotelė",
+      "translation": "остановка"
+    },
+    {
+      "word": "oro uostas",
+      "translation": "аэропорт"
+    },
+    {
+      "word": "uostas",
+      "translation": "порт"
+    },
+    {
+      "word": "vieta",
+      "translation": "место"
+    },
+    {
+      "word": "vagonas",
+      "translation": "вагон"
+    },
+    {
+      "word": "kelias",
+      "translation": "дорога"
+    },
+    {
+      "word": "geležinkelis",
+      "translation": "железная дорога"
+    },
+    {
+      "word": "informacija",
+      "translation": "информация"
+    },
+    {
+      "word": "maršrutas",
+      "translation": "маршрут"
+    },
+    {
+      "word": "reisas",
+      "translation": "рейс"
+    },
+    {
+      "word": "skrydis",
+      "translation": "полет"
+    },
+    {
+      "word": "registruotis",
+      "translation": "регистрироваться"
+    },
+    {
+      "word": "registracija",
+      "translation": "регистрация"
+    },
+    {
+      "word": "atvykimas",
+      "translation": "прибытие"
+    },
+    {
+      "word": "išvykimas",
+      "translation": "отправление"
+    },
+    {
+      "word": "kasa",
+      "translation": "касса"
+    },
+    {
+      "word": "pirkti",
+      "translation": "покупать"
+    },
+    {
+      "word": "parduoti",
+      "translation": "продавать"
+    },
+    {
+      "word": "automobilis (mašina)",
+      "translation": "автомобиль (машина)"
+    },
+    {
+      "word": "dviratis",
+      "translation": "велосипед"
+    },
+    {
+      "word": "motociklas",
+      "translation": "мотоцикл"
+    },
+    {
+      "word": "vairuoti",
+      "translation": "водить"
+    },
+    {
+      "word": "vairuotojas",
+      "translation": "водитель"
+    },
+    {
+      "word": "vairuotojo pažymėjimas",
+      "translation": "водительское удостоверение"
+    },
+    {
+      "word": "važiuoti",
+      "translation": "ехать"
+    },
+    {
+      "word": "eiti",
+      "translation": "идти"
+    },
+    {
+      "word": "bėgti",
+      "translation": "бежать"
+    },
+    {
+      "word": "gatvė",
+      "translation": "улица"
+    },
+    {
+      "word": "prospektas",
+      "translation": "проспект"
+    },
+    {
+      "word": "alėja",
+      "translation": "аллея"
+    },
+    {
+      "word": "šaligatvis",
+      "translation": "тротуар"
+    },
+    {
+      "word": "kelias",
+      "translation": "дорога"
+    },
+    {
+      "word": "tiltas",
+      "translation": "мост"
+    },
+    {
+      "word": "sankryža",
+      "translation": "перекресток"
+    },
+    {
+      "word": "šviesoforas",
+      "translation": "светофор"
+    },
+    {
+      "word": "perėja",
+      "translation": "переход"
+    },
+    {
+      "word": "kampas",
+      "translation": "угол"
+    },
+    {
+      "word": "sukti",
+      "translation": "поворачивать"
+    },
+    {
+      "word": "stovėjimo aikštelė",
+      "translation": "парковка"
+    },
+    {
+      "word": "nemokama aikštelė",
+      "translation": "бесплатная парковка"
+    },
+    {
+      "word": "kelio ženklas",
+      "translation": "дорожный знак"
+    },
+    {
+      "word": "policija",
+      "translation": "полиция"
+    },
+    {
+      "word": "bauda",
+      "translation": "штраф"
+    },
+    {
+      "word": "žemėlapis",
+      "translation": "карта"
+    },
+    {
+      "word": "kilometras",
+      "translation": "километр"
+    },
+    {
+      "word": "metras",
+      "translation": "метр"
+    },
+    {
+      "word": "mylia",
+      "translation": "миля"
+    },
+    {
+      "word": "pėda",
+      "translation": "фут"
+    },
+    {
+      "word": "jardas",
+      "translation": "ярд"
+    },
+    {
+      "word": "atostogos",
+      "translation": "отпуск"
+    },
+    {
+      "word": "atostogauti",
+      "translation": "быть в отпуске"
+    },
+    {
+      "word": "stovykla",
+      "translation": "лагерь"
+    },
+    {
+      "word": "stovyklauti",
+      "translation": "лагерить"
+    },
+    {
+      "word": "kelionė",
+      "translation": "путешествие"
+    },
+    {
+      "word": "keliauti",
+      "translation": "путешествовать"
+    },
+    {
+      "word": "ekskursija",
+      "translation": "экскурсия"
+    },
+    {
+      "word": "turistas",
+      "translation": "турист"
+    },
+    {
+      "word": "ekskursijos vadovas",
+      "translation": "экскурсовод"
+    },
+    {
+      "word": "gidas",
+      "translation": "гид"
+    },
+    {
+      "word": "miesto planas",
+      "translation": "план города"
+    },
+    {
+      "word": "bažnyčia",
+      "translation": "церковь"
+    },
+    {
+      "word": "bokštas",
+      "translation": "башня"
+    },
+    {
+      "word": "muziejus",
+      "translation": "музей"
+    },
+    {
+      "word": "paminklas",
+      "translation": "памятник"
+    },
+    {
+      "word": "skulptūra",
+      "translation": "скульптура"
+    },
+    {
+      "word": "parkas",
+      "translation": "парк"
+    },
+    {
+      "word": "piliakalnis",
+      "translation": "курган"
+    },
+    {
+      "word": "užsienis",
+      "translation": "зарубеж"
+    },
+    {
+      "word": "užsienio šalys",
+      "translation": "иностранные страны"
+    },
+    {
+      "word": "Afrika",
+      "translation": "Африка"
+    },
+    {
+      "word": "Amerika",
+      "translation": "Америка"
+    },
+    {
+      "word": "Australija",
+      "translation": "Австралия"
+    },
+    {
+      "word": "Azija",
+      "translation": "Азия"
+    },
+    {
+      "word": "Europa",
+      "translation": "Европа"
+    },
+    {
+      "word": "viešbutis",
+      "translation": "гостиница"
+    },
+    {
+      "word": "kempingas",
+      "translation": "кемпинг"
+    },
+    {
+      "word": "palapinė",
+      "translation": "палатка"
+    },
+    {
+      "word": "kambarys",
+      "translation": "комната"
+    },
+    {
+      "word": "vienvietis",
+      "translation": "одноместный"
+    },
+    {
+      "word": "dvivietis",
+      "translation": "двухместный"
+    },
+    {
+      "word": "trivietis",
+      "translation": "трехместный"
+    },
+    {
+      "word": "kambario numeris",
+      "translation": "номер комнаты"
+    },
+    {
+      "word": "dušas",
+      "translation": "душ"
+    },
+    {
+      "word": "tualetas",
+      "translation": "туалет"
+    },
+    {
+      "word": "raktas",
+      "translation": "ключ"
+    },
+    {
+      "word": "registracija",
+      "translation": "регистрация"
+    },
+    {
+      "word": "stumti",
+      "translation": "толкать"
+    },
+    {
+      "word": "traukti",
+      "translation": "тянуть"
+    },
+    {
+      "word": "nešti",
+      "translation": "нести"
+    },
+    {
+      "word": "vežti",
+      "translation": "везти"
+    },
+    {
+      "word": "bagažas",
+      "translation": "багаж"
+    },
+    {
+      "word": "krepšys",
+      "translation": "сумка"
+    },
+    {
+      "word": "kuprinė",
+      "translation": "рюкзак"
+    },
+    {
+      "word": "lagaminas",
+      "translation": "чемодан"
+    },
+    {
+      "word": "rankinė",
+      "translation": "сумочка"
+    },
+    {
+      "word": "pasas",
+      "translation": "паспорт"
+    },
+    {
+      "word": "viza",
+      "translation": "виза"
+    },
+    {
+      "word": "vairuotojo pažymėjimas",
+      "translation": "водительское удостоверение"
+    },
+    {
+      "word": "draudimas",
+      "translation": "страховка"
+    }
+  ],
+  "Santykiai su žmonėmis": [
+    {
+      "word": "draugas",
+      "translation": "друг"
+    },
+    {
+      "word": "klasės draugas",
+      "translation": "одноклассник"
+    },
+    {
+      "word": "kaimynas",
+      "translation": "сосед"
+    },
+    {
+      "word": "draugauti",
+      "translation": "дружить"
+    },
+    {
+      "word": "pažinti",
+      "translation": "знать"
+    },
+    {
+      "word": "susipažinti",
+      "translation": "познакомиться"
+    },
+    {
+      "word": "pristatyti",
+      "translation": "представить"
+    },
+    {
+      "word": "mylėti",
+      "translation": "любить"
+    },
+    {
+      "word": "mėgti",
+      "translation": "нравиться"
+    },
+    {
+      "word": "patikti",
+      "translation": "нравиться"
+    },
+    {
+      "word": "džiaugtis",
+      "translation": "радоваться"
+    },
+    {
+      "word": "pykti",
+      "translation": "злиться"
+    },
+    {
+      "word": "užjausti",
+      "translation": "сочувствовать"
+    },
+    {
+      "word": "kviesti",
+      "translation": "приглашать"
+    },
+    {
+      "word": "kvietimas",
+      "translation": "приглашение"
+    },
+    {
+      "word": "svečias",
+      "translation": "гость"
+    },
+    {
+      "word": "viešnia",
+      "translation": "гостья"
+    },
+    {
+      "word": "eiti į svečius",
+      "translation": "идти в гости"
+    },
+    {
+      "word": "būti svečiuose",
+      "translation": "быть в гостях"
+    },
+    {
+      "word": "vakaras",
+      "translation": "вечер"
+    },
+    {
+      "word": "vakarėlis",
+      "translation": "вечеринка"
+    },
+    {
+      "word": "pasimatymas",
+      "translation": "свидание"
+    },
+    {
+      "word": "susitarti",
+      "translation": "договориться"
+    },
+    {
+      "word": "susitikti",
+      "translation": "встретиться"
+    },
+    {
+      "word": "dovana",
+      "translation": "подарок"
+    },
+    {
+      "word": "laiškas",
+      "translation": "письмо"
+    },
+    {
+      "word": "atvirukas",
+      "translation": "открытка"
+    },
+    {
+      "word": "faksas",
+      "translation": "факс"
+    },
+    {
+      "word": "vokas",
+      "translation": "конверт"
+    },
+    {
+      "word": "pašto ženklas",
+      "translation": "почтовая марка"
+    },
+    {
+      "word": "popierius",
+      "translation": "бумага"
+    },
+    {
+      "word": "rašyti",
+      "translation": "писать"
+    },
+    {
+      "word": "siųsti",
+      "translation": "отправлять"
+    },
+    {
+      "word": "gauti",
+      "translation": "получать"
+    },
+    {
+      "word": "elektroninis paštas",
+      "translation": "электронная почта"
+    },
+    {
+      "word": "elektroninis laiškas",
+      "translation": "электронное письмо"
+    },
+    {
+      "word": "pranešimas",
+      "translation": "сообщение"
+    },
+    {
+      "word": "vogti",
+      "translation": "воровать"
+    },
+    {
+      "word": "vagis",
+      "translation": "вор"
+    },
+    {
+      "word": "užpulti",
+      "translation": "нападать"
+    },
+    {
+      "word": "policija",
+      "translation": "полиция"
+    },
+    {
+      "word": "policininkas",
+      "translation": "полицейский"
+    }
+  ],
+  "Sveikata ir higiena": [
+    {
+      "word": "kūnas",
+      "translation": "тело"
+    },
+    {
+      "word": "akis",
+      "translation": "глаз"
+    },
+    {
+      "word": "ausis",
+      "translation": "ухо"
+    },
+    {
+      "word": "galva",
+      "translation": "голова"
+    },
+    {
+      "word": "kaklas",
+      "translation": "шея"
+    },
+    {
+      "word": "koja",
+      "translation": "нога"
+    },
+    {
+      "word": "nosis",
+      "translation": "нос"
+    },
+    {
+      "word": "nugara",
+      "translation": "спина"
+    },
+    {
+      "word": "pilvas",
+      "translation": "живот"
+    },
+    {
+      "word": "ranka",
+      "translation": "рука"
+    },
+    {
+      "word": "širdis",
+      "translation": "сердце"
+    },
+    {
+      "word": "gerklė",
+      "translation": "горло"
+    },
+    {
+      "word": "jaustis",
+      "translation": "чувствовать"
+    },
+    {
+      "word": "linksmas",
+      "translation": "веселый"
+    },
+    {
+      "word": "patenkintas",
+      "translation": "довольный"
+    },
+    {
+      "word": "alkanas",
+      "translation": "голодный"
+    },
+    {
+      "word": "sotus",
+      "translation": "сытый"
+    },
+    {
+      "word": "pavargęs",
+      "translation": "уставший"
+    },
+    {
+      "word": "pavargti",
+      "translation": "устать"
+    },
+    {
+      "word": "ramus",
+      "translation": "спокойный"
+    },
+    {
+      "word": "stiprus",
+      "translation": "сильный"
+    },
+    {
+      "word": "silpnas",
+      "translation": "слабый"
+    },
+    {
+      "word": "susijaudinęs",
+      "translation": "взволнованный"
+    },
+    {
+      "word": "susinervinęs",
+      "translation": "нервный"
+    },
+    {
+      "word": "piktas",
+      "translation": "злой"
+    },
+    {
+      "word": "švarus",
+      "translation": "чистый"
+    },
+    {
+      "word": "purvinas",
+      "translation": "грязный"
+    },
+    {
+      "word": "valyti",
+      "translation": "чистить"
+    },
+    {
+      "word": "dantų šepetėlis",
+      "translation": "зубная щетка"
+    },
+    {
+      "word": "rankšluostis",
+      "translation": "полотенце"
+    },
+    {
+      "word": "muilas",
+      "translation": "мыло"
+    },
+    {
+      "word": "dantų pasta",
+      "translation": "зубная паста"
+    },
+    {
+      "word": "šampūnas",
+      "translation": "шампунь"
+    },
+    {
+      "word": "kvepalai",
+      "translation": "духи"
+    },
+    {
+      "word": "kremas",
+      "translation": "крем"
+    },
+    {
+      "word": "kirptis",
+      "translation": "стричься"
+    },
+    {
+      "word": "skalbti",
+      "translation": "стирать"
+    },
+    {
+      "word": "sveikata",
+      "translation": "здоровье"
+    },
+    {
+      "word": "sveikas",
+      "translation": "здоровый"
+    },
+    {
+      "word": "sveikti",
+      "translation": "выздоравливать"
+    },
+    {
+      "word": "blogai jaustis",
+      "translation": "плохо себя чувствовать"
+    },
+    {
+      "word": "liga",
+      "translation": "болезнь"
+    },
+    {
+      "word": "ligonis",
+      "translation": "больной"
+    },
+    {
+      "word": "sirgti",
+      "translation": "болеть"
+    },
+    {
+      "word": "mirti",
+      "translation": "умирать"
+    },
+    {
+      "word": "skaudėti",
+      "translation": "болеть (о части тела)"
+    },
+    {
+      "word": "temperatūra",
+      "translation": "температура"
+    },
+    {
+      "word": "turėti temperatūros",
+      "translation": "иметь температуру"
+    },
+    {
+      "word": "kyla",
+      "translation": "поднимается"
+    },
+    {
+      "word": "krinta",
+      "translation": "падает"
+    },
+    {
+      "word": "gripas",
+      "translation": "грипп"
+    },
+    {
+      "word": "sloga",
+      "translation": "насморк"
+    },
+    {
+      "word": "uždegimas",
+      "translation": "воспаление"
+    },
+    {
+      "word": "kosėti",
+      "translation": "кашлять"
+    },
+    {
+      "word": "čiaudėti",
+      "translation": "чихать"
+    },
+    {
+      "word": "kraujas",
+      "translation": "кровь"
+    },
+    {
+      "word": "operacija",
+      "translation": "операция"
+    },
+    {
+      "word": "griūti",
+      "translation": "падать"
+    },
+    {
+      "word": "susilaužyti",
+      "translation": "сломать"
+    },
+    {
+      "word": "nudegti",
+      "translation": "обжечься"
+    },
+    {
+      "word": "susižeisti",
+      "translation": "пораниться"
+    },
+    {
+      "word": "žaizda",
+      "translation": "рана"
+    },
+    {
+      "word": "apsinuodyti",
+      "translation": "отравиться"
+    },
+    {
+      "word": "skiepyti",
+      "translation": "вакцинировать"
+    },
+    {
+      "word": "skiepai",
+      "translation": "вакцины"
+    },
+    {
+      "word": "gydytojas",
+      "translation": "врач"
+    },
+    {
+      "word": "šeimos gydytojas",
+      "translation": "семейный врач"
+    },
+    {
+      "word": "specialistas",
+      "translation": "специалист"
+    },
+    {
+      "word": "slaugytojas",
+      "translation": "медбрат"
+    },
+    {
+      "word": "vaistininkas",
+      "translation": "фармацевт"
+    },
+    {
+      "word": "vaistinė",
+      "translation": "аптека"
+    },
+    {
+      "word": "vaistai",
+      "translation": "лекарства"
+    },
+    {
+      "word": "gerti vaistus",
+      "translation": "принимать лекарства"
+    },
+    {
+      "word": "receptas",
+      "translation": "рецепт"
+    },
+    {
+      "word": "tabletė",
+      "translation": "таблетка"
+    },
+    {
+      "word": "lašai",
+      "translation": "капли"
+    },
+    {
+      "word": "milteliai",
+      "translation": "порошок"
+    },
+    {
+      "word": "injekcija",
+      "translation": "инъекция"
+    },
+    {
+      "word": "tepalas",
+      "translation": "мазь"
+    },
+    {
+      "word": "leisti vaistus",
+      "translation": "вводить лекарства"
+    },
+    {
+      "word": "poliklinika",
+      "translation": "поликлиника"
+    },
+    {
+      "word": "klinika",
+      "translation": "клиника"
+    },
+    {
+      "word": "ligoninė",
+      "translation": "больница"
+    },
+    {
+      "word": "registratūra",
+      "translation": "регистратура"
+    },
+    {
+      "word": "kortelė",
+      "translation": "карточка"
+    },
+    {
+      "word": "užsirašyti",
+      "translation": "записаться"
+    },
+    {
+      "word": "užsiregistruoti",
+      "translation": "зарегистрироваться"
+    },
+    {
+      "word": "ligonis",
+      "translation": "больной"
+    },
+    {
+      "word": "pacientas",
+      "translation": "пациент"
+    },
+    {
+      "word": "kabinetas",
+      "translation": "кабинет"
+    },
+    {
+      "word": "palata",
+      "translation": "палата"
+    },
+    {
+      "word": "apžiūrėti",
+      "translation": "осматривать"
+    },
+    {
+      "word": "tyrimai",
+      "translation": "исследования"
+    },
+    {
+      "word": "greitoji",
+      "translation": "скорая помощь"
+    },
+    {
+      "word": "kviesti",
+      "translation": "вызывать"
+    },
+    {
+      "word": "matyti",
+      "translation": "видеть"
+    },
+    {
+      "word": "žiūrėti",
+      "translation": "смотреть"
+    },
+    {
+      "word": "girdėti",
+      "translation": "слышать"
+    },
+    {
+      "word": "klausyti",
+      "translation": "слушать"
+    },
+    {
+      "word": "jausti",
+      "translation": "чувствовать"
+    },
+    {
+      "word": "ragauti",
+      "translation": "пробовать на вкус"
+    },
+    {
+      "word": "nervintis",
+      "translation": "нервничать"
+    },
+    {
+      "word": "stovėti",
+      "translation": "стоять"
+    },
+    {
+      "word": "sėdėti",
+      "translation": "сидеть"
+    },
+    {
+      "word": "sėstis",
+      "translation": "садиться"
+    },
+    {
+      "word": "gulėti",
+      "translation": "лежать"
+    },
+    {
+      "word": "gultis",
+      "translation": "ложиться"
+    },
+    {
+      "word": "eiti",
+      "translation": "идти"
+    },
+    {
+      "word": "bėgti",
+      "translation": "бежать"
+    },
+    {
+      "word": "daryti",
+      "translation": "делать"
+    },
+    {
+      "word": "uždaryti",
+      "translation": "закрыть"
+    },
+    {
+      "word": "atidaryti",
+      "translation": "открыть"
+    },
+    {
+      "word": "duoti",
+      "translation": "давать"
+    },
+    {
+      "word": "imti",
+      "translation": "брать"
+    },
+    {
+      "word": "pjauti",
+      "translation": "резать"
+    },
+    {
+      "word": "kirpti",
+      "translation": "стричь"
+    },
+    {
+      "word": "stumti",
+      "translation": "толкать"
+    },
+    {
+      "word": "traukti",
+      "translation": "тянуть"
+    },
+    {
+      "word": "nešti",
+      "translation": "нести"
+    },
+    {
+      "word": "mesti",
+      "translation": "бросать"
+    },
+    {
+      "word": "įjungti",
+      "translation": "включить"
+    },
+    {
+      "word": "įjungti",
+      "translation": "включить"
+    },
+    {
+      "word": "išjungti",
+      "translation": "выключить"
+    },
+    {
+      "word": "spausti",
+      "translation": "нажимать"
+    },
+    {
+      "word": "užrakinti",
+      "translation": "запереть"
+    },
+    {
+      "word": "atrakinti",
+      "translation": "отпереть"
+    }
+  ],
+  "Švietimas ir mokslas": [
+    {
+      "word": "mokyti",
+      "translation": "учить"
+    },
+    {
+      "word": "mokytis",
+      "translation": "учиться"
+    },
+    {
+      "word": "išmokti",
+      "translation": "выучить"
+    },
+    {
+      "word": "studijuoti",
+      "translation": "изучать"
+    },
+    {
+      "word": "lankyti",
+      "translation": "посещать"
+    },
+    {
+      "word": "baigti",
+      "translation": "закончить"
+    },
+    {
+      "word": "pamoka",
+      "translation": "урок"
+    },
+    {
+      "word": "paskaita",
+      "translation": "лекция"
+    },
+    {
+      "word": "kursai",
+      "translation": "курсы"
+    },
+    {
+      "word": "mokinys",
+      "translation": "ученик"
+    },
+    {
+      "word": "studentas",
+      "translation": "студент"
+    },
+    {
+      "word": "pažymys",
+      "translation": "оценка"
+    },
+    {
+      "word": "pažymių knygelė",
+      "translation": "дневник"
+    },
+    {
+      "word": "pastaba",
+      "translation": "замечание"
+    },
+    {
+      "word": "mokykla",
+      "translation": "школа"
+    },
+    {
+      "word": "universitetas",
+      "translation": "университет"
+    },
+    {
+      "word": "klasė",
+      "translation": "класс"
+    },
+    {
+      "word": "grupė",
+      "translation": "группа"
+    },
+    {
+      "word": "kursas",
+      "translation": "курс"
+    },
+    {
+      "word": "semestras",
+      "translation": "семестр"
+    },
+    {
+      "word": "trimestras",
+      "translation": "триместр"
+    },
+    {
+      "word": "mokytojas",
+      "translation": "учитель"
+    },
+    {
+      "word": "astronomija",
+      "translation": "астрономия"
+    },
+    {
+      "word": "biologija",
+      "translation": "биология"
+    },
+    {
+      "word": "chemija",
+      "translation": "химия"
+    },
+    {
+      "word": "dailė",
+      "translation": "искусство"
+    },
+    {
+      "word": "etika",
+      "translation": "этика"
+    },
+    {
+      "word": "fizika",
+      "translation": "физика"
+    },
+    {
+      "word": "geografija",
+      "translation": "география"
+    },
+    {
+      "word": "informatika",
+      "translation": "информатика"
+    },
+    {
+      "word": "istorija",
+      "translation": "история"
+    },
+    {
+      "word": "kalba",
+      "translation": "язык"
+    },
+    {
+      "word": "kūno kultūra",
+      "translation": "физкультура"
+    },
+    {
+      "word": "literatūra",
+      "translation": "литература"
+    },
+    {
+      "word": "matematika",
+      "translation": "математика"
+    },
+    {
+      "word": "muzika",
+      "translation": "музыка"
+    },
+    {
+      "word": "tikyba",
+      "translation": "религия"
+    },
+    {
+      "word": "pratimas ir užduotis",
+      "translation": "упражнение и задание"
+    },
+    {
+      "word": "pavyzdys",
+      "translation": "пример"
+    },
+    {
+      "word": "atsakymas",
+      "translation": "ответ"
+    },
+    {
+      "word": "namų darbas",
+      "translation": "домашнее задание"
+    },
+    {
+      "word": "referatas",
+      "translation": "реферат"
+    },
+    {
+      "word": "pranešimas",
+      "translation": "доклад"
+    },
+    {
+      "word": "rengti",
+      "translation": "готовить"
+    },
+    {
+      "word": "ruošti",
+      "translation": "готовить"
+    },
+    {
+      "word": "aiškinti",
+      "translation": "объяснять"
+    },
+    {
+      "word": "rašyti",
+      "translation": "писать"
+    },
+    {
+      "word": "skaityti",
+      "translation": "читать"
+    },
+    {
+      "word": "skaičiuoti",
+      "translation": "считать"
+    },
+    {
+      "word": "piešti",
+      "translation": "рисовать"
+    },
+    {
+      "word": "žymėti",
+      "translation": "отмечать"
+    },
+    {
+      "word": "braukti",
+      "translation": "зачеркивать"
+    },
+    {
+      "word": "kalbėti",
+      "translation": "говорить"
+    },
+    {
+      "word": "pasakoti",
+      "translation": "рассказывать"
+    },
+    {
+      "word": "atmintinai",
+      "translation": "наизусть"
+    },
+    {
+      "word": "lenta",
+      "translation": "доска"
+    },
+    {
+      "word": "išmanioji lenta",
+      "translation": "умная доска"
+    },
+    {
+      "word": "kuprinė",
+      "translation": "рюкзак"
+    },
+    {
+      "word": "vadovėlis",
+      "translation": "учебник"
+    },
+    {
+      "word": "sąsiuvinis",
+      "translation": "тетрадь"
+    },
+    {
+      "word": "piešimo sąsiuvinis",
+      "translation": "альбом для рисования"
+    },
+    {
+      "word": "atversti",
+      "translation": "открыть"
+    },
+    {
+      "word": "užversti",
+      "translation": "закрыть"
+    },
+    {
+      "word": "pieštukas",
+      "translation": "карандаш"
+    },
+    {
+      "word": "tušinukas",
+      "translation": "ручка"
+    },
+    {
+      "word": "parkeris",
+      "translation": "перо"
+    },
+    {
+      "word": "flomasteris",
+      "translation": "фломастер"
+    },
+    {
+      "word": "teptukas",
+      "translation": "кисть"
+    },
+    {
+      "word": "rašyti",
+      "translation": "писать"
+    },
+    {
+      "word": "piešti",
+      "translation": "рисовать"
+    },
+    {
+      "word": "klijai",
+      "translation": "клей"
+    },
+    {
+      "word": "klijuoti",
+      "translation": "клеить"
+    },
+    {
+      "word": "žirklės",
+      "translation": "ножницы"
+    },
+    {
+      "word": "kirpti",
+      "translation": "резать"
+    },
+    {
+      "word": "trintukas",
+      "translation": "ластик"
+    },
+    {
+      "word": "trinti",
+      "translation": "стирать"
+    },
+    {
+      "word": "popierius",
+      "translation": "бумага"
+    },
+    {
+      "word": "spalvotas popierius",
+      "translation": "цветная бумага"
+    },
+    {
+      "word": "plastilinas",
+      "translation": "пластилин"
+    },
+    {
+      "word": "lipdyti",
+      "translation": "лепить"
+    },
+    {
+      "word": "liniuotė",
+      "translation": "линейка"
+    },
+    {
+      "word": "matuoti",
+      "translation": "измерять"
+    },
+    {
+      "word": "aplankas",
+      "translation": "папка"
+    },
+    {
+      "word": "dėti",
+      "translation": "класть"
+    },
+    {
+      "word": "kompiuteris",
+      "translation": "компьютер"
+    },
+    {
+      "word": "dirbti kompiuteriu",
+      "translation": "работать на компьютере"
+    },
+    {
+      "word": "stojamasis",
+      "translation": "вступительный"
+    },
+    {
+      "word": "baigiamasis",
+      "translation": "выпускной"
+    },
+    {
+      "word": "laikyti egzaminą",
+      "translation": "сдавать экзамен"
+    },
+    {
+      "word": "išlaikyti egzaminą",
+      "translation": "сдать экзамен"
+    },
+    {
+      "word": "nusirašyti",
+      "translation": "списывать"
+    },
+    {
+      "word": "testas",
+      "translation": "тест"
+    },
+    {
+      "word": "taškas",
+      "translation": "балл"
+    },
+    {
+      "word": "atestatas",
+      "translation": "аттестат"
+    },
+    {
+      "word": "pažymėjimas",
+      "translation": "свидетельство"
+    },
+    {
+      "word": "kalba",
+      "translation": "язык"
+    },
+    {
+      "word": "kalbėti",
+      "translation": "говорить"
+    },
+    {
+      "word": "raidė",
+      "translation": "буква"
+    },
+    {
+      "word": "žodis",
+      "translation": "слово"
+    },
+    {
+      "word": "žodynas",
+      "translation": "словарь"
+    },
+    {
+      "word": "sakinys",
+      "translation": "предложение"
+    },
+    {
+      "word": "reikšti",
+      "translation": "означать"
+    },
+    {
+      "word": "tarti",
+      "translation": "произносить"
+    },
+    {
+      "word": "skaityti",
+      "translation": "читать"
+    },
+    {
+      "word": "klausyti",
+      "translation": "слушать"
+    },
+    {
+      "word": "suprasti",
+      "translation": "понимать"
+    },
+    {
+      "word": "rašyti",
+      "translation": "писать"
+    },
+    {
+      "word": "kartoti",
+      "translation": "повторять"
+    },
+    {
+      "word": "gramatika",
+      "translation": "грамматика"
+    },
+    {
+      "word": "puikiai",
+      "translation": "отлично"
+    },
+    {
+      "word": "labai gerai",
+      "translation": "очень хорошо"
+    },
+    {
+      "word": "gerai",
+      "translation": "хорошо"
+    },
+    {
+      "word": "šiek tiek arba truputį",
+      "translation": "немного"
+    },
+    {
+      "word": "blogai",
+      "translation": "плохо"
+    },
+    {
+      "word": "laisvai",
+      "translation": "свободно"
+    },
+    {
+      "word": "versti",
+      "translation": "переводить"
+    },
+    {
+      "word": "klausimas",
+      "translation": "вопрос"
+    },
+    {
+      "word": "klausti",
+      "translation": "спрашивать"
+    },
+    {
+      "word": "aiškiai",
+      "translation": "ясно"
+    },
+    {
+      "word": "klaida",
+      "translation": "ошибка"
+    },
+    {
+      "word": "pamiršti",
+      "translation": "забыть"
+    },
+    {
+      "word": "atsiminti",
+      "translation": "вспомнить"
+    },
+    {
+      "word": "gimtoji kalba",
+      "translation": "родной язык"
+    },
+    {
+      "word": "užsienio kalba",
+      "translation": "иностранный язык"
+    },
+    {
+      "word": "anglų",
+      "translation": "английский"
+    },
+    {
+      "word": "lietuvių",
+      "translation": "литовский"
+    },
+    {
+      "word": "ispanų",
+      "translation": "испанский"
+    },
+    {
+      "word": "prancūzų",
+      "translation": "французский"
+    },
+    {
+      "word": "rusų",
+      "translation": "русский"
+    },
+    {
+      "word": "vokiečių",
+      "translation": "немецкий"
+    },
+    {
+      "word": "lengvas",
+      "translation": "легкий"
+    },
+    {
+      "word": "sunkus",
+      "translation": "трудный"
+    },
+    {
+      "word": "taisyklė",
+      "translation": "правило"
+    },
+    {
+      "word": "budėti",
+      "translation": "дежурить"
+    },
+    {
+      "word": "budėtojas",
+      "translation": "дежурный"
+    }
+  ],
+  "Prekyba": [
+    {
+      "word": "parduotuvė",
+      "translation": "магазин"
+    },
+    {
+      "word": "pardavėjas",
+      "translation": "продавец"
+    },
+    {
+      "word": "kaina",
+      "translation": "цена"
+    },
+    {
+      "word": "kainuoti",
+      "translation": "стоить"
+    },
+    {
+      "word": "nuolaida",
+      "translation": "скидка"
+    },
+    {
+      "word": "baldų",
+      "translation": "мебельный"
+    },
+    {
+      "word": "batų",
+      "translation": "обувной"
+    },
+    {
+      "word": "maisto",
+      "translation": "продуктовый"
+    },
+    {
+      "word": "drabužių",
+      "translation": "одежды"
+    },
+    {
+      "word": "indų",
+      "translation": "посуды"
+    },
+    {
+      "word": "žaislų",
+      "translation": "игрушек"
+    },
+    {
+      "word": "namų prekių",
+      "translation": "товаров для дома"
+    },
+    {
+      "word": "pirkti",
+      "translation": "покупать"
+    },
+    {
+      "word": "kasa",
+      "translation": "касса"
+    },
+    {
+      "word": "mokėti",
+      "translation": "платить"
+    },
+    {
+      "word": "grąža",
+      "translation": "сдача"
+    },
+    {
+      "word": "duoti",
+      "translation": "давать"
+    },
+    {
+      "word": "gauti grąžos",
+      "translation": "получить сдачу"
+    },
+    {
+      "word": "parodyti",
+      "translation": "показать"
+    },
+    {
+      "word": "matuotis",
+      "translation": "примерять"
+    },
+    {
+      "word": "etiketė",
+      "translation": "этикетка"
+    },
+    {
+      "word": "drabužis",
+      "translation": "одежда"
+    },
+    {
+      "word": "džinsai",
+      "translation": "джинсы"
+    },
+    {
+      "word": "kepurė",
+      "translation": "шапка"
+    },
+    {
+      "word": "kojinės",
+      "translation": "носки"
+    },
+    {
+      "word": "kostiumas",
+      "translation": "костюм"
+    },
+    {
+      "word": "marškinėliai",
+      "translation": "футболка"
+    },
+    {
+      "word": "marškiniai",
+      "translation": "рубашка"
+    },
+    {
+      "word": "maudymosi kostiumėlis",
+      "translation": "купальник"
+    },
+    {
+      "word": "megztinis",
+      "translation": "свитер"
+    },
+    {
+      "word": "palaidinė",
+      "translation": "блузка"
+    },
+    {
+      "word": "paltas",
+      "translation": "пальто"
+    },
+    {
+      "word": "pirštinės",
+      "translation": "перчатки"
+    },
+    {
+      "word": "sijonas",
+      "translation": "юбка"
+    },
+    {
+      "word": "striukė",
+      "translation": "куртка"
+    },
+    {
+      "word": "suknelė",
+      "translation": "платье"
+    },
+    {
+      "word": "šalikas",
+      "translation": "шарф"
+    },
+    {
+      "word": "švarkas",
+      "translation": "пиджак"
+    },
+    {
+      "word": "saga",
+      "translation": "пуговица"
+    },
+    {
+      "word": "kišenė",
+      "translation": "карман"
+    },
+    {
+      "word": "dydis",
+      "translation": "размер"
+    },
+    {
+      "word": "basutės",
+      "translation": "босоножки"
+    },
+    {
+      "word": "batai",
+      "translation": "ботинки"
+    },
+    {
+      "word": "bateliai",
+      "translation": "туфли"
+    },
+    {
+      "word": "sportiniai bateliai",
+      "translation": "кроссовки"
+    },
+    {
+      "word": "šlepetės",
+      "translation": "тапочки"
+    },
+    {
+      "word": "siūlai",
+      "translation": "нитки"
+    },
+    {
+      "word": "adata",
+      "translation": "игла"
+    },
+    {
+      "word": "medžiaga",
+      "translation": "материал"
+    },
+    {
+      "word": "oda",
+      "translation": "кожа"
+    },
+    {
+      "word": "medvilnė",
+      "translation": "хлопок"
+    },
+    {
+      "word": "sintetika",
+      "translation": "синтетика"
+    },
+    {
+      "word": "šilkas",
+      "translation": "шелк"
+    },
+    {
+      "word": "vilna",
+      "translation": "шерсть"
+    },
+    {
+      "word": "dryžuotas",
+      "translation": "в полоску"
+    },
+    {
+      "word": "gėlėtas",
+      "translation": "в цветочек"
+    },
+    {
+      "word": "languotas",
+      "translation": "в клетку"
+    },
+    {
+      "word": "taškuotas",
+      "translation": "в горошек"
+    },
+    {
+      "word": "užtrauktukas",
+      "translation": "молния"
+    },
+    {
+      "word": "rankinukas",
+      "translation": "сумочка"
+    },
+    {
+      "word": "piniginė",
+      "translation": "кошелек"
+    },
+    {
+      "word": "skėtis",
+      "translation": "зонт"
+    },
+    {
+      "word": "laikrodis",
+      "translation": "часы"
+    },
+    {
+      "word": "diržas",
+      "translation": "ремень"
+    },
+    {
+      "word": "papuošalas",
+      "translation": "украшение"
+    },
+    {
+      "word": "apyrankė",
+      "translation": "браслет"
+    },
+    {
+      "word": "auskarai",
+      "translation": "серьги"
+    },
+    {
+      "word": "grandinėlė",
+      "translation": "цепочка"
+    },
+    {
+      "word": "karoliai",
+      "translation": "бусы"
+    },
+    {
+      "word": "žiedas",
+      "translation": "кольцо"
+    },
+    {
+      "word": "nešioti",
+      "translation": "носить"
+    },
+    {
+      "word": "tikti",
+      "translation": "подходить"
+    },
+    {
+      "word": "mada",
+      "translation": "мода"
+    },
+    {
+      "word": "madingas",
+      "translation": "модный"
+    },
+    {
+      "word": "spalva",
+      "translation": "цвет"
+    },
+    {
+      "word": "balta",
+      "translation": "белый"
+    },
+    {
+      "word": "juoda",
+      "translation": "черный"
+    },
+    {
+      "word": "geltona",
+      "translation": "желтый"
+    },
+    {
+      "word": "mėlyna",
+      "translation": "синий"
+    },
+    {
+      "word": "oranžinė",
+      "translation": "оранжевый"
+    },
+    {
+      "word": "pilka",
+      "translation": "серый"
+    },
+    {
+      "word": "raudona",
+      "translation": "красный"
+    },
+    {
+      "word": "rausva",
+      "translation": "розовый"
+    },
+    {
+      "word": "ruda",
+      "translation": "коричневый"
+    },
+    {
+      "word": "žydra",
+      "translation": "голубой"
+    },
+    {
+      "word": "tamsiai mėlyna",
+      "translation": "темно-синий"
+    },
+    {
+      "word": "šviesiai žalia",
+      "translation": "светло-зеленый"
+    },
+    {
+      "word": "indai",
+      "translation": "посуда"
+    },
+    {
+      "word": "dubuo",
+      "translation": "миска"
+    },
+    {
+      "word": "lėkštė",
+      "translation": "тарелка"
+    },
+    {
+      "word": "lėkštutė",
+      "translation": "блюдце"
+    },
+    {
+      "word": "puodukas",
+      "translation": "чашка"
+    },
+    {
+      "word": "stiklinė",
+      "translation": "стакан"
+    },
+    {
+      "word": "arbatinukas",
+      "translation": "чайник"
+    },
+    {
+      "word": "peilis",
+      "translation": "нож"
+    },
+    {
+      "word": "šakutė",
+      "translation": "вилка"
+    },
+    {
+      "word": "šaukštas",
+      "translation": "ложка"
+    },
+    {
+      "word": "šaukštelis",
+      "translation": "чайная ложка"
+    },
+    {
+      "word": "puodas",
+      "translation": "кастрюля"
+    },
+    {
+      "word": "samtis",
+      "translation": "половник"
+    },
+    {
+      "word": "arbatinis",
+      "translation": "чайник"
+    },
+    {
+      "word": "virdulys",
+      "translation": "чайник"
+    },
+    {
+      "word": "keptuvė",
+      "translation": "сковорода"
+    },
+    {
+      "word": "atidarytuvas",
+      "translation": "открывалка"
+    },
+    {
+      "word": "stiklainis",
+      "translation": "банка"
+    },
+    {
+      "word": "degtukai",
+      "translation": "спички"
+    },
+    {
+      "word": "staltiesė",
+      "translation": "скатерть"
+    },
+    {
+      "word": "servetėlė",
+      "translation": "салфетка"
+    },
+    {
+      "word": "padėklas",
+      "translation": "поднос"
+    },
+    {
+      "word": "vaza",
+      "translation": "ваза"
+    },
+    {
+      "word": "kainuoti",
+      "translation": "стоить"
+    },
+    {
+      "word": "mokėti grynais",
+      "translation": "платить наличными"
+    },
+    {
+      "word": "mokėti kortele",
+      "translation": "платить картой"
+    },
+    {
+      "word": "pinigai",
+      "translation": "деньги"
+    },
+    {
+      "word": "nemokamai",
+      "translation": "бесплатно"
+    },
+    {
+      "word": "nuolaida",
+      "translation": "скидка"
+    },
+    {
+      "word": "nuolaidų kortelė",
+      "translation": "дисконтная карта"
+    },
+    {
+      "word": "centimetras",
+      "translation": "сантиметр"
+    },
+    {
+      "word": "metras",
+      "translation": "метр"
+    },
+    {
+      "word": "gramas",
+      "translation": "грамм"
+    },
+    {
+      "word": "kilogramas",
+      "translation": "килограмм"
+    },
+    {
+      "word": "litras",
+      "translation": "литр"
+    },
+    {
+      "word": "galonas",
+      "translation": "галлон"
+    },
+    {
+      "word": "uncija",
+      "translation": "унция"
+    },
+    {
+      "word": "butelis",
+      "translation": "бутылка"
+    },
+    {
+      "word": "dėžė",
+      "translation": "коробка"
+    },
+    {
+      "word": "dėžutė",
+      "translation": "коробочка"
+    },
+    {
+      "word": "indelis",
+      "translation": "баночка"
+    },
+    {
+      "word": "pakelis",
+      "translation": "пакет"
+    },
+    {
+      "word": "stiklainis",
+      "translation": "банка"
+    },
+    {
+      "word": "maišas",
+      "translation": "мешок"
+    },
+    {
+      "word": "maišelis",
+      "translation": "пакетик"
+    },
+    {
+      "word": "turgus",
+      "translation": "рынок"
+    },
+    {
+      "word": "mugė",
+      "translation": "ярмарка"
+    }
+  ],
+  "Maistas ir gėrimai": [
+    {
+      "word": "maistas",
+      "translation": "еда"
+    },
+    {
+      "word": "produktai",
+      "translation": "продукты"
+    },
+    {
+      "word": "norėti",
+      "translation": "хотеть"
+    },
+    {
+      "word": "gerti",
+      "translation": "пить"
+    },
+    {
+      "word": "valgyti pusryčius",
+      "translation": "завтракать"
+    },
+    {
+      "word": "valgyti pietus",
+      "translation": "обедать"
+    },
+    {
+      "word": "valgyti vakarienę",
+      "translation": "ужинать"
+    },
+    {
+      "word": "patiekalas",
+      "translation": "блюдо"
+    },
+    {
+      "word": "užkandis",
+      "translation": "закуска"
+    },
+    {
+      "word": "agurkas",
+      "translation": "огурец"
+    },
+    {
+      "word": "bulvė",
+      "translation": "картофель"
+    },
+    {
+      "word": "česnakai",
+      "translation": "чеснок"
+    },
+    {
+      "word": "moliūgas",
+      "translation": "тыква"
+    },
+    {
+      "word": "morka",
+      "translation": "морковь"
+    },
+    {
+      "word": "kukurūzas",
+      "translation": "кукуруза"
+    },
+    {
+      "word": "pomidoras",
+      "translation": "помидор"
+    },
+    {
+      "word": "pupelės",
+      "translation": "фасоль"
+    },
+    {
+      "word": "ridikai",
+      "translation": "редис"
+    },
+    {
+      "word": "salotos",
+      "translation": "салат"
+    },
+    {
+      "word": "svogūnas",
+      "translation": "лук"
+    },
+    {
+      "word": "žirniai",
+      "translation": "горох"
+    },
+    {
+      "word": "ananasas",
+      "translation": "ананас"
+    },
+    {
+      "word": "apelsinas",
+      "translation": "апельсин"
+    },
+    {
+      "word": "arbūzas",
+      "translation": "арбуз"
+    },
+    {
+      "word": "citrina",
+      "translation": "лимон"
+    },
+    {
+      "word": "kriaušė",
+      "translation": "груша"
+    },
+    {
+      "word": "obuolys",
+      "translation": "яблоко"
+    },
+    {
+      "word": "agrastai",
+      "translation": "крыжовник"
+    },
+    {
+      "word": "avietės",
+      "translation": "малина"
+    },
+    {
+      "word": "braškės",
+      "translation": "клубника"
+    },
+    {
+      "word": "vynuogės",
+      "translation": "виноград"
+    },
+    {
+      "word": "vyšnios",
+      "translation": "вишни"
+    },
+    {
+      "word": "serbentai",
+      "translation": "смородина"
+    },
+    {
+      "word": "mėsa",
+      "translation": "мясо"
+    },
+    {
+      "word": "jautiena",
+      "translation": "говядина"
+    },
+    {
+      "word": "kalakutiena",
+      "translation": "индейка"
+    },
+    {
+      "word": "vištiena",
+      "translation": "курица"
+    },
+    {
+      "word": "kiauliena",
+      "translation": "свинина"
+    },
+    {
+      "word": "dešra",
+      "translation": "колбаса"
+    },
+    {
+      "word": "dešrelės",
+      "translation": "сосиски"
+    },
+    {
+      "word": "žuvis",
+      "translation": "рыба"
+    },
+    {
+      "word": "grietinė",
+      "translation": "сметана"
+    },
+    {
+      "word": "jogurtas",
+      "translation": "йогурт"
+    },
+    {
+      "word": "kefyras",
+      "translation": "кефир"
+    },
+    {
+      "word": "pienas",
+      "translation": "молоко"
+    },
+    {
+      "word": "rūgpienis",
+      "translation": "простокваша"
+    },
+    {
+      "word": "sūris",
+      "translation": "сыр"
+    },
+    {
+      "word": "varškė",
+      "translation": "творог"
+    },
+    {
+      "word": "bandelė",
+      "translation": "булочка"
+    },
+    {
+      "word": "batonas",
+      "translation": "батон"
+    },
+    {
+      "word": "duona",
+      "translation": "хлеб"
+    },
+    {
+      "word": "ledai",
+      "translation": "мороженое"
+    },
+    {
+      "word": "pyragas",
+      "translation": "пирог"
+    },
+    {
+      "word": "saldainiai",
+      "translation": "конфеты"
+    },
+    {
+      "word": "šokoladas",
+      "translation": "шоколад"
+    },
+    {
+      "word": "tortas",
+      "translation": "торт"
+    },
+    {
+      "word": "želė",
+      "translation": "желе"
+    },
+    {
+      "word": "arbata",
+      "translation": "чай"
+    },
+    {
+      "word": "kakava",
+      "translation": "какао"
+    },
+    {
+      "word": "kava",
+      "translation": "кофе"
+    },
+    {
+      "word": "sultys",
+      "translation": "сок"
+    },
+    {
+      "word": "vanduo",
+      "translation": "вода"
+    },
+    {
+      "word": "mineralinis vanduo",
+      "translation": "минеральная вода"
+    },
+    {
+      "word": "gazuotas vanduo",
+      "translation": "газированная вода"
+    },
+    {
+      "word": "negazuotas vanduo",
+      "translation": "негазированная вода"
+    },
+    {
+      "word": "kokakola",
+      "translation": "кока-кола"
+    },
+    {
+      "word": "gabalas",
+      "translation": "кусок"
+    },
+    {
+      "word": "gabalėlis",
+      "translation": "кусочек"
+    },
+    {
+      "word": "riekė",
+      "translation": "ломтик"
+    },
+    {
+      "word": "sumuštinis",
+      "translation": "бутерброд"
+    },
+    {
+      "word": "salotos",
+      "translation": "салат"
+    },
+    {
+      "word": "kiaušinis",
+      "translation": "яйцо"
+    },
+    {
+      "word": "kiaušinienė",
+      "translation": "яичница"
+    },
+    {
+      "word": "omletas",
+      "translation": "омлет"
+    },
+    {
+      "word": "sriuba",
+      "translation": "суп"
+    },
+    {
+      "word": "kepsnys",
+      "translation": "стейк"
+    },
+    {
+      "word": "druska",
+      "translation": "соль"
+    },
+    {
+      "word": "pipirai",
+      "translation": "перец"
+    },
+    {
+      "word": "cukrus",
+      "translation": "сахар"
+    },
+    {
+      "word": "virtas",
+      "translation": "вареный"
+    },
+    {
+      "word": "keptas",
+      "translation": "жареный"
+    },
+    {
+      "word": "rūkytas",
+      "translation": "копченый"
+    },
+    {
+      "word": "žalias",
+      "translation": "сырой"
+    },
+    {
+      "word": "šviežias",
+      "translation": "свежий"
+    },
+    {
+      "word": "senas",
+      "translation": "старый"
+    },
+    {
+      "word": "baras",
+      "translation": "бар"
+    },
+    {
+      "word": "kavinė",
+      "translation": "кафе"
+    },
+    {
+      "word": "restoranas",
+      "translation": "ресторан"
+    },
+    {
+      "word": "valgykla",
+      "translation": "столовая"
+    },
+    {
+      "word": "padavėjas",
+      "translation": "официант"
+    },
+    {
+      "word": "valgiaraštis",
+      "translation": "меню"
+    },
+    {
+      "word": "meniu",
+      "translation": "меню"
+    },
+    {
+      "word": "sąskaita",
+      "translation": "счет"
+    },
+    {
+      "word": "grąža",
+      "translation": "сдача"
+    },
+    {
+      "word": "arbatpinigiai",
+      "translation": "чаевые"
+    }
+  ],
+  "Paslaugos": [
+    {
+      "word": "paštas",
+      "translation": "почта"
+    },
+    {
+      "word": "paštininkas",
+      "translation": "почтальон"
+    },
+    {
+      "word": "pašto indeksas",
+      "translation": "почтовый индекс"
+    },
+    {
+      "word": "pašto dėžutė",
+      "translation": "почтовый ящик"
+    },
+    {
+      "word": "vokas",
+      "translation": "конверт"
+    },
+    {
+      "word": "laiškas",
+      "translation": "письмо"
+    },
+    {
+      "word": "siuntinys",
+      "translation": "посылка"
+    },
+    {
+      "word": "siųsti",
+      "translation": "отправлять"
+    },
+    {
+      "word": "supakuoti",
+      "translation": "упаковать"
+    },
+    {
+      "word": "gauti",
+      "translation": "получать"
+    },
+    {
+      "word": "pašto ženklas",
+      "translation": "почтовая марка"
+    },
+    {
+      "word": "elektroninis paštas",
+      "translation": "электронная почта"
+    },
+    {
+      "word": "elektroninis laiškas",
+      "translation": "электронное письмо"
+    },
+    {
+      "word": "telefonas",
+      "translation": "телефон"
+    },
+    {
+      "word": "telefono numeris",
+      "translation": "номер телефона"
+    },
+    {
+      "word": "mobilusis telefonas",
+      "translation": "мобильный телефон"
+    },
+    {
+      "word": "telef. knyga",
+      "translation": "телефонная книга"
+    },
+    {
+      "word": "pranešimai",
+      "translation": "сообщения"
+    },
+    {
+      "word": "telefonų knyga",
+      "translation": "телефонная книга"
+    },
+    {
+      "word": "gesti",
+      "translation": "ломаться"
+    },
+    {
+      "word": "taisyti",
+      "translation": "чинить"
+    },
+    {
+      "word": "bankas",
+      "translation": "банк"
+    },
+    {
+      "word": "bankomatas",
+      "translation": "банкомат"
+    },
+    {
+      "word": "pinigai",
+      "translation": "деньги"
+    },
+    {
+      "word": "keisti",
+      "translation": "менять"
+    },
+    {
+      "word": "sąskaita",
+      "translation": "счет"
+    },
+    {
+      "word": "valiuta",
+      "translation": "валюта"
+    },
+    {
+      "word": "valiutos keitykla",
+      "translation": "обмен валюты"
+    },
+    {
+      "word": "policija",
+      "translation": "полиция"
+    },
+    {
+      "word": "policininkas",
+      "translation": "полицейский"
+    },
+    {
+      "word": "pamesti",
+      "translation": "потерять"
+    },
+    {
+      "word": "pavogti",
+      "translation": "украсть"
+    }
+  ]
+}

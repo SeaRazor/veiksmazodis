@@ -50,6 +50,7 @@
     gap: 1rem;
 }
 
+
 .item_grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(50%, auto));
@@ -97,7 +98,7 @@
 .check_value {
     font-size: 14px;
 
-    color: green;
+    color: #3da35d;
 
 }
 
@@ -118,18 +119,6 @@
 
 }
 
-.word_card {
-    border: 1px solid rgba(var(--card-border-rgb), 0.15);
-    transition: background 200ms, border 200ms;
-    border-radius: 5px;
-    background-color: #e9ecef;
-    font-family: var(--font-mono);
-    padding: 0.5rem;
-    align-content: center;
-    min-width: 25%;
-    font-size: 1rem;
-    position: relative;
-}
 
 /*.verb_header div {
     height: 100%;
@@ -142,40 +131,6 @@
     font-style: italic;
 }
 
-.tooltip {
-    visibility: hidden; /* Hidden by default */
-    width: 120px; /* Tooltip width */
-    background-color: black; /* Background color */
-    color: #fff; /* Text color */
-    text-align: center;
-    border-radius: 5px; /* Rounded corners */
-    padding: 5px 0;
-    position: absolute; /* Position it relative to the tooltip container */
-    z-index: 1;
-    bottom: -75%; /* Position it above the text */
-    left: 30%;
-    /* Centers the tooltip */
-    opacity: 0; /* Fully transparent by default */
-    transition: opacity 0.3s; /* Fade-in effect */
-}
-
-.tooltip::after {
-    content: '';
-    position: absolute;
-    bottom: 100%; /* At the top of the tooltip */
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: transparent transparent black transparent; /* Arrow pointing up */
-
-}
-
-/* Show the tooltip when hovering */
-.word_card:hover .tooltip {
-    visibility: visible;
-    opacity: 1; /* Fully visible */
-}
 
 .default_button {
     display: flex;

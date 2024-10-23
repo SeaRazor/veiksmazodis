@@ -1,7 +1,7 @@
-import styles from "@/app/page.module.css";
+import styles from './ui.module.css'
 
 export default function WordCard({word, hint}) {
-    
+
     return (
         <div className={styles.word_card}>
             <span>{word}</span>
