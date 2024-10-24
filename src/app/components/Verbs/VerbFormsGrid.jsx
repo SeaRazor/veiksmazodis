@@ -13,7 +13,7 @@ export default function VerbFormsGrid({verb_forms, mode}) {
 
     return (
 
-        <div className={styles.flow}>
+        <div className={styles.grid}>
             <VerbFormItem {...generateFutureTime(verb_forms.infinitive)} name="Будущее время" mode={mode}/>
             <VerbFormItem {...generatePastFrequentativeTime(verb_forms.infinitive)} name="Прошедшее повторяющееся время"
                           mode={mode}/>

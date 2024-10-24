@@ -172,3 +172,14 @@
     min-height: 3rem;
     align-content: center;
 }
+
+@media (max-width: 768px) {
+
+    .flipCard2 {
+        width: 100px;
+    }
+
+    .word_card {
+        width: 100px;
+    }
+}

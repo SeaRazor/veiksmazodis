@@ -35,8 +35,8 @@ export default function Words() {
             </div>
             <div className={styles.wrapping_container}>
                 <div className={styles.input_container}>
-                    <Toggle name1="Lit-Rus" value1="forward" name2="Rus-Lit" value2="reverse" currentValue={direction}
-                            onChangeHandler={directionChangeHandler}/>
+                    <Toggle name1="LT" value1="forward" name2="RU" value2="reverse" currentValue={direction}
+                            onChangeHandler={directionChangeHandler} useFlags="true"/>
                 </div>
                 <div className={styles.words_container}>
                     {selectedTopic && getTopicWords(selectedTopic).map((word, index) => <FlipCard2

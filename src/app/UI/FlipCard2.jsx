@@ -1,6 +1,6 @@
 import styles from './ui.module.css'
 
-export default function FlipCard2({front, back, direction}) {
+export default function FlipCard2({front, back, direction = "forward"}) {
 
 
     return (
