@@ -9,5 +9,6 @@ export function getTopics() {
 }
 
 export function getTopicWords(topic) {
+    if (!topic) return [];
     return words[topic];
 }
