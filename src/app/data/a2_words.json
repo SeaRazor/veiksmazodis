@@ -145,8 +145,12 @@
       "translation": "девочка"
     },
     {
-      "word": "(ne)vedęs ir ištekėjusi",
-      "translation": "(не)женат и замужем"
+      "word": "(ne)vedęs",
+      "translation": "(не)женат"
+    },
+    {
+      "word": "ištekėjusi",
+      "translation": "замужем"
     },
     {
       "word": "netekėjusi",

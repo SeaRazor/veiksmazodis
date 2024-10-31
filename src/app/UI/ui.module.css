@@ -121,6 +121,7 @@
 
 .flipCard:hover {
     border: 1px solid #3da35d;
+
 }
 
 
@@ -133,13 +134,21 @@
 }
 
 .flipCard2:hover .cardFront2 {
+    border: 1px solid #3da35d;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.flipCard2.flipped2 .cardFront2 {
     transform: rotateX(-180deg);
     cursor: pointer;
 }
 
-.flipCard2:hover .cardBack2 {
+.flipCard2.flipped2 .cardBack2 {
     transform: rotateX(0deg);
 }
+
 
 .cardFront2 {
     height: 100%;
@@ -173,13 +182,83 @@
     align-content: center;
 }
 
+.selector {
+
+    /* styling */
+    background-color: white;
+    border: thin solid rgba(var(--card-border-rgb), 0.15);
+    border-radius: var(--border-radius);
+    display: inline-block;
+    font: inherit;
+    line-height: 1em;
+    padding: 0.5em 3.5em 0.5em 1em;
+
+    /* reset */
+
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    background-image: linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+    background-position: calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 2.5em) 0.5em;
+    background-size: 5px 5px,
+    5px 5px,
+    1px 1.5em;
+    background-repeat: no-repeat;
+}
+
+
+/*
+
+select.minimal {
+    background-image: linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+    background-position: calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 2.5em) 0.5em;
+    background-size: 5px 5px,
+    5px 5px,
+    1px 1.5em;
+    background-repeat: no-repeat;
+}
+*/
+
+.selector:focus {
+    background-image: linear-gradient(45deg, green 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, green 50%),
+    linear-gradient(to right, #ccc, #ccc);
+    background-position: calc(100% - 15px) 1em,
+    calc(100% - 20px) 1em,
+    calc(100% - 2.5em) 0.5em;
+    background-size: 5px 5px,
+    5px 5px,
+    1px 1.5em;
+    background-repeat: no-repeat;
+    border-color: green;
+    outline: 0;
+}
+
+
+.selector:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+
 @media (max-width: 768px) {
 
     .flipCard2 {
-        width: 100px;
+        width: 150px;
     }
 
     .word_card {
-        width: 100px;
+        width: 150px;
     }
 }
