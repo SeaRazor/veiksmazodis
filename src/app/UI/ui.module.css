@@ -6,7 +6,9 @@
     font-family: var(--font-mono);
     padding: 0.5rem;
     align-content: center;
-    width: 200px;
+    text-align: center;
+    /*    width: 200px;*/
+    min-width: 200px;
     font-size: 1rem;
     position: relative;
 }
@@ -46,34 +48,13 @@
 
 }
 
-.flipCard {
-    -webkit-perspective: 800;
-    -ms-perspective: 800;
-    -moz-perspective: 800;
-    -o-perspective: 800;
-    border: 1px solid rgba(var(--card-border-rgb), 0.15);
-    transition: background 200ms, border 200ms;
-    border-radius: 5px;
-    background-color: #e9ecef;
-    font-family: var(--font-mono);
 
-    align-content: center;
-    min-width: 25%;
-    font-size: 1rem;
-    position: relative;
-    min-height: 45px;
-    /*  width: 400px;
-      height: 200px;*/
-    /* position: relative;
-     margin: 50px auto;*/
-}
-
-.card.flipped {
+/*.card.flipped {
     transform: rotatex(-180deg);
-    -ms-transform: rotatex(-180deg); /* IE 9 */
-    -moz-transform: rotatex(-180deg); /* Firefox */
-    -webkit-transform: rotatex(-180deg); /* Safari and Chrome */
-    -o-transform: rotatex(-180deg); /* Opera */
+    -ms-transform: rotatex(-180deg); !* IE 9 *!
+    -moz-transform: rotatex(-180deg); !* Firefox *!
+    -webkit-transform: rotatex(-180deg); !* Safari and Chrome *!
+    -o-transform: rotatex(-180deg); !* Opera *!
 }
 
 .card {
@@ -100,12 +81,12 @@
     position: absolute;
     box-sizing: border-box;
     z-index: 2;
-    backface-visibility: hidden; /* W3C */
-    -webkit-backface-visibility: hidden; /* Safari & Chrome */
-    -moz-backface-visibility: hidden; /* Firefox */
-    -ms-backface-visibility: hidden; /* Internet Explorer */
-    -o-backface-visibility: hidden; /* Opera */
-    /*  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);*/
+    backface-visibility: hidden; !* W3C *!
+    -webkit-backface-visibility: hidden; !* Safari & Chrome *!
+    -moz-backface-visibility: hidden; !* Firefox *!
+    -ms-backface-visibility: hidden; !* Internet Explorer *!
+    -o-backface-visibility: hidden; !* Opera *!
+    !*  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);*!
     overflow: auto;
 }
 
@@ -113,44 +94,54 @@
     background: #3da35d;
     color: white;
     transform: rotatex(-180deg);
-    -ms-transform: rotatex(-180deg); /* IE 9 */
-    -moz-transform: rotatex(-180deg); /* Firefox */
-    -webkit-transform: rotatex(-180deg); /* Safari and Chrome */
-    -o-transform: rotatex(-180deg); /* Opera */
-}
-
-.flipCard:hover {
-    border: 1px solid #3da35d;
-
-}
+    -ms-transform: rotatex(-180deg); !* IE 9 *!
+    -moz-transform: rotatex(-180deg); !* Firefox *!
+    -webkit-transform: rotatex(-180deg); !* Safari and Chrome *!
+    -o-transform: rotatex(-180deg); !* Opera *!
+}*/
 
 
 /* FlipCard 2*/
-.flipCard2 {
+.flipCard {
     width: 200px;
     transform-style: preserve-3d;
     perspective: 600px;
     transition: 0.5s;
 }
 
-.flipCard2:hover .cardFront2 {
+.flipCard:hover .cardFront {
     border: 1px solid #3da35d;
     border-radius: 5px;
     cursor: pointer;
+    position: relative;
 
 }
 
-.flipCard2.flipped2 .cardFront2 {
+.marked {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+}
+
+.flipCard .marked_correct {
+    border: 1px solid #058c42;
+}
+
+.flipCard .marked_incorrect {
+    border: 1px solid #ff5555;
+}
+
+.flipCard.flipped .cardFront {
     transform: rotateX(-180deg);
     cursor: pointer;
 }
 
-.flipCard2.flipped2 .cardBack2 {
+.flipCard.flipped .cardBack {
     transform: rotateX(0deg);
 }
 
 
-.cardFront2 {
+.cardFront {
     height: 100%;
     width: 100%;
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
@@ -164,7 +155,7 @@
     align-content: center;
 }
 
-.cardBack2 {
+.cardBack {
     height: 100%;
     width: 100%;
     position: absolute;
@@ -181,6 +172,7 @@
     min-height: 3rem;
     align-content: center;
 }
+
 
 .selector {
 
@@ -215,22 +207,6 @@
 }
 
 
-/*
-
-select.minimal {
-    background-image: linear-gradient(45deg, transparent 50%, gray 50%),
-    linear-gradient(135deg, gray 50%, transparent 50%),
-    linear-gradient(to right, #ccc, #ccc);
-    background-position: calc(100% - 20px) calc(1em + 2px),
-    calc(100% - 15px) calc(1em + 2px),
-    calc(100% - 2.5em) 0.5em;
-    background-size: 5px 5px,
-    5px 5px,
-    1px 1.5em;
-    background-repeat: no-repeat;
-}
-*/
-
 .selector:focus {
     background-image: linear-gradient(45deg, green 50%, transparent 50%),
     linear-gradient(135deg, transparent 50%, green 50%),
@@ -252,9 +228,106 @@ select.minimal {
     text-shadow: 0 0 0 #000;
 }
 
+/* Adding some text for labels */
+.label {
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.switch_field {
+    display: flex;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.switch_field input {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden;
+}
+
+.switch_field label {
+    background-color: #e4e4e4;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    text-align: center;
+    padding: 8px 8px;
+    margin-right: -1px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+    transition: all 0.1s ease-in-out;
+    align-content: center;
+}
+
+.switch_field label:hover {
+    cursor: pointer;
+}
+
+
+.switch_field input:checked + label {
+    background-color: slategray;
+    box-shadow: inset 1px 1px 1px #777;
+    transform: translateY(1px);
+    color: white;
+
+}
+
+.switch_field label:first-of-type {
+    border-radius: 4px 0 0 4px;
+}
+
+.switch_field label:last-of-type {
+    border-radius: 0 4px 4px 0;
+}
+
+.progress_wrapper {
+    display: flex;
+    flex-direction: row;
+    /*   border: 1px solid rgba(var(--card-border-rgb), 0.15);
+       border-radius: 5px;*/
+    align-items: stretch;
+    /*  background-color: #cce6f4;*/
+    flex: 2;
+    padding: 1rem;
+    width: 100%;
+}
+
+.progress_correct {
+    border-bottom: 2px solid teal;
+    color: teal;
+    text-align: center;
+    align-content: center;
+    padding: 0.1rem;
+    /*   border-top-left-radius: 5px;
+       border-bottom-left-radius: 5px;*/
+}
+
+.progress_incorrect {
+    border-bottom: 2px solid #e4405f;
+    color: #e4405f;
+    text-align: center;
+    align-content: center;
+    padding: 0.1rem;
+    /* border-top-right-radius: 5px;
+     border-bottom-right-radius: 5px;*/
+}
+
+.progress_total {
+    border-bottom: 2px solid #7392b7;
+    color: #7392b7;
+
+    text-align: center;
+    padding: 0.5rem;
+}
+
 @media (max-width: 768px) {
 
-    .flipCard2 {
+    .flipCard {
         width: 150px;
     }
 

@@ -12,3 +12,8 @@ export function getTopicWords(topic) {
     if (!topic) return [];
     return words[topic];
 }
+
+export function getRandomWord(words) {
+    const randomIndex = Math.floor(Math.random() * words.length);
+    return words[randomIndex];
+}

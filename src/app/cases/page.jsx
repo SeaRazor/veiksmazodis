@@ -11,7 +11,7 @@ import Toggle from "@/app/UI/Toggle";
 export default function Cases() {
 
     const [noun, setNoun] = useState();
-    const [mode, setMode] = useState();
+    const [mode, setMode] = useState("check");
 
     function handleUserMode(selectedMode) {
         setMode(selectedMode);
@@ -59,11 +59,12 @@ export default function Cases() {
                     <IconSearch size={20}/>
                     <span className={styles.hidden_on_mobile}>Найти</span>
                 </button>
-                <button onClick={handleGetNewNoun} title="Получить случайное слово" className={styles.red_button}>
+                <button onClick={handleGetNewNoun} title="Получить случайное слово" className={styles.secondary_button}>
                     <IconDice5Filled size={20}/>
                     <span className={styles.hidden_on_mobile}>Случайный</span>
                 </button>
-                {noun && <Toggle name1="Посмотреть" name2="Проверить" value1="check" value2="test" currentValue={mode}
+                {noun && <Toggle id="check" name1="Посмотреть" name2="Проверить" value1="check" value2="test"
+                                 currentValue={mode}
                                  onChangeHandler={handleUserMode}/>}
 
 

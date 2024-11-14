@@ -1,7 +1,7 @@
 "use client";
 import styles from "../../page.module.css";
 import WordCard from "@/app/UI/WordCard";
-import FlipCard2 from "@/app/UI/FlipCard2";
+import FlipCard from "@/app/UI/FlipCard";
 
 export default function VerbInfo({infinitive, present, past, translation}) {
 
@@ -11,7 +11,7 @@ export default function VerbInfo({infinitive, present, past, translation}) {
             <div className={styles.word_info}>
 
 
-                <FlipCard2 front={infinitive} back={translation}/>
+                <FlipCard front={infinitive} back={translation}/>
                 <WordCard word={present}/>
                 <WordCard word={past}/>
 

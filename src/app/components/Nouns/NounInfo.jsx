@@ -1,5 +1,5 @@
 import styles from "@/app/page.module.css";
-import FlipCard2 from "@/app/UI/FlipCard2";
+import FlipCard from "@/app/UI/FlipCard";
 
 export default function NounInfo({noun, translation}) {
 
@@ -8,7 +8,7 @@ export default function NounInfo({noun, translation}) {
     return (
         <>
             <div className={styles.word_info}>
-                <FlipCard2 front={noun} back={translation}/>
+                <FlipCard front={noun} back={translation}/>
 
             </div>
 

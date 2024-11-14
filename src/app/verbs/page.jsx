@@ -11,7 +11,7 @@ import Toggle from "@/app/UI/Toggle";
 export default function VerbsTrainer(props) {
 
     const [verb, setVerb] = useState();
-    const [mode, setMode] = useState();
+    const [mode, setMode] = useState("check");
 
     function handleGetNewVerb() {
         setVerb(getRandomVerb());
@@ -60,11 +60,12 @@ export default function VerbsTrainer(props) {
                 <IconSearch size={20}/>
                 <span className={styles.hidden_on_mobile}>Найти</span>
             </button>
-            <button onClick={handleGetNewVerb} title="Получить случайный глагол" className={styles.red_button}>
+            <button onClick={handleGetNewVerb} title="Получить случайный глагол" className={styles.secondary_button}>
                 <IconDice5Filled size={20}/>
                 <span className={styles.hidden_on_mobile}>Случайный</span>
             </button>
-            {verb && <Toggle name1="Посмотреть" name2="Проверить" value1="check" value2="test" currentValue={mode}
+            {verb && <Toggle id="mode_toggle" name1="Посмотреть" name2="Проверить" value1="check" value2="test"
+                             currentValue={mode}
                              onChangeHandler={handleUserMode}/>}
 
         </div>

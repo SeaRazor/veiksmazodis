@@ -5,6 +5,8 @@ export default function InputField({label, correct_value, isCheck, id}) {
     const [inputValue, setInputValue] = useState('');
     const [checkInputClassName, setCheckInputClassName] = useState('');
 
+    const inputClassName = isCheck ? "check_value" : "input_input";
+
 
     function handleInputChange(event) {
         if (event.target.value === "") {
@@ -27,14 +29,18 @@ export default function InputField({label, correct_value, isCheck, id}) {
 
     return (
         <div className={styles.input_field}>
-            <label htmlFor={id} style={{width: '30%'}}>{label}</label>
+            <label htmlFor={id} className={styles.input_label}>{label}</label>
+            <input type="text" id={id} name={id} value={isCheck ? correct_value : inputValue}
+                   onChange={handleInputChange}
+                   onBlur={handleInputLeave} readOnly={isCheck}
+                   className={`${styles[inputClassName]} ${isCheck ? '' : styles[checkInputClassName]}`}/>
 
-            {isCheck
+            {/* {isCheck
                 ? <span className={styles.check_value}>{correct_value}</span>
                 : <input type="text" id={id} name={id} value={inputValue} onChange={handleInputChange}
-                         onBlur={handleInputLeave}
-                         className={styles[checkInputClassName]}/>
-            }
+                         onBlur={handleInputLeave} readOnly={isCheck}
+                         className={`${styles.input_input} ${styles[checkInputClassName]}`}/>
+            }*/}
 
         </div>
 
