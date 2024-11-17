@@ -40,6 +40,7 @@
     --callout-border-rgb: 172, 175, 176;
 
     color-scheme: light dark;
+    --app-back-color: white;
 
     --default-button-color: #7392b7;
     --default-button-hover-color: #7785ac;
@@ -53,14 +54,38 @@
     --nav-backgtound-color: #e9ecef;
     --nav-menu-item-color: dimgray;
     --hamburger-back-color: white;
+    --card-back-color : #e9ecef;
+    --card-border-color : #3da35d;
+    --card-text-color: black;
+    --card-front-back-color : #e9ecef;
+    --card-front-text-color: black;
+    --card-back-back-color: #3da35d;
+    --card-back-text-color: white;
+    --selector-back-color : white;
+    --selector-focus-color: green;
+    --switch-back-color: #e4e4e4;
+    --switch-text-color: rgba(0, 0, 0, 0.6);
+    --switch-border-color: rgba(0, 0, 0, 0.2);
+    --switch-box-shadow-color-1: rgba(0, 0, 0, 0.3);
+    --switch-box-shadow-color-2: rgba(255, 255, 255, 0.1);
+    --switch-checked-label-back-color: slategray;
+    --switch-checked-label-box-shadow-color: #777;
+    --switch-checked-label-text-color: white;
+    --progress-correct-color: teal;
+    --progress-incorrect-color: #e4405f;
+    --progress-total-color : #7392b7;
 
 }
+
+
+
+
 
 @media (prefers-color-scheme: dark) {
     :root {
         --foreground-rgb: 255, 255, 255;
-        --background-start-rgb: 0, 0, 0;
-        --background-end-rgb: 0, 0, 0;
+        --background-start-rgb: 124, 124, 124;
+        --background-end-rgb: 124, 124, 124;
 
         --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
         --secondary-glow: linear-gradient(
@@ -86,6 +111,9 @@
         --callout-border-rgb: 108, 108, 108;
         --card-rgb: 100, 100, 100;
         --card-border-rgb: 200, 200, 200;
+        --selector-back-color: slategray;
+        --selector-focus-color: white;
+        --app-back-color: #101d42;
     }
 }
 
@@ -98,6 +126,7 @@
 html,
 body {
     max-width: 100vw;
+    background-color: var(--app-back-color);
 
 
     /*    overflow-x: hidden;*/
@@ -144,11 +173,9 @@ dialog::backdrop {
     background: rgba(0, 0, 0, 0.4);
 }
 
-@media (prefers-color-scheme: dark) {
-    html {
-        color-scheme: light;
-    }
-}
+/*@media (prefers-color-scheme: dark) {
+   --selector-back-color: blue;
+}*/
 
 /*
 @media screen and (max-width: 600px) {

@@ -5,7 +5,7 @@ export default function WordCard({word, hint}) {
     return (
         <div className={styles.word_card}>
             <span>{word}</span>
-            {hint && <span className={styles.tooltip}>{hint}</span>}
+           {/* {hint && <span className={styles.tooltip}>{hint}</span>}*/}
         </div>
     );
 }

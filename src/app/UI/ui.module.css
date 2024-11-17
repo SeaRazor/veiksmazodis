@@ -2,7 +2,8 @@
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
     transition: background 200ms, border 200ms;
     border-radius: 5px;
-    background-color: #e9ecef;
+    background-color: var(--card-back-color);
+    color: var(--card-text-color);
     font-family: var(--font-mono);
     padding: 0.5rem;
     align-content: center;
@@ -19,34 +20,34 @@
     opacity: 1; /* Fully visible */
 }
 
-.tooltip {
-    visibility: hidden; /* Hidden by default */
-    width: 120px; /* Tooltip width */
-    background-color: black; /* Background color */
-    color: #fff; /* Text color */
+/*.tooltip {
+    visibility: hidden; !* Hidden by default *!
+    width: 120px; !* Tooltip width *!
+    background-color: black; !* Background color *!
+    color: #fff; !* Text color *!
     text-align: center;
-    border-radius: 5px; /* Rounded corners */
+    border-radius: 5px; !* Rounded corners *!
     padding: 5px 0;
-    position: absolute; /* Position it relative to the tooltip container */
+    position: absolute; !* Position it relative to the tooltip container *!
     z-index: 1;
-    bottom: -75%; /* Position it above the text */
+    bottom: -75%; !* Position it above the text *!
     left: 30%;
-    /* Centers the tooltip */
-    opacity: 0; /* Fully transparent by default */
-    transition: opacity 0.3s; /* Fade-in effect */
+    !* Centers the tooltip *!
+    opacity: 0; !* Fully transparent by default *!
+    transition: opacity 0.3s; !* Fade-in effect *!
 }
 
 .tooltip::after {
     content: '';
     position: absolute;
-    bottom: 100%; /* At the top of the tooltip */
+    bottom: 100%; !* At the top of the tooltip *!
     left: 50%;
     margin-left: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent transparent black transparent; /* Arrow pointing up */
+    border-color: transparent transparent black transparent; !* Arrow pointing up *!
 
-}
+}*/
 
 
 /*.card.flipped {
@@ -110,7 +111,7 @@
 }
 
 .flipCard:hover .cardFront {
-    border: 1px solid #3da35d;
+    border: 1px solid var(--card-border-color);
     border-radius: 5px;
     cursor: pointer;
     position: relative;
@@ -123,13 +124,13 @@
     top: -10px;
 }
 
-.flipCard .marked_correct {
+/*.flipCard .marked_correct {
     border: 1px solid #058c42;
 }
 
 .flipCard .marked_incorrect {
     border: 1px solid #ff5555;
-}
+}*/
 
 .flipCard.flipped .cardFront {
     transform: rotateX(-180deg);
@@ -147,7 +148,8 @@
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
     /*transition: background 200ms, border 200ms;*/
     border-radius: 5px;
-    background-color: #e9ecef;
+    background-color: var(--card-front-back-color);
+    color : var(--card-front-text-color);
     backface-visibility: hidden;
     transform: rotateX(0deg);
     transition: 0.5s;
@@ -163,11 +165,11 @@
     left: 0;
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
     border-radius: 5px;
-    background: #3da35d;
+    background-color: var(--card-back-back-color);
     backface-visibility: hidden;
     transform: rotateX(180deg);
     transition: 0.5s;
-    color: #ffffff;
+    color: var(--card-back-text-color);
     text-align: center;
     min-height: 3rem;
     align-content: center;
@@ -177,7 +179,7 @@
 .selector {
 
     /* styling */
-    background-color: white;
+    background-color: var(--selector-back-color);
     border: thin solid rgba(var(--card-border-rgb), 0.15);
     border-radius: var(--border-radius);
     display: inline-block;
@@ -208,8 +210,8 @@
 
 
 .selector:focus {
-    background-image: linear-gradient(45deg, green 50%, transparent 50%),
-    linear-gradient(135deg, transparent 50%, green 50%),
+    background-image: linear-gradient(45deg, var(--selector-focus-color) 50%, transparent 50%),
+    linear-gradient(135deg, transparent 50%, var(--selector-focus-color) 50%),
     linear-gradient(to right, #ccc, #ccc);
     background-position: calc(100% - 15px) 1em,
     calc(100% - 20px) 1em,
@@ -218,7 +220,7 @@
     5px 5px,
     1px 1.5em;
     background-repeat: no-repeat;
-    border-color: green;
+    border-color: var(--selector-focus-color);
     outline: 0;
 }
 
@@ -252,14 +254,14 @@
 }
 
 .switch_field label {
-    background-color: #e4e4e4;
-    color: rgba(0, 0, 0, 0.6);
+    background-color: var(--switch-back-color);
+    color: var(--switch-text-color);
     font-size: 14px;
     text-align: center;
     padding: 8px 8px;
     margin-right: -1px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--switch-border-color);
+    box-shadow: inset 0 1px 3px var(--switch-box-shadow-color-1), 0 1px var(--switch-box-shadow-color-2);
     transition: all 0.1s ease-in-out;
     align-content: center;
 }
@@ -270,10 +272,10 @@
 
 
 .switch_field input:checked + label {
-    background-color: slategray;
-    box-shadow: inset 1px 1px 1px #777;
+    background-color: var(--switch-checked-label-back-color);
+    box-shadow: inset 1px 1px 1px var(--switch-checked-label-box-shadow-color);
     transform: translateY(1px);
-    color: white;
+    color: var(--switch-checked-label-text-color);
 
 }
 
@@ -298,8 +300,8 @@
 }
 
 .progress_correct {
-    border-bottom: 2px solid teal;
-    color: teal;
+    border-bottom: 2px solid var(--progress-correct-color);
+    color: var(--progress-correct-color);
     text-align: center;
     align-content: center;
     padding: 0.1rem;
@@ -308,8 +310,8 @@
 }
 
 .progress_incorrect {
-    border-bottom: 2px solid #e4405f;
-    color: #e4405f;
+    border-bottom: 2px solid var(--progress-incorrect-color);
+    color: var(--progress-incorrect-color);
     text-align: center;
     align-content: center;
     padding: 0.1rem;
@@ -318,8 +320,8 @@
 }
 
 .progress_total {
-    border-bottom: 2px solid #7392b7;
-    color: #7392b7;
+    border-bottom: 2px solid var(--progress-total-color);
+    color: var(--progress-total-color);
 
     text-align: center;
     padding: 0.5rem;
