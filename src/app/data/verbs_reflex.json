@@ -1,0 +1,716 @@
+[
+  {
+    "infinitive": "atsibusti",
+    "present": "atsibunda",
+    "past": "atsibudo",
+    "translation": "просыпаться"
+  },
+  {
+    "infinitive": "praustis",
+    "present": "prausiasi",
+    "past": "prausėsi",
+    "translation": "умываться"
+  },
+  {
+    "infinitive": "rengtis",
+    "present": "rengiasi",
+    "past": "rengėsi",
+    "translation": "одеваться"
+  },
+  {
+    "infinitive": "skustis",
+    "present": "skundžiasi",
+    "past": "skundėsi",
+    "translation": "жаловаться"
+  },
+  {
+    "infinitive": "mylėtis",
+    "present": "mylisi",
+    "past": "myėjosi",
+    "translation": "заниматься любовью"
+  },
+  {
+    "infinitive": "juoktis",
+    "present": "juokiasi",
+    "past": "juokėsi",
+    "translation": "смеяться"
+  },
+  {
+    "infinitive": "džiaugtis",
+    "present": "džiaugiasi",
+    "past": "džiaugėsi",
+    "translation": "радоваться"
+  },
+  {
+    "infinitive": "bijoti",
+    "present": "bijo",
+    "past": "bijojo",
+    "translation": "бояться"
+  },
+  {
+    "infinitive": "stengtis",
+    "present": "stengiasi",
+    "past": "stengėsi",
+    "translation": "стараться"
+  },
+  {
+    "infinitive": "ilsėtis",
+    "present": "ilsisi",
+    "past": "ilsėjosi",
+    "translation": "отдыхать"
+  },
+  {
+    "infinitive": "mokytis",
+    "present": "mokosi",
+    "past": "mokėsi",
+    "translation": "учиться"
+  },
+  {
+    "infinitive": "pasitikėti",
+    "present": "pasitiki",
+    "past": "pasitikėjo",
+    "translation": "доверять"
+  },
+  {
+    "infinitive": "pyktis",
+    "present": "pykstasi",
+    "past": "pykosi",
+    "translation": "ссориться"
+  },
+  {
+    "infinitive": "sukti",
+    "present": "sukasi",
+    "past": "sukosi",
+    "translation": "крутиться"
+  },
+  {
+    "infinitive": "verkti",
+    "present": "verkiasi",
+    "past": "verkėsi",
+    "translation": "плакаться"
+  },
+  {
+    "infinitive": "muštis",
+    "present": "mušasi",
+    "past": "mušėsi",
+    "translation": "драться"
+  },
+  {
+    "infinitive": "gėdytis",
+    "present": "gėdijasi",
+    "past": "gėdijosi",
+    "translation": "стыдиться"
+  },
+  {
+    "infinitive": "atsisakyti",
+    "present": "atsisako",
+    "past": "atsisakė",
+    "translation": "отказываться"
+  },
+  {
+    "infinitive": "suprasti",
+    "present": "supranta",
+    "past": "suprato",
+    "translation": "понимать"
+  },
+  {
+    "infinitive": "šypsotis",
+    "present": "šypsosi",
+    "past": "šypsojosi",
+    "translation": "улыбаться"
+  },
+  {
+    "infinitive": "bartis",
+    "present": "barsi",
+    "past": "barėsi",
+    "translation": "ругаться"
+  },
+  {
+    "infinitive": "puoštis",
+    "present": "puošiasi",
+    "past": "puošėsi",
+    "translation": "наряжаться"
+  },
+  {
+    "infinitive": "dvejoti",
+    "present": "dvejoja",
+    "past": "dvejojo",
+    "translation": "сомневаться"
+  },
+  {
+    "infinitive": "slėptis",
+    "present": "slepi",
+    "past": "slėpėsi",
+    "translation": "прятаться"
+  },
+  {
+    "infinitive": "gyventi",
+    "present": "gyvena",
+    "past": "gyveno",
+    "translation": "жить"
+  },
+  {
+    "infinitive": "pasiruošti",
+    "present": "pasiruošia",
+    "past": "pasiruošė",
+    "translation": "готовиться"
+  },
+  {
+    "infinitive": "gailėtis",
+    "present": "gailisi",
+    "past": "gailėjosi",
+    "translation": "сожалеть"
+  },
+  {
+    "infinitive": "atsikratyti",
+    "present": "atsikrato",
+    "past": "atsikratė",
+    "translation": "избавляться"
+  },
+  {
+    "infinitive": "ginti",
+    "present": "ginasi",
+    "past": "gynėsi",
+    "translation": "защищаться"
+  },
+  {
+    "infinitive": "prisiminti",
+    "present": "prisimena",
+    "past": "prisiminė",
+    "translation": "вспоминать"
+  },
+  {
+    "infinitive": "sutarti",
+    "present": "sutaria",
+    "past": "sutarė",
+    "translation": "договариваться"
+  },
+  {
+    "infinitive": "dėtis",
+    "present": "dedasi",
+    "past": "dėjosi",
+    "translation": "происходить"
+  },
+  {
+    "infinitive": "keltis",
+    "present": "keliasi",
+    "past": "kėlėsi",
+    "translation": "подниматься"
+  },
+  {
+    "infinitive": "jungtis",
+    "present": "jungiasi",
+    "past": "jungėsi",
+    "translation": "соединяться"
+  },
+  {
+    "infinitive": "prašytis",
+    "present": "prašo",
+    "past": "prašėsi",
+    "translation": "проситься"
+  },
+  {
+    "infinitive": "mokytis",
+    "present": "mokosi",
+    "past": "mokėsi",
+    "translation": "учиться"
+  },
+  {
+    "infinitive": "slinktis",
+    "present": "slenkasi",
+    "past": "slinkosi",
+    "translation": "скользить"
+  },
+  {
+    "infinitive": "artintis",
+    "present": "artinasi",
+    "past": "artėjosi",
+    "translation": "приближаться"
+  },
+  {
+    "infinitive": "pradėti",
+    "present": "pradeda",
+    "past": "pradėjo",
+    "translation": "начинаться"
+  },
+  {
+    "infinitive": "atsisėsti",
+    "present": "atsisėda",
+    "past": "atsisėdo",
+    "translation": "садиться"
+  },
+  {
+    "infinitive": "žaisti",
+    "present": "žaidžia",
+    "past": "žaidė",
+    "translation": "играться"
+  },
+  {
+    "infinitive": "valytis",
+    "present": "valosi",
+    "past": "valėsi",
+    "translation": "чиститься"
+  },
+  {
+    "infinitive": "peržvelgti",
+    "present": "peržvelgia",
+    "past": "peržvelgė",
+    "translation": "обозреваться"
+  },
+  {
+    "infinitive": "kauptis",
+    "present": "kaupiasi",
+    "past": "kauptėsi",
+    "translation": "накапливаться"
+  },
+  {
+    "infinitive": "spręstis",
+    "present": "sprendžiasi",
+    "past": "sprendėsi",
+    "translation": "решаться"
+  },
+  {
+    "infinitive": "bėgti",
+    "present": "bėgasi",
+    "past": "bėgėsi",
+    "translation": "убегаться"
+  },
+  {
+    "infinitive": "rūpintis",
+    "present": "rūpinasi",
+    "past": "rūpinosi",
+    "translation": "заботиться"
+  },
+  {
+    "infinitive": "naudotis",
+    "present": "naudojasi",
+    "past": "naudojosi",
+    "translation": "пользоваться"
+  },
+  {
+    "infinitive": "pradėtis",
+    "present": "pradeda",
+    "past": "pradėjo",
+    "translation": "стартовать"
+  },
+  {
+    "infinitive": "užsigalvoti",
+    "present": "užsigalvoja",
+    "past": "užsigalvojo",
+    "translation": "задуматься"
+  },
+  {
+    "infinitive": "suprastėti",
+    "present": "suprastėja",
+    "past": "suprastėjo",
+    "translation": "пониматься"
+  },
+  {
+    "infinitive": "apgauti",
+    "present": "apgaunasi",
+    "past": "apgavo",
+    "translation": "обмануть себя"
+  },
+  {
+    "infinitive": "prisiminti",
+    "present": "prisimena",
+    "past": "prisiminė",
+    "translation": "помнить"
+  },
+  {
+    "infinitive": "suprastėti",
+    "present": "suprastėja",
+    "past": "suprastėjo",
+    "translation": "пониматься"
+  },
+  {
+    "infinitive": "apsilankyti",
+    "present": "apsilanko",
+    "past": "apsilankė",
+    "translation": "осматривать"
+  },
+  {
+    "infinitive": "šildytis",
+    "present": "šildosi",
+    "past": "šildėsi",
+    "translation": "обогреваться"
+  },
+  {
+    "infinitive": "atsikėlti",
+    "present": "atsikelia",
+    "past": "atsikėlė",
+    "translation": "вставать"
+  },
+  {
+    "infinitive": "ruoštis",
+    "present": "ruošiasi",
+    "past": "ruošėsi",
+    "translation": "готовиться"
+  },
+  {
+    "infinitive": "tvarkytis",
+    "present": "tvarkosi",
+    "past": "tvarkėsi",
+    "translation": "прибираться"
+  },
+  {
+    "infinitive": "sirišti",
+    "present": "sirišasi",
+    "past": "susirišo",
+    "translation": "увязаться"
+  },
+  {
+    "infinitive": "atsiprašyti",
+    "present": "atsiprašo",
+    "past": "atsiprašė",
+    "translation": "извиняться"
+  },
+  {
+    "infinitive": "prašytis",
+    "present": "prašo",
+    "past": "prašėsi",
+    "translation": "проситься"
+  },
+  {
+    "infinitive": "grįžtis",
+    "present": "grįžtasi",
+    "past": "grįžosi",
+    "translation": "возвращаться"
+  },
+  {
+    "infinitive": "skubėtis",
+    "present": "skuba",
+    "past": "skubėjosi",
+    "translation": "торопиться"
+  },
+  {
+    "infinitive": "pasisveikinti",
+    "present": "pasisveikina",
+    "past": "pasisveikino",
+    "translation": "поздороваться"
+  },
+  {
+    "infinitive": "atsisveikinti",
+    "present": "atsisveikina",
+    "past": "atsisveikino",
+    "translation": "прощаться"
+  },
+  {
+    "infinitive": "pabusti",
+    "present": "pabunda",
+    "past": "pabudo",
+    "translation": "просыпаться"
+  },
+  {
+    "infinitive": "nustebti",
+    "present": "nustemba",
+    "past": "nustebo",
+    "translation": "удивляться"
+  },
+  {
+    "infinitive": "paslėpti",
+    "present": "paslepiasi",
+    "past": "paslėpėsi",
+    "translation": "спрятаться"
+  },
+  {
+    "infinitive": "dėkoti",
+    "present": "dėkoja",
+    "past": "dėkojo",
+    "translation": "благодарить"
+  },
+  {
+    "infinitive": "atostogauti",
+    "present": "atostogauja",
+    "past": "atostogavo",
+    "translation": "быть в отпуске"
+  },
+  {
+    "infinitive": "susitarti",
+    "present": "susitaria",
+    "past": "susitarė",
+    "translation": "договариваться"
+  },
+  {
+    "infinitive": "susimąstyti",
+    "present": "susimąsto",
+    "past": "susimąstė",
+    "translation": "задуматься"
+  },
+  {
+    "infinitive": "apsiprasti",
+    "present": "apsipranta",
+    "past": "apsiprato",
+    "translation": "привыкать"
+  },
+  {
+    "infinitive": "susirgti",
+    "present": "suserga",
+    "past": "susirgo",
+    "translation": "заболеть"
+  },
+  {
+    "infinitive": "susitikti",
+    "present": "susitinka",
+    "past": "susitiko",
+    "translation": "встречаться"
+  },
+  {
+    "infinitive": "išsigąsti",
+    "present": "išsigąsta",
+    "past": "išsigando",
+    "translation": "испугаться"
+  },
+  {
+    "infinitive": "susipažinti",
+    "present": "susipažįsta",
+    "past": "susipažino",
+    "translation": "знакомиться"
+  },
+  {
+    "infinitive": "apsistoti",
+    "present": "apsistoja",
+    "past": "apsistojo",
+    "translation": "остановиться (где-либо)"
+  },
+  {
+    "infinitive": "nusiraminti",
+    "present": "nusiramina",
+    "past": "nusiramino",
+    "translation": "успокоиться"
+  },
+  {
+    "infinitive": "suvokti",
+    "present": "suvokia",
+    "past": "suvokė",
+    "translation": "осознать"
+  },
+  {
+    "infinitive": "užmigti",
+    "present": "užmiega",
+    "past": "užmigo",
+    "translation": "заснуть"
+  },
+  {
+    "infinitive": "apsivilkti",
+    "present": "apsivelka",
+    "past": "apsivilko",
+    "translation": "надеваться"
+  },
+  {
+    "infinitive": "atsigerti",
+    "present": "atsigeria",
+    "past": "atsigėrė",
+    "translation": "напиться"
+  },
+  {
+    "infinitive": "pabėgti",
+    "present": "pabėga",
+    "past": "pabėgo",
+    "translation": "убежать"
+  },
+  {
+    "infinitive": "atsistoti",
+    "present": "atsistoja",
+    "past": "atsistojo",
+    "translation": "вставать"
+  },
+  {
+    "infinitive": "išsiaiškinti",
+    "present": "išsiaiškina",
+    "past": "išsiaiškino",
+    "translation": "выяснить"
+  },
+  {
+    "infinitive": "pasikeisti",
+    "present": "pasikeičia",
+    "past": "pasikeitė",
+    "translation": "изменяться"
+  },
+  {
+    "infinitive": "susivokti",
+    "present": "susivokia",
+    "past": "susivokė",
+    "translation": "осознавать"
+  },
+  {
+    "infinitive": "apsigalvoti",
+    "present": "apsigalvoja",
+    "past": "apsigalvojo",
+    "translation": "передумать"
+  },
+  {
+    "infinitive": "pasiguosti",
+    "present": "pasiguodžia",
+    "past": "pasiguodė",
+    "translation": "утешиться"
+  },
+  {
+    "infinitive": "pasitikėti",
+    "present": "pasitiki",
+    "past": "pasitikėjo",
+    "translation": "доверяться"
+  },
+  {
+    "infinitive": "išsidraskyti",
+    "present": "išsidrasko",
+    "past": "išsidraskė",
+    "translation": "разорваться"
+  },
+  {
+    "infinitive": "apsižiūrėti",
+    "present": "apsižiūri",
+    "past": "apsižiūrėjo",
+    "translation": "оглядеться"
+  },
+  {
+    "infinitive": "prisitaikyti",
+    "present": "prisitaiko",
+    "past": "prisitaikė",
+    "translation": "адаптироваться"
+  },
+  {
+    "infinitive": "apsitarti",
+    "present": "apsitaria",
+    "past": "apsitarė",
+    "translation": "обсудить"
+  },
+  {
+    "infinitive": "išsivalyti",
+    "present": "išsivalo",
+    "past": "išsivalė",
+    "translation": "вычиститься"
+  },
+  {
+    "infinitive": "apsišviesti",
+    "present": "apsišviečia",
+    "past": "apsišvietė",
+    "translation": "осветиться"
+  },
+  {
+    "infinitive": "prisiglausti",
+    "present": "prisiglaudžia",
+    "past": "prisiglaudė",
+    "translation": "прижаться"
+  },
+  {
+    "infinitive": "išsigelbėti",
+    "present": "išsigelbsti",
+    "past": "išsigelbėjo",
+    "translation": "спастись"
+  },
+  {
+    "infinitive": "susipainioti",
+    "present": "susipainioja",
+    "past": "susipainiojo",
+    "translation": "запутаться"
+  },
+  {
+    "infinitive": "užsisklęsti",
+    "present": "užsisklendžia",
+    "past": "užsisklendė",
+    "translation": "замкнуться"
+  },
+  {
+    "infinitive": "atsipalaiduoti",
+    "present": "atsipalaiduoja",
+    "past": "atsipalaidavo",
+    "translation": "расслабиться"
+  },
+  {
+    "infinitive": "susirinkti",
+    "present": "susirenka",
+    "past": "susirinko",
+    "translation": "собраться"
+  },
+  {
+    "infinitive": "užsidirbti",
+    "present": "užsidirba",
+    "past": "užsidirbo",
+    "translation": "заработаться"
+  },
+  {
+    "infinitive": "išsitepti",
+    "present": "ištepa",
+    "past": "ištepė",
+    "translation": "испачкаться"
+  },
+  {
+    "infinitive": "prisivalgyti",
+    "present": "prisivalgo",
+    "past": "prisivalgė",
+    "translation": "наесться"
+  },
+  {
+    "infinitive": "susikalbėti",
+    "present": "susikalba",
+    "past": "susikalbėjo",
+    "translation": "договориться (о чем-либо)"
+  },
+  {
+    "infinitive": "susisiekti",
+    "present": "susisiekia",
+    "past": "susisiekė",
+    "translation": "связаться (с кем-либо)"
+  },
+  {
+    "infinitive": "prisijungti",
+    "present": "prisijungia",
+    "past": "prisijungė",
+    "translation": "присоединиться"
+  },
+  {
+    "infinitive": "užsiregistruoti",
+    "present": "užsiregistruoja",
+    "past": "užsiregistravo",
+    "translation": "зарегистрироваться"
+  },
+  {
+    "infinitive": "pasidalinti",
+    "present": "pasidalina",
+    "past": "pasidalino",
+    "translation": "поделиться"
+  },
+  {
+    "infinitive": "susivienyti",
+    "present": "susivienija",
+    "past": "susivienijo",
+    "translation": "объединиться"
+  },
+  {
+    "infinitive": "įsitikinti",
+    "present": "įsitikina",
+    "past": "įsitikino",
+    "translation": "убедиться"
+  },
+  {
+    "infinitive": "susidurti",
+    "present": "susiduria",
+    "past": "susidūrė",
+    "translation": "столкнуться"
+  },
+  {
+    "infinitive": "atsibusti",
+    "present": "atsibunda",
+    "past": "atsibudo",
+    "translation": "проснуться"
+  },
+  {
+    "infinitive": "susikaupti",
+    "present": "susikaupia",
+    "past": "susikaupė",
+    "translation": "сосредоточиться"
+  },
+  {
+    "infinitive": "atsisakyti",
+    "present": "atsisako",
+    "past": "atsisakė",
+    "translation": "отказаться"
+  },
+  {
+    "infinitive": "užsimiršti",
+    "present": "užsimiršta",
+    "past": "užsimiršo",
+    "translation": "забыться"
+  }
+]

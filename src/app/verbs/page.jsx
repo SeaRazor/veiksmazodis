@@ -6,12 +6,13 @@ import VerbInfo from "@/app/components/Verbs/VerbInfo";
 import VerbFormsGrid from "@/app/components/Verbs/VerbFormsGrid";
 import styles from "@/app/page.module.css";
 import {IconDice5Filled, IconSearch} from "@tabler/icons-react";
-import Toggle from "@/app/UI/Toggle";
+import {ModeSwitcher} from "@/app/UI/ModeSwitcher";
 
 export default function VerbsTrainer(props) {
 
     const [verb, setVerb] = useState();
     const [mode, setMode] = useState("check");
+
 
     function handleGetNewVerb() {
         setVerb(getRandomVerb());
@@ -50,6 +51,10 @@ export default function VerbsTrainer(props) {
 
         <div className={styles.input_flow}>
 
+            {/*   <Toggle id="mode_toggle" name1="Прямые" name2="Возвратные" value1="direct" value2="back"
+                    currentValue="direct"
+            />*/}
+
             <input className={styles.search_input} type="text"
                    id="searchInput"
                    placeholder="Введите инфинитив на литовском или перевод на русский"
@@ -64,20 +69,16 @@ export default function VerbsTrainer(props) {
                 <IconDice5Filled size={20}/>
                 <span className={styles.hidden_on_mobile}>Случайный</span>
             </button>
-            {verb && <Toggle id="mode_toggle" name1="Посмотреть" name2="Проверить" value1="check" value2="test"
+            {/*{verb && <Toggle id="mode_toggle" name1="Посмотреть" name2="Проверить" value1="check" value2="test"
                              currentValue={mode}
-                             onChangeHandler={handleUserMode}/>}
+                             onChangeHandler={handleUserMode}/>}*/}
 
         </div>
-
-
-        <VerbInfo  {...verb}/>
-
-
-        {(mode && verb) && <VerbFormsGrid
-            verb_forms={verb}
-            mode={mode}
-        />
+        {verb && <VerbInfo  {...verb}/>}
+        {verb && <div className={styles.tab_container}>
+            <ModeSwitcher current={mode} onModeSwitch={handleUserMode}/>
+            {mode && <VerbFormsGrid verb_forms={verb} mode={mode}/>}
+        </div>
         }
     </>;
 }

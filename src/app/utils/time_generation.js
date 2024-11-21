@@ -1,6 +1,5 @@
 export function generateFutureTime(infinitive) {
     const root = infinitive.slice(0, -2);
-    const root_last = root.slice(-1);
     const first_singular = composeTimeVerb(root, 'siu');
     const second_singular = composeTimeVerb(root, 'si');
     const third_singular = composeTimeVerb(root, 's');

@@ -15,7 +15,7 @@ export default function NounCaseItem({
     return (
         <div className={styles.card}>
             <h4 style={{textAlign: "center"}}>{number === "single" ? "Единственное число" : "Множественное число"}</h4>
-            <div className={styles.column_flow}>
+            <div className={styles.cards_grid}>
                 <InputField key={"nominative_" + number} label="Именительный" correct_value={nominative}
                             isCheck={mode === 'check'}/>
                 <InputField key={"genitive_" + number} label="Родительный" correct_value={genitive}

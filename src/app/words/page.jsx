@@ -7,6 +7,7 @@ import Toggle from "@/app/UI/Toggle";
 import {Selector} from "@/app/UI/Selector";
 import {DisplayTopicWords} from "@/app/components/Words/DisplayTopicWords";
 import {TestTopicWords} from "@/app/components/Words/TestTopicWords";
+import {ModeSwitcher} from "@/app/UI/ModeSwitcher";
 
 export default function Words() {
 
@@ -26,7 +27,7 @@ export default function Words() {
             setSelectedTopic(topic);
         }
 
-        setDirection("forward");
+        /*setDirection("forward");*/
 
     }
 
@@ -54,25 +55,14 @@ export default function Words() {
 
                     <Selector options={topics} optionSelectedFunction={handleTopicSelection}/>
 
-                    <Toggle id="mode_toggle" name1="Посмотреть" value1="check" name2="Проверить" value2="test"
-
-                            onChangeHandler={handleModeChange}/>
-
 
                 </div>
-                {selectedTopic && <>
+                {selectedTopic && <div className={commonStyles.tab_container}>
+                    <ModeSwitcher current={mode} onModeSwitch={handleModeChange}/>
                     {mode === 'check' ? <DisplayTopicWords selectedTopic={selectedTopic} direction={direction}/>
                         : <TestTopicWords selectedTopic={selectedTopic} direction={direction}/>}
-                </>}
-                {/*  <div className={styles.words_container}>
-                    {selectedTopic && shuffle(filteredWords).map((word, index) => <FlipCard2
-                        key={word.word + index}
-                        front={word.word}
-                        back={word.translation}
-                        direction={direction}/>
-                    )}
+                </div>}
 
-                </div>*/}
             </div>
 
         </div>

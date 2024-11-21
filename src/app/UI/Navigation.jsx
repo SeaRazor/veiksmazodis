@@ -14,7 +14,6 @@ export default function Navigation() {
         setHamburgerOpenState(prevState => !prevState);
     }
 
-    const imgStyle = hamburgerIsOpen ? "{cursor:pointer;}" : "";
 
     return (<header>
         <nav className={styles.nav}>

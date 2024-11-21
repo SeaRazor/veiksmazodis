@@ -113,15 +113,16 @@ export function TestTopicWords({selectedTopic, direction}) {
                 <input className={`${commonStyles.search_input} ${commonStyles[checkInputClassName]}`} type="text"
                        id="testString" ref={inputRef}
                        onKeyUp={handleTestInput}
+                       placeholder="Перевод"
 
                 />
 
 
-                <button onClick={handleCheckButtonClick} title="Слово" className={commonStyles.default_button}>
+                <button onClick={handleCheckButtonClick} title="Проверить" className={commonStyles.default_button}>
                     <IconCheck size={20}/>
                     <span className={commonStyles.hidden_on_mobile}>Проверить</span>
                 </button>
-                <button onClick={handleRefreshButtonClick} title="Слово" className={commonStyles.secondary_button}>
+                <button onClick={handleRefreshButtonClick} title="Заново" className={commonStyles.secondary_button}>
                     <IconRefresh size={20}/>
                     <span className={commonStyles.hidden_on_mobile}>Заново</span>
                 </button>

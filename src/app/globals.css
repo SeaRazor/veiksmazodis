@@ -42,9 +42,11 @@
     color-scheme: light dark;
     --app-back-color: white;
 
-    --default-button-color: #7392b7;
+    --default-button-color: white;
+    --default-button-back-color: #7392b7;
     --default-button-hover-color: #7785ac;
-    --secondary-button-color: #67b99a;
+    --secondary-button-color: white;
+    --secondary-button-back-color: #67b99a;
     --secondary-button-hover-color: #52b788;
     --card-rgb: 180, 185, 188;
     --card-border-rgb: 131, 134, 135;
@@ -53,19 +55,20 @@
     --total-text-color: #7392b7;
     --nav-backgtound-color: #e9ecef;
     --nav-menu-item-color: dimgray;
+    --nav-menu-item-selected-color: black;
     --hamburger-back-color: white;
-    --card-back-color : #e9ecef;
-    --card-border-color : #3da35d;
+    --card-back-color: #e9ecef;
+    --card-border-color: #3da35d;
     --card-text-color: black;
-    --card-front-back-color : #e9ecef;
+    --card-front-back-color: #e9ecef;
     --card-front-text-color: black;
     --card-back-back-color: #3da35d;
     --card-back-text-color: white;
-    --selector-back-color : white;
+    --selector-back-color: white;
     --selector-focus-color: green;
     --switch-back-color: #e4e4e4;
     --switch-text-color: rgba(0, 0, 0, 0.6);
-    --switch-border-color: rgba(0, 0, 0, 0.2);
+    --switch-border-color: lightslategray;
     --switch-box-shadow-color-1: rgba(0, 0, 0, 0.3);
     --switch-box-shadow-color-2: rgba(255, 255, 255, 0.1);
     --switch-checked-label-back-color: slategray;
@@ -73,12 +76,20 @@
     --switch-checked-label-text-color: white;
     --progress-correct-color: teal;
     --progress-incorrect-color: #e4405f;
-    --progress-total-color : #7392b7;
+    --progress-total-color: #7392b7;
+
+    --menu-label-border-color: black;
+    --info-border-color: green;
+    --input-background-color: white;
+    --input-text-color: #b5e4ec;
+    --tab-container-back-color: #f2f6fc;
+    --nav-back-color: #f2f6fc;
+    --tab-item-color: var(--nav-menu-item-color);
+    --tab-item-back-color: #f9f9f9;
+    --word-info-color: black;
+    --word-info-back-color: #f9f9f9;
 
 }
-
-
-
 
 
 @media (prefers-color-scheme: dark) {
@@ -113,7 +124,24 @@
         --card-border-rgb: 200, 200, 200;
         --selector-back-color: slategray;
         --selector-focus-color: white;
-        --app-back-color: #101d42;
+        --app-back-color: #121212;
+        --input-background-color: #edf2fb;
+        --input-text-color: black;
+        --tab-container-back-color: #3f3f3f;
+        --nav-menu-item-color: #adb5bd;
+        --nav-menu-item-selected-color: white;
+        --nav-back-color: #3f3f3f;
+        --default-button-back-color: #a8cfdf;
+        --default-button-color: black;
+        --default-button-hover-color: #60acc7;
+        --secondary-button-back-color: #b0b9e9;
+        --secondary-button-hover-color: #7089d7;
+        --secondary-button-color: black;
+        --tab-item-back-color: #d3d3d3;
+        --tab-item-color: darkslategrey;
+        --switch-border-color: lightslategray;
+        --word-info-color: white;
+        --word-info-back-color: black;
     }
 }
 
@@ -148,8 +176,8 @@ a {
 }
 
 a.active {
-    color: black;
-    border-bottom: 1px solid black;
+    color: var(--nav-menu-item-selected-color);
+    /*border-bottom: 1px solid var(--nav-menu-item-selected-color);*/
 }
 
 dialog {
@@ -159,6 +187,7 @@ dialog {
     top: 30%;
 
     border: 1px solid slategray;
+    border-radius: var(--border-radius);
     padding: 0.5rem;
 }
 

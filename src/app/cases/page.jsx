@@ -6,7 +6,7 @@ import {useState} from "react";
 import {getRandomNoun, searchNoun} from "@/app/utils/nouns";
 import NounInfo from "@/app/components/Nouns/NounInfo";
 import NounCasesGrid from "@/app/components/Nouns/NounCasesGrid";
-import Toggle from "@/app/UI/Toggle";
+import {ModeSwitcher} from "@/app/UI/ModeSwitcher";
 
 export default function Cases() {
 
@@ -63,15 +63,17 @@ export default function Cases() {
                     <IconDice5Filled size={20}/>
                     <span className={styles.hidden_on_mobile}>Случайный</span>
                 </button>
-                {noun && <Toggle id="check" name1="Посмотреть" name2="Проверить" value1="check" value2="test"
+                {/*   {noun && <Toggle id="check" name1="Посмотреть" name2="Проверить" value1="check" value2="test"
                                  currentValue={mode}
-                                 onChangeHandler={handleUserMode}/>}
+                                 onChangeHandler={handleUserMode}/>}*/}
 
 
             </div>
-
             <NounInfo  {...noun}/>
-            {(mode && noun) && <NounCasesGrid {...noun} mode={mode}/>}
+            {noun && <div className={styles.tab_container}>
+                <ModeSwitcher current={mode} onModeSwitch={handleUserMode}/>
+                {mode && <NounCasesGrid {...noun} mode={mode}/>}
+            </div>}
 
 
         </>

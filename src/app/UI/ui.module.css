@@ -149,7 +149,7 @@
     /*transition: background 200ms, border 200ms;*/
     border-radius: 5px;
     background-color: var(--card-front-back-color);
-    color : var(--card-front-text-color);
+    color: var(--card-front-text-color);
     backface-visibility: hidden;
     transform: rotateX(0deg);
     transition: 0.5s;
@@ -326,6 +326,93 @@
     text-align: center;
     padding: 0.5rem;
 }
+
+.tab {
+    display: none;
+}
+
+.tab:checked:nth-of-type(1) ~ .tab__content:nth-of-type(1) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+}
+
+.tab:checked:nth-of-type(2) ~ .tab__content:nth-of-type(2) {
+    opacity: 1;
+    transition: 0.5s opacity ease-in, 0.8s transform ease;
+    position: relative;
+    top: 0;
+    z-index: 100;
+    transform: translateY(0px);
+    text-shadow: 0 0 0;
+}
+
+.tab:not(:first-of-type):not(:last-of-type) + label {
+    border-radius: 0;
+}
+
+.tab:last-of-type:not(:first-of-type) + label {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: var(--border-radius);
+}
+
+.tab:checked + label {
+    background-color: var(--tab-container-back-color);
+    box-shadow: 0 -1px 0 var(--tab-container-back-color) inset;
+    cursor: default;
+    border-top: 3px solid var(--switch-border-color);
+}
+
+.tab:checked + label:hover {
+    box-shadow: 0 -1px 0 #fff inset;
+    background-color: #fff;
+}
+
+.tab:checked + label .tab_text {
+    color: var(--nav-menu-item-selected-color);
+    /*border-bottom: 1px solid var(--nav-menu-item-selected-color);*/
+}
+
+.tab + label {
+    box-shadow: 0 -1px 0 #eee inset;
+    border-radius: var(--border-radius) 0 0 0;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    flex-grow: 3;
+    text-align: center;
+    background-color: var(--tab-item-back-color);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: center;
+    transition: 0.3s background-color ease, 0.3s box-shadow ease;
+
+    box-sizing: border-box;
+    padding: 0.5rem;
+}
+
+.tab_text {
+    color: var(--tab-item-color);
+}
+
+.tab + label:hover {
+    background-color: #f9f9f9;
+    box-shadow: 0 1px 0 #f4f4f4 inset;
+    border-top: 3px solid var(--switch-border-color);
+}
+
+.tab + label:hover .tab_text {
+    /*  border-bottom: 1px solid var(--menu-label-border-color);*/
+}
+
 
 @media (max-width: 768px) {
 
