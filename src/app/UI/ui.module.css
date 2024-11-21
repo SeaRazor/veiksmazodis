@@ -104,10 +104,13 @@
 
 /* FlipCard 2*/
 .flipCard {
-    width: 200px;
+    /*width: 200px;*/
     transform-style: preserve-3d;
     perspective: 600px;
     transition: 0.5s;
+    flex-basis: 20%;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 .flipCard:hover .cardFront {
@@ -369,8 +372,8 @@
 }
 
 .tab:checked + label:hover {
-    box-shadow: 0 -1px 0 #fff inset;
-    background-color: #fff;
+    box-shadow: 0 -1px 0 var(--tab-container-back-color) inset;
+    background-color: var(--tab-container-back-color);
 }
 
 .tab:checked + label .tab_text {
@@ -417,10 +420,22 @@
 @media (max-width: 768px) {
 
     .flipCard {
-        width: 150px;
+        /* width: 150px;*/
+        flex-basis: 33%;
     }
 
     .word_card {
         width: 150px;
+    }
+}
+
+@media (max-width: 500px) {
+    .flipCard {
+        /* width: 100px;*/
+        flex-basis: 100%;
+    }
+
+    .word_card {
+        width: 100px;
     }
 }

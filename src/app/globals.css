@@ -88,6 +88,7 @@
     --tab-item-back-color: #f9f9f9;
     --word-info-color: black;
     --word-info-back-color: #f9f9f9;
+    --info-text-value-color: #2a9d8f;
 
 }
 
@@ -142,6 +143,7 @@
         --switch-border-color: lightslategray;
         --word-info-color: white;
         --word-info-back-color: black;
+        --info-text-value-color: #62d0b5;
     }
 }
 
