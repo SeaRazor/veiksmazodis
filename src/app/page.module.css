@@ -252,7 +252,7 @@
         border-radius: var(--border-radius);*/
     align-self: stretch;
     /* margin: 1rem;*/
-    
+
     width: 100%;
     padding: 1rem;
 
@@ -854,6 +854,7 @@
         z-index: 1;
     }
 
+
     .input_flow > input {
         min-width: 50%;
     }
@@ -862,6 +863,8 @@
     .input_field input {
         /*font-size: smaller;*/
         width: 100%;
+        flex-basis: 60%;
+        flex-grow: 0;
 
 
     }
@@ -873,7 +876,8 @@
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
+
     .input_field {
         flex-direction: column;
     }

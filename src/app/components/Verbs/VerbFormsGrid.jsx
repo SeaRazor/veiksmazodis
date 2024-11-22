@@ -1,31 +1,18 @@
 import styles from "../../page.module.css";
 import VerbFormItem from "@/app/components/Verbs/VerbFormItem";
-import {
-    generateConditionalTime,
-    generateFutureTime,
-    generateImperativeTime,
-    generatePastFrequentativeTime,
-    generatePastSimpleTime,
-    generatePresentTime
-} from "@/app/utils/time_generation";
+import {getVerbTimes} from "@/app/utils/time_generation";
 
 export default function VerbFormsGrid({verb_forms, mode, isDirect}) {
-
+    const verbTimes = getVerbTimes(verb_forms.infinitive, verb_forms.present, verb_forms.past, isDirect);
     return (
 
         <div className={styles.flow}>
-            <VerbFormItem {...generateFutureTime(verb_forms.infinitive, isDirect)} name="Будущее время" mode={mode}/>
-            <VerbFormItem {...generatePastFrequentativeTime(verb_forms.infinitive, isDirect)}
-                          name="Прошедшее повторяющееся время"
-                          mode={mode}/>
-            <VerbFormItem {...generateImperativeTime(verb_forms.infinitive, isDirect)} name="Повелительное наклонение"
-                          mode={mode}/>
-            <VerbFormItem {...generateConditionalTime(verb_forms.infinitive, isDirect)} name="Сослагательное наклонение"
-                          mode={mode}/>
-            <VerbFormItem {...generatePresentTime(verb_forms.present, isDirect)} name="Настоящее время" mode={mode}/>
-            <VerbFormItem {...generatePastSimpleTime(verb_forms.past, isDirect)} name="Прошедшее единоразовое время"
-                          mode={mode}/>
-
+            <VerbFormItem {...verbTimes.futureTime} name="Будущее время" mode={mode}/>
+            <VerbFormItem {...verbTimes.pastQuantitativeTime} name="Прошедшее повторяющееся время" mode={mode}/>
+            <VerbFormItem {...verbTimes.imperativeTime} name="Повелительное наклонение" mode={mode}/>
+            <VerbFormItem {...verbTimes.conditionalTime} name="Сослагательное наклонение" mode={mode}/>
+            <VerbFormItem {...verbTimes.presentTime} name="Настоящее время" mode={mode}/>
+            <VerbFormItem {...verbTimes.pastSimpleTime} name="Прошедшее единоразовое время" mode={mode}/>
         </div>
     );
 }

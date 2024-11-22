@@ -5,6 +5,7 @@ import {IconInfoCircleFilled} from "@tabler/icons-react";
 export default function VerbInfo({infinitive, present, past, translation}) {
 
     if (!infinitive) return <div></div>
+    
     return (
         <>
 

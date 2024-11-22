@@ -1,13 +1,44 @@
-export function generateFutureTime(infinitive, isDirect = true) {
-    const charsToCutLength = isDirect ? -2 : -3;
-    const root = infinitive.slice(0, charsToCutLength);
+export function getVerbTimes(infinitive, present, past, isDirect = true) {
+    const asDirect = conjugatedAsDirect(isDirect, infinitive);
 
-    const first_singular = composeTimeVerb(root, 's', isDirect ? 'iu' : 'iuosi');
-    const second_singular = composeTimeVerb(root, 's', isDirect ? 'i' : 'iesi');
-    const third_singular = composeTimeVerb(root, 's', isDirect ? '' : 'is');
-    const first_plural = composeTimeVerb(root, 's', isDirect ? 'ime' : 'imės');
-    const second_plural = composeTimeVerb(root, 's', isDirect ? 'ite' : 'itės');
-    const third_plural = composeTimeVerb(root, 's', isDirect ? '' : 'is');
+    // infinitive
+    let charsToCutLength = asDirect ? -2 : -3;
+    const infinitiveRoot = infinitive.slice(0, charsToCutLength);
+    const futureTime = generateFutureTime(infinitiveRoot, asDirect);
+    const pastQuantitativeTime = generatePastQuantitativeTime(infinitiveRoot, asDirect);
+    const imperativeTime = generateImperativeTime(infinitiveRoot, asDirect);
+    const conditionalTime = generateConditionalTime(infinitiveRoot, asDirect);
+
+    // present
+    charsToCutLength = asDirect ? -1 : -3;
+    const presentRoot = present.slice(0, charsToCutLength);
+    let ending = asDirect ? present.slice(-1) : present.slice(-3, -2);
+    const presentTime = generatePresentTime(presentRoot, ending, asDirect);
+
+    // past simple
+    charsToCutLength = asDirect ? -1 : -3;
+    const pastSimpleRoot = past.slice(0, charsToCutLength);
+    ending = asDirect ? past.slice(-1) : past.slice(-3, -2);
+    const pastSimpleTime = generatePastSimpleTime(pastSimpleRoot, ending, asDirect);
+
+    return {
+        futureTime,
+        pastQuantitativeTime,
+        imperativeTime,
+        conditionalTime,
+        presentTime,
+        pastSimpleTime
+    }
+}
+
+function generateFutureTime(root, asDirect) {
+
+    const first_singular = composeTimeVerb(root, 's', asDirect ? 'iu' : 'iuosi');
+    const second_singular = composeTimeVerb(root, 's', asDirect ? 'i' : 'iesi');
+    const third_singular = composeTimeVerb(root, 's', asDirect ? '' : 'is');
+    const first_plural = composeTimeVerb(root, 's', asDirect ? 'ime' : 'imės');
+    const second_plural = composeTimeVerb(root, 's', asDirect ? 'ite' : 'itės');
+    const third_plural = composeTimeVerb(root, 's', asDirect ? '' : 'is');
     return {
         first_singular,
         second_singular,
@@ -18,16 +49,15 @@ export function generateFutureTime(infinitive, isDirect = true) {
     };
 }
 
-export function generatePastFrequentativeTime(infinitive, isDirect = true) {
-    const charsToCutLength = isDirect ? -2 : -3;
-    const root = infinitive.slice(0, charsToCutLength);
+function generatePastQuantitativeTime(root, asDirect) {
 
-    const first_singular = composeTimeVerb(root, 'dav', isDirect ? 'au' : 'ausi');
-    const second_singular = composeTimeVerb(root, 'dav', isDirect ? 'ai' : 'aisi');
-    const third_singular = composeTimeVerb(root, 'dav', isDirect ? 'o' : 'osi');
-    const first_plural = composeTimeVerb(root, 'dav', isDirect ? 'ome' : 'omės');
-    const second_plural = composeTimeVerb(root, 'dav', isDirect ? 'ote' : 'otės');
-    const third_plural = composeTimeVerb(root, 'dav', isDirect ? 'o' : 'osi');
+
+    const first_singular = composeTimeVerb(root, 'dav', asDirect ? 'au' : 'ausi');
+    const second_singular = composeTimeVerb(root, 'dav', asDirect ? 'ai' : 'aisi');
+    const third_singular = composeTimeVerb(root, 'dav', asDirect ? 'o' : 'osi');
+    const first_plural = composeTimeVerb(root, 'dav', asDirect ? 'ome' : 'omės');
+    const second_plural = composeTimeVerb(root, 'dav', asDirect ? 'ote' : 'otės');
+    const third_plural = composeTimeVerb(root, 'dav', asDirect ? 'o' : 'osi');
     return {
         first_singular,
         second_singular,
@@ -38,14 +68,13 @@ export function generatePastFrequentativeTime(infinitive, isDirect = true) {
     };
 }
 
-export function generateImperativeTime(infinitive, isDirect = true) {
-    const charsToCutLength = isDirect ? -2 : -3;
-    const root = infinitive.slice(0, charsToCutLength);
+function generateImperativeTime(root, asDirect) {
+
     const first_singular = ``;
-    const second_singular = composeTimeVerb(root, 'k', isDirect ? '' : 'is');
+    const second_singular = composeTimeVerb(root, 'k', asDirect ? '' : 'is');
     const third_singular = ``;
-    const first_plural = composeTimeVerb(root, 'k', isDirect ? 'ime' : 'imės');
-    const second_plural = composeTimeVerb(root, 'k', isDirect ? 'ite' : 'itės');
+    const first_plural = composeTimeVerb(root, 'k', asDirect ? 'ime' : 'imės');
+    const second_plural = composeTimeVerb(root, 'k', asDirect ? 'ite' : 'itės');
     const third_plural = ``;
     return {
         first_singular,
@@ -57,15 +86,15 @@ export function generateImperativeTime(infinitive, isDirect = true) {
     };
 }
 
-export function generateConditionalTime(infinitive, isDirect = true) {
-    const charsToCutLength = isDirect ? -2 : -3;
-    const root = infinitive.slice(0, charsToCutLength);
-    const first_singular = composeTimeVerb(root, 'č', isDirect ? 'iau' : 'iausi');
-    const second_singular = composeTimeVerb(root, 't', isDirect ? 'um' : 'umeisi');
-    const third_singular = composeTimeVerb(root, 't', isDirect ? 'ų' : 'ųsi');
-    const first_plural = composeTimeVerb(root, 't', isDirect ? 'ume' : 'umėmės');
-    const second_plural = composeTimeVerb(root, 't', isDirect ? 'ute' : 'umėtės');
-    const third_plural = composeTimeVerb(root, 't', isDirect ? 'ų' : 'ųsi');
+function generateConditionalTime(root, asDirect) {
+
+
+    const first_singular = composeTimeVerb(root, 'č', asDirect ? 'iau' : 'iausi');
+    const second_singular = composeTimeVerb(root, 't', asDirect ? 'um' : 'umeisi');
+    const third_singular = composeTimeVerb(root, 't', asDirect ? 'ų' : 'ųsi');
+    const first_plural = composeTimeVerb(root, 't', asDirect ? 'ume' : 'umėmės');
+    const second_plural = composeTimeVerb(root, 't', asDirect ? 'ute' : 'umėtės');
+    const third_plural = composeTimeVerb(root, 't', asDirect ? 'ų' : 'ųsi');
     return {
         first_singular,
         second_singular,
@@ -76,37 +105,35 @@ export function generateConditionalTime(infinitive, isDirect = true) {
     };
 }
 
-export function generatePresentTime(present, isDirect = true) {
-    const charsToCutLength = isDirect ? -1 : -3;
-    const root = present.slice(0, charsToCutLength);
-    const ending = isDirect ? present.slice(-1) : present.slice(-3, -2);
+function generatePresentTime(root, ending, asDirect) {
+
     switch (ending) {
         case 'a':
             return {
-                first_singular: composeTimeVerb(root, '', isDirect ? 'u' : 'uosi'),
-                second_singular: composeTimeVerb(root, '', isDirect ? 'i' : 'esi'),
-                third_singular: composeTimeVerb(root, '', isDirect ? 'a' : 'asi'),
-                first_plural: composeTimeVerb(root, '', isDirect ? 'ame' : 'amės'),
-                second_plural: composeTimeVerb(root, '', isDirect ? 'ate' : 'atės'),
-                third_plural: composeTimeVerb(root, '', isDirect ? 'a' : 'asi')
+                first_singular: composeTimeVerb(root, '', asDirect ? 'u' : 'uosi'),
+                second_singular: composeTimeVerb(root, '', asDirect ? 'i' : 'esi'),
+                third_singular: composeTimeVerb(root, '', asDirect ? 'a' : 'asi'),
+                first_plural: composeTimeVerb(root, '', asDirect ? 'ame' : 'amės'),
+                second_plural: composeTimeVerb(root, '', asDirect ? 'ate' : 'atės'),
+                third_plural: composeTimeVerb(root, '', asDirect ? 'a' : 'asi')
             };
         case 'i':
             return {
-                first_singular: composeTimeVerb(root, '', isDirect ? 'iu' : 'iuosi'),
-                second_singular: composeTimeVerb(root, '', isDirect ? 'i' : 'iesi'),
-                third_singular: composeTimeVerb(root, '', isDirect ? 'i' : 'isi'),
-                first_plural: composeTimeVerb(root, '', isDirect ? 'ime' : 'imės'),
-                second_plural: composeTimeVerb(root, '', isDirect ? 'ite' : 'itės'),
-                third_plural: composeTimeVerb(root, '', isDirect ? 'i' : 'isi')
+                first_singular: composeTimeVerb(root, '', asDirect ? 'iu' : 'iuosi'),
+                second_singular: composeTimeVerb(root, '', asDirect ? 'i' : 'iesi'),
+                third_singular: composeTimeVerb(root, '', asDirect ? 'i' : 'isi'),
+                first_plural: composeTimeVerb(root, '', asDirect ? 'ime' : 'imės'),
+                second_plural: composeTimeVerb(root, '', asDirect ? 'ite' : 'itės'),
+                third_plural: composeTimeVerb(root, '', asDirect ? 'i' : 'isi')
             };
         case 'o':
             return {
-                first_singular: composeTimeVerb(root, '', isDirect ? 'au' : 'ausi'),
-                second_singular: composeTimeVerb(root, '', isDirect ? 'ai' : 'aisi'),
-                third_singular: composeTimeVerb(root, '', isDirect ? 'o' : 'osi'),
-                first_plural: composeTimeVerb(root, '', isDirect ? 'ome' : 'omės'),
-                second_plural: composeTimeVerb(root, '', isDirect ? 'ote' : 'otės'),
-                third_plural: composeTimeVerb(root, '', isDirect ? 'o' : 'osi')
+                first_singular: composeTimeVerb(root, '', asDirect ? 'au' : 'ausi'),
+                second_singular: composeTimeVerb(root, '', asDirect ? 'ai' : 'aisi'),
+                third_singular: composeTimeVerb(root, '', asDirect ? 'o' : 'osi'),
+                first_plural: composeTimeVerb(root, '', asDirect ? 'ome' : 'omės'),
+                second_plural: composeTimeVerb(root, '', asDirect ? 'ote' : 'otės'),
+                third_plural: composeTimeVerb(root, '', asDirect ? 'o' : 'osi')
             };
     }
 
@@ -114,28 +141,26 @@ export function generatePresentTime(present, isDirect = true) {
 }
 
 
-export function generatePastSimpleTime(past, isDirect = true) {
-    const charsToCutLength = isDirect ? -1 : -3;
-    const root = past.slice(0, charsToCutLength);
-    const ending = isDirect ? past.slice(-1) : past.slice(-3, -2);
+function generatePastSimpleTime(root, ending, asDirect) {
+
     switch (ending) {
         case 'ė':
             return {
-                first_singular: composeTimeVerb(root, '', isDirect ? 'iau' : 'iausi'),
-                second_singular: composeTimeVerb(root, '', isDirect ? 'ei' : 'eisi'),
-                third_singular: composeTimeVerb(root, '', isDirect ? 'ė' : 'ėsi'),
-                first_plural: composeTimeVerb(root, '', isDirect ? 'ėme' : 'ėmės'),
-                second_plural: composeTimeVerb(root, '', isDirect ? 'ėte' : 'ėtės'),
-                third_plural: composeTimeVerb(root, '', isDirect ? 'ė' : 'ėsi')
+                first_singular: composeTimeVerb(root, '', asDirect ? 'iau' : 'iausi'),
+                second_singular: composeTimeVerb(root, '', asDirect ? 'ei' : 'eisi'),
+                third_singular: composeTimeVerb(root, '', asDirect ? 'ė' : 'ėsi'),
+                first_plural: composeTimeVerb(root, '', asDirect ? 'ėme' : 'ėmės'),
+                second_plural: composeTimeVerb(root, '', asDirect ? 'ėte' : 'ėtės'),
+                third_plural: composeTimeVerb(root, '', asDirect ? 'ė' : 'ėsi')
             };
         case 'o':
             return {
-                first_singular: composeTimeVerb(root, '', isDirect ? 'au' : 'ausi'),
-                second_singular: composeTimeVerb(root, '', isDirect ? 'ai' : 'aisi'),
-                third_singular: composeTimeVerb(root, '', isDirect ? 'o' : 'osi'),
-                first_plural: composeTimeVerb(root, '', isDirect ? 'ome' : 'omės'),
-                second_plural: composeTimeVerb(root, '', isDirect ? 'ote' : 'otės'),
-                third_plural: composeTimeVerb(root, '', isDirect ? 'o' : 'osi')
+                first_singular: composeTimeVerb(root, '', asDirect ? 'au' : 'ausi'),
+                second_singular: composeTimeVerb(root, '', asDirect ? 'ai' : 'aisi'),
+                third_singular: composeTimeVerb(root, '', asDirect ? 'o' : 'osi'),
+                first_plural: composeTimeVerb(root, '', asDirect ? 'ome' : 'omės'),
+                second_plural: composeTimeVerb(root, '', asDirect ? 'ote' : 'otės'),
+                third_plural: composeTimeVerb(root, '', asDirect ? 'o' : 'osi')
             };
 
     }
@@ -148,5 +173,14 @@ function composeTimeVerb(root, suffix, ending) {
         return root.slice(0, -1) + suffix + ending;
     }
     return root + suffix + ending;
+
+}
+
+function conjugatedAsDirect(isDirect, infinitive) {
+    if (isDirect) return true;
+    const ending = infinitive.slice(-3);
+    if (ending === 'tis') return false;
+    const prefix = infinitive.slice(2, 4);
+    if (prefix === 'si') return true;
 
 }
