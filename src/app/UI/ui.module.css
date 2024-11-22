@@ -189,6 +189,7 @@
     font: inherit;
     line-height: 1em;
     padding: 0.5em 3.5em 0.5em 1em;
+    color: var(--selector-text-color);
 
     /* reset */
 
@@ -262,11 +263,12 @@
     font-size: 14px;
     text-align: center;
     padding: 8px 8px;
-    margin-right: -1px;
-    border: 1px solid var(--switch-border-color);
-    box-shadow: inset 0 1px 3px var(--switch-box-shadow-color-1), 0 1px var(--switch-box-shadow-color-2);
-    transition: all 0.1s ease-in-out;
+    /* margin-right: -1px;
+      border: 1px solid var(--switch-border-color);
+      box-shadow: inset 0 1px 3px var(--switch-box-shadow-color-1), 0 1px var(--switch-box-shadow-color-2);
+      transition: all 0.1s ease-in-out;*/
     align-content: center;
+    min-width: 100px;
 }
 
 .switch_field label:hover {
@@ -276,8 +278,8 @@
 
 .switch_field input:checked + label {
     background-color: var(--switch-checked-label-back-color);
-    box-shadow: inset 1px 1px 1px var(--switch-checked-label-box-shadow-color);
-    transform: translateY(1px);
+    /* box-shadow: inset 1px 1px 1px var(--switch-checked-label-box-shadow-color);
+     transform: translateY(1px);*/
     color: var(--switch-checked-label-text-color);
 
 }

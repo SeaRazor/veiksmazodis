@@ -433,12 +433,20 @@
       "translation": "красивый"
     },
     {
-      "word": "ilgi (trumpi) plaukai",
-      "translation": "длинные (короткие) волосы"
+      "word": "ilgi plaukai",
+      "translation": "длинные волосы"
     },
     {
-      "word": "tiesūs (garbanoti) plaukai",
-      "translation": "прямые (кудрявые) волосы"
+      "word": "trumpi plaukai",
+      "translation": "короткие волосы"
+    },
+    {
+      "word": "tiesūs plaukai",
+      "translation": "прямые волосы"
+    },
+    {
+      "word": "garbanoti plaukai",
+      "translation": "кудрявые волосы"
     },
     {
       "word": "kasa",

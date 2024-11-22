@@ -7,15 +7,17 @@ import VerbFormsGrid from "@/app/components/Verbs/VerbFormsGrid";
 import styles from "@/app/page.module.css";
 import {IconDice5Filled, IconSearch} from "@tabler/icons-react";
 import {ModeSwitcher} from "@/app/UI/ModeSwitcher";
+import Toggle from "@/app/UI/Toggle";
 
 export default function VerbsTrainer(props) {
 
     const [verb, setVerb] = useState();
     const [mode, setMode] = useState("check");
+    const [isDirect, setDirection] = useState(true);
 
 
     function handleGetNewVerb() {
-        setVerb(getRandomVerb());
+        setVerb(getRandomVerb(isDirect));
     }
 
     function handleUserMode(selectedMode) {
@@ -35,8 +37,13 @@ export default function VerbsTrainer(props) {
 
     }
 
+    function handleTypeChange() {
+        setDirection(prevState => !prevState);
+        setVerb('');
+    }
+
     function searchVerbFromInput(searchValue) {
-        const searchResult = searchVerb(searchValue);
+        const searchResult = searchVerb(searchValue, isDirect);
         if (searchResult) {
             setVerb(searchResult);
         } else {
@@ -51,9 +58,9 @@ export default function VerbsTrainer(props) {
 
         <div className={styles.input_flow}>
 
-            {/*   <Toggle id="mode_toggle" name1="Прямые" name2="Возвратные" value1="direct" value2="back"
-                    currentValue="direct"
-            />*/}
+            <Toggle id="type_toggle" name1="Прямые" name2="Возвратные" value1="direct" value2="reflex"
+                    onChangeHandler={handleTypeChange}
+            />
 
             <input className={styles.search_input} type="text"
                    id="searchInput"
@@ -77,7 +84,7 @@ export default function VerbsTrainer(props) {
         {verb && <VerbInfo  {...verb}/>}
         {verb && <div className={styles.tab_container}>
             <ModeSwitcher current={mode} onModeSwitch={handleUserMode}/>
-            {mode && <VerbFormsGrid verb_forms={verb} mode={mode}/>}
+            {mode && <VerbFormsGrid verb_forms={verb} mode={mode} isDirect={isDirect}/>}
         </div>
         }
     </>;

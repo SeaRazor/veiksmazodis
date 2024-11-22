@@ -64,10 +64,11 @@
     --card-front-text-color: black;
     --card-back-back-color: #3da35d;
     --card-back-text-color: white;
-    --selector-back-color: white;
-    --selector-focus-color: green;
+    --selector-back-color: #e9ecef;
+    --selector-text-color: black;
+    --selector-focus-color: #7392b7;
     --switch-back-color: #e4e4e4;
-    --switch-text-color: rgba(0, 0, 0, 0.6);
+    --switch-text-color: rgba(0, 0, 0, 0.3);
     --switch-border-color: lightslategray;
     --switch-box-shadow-color-1: rgba(0, 0, 0, 0.3);
     --switch-box-shadow-color-2: rgba(255, 255, 255, 0.1);
@@ -123,8 +124,9 @@
         --callout-border-rgb: 108, 108, 108;
         --card-rgb: 100, 100, 100;
         --card-border-rgb: 200, 200, 200;
-        --selector-back-color: slategray;
-        --selector-focus-color: white;
+        --selector-back-color: black;
+        --selector-text-color: white;
+        --selector-focus-color: #7392b7;
         --app-back-color: #121212;
         --input-background-color: #edf2fb;
         --input-text-color: black;

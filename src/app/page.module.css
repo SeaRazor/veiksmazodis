@@ -96,7 +96,7 @@
     border-radius: 5px;
     /*box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;*/
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-    width: 90%;
+    width: 100%;
     margin: 1rem;
     padding: 0.5rem;
 
@@ -232,7 +232,7 @@
     justify-content: center;
     gap: 0.5rem;
     align-items: stretch;
-    padding-top: 1rem;
+    padding: 1rem;
     /*  width: 100%;*/
 
 }
@@ -252,8 +252,9 @@
         border-radius: var(--border-radius);*/
     align-self: stretch;
     /* margin: 1rem;*/
-    padding-top: 1rem;
+    
     width: 100%;
+    padding: 1rem;
 
 
 }
@@ -851,6 +852,10 @@
                 rgb(var(--background-end-rgb)) 40%
         );
         z-index: 1;
+    }
+
+    .input_flow > input {
+        min-width: 50%;
     }
 
 
