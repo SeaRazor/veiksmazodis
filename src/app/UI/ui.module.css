@@ -210,6 +210,7 @@
     5px 5px,
     1px 1.5em;
     background-repeat: no-repeat;
+    border-color: var(--selector-focus-color);
 }
 
 
@@ -314,6 +315,25 @@
        border-bottom-left-radius: 5px;*/
 }
 
+.progress_correct:hover {
+    cursor: pointer;
+    /* transform: scale(0.95) translateY(3px); */
+    box-shadow: -1px -1px 1px var(--progress-correct-color);
+    background-color: var(--progress-correct-color);
+    color: white;
+    /*    box-shadow: inset 1px 1px 1px var(--progress-correct-color);
+        transform: translateY(1px);
+        background-color: var(--progress-correct-color);
+        color: white;*/
+}
+
+.progress_correct.correct_filtered {
+    box-shadow: inset 1px 1px 1px var(--progress-correct-color);
+    /* transform: translateY(1px);*/
+    background-color: var(--progress-correct-color);
+    color: white;
+}
+
 .progress_incorrect {
     border-bottom: 2px solid var(--progress-incorrect-color);
     color: var(--progress-incorrect-color);
@@ -324,6 +344,21 @@
      border-bottom-right-radius: 5px;*/
 }
 
+.progress_incorrect:hover {
+    cursor: pointer;
+    /*  transform: scale(0.95) translateY(3px); */
+    box-shadow: -1px -1px 1px var(--progress-incorrect-color);
+    background-color: var(--progress-incorrect-color);
+    color: white;
+}
+
+.progress_incorrect.incorrect_filtered {
+    box-shadow: inset 1px 1px 1px var(--progress-incorrect-color);
+    /* transform: translateY(1px);*/
+    background-color: var(--progress-incorrect-color);
+    color: white;
+}
+
 .progress_total {
     border-bottom: 2px solid var(--progress-total-color);
     color: var(--progress-total-color);
@@ -331,6 +366,7 @@
     text-align: center;
     padding: 0.5rem;
 }
+
 
 .tab {
     display: none;
@@ -411,7 +447,7 @@
 .tab + label:hover {
     background-color: #f9f9f9;
     box-shadow: 0 1px 0 #f4f4f4 inset;
-    border-top: 3px solid var(--switch-border-color);
+    border-top: 3px solid var(--tab-item-hover-color);
 }
 
 .tab + label:hover .tab_text {

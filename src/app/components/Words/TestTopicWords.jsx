@@ -1,7 +1,7 @@
 import commonStyles from '@/app/page.module.css'
 import styles from "@/app/words/page.module.css";
 import {useEffect, useRef, useState} from "react";
-import {getRandomWord, getTopicWords} from "@/app/utils/words";
+import {checkWord, getRandomWord, getTopicWords} from "@/app/utils/words";
 import {IconCheck, IconRefresh} from "@tabler/icons-react";
 import WordCard from "@/app/UI/WordCard";
 import {Progress} from "@/app/UI/Progress";
@@ -16,6 +16,7 @@ export function TestTopicWords({selectedTopic, direction}) {
     const [results, setResults] = useState({correctNum: 0, incorrectNum: 0, totalNum: 0})
     const [checkInputClassName, setCheckInputClassName] = useState('');
     const [complete, setComplete] = useState(false);
+    const [filteredWords, setFilteredWords] = useState([]);
     const inputRef = useRef(null);
 
 
@@ -45,18 +46,11 @@ export function TestTopicWords({selectedTopic, direction}) {
     function handleCheckButtonClick() {
         const enteredWord = inputRef.current.value;
         let checkedWord;
-        let isCorrect;
-        switch (direction) {
-            case "forward":
-                isCorrect = enteredWord.toLowerCase() === currentWord.translation.toLowerCase();
-                break;
-            case "reverse":
-                isCorrect = enteredWord.toLowerCase() === currentWord.word.toLowerCase();
-                break;
+        const isCorrect = checkWord(enteredWord, currentWord, direction);
 
-        }
         checkedWord = {...currentWord, checkResult: isCorrect};
         setAnsweredWords(prevState => [checkedWord, ...prevState]);
+        setFilteredWords(prevState => [checkedWord, ...prevState]);
         setUnansweredWords(prevState => prevState.filter(word => word.word !== checkedWord.word));
         let newResults;
         if (isCorrect) {
@@ -74,7 +68,7 @@ export function TestTopicWords({selectedTopic, direction}) {
         const topicWords = getTopicWords(selectedTopic);
         setUnansweredWords(topicWords);
         setAnsweredWords([]);
-        /*setNewWord();*/
+        setFilteredWords([]);
         setResults({correctNum: 0, incorrectNum: 0, totalNum: topicWords.length});
         setComplete(false);
     }
@@ -105,6 +99,16 @@ export function TestTopicWords({selectedTopic, direction}) {
         startTopicTest();
     }
 
+    function handleFilterChange(filter) {
+        if (filter === '') {
+            setFilteredWords(answeredWords);
+        } else {
+            const filterCondition = filter === 'correct' ? true : false;
+            setFilteredWords(answeredWords.filter((word) => word.checkResult === filterCondition));
+        }
+
+    }
+
     return (
         <div className={commonStyles.column_flow}>
 
@@ -133,15 +137,15 @@ export function TestTopicWords({selectedTopic, direction}) {
 
 
             <div className={commonStyles.results_info}>
-                <div>Результаты</div>
+                <div className={commonStyles.results_info_header}>Результаты</div>
                 <div className={commonStyles.flow}>
                     <Progress correctNum={results.correctNum} incorrectNum={results.incorrectNum}
-                              total={results.totalNum}/>
+                              total={results.totalNum} handleFilterBy={handleFilterChange}/>
 
                 </div>
                 <div className={styles.words_container}>
 
-                    {answeredWords.map(word => {
+                    {filteredWords.map(word => {
                         return <FlipCard front={word.word} back={word.translation} direction={direction}
                                          checkResult={word.checkResult}/>
                     })}

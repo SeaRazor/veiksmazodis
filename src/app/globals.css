@@ -69,7 +69,8 @@
     --selector-focus-color: #7392b7;
     --switch-back-color: #e4e4e4;
     --switch-text-color: rgba(0, 0, 0, 0.3);
-    --switch-border-color: lightslategray;
+    --switch-border-color: #d9dbf1;
+
     --switch-box-shadow-color-1: rgba(0, 0, 0, 0.3);
     --switch-box-shadow-color-2: rgba(255, 255, 255, 0.1);
     --switch-checked-label-back-color: slategray;
@@ -87,6 +88,7 @@
     --nav-back-color: #f2f6fc;
     --tab-item-color: var(--nav-menu-item-color);
     --tab-item-back-color: #f9f9f9;
+    --tab-item-hover-color: #e9ecef;
     --word-info-color: black;
     --word-info-back-color: #f9f9f9;
     --info-text-value-color: #2a9d8f;

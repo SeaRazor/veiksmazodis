@@ -22,7 +22,10 @@
     },
     {
       "word": "pasakyti paraidžiui",
-      "translation": "произнести по буквам"
+      "translation": "произнести по буквам",
+      "synonyms": [
+        "сказать по буквам"
+      ]
     },
     {
       "word": "rašyti",
@@ -30,7 +33,10 @@
     },
     {
       "word": "pasirašyti",
-      "translation": "подписывать"
+      "translation": "подписывать",
+      "synonyms": [
+        "подписать"
+      ]
     },
     {
       "word": "parašas",
@@ -61,7 +67,7 @@
       "translation": "дом"
     },
     {
-      "word": "buto numeriai",
+      "word": "buto numeris",
       "translation": "номер квартиры"
     },
     {
@@ -93,8 +99,8 @@
       "translation": "номер"
     },
     {
-      "word": "skambinti (telefonu)",
-      "translation": "звонить (по телефону)"
+      "word": "skambinti telefonu",
+      "translation": "звонить по телефону"
     },
     {
       "word": "gimti",
@@ -118,7 +124,10 @@
     },
     {
       "word": "metai",
-      "translation": "годы"
+      "translation": "годы",
+      "synonyms": [
+        "лета"
+      ]
     },
     {
       "word": "vyras",
@@ -130,7 +139,10 @@
     },
     {
       "word": "vaikinas",
-      "translation": "парень"
+      "translation": "парень",
+      "synonyms": [
+        "юноша"
+      ]
     },
     {
       "word": "mergina",
@@ -145,24 +157,44 @@
       "translation": "девочка"
     },
     {
-      "word": "(ne)vedęs",
-      "translation": "(не)женат"
+      "word": "vedęs",
+      "translation": "женат"
+    },
+    {
+      "word": "nevedęs",
+      "translation": " не женат",
+      "synonyms": [
+        "холостяк",
+        "холостой"
+      ]
     },
     {
       "word": "ištekėjusi",
-      "translation": "замужем"
+      "translation": "замужем",
+      "synonyms": [
+        "замужняя"
+      ]
     },
     {
       "word": "netekėjusi",
-      "translation": "незамужняя"
+      "translation": "незамужняя",
+      "synonyms": [
+        "не замужем"
+      ]
     },
     {
       "word": "išsiskyręs",
-      "translation": "разведенный"
+      "translation": "разведенный",
+      "synonyms": [
+        "разведен"
+      ]
     },
     {
       "word": "išsiskyrusi",
-      "translation": "разведенная"
+      "translation": "разведенная",
+      "synonyms": [
+        "разведена"
+      ]
     },
     {
       "word": "tautybė",
@@ -178,11 +210,17 @@
     },
     {
       "word": "būti kurios nors šalies piliečiu",
-      "translation": "быть гражданином какой-либо страны"
+      "translation": "быть гражданином какой-либо страны",
+      "synonyms": [
+        "быть гражданином какой-нибудь страны"
+      ]
     },
     {
       "word": "būti iš kurios nors šalies",
-      "translation": "быть из какой-либо страны"
+      "translation": "быть из какой-либо страны",
+      "synonyms": [
+        "быть из какой-нибудь страны"
+      ]
     },
     {
       "word": "darbas",
@@ -234,7 +272,10 @@
     },
     {
       "word": "verslininkas",
-      "translation": "бизнесмен"
+      "translation": "бизнесмен",
+      "synonyms": [
+        "предприниматель"
+      ]
     },
     {
       "word": "bankas",
@@ -297,15 +338,23 @@
       "translation": "родители"
     },
     {
-      "word": "tėvas (tėtis)",
-      "translation": "отец (папа)"
+      "word": "tėvas",
+      "translation": "отец"
     },
     {
-      "word": "motina (mama)",
-      "translation": "мать (мама)"
+      "word": "tėtis",
+      "translation": "папа"
     },
     {
-      "word": "vyras",
+      "word": "motina",
+      "translation": "мать"
+    },
+    {
+      "word": "mama",
+      "translation": "мама"
+    },
+    {
+      "word": "vyras (сем. положение)",
       "translation": "муж"
     },
     {
@@ -362,7 +411,10 @@
     },
     {
       "word": "mėgti",
-      "translation": "нравиться"
+      "translation": "нравиться",
+      "synonyms": [
+        "любить"
+      ]
     },
     {
       "word": "patikti",
