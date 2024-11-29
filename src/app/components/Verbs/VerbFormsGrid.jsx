@@ -1,8 +1,6 @@
 import styles from "../../page.module.css";
 import VerbFormItem from "@/app/components/Verbs/VerbFormItem";
 import {getVerbTimes} from "@/app/utils/time_generation";
-
-import {Progress} from "@/app/UI/Progress";
 import {useState} from "react";
 
 export default function VerbFormsGrid({verb_forms, mode, isDirect}) {
@@ -25,7 +23,7 @@ export default function VerbFormsGrid({verb_forms, mode, isDirect}) {
 
         <>
 
-            {mode === 'test' && <div className={styles.results_info}>
+            {/*  {mode === 'test' && <div className={styles.results_info}>
                 <div className={styles.results_info_header}>Результаты</div>
                 <div className={styles.flow}>
                     <Progress correctNum={results.correctNum} incorrectNum={results.incorrectNum}
@@ -35,15 +33,22 @@ export default function VerbFormsGrid({verb_forms, mode, isDirect}) {
             </div>
 
             }
-
+*/}
 
             <div className={styles.flow}>
-                <VerbFormItem {...verbTimes.futureTime} name="Будущее время" mode={mode}/>
-                <VerbFormItem {...verbTimes.pastQuantitativeTime} name="Прошедшее повторяющееся время" mode={mode}/>
-                <VerbFormItem {...verbTimes.imperativeTime} name="Повелительное наклонение" mode={mode}/>
-                <VerbFormItem {...verbTimes.conditionalTime} name="Сослагательное наклонение" mode={mode}/>
-                <VerbFormItem {...verbTimes.presentTime} name="Настоящее время" mode={mode}/>
-                <VerbFormItem {...verbTimes.pastSimpleTime} name="Прошедшее единоразовое время" mode={mode}/>
+                <VerbFormItem {...verbTimes.futureTime} name="Будущее время" mode={mode}
+                              infinitive={verb_forms.infinitive}/>
+                <VerbFormItem {...verbTimes.pastQuantitativeTime} name="Прошедшее повторяющееся время" mode={mode}
+                              infinitive={verb_forms.infinitive}/>
+                <VerbFormItem {...verbTimes.imperativeTime} name="Повелительное наклонение" mode={mode}
+                              isImperative={true} infinitive={verb_forms.infinitive}/>
+                
+                <VerbFormItem {...verbTimes.conditionalTime} name="Сослагательное наклонение" mode={mode}
+                              infinitive={verb_forms.infinitive}/>
+                <VerbFormItem {...verbTimes.presentTime} name="Настоящее время" mode={mode}
+                              infinitive={verb_forms.infinitive}/>
+                <VerbFormItem {...verbTimes.pastSimpleTime} name="Прошедшее единоразовое время" mode={mode}
+                              infinitive={verb_forms.infinitive}/>
             </div>
         </>
     );

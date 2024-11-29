@@ -1203,8 +1203,8 @@
       "translation": "идти в школу"
     },
     {
-      "word": "pareiti arba grįžti (namo)",
-      "translation": "возвращаться (домой)"
+      "word": "pareiti (grįžti) namo",
+      "translation": "возвращаться домой"
     },
     {
       "word": "būti namie",
@@ -1212,7 +1212,10 @@
     },
     {
       "word": "ruošti namų darbus",
-      "translation": "делать домашние задания"
+      "translation": "делать домашние задания",
+      "synonyms": [
+        "делать домашнюю работу"
+      ]
     },
     {
       "word": "žaisti",
@@ -1224,7 +1227,10 @@
     },
     {
       "word": "eiti pasivaikščioti",
-      "translation": "идти на прогулку"
+      "translation": "идти на прогулку",
+      "synonyms": [
+        "идти погулять"
+      ]
     },
     {
       "word": "gultis",
@@ -1280,7 +1286,10 @@
     },
     {
       "word": "sporto salė",
-      "translation": "спортзал"
+      "translation": "спортзал",
+      "synonyms": [
+        "спортивный зал"
+      ]
     },
     {
       "word": "stadionas",

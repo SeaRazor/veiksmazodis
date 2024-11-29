@@ -10,7 +10,9 @@ export default function VerbFormItem({
                                          second_plural,
                                          third_plural,
                                          name,
-                                         mode
+                                         mode,
+                                         isImperative = false,
+                                         infinitive
                                      }) {
     const isCheck = mode === 'check';
 
@@ -19,21 +21,24 @@ export default function VerbFormItem({
         <div className={styles.card}>
             <h4 style={{textAlign: "center"}}>{name}</h4>
             <div className={styles.cards_grid}>
-                <InputField key={"first_singular_" + name} label="Aš" correct_value={first_singular} isCheck={isCheck}
-                            id={"first_singular_" + name}/>
-                <InputField key={"second_singular_" + name} label="Tu" correct_value={second_singular}
+                <InputField key={"first_singular_" + infinitive} label="Aš" correct_value={first_singular}
+                            isCheck={isCheck || isImperative}
+                            id={"first_singular_" + infinitive}/>
+                <InputField key={"second_singular_" + infinitive} label="Tu" correct_value={second_singular}
                             isCheck={isCheck}
-                            id={"second_singular_" + name}/>
-                <InputField key={"third_singular_" + name} label="Jis, Ji" correct_value={third_singular}
+                            id={"second_singular_" + infinitive}/>
+                <InputField key={"third_singular_" + infinitive} label="Jis, Ji" correct_value={third_singular}
+                            isCheck={isCheck || isImperative}
+                            id={"third_singular_" + infinitive}/>
+                <InputField key={"first_plural_" + infinitive} label="Mes" correct_value={first_plural}
                             isCheck={isCheck}
-                            id={"third_singular_" + name}/>
-                <InputField key={"first_plural_" + name} label="Mes" correct_value={first_plural} isCheck={isCheck}
-                            id={"first_plural_" + name}/>
-                <InputField key={"second_plural_" + name} label="Jūs" correct_value={second_plural} isCheck={isCheck}
-                            id={"second_plural_" + name}/>
-                <InputField key={"third_plural_" + name} label="Jie, Jos" correct_value={third_plural}
+                            id={"first_plural_" + infinitive}/>
+                <InputField key={"second_plural_" + infinitive} label="Jūs" correct_value={second_plural}
                             isCheck={isCheck}
-                            id={"third_plural_" + name}/>
+                            id={"second_plural_" + infinitive}/>
+                <InputField key={"third_plural_" + infinitive} label="Jie, Jos" correct_value={third_plural}
+                            isCheck={isCheck || isImperative}
+                            id={"third_plural_" + infinitive}/>
 
             </div>
         </div>

@@ -454,6 +454,9 @@
     /*  border-bottom: 1px solid var(--menu-label-border-color);*/
 }
 
+.tab_icon {
+    color: var(--tab-icon-color);
+}
 
 @media (max-width: 768px) {
 

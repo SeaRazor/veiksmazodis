@@ -111,7 +111,7 @@ function generatePresentTime(root, ending, asDirect) {
         case 'a':
             return {
                 first_singular: composeTimeVerb(root, '', asDirect ? 'u' : 'uosi'),
-                second_singular: composeTimeVerb(root, '', asDirect ? 'i' : 'esi'),
+                second_singular: composeTimeVerb(root, '', asDirect ? 'i' : 'iesi'),
                 third_singular: composeTimeVerb(root, '', asDirect ? 'a' : 'asi'),
                 first_plural: composeTimeVerb(root, '', asDirect ? 'ame' : 'amės'),
                 second_plural: composeTimeVerb(root, '', asDirect ? 'ate' : 'atės'),
@@ -169,8 +169,11 @@ function generatePastSimpleTime(root, ending, asDirect) {
 function composeTimeVerb(root, suffix, ending) {
     const lastRootLetter = root.slice(-1);
     const firstEndingLetter = ending.slice(0, 1);
-    if (lastRootLetter === firstEndingLetter) {
+    if (lastRootLetter === suffix) {
         return root.slice(0, -1) + suffix + ending;
+    }
+    if (lastRootLetter === 'š' && suffix === 's') {
+        return root + ending;
     }
     return root + suffix + ending;
 

@@ -2,7 +2,7 @@
 import styles from "./page.module.css";
 import commonStyles from "@/app/page.module.css";
 import {getTopics} from "@/app/utils/words";
-import {useRef, useState} from "react";
+import {useState} from "react";
 import Toggle from "@/app/UI/Toggle";
 import {Selector} from "@/app/UI/Selector";
 import {DisplayTopicWords} from "@/app/components/Words/DisplayTopicWords";
@@ -12,22 +12,25 @@ import {ModeSwitcher} from "@/app/UI/ModeSwitcher";
 export default function Words() {
 
     const topics = getTopics();
-    const [selectedTopic, setSelectedTopic] = useState();
+    const [selectedTopic, setSelectedTopic] = useState("");
     const [direction, setDirection] = useState("forward");
     const [mode, setMode] = useState("check");
-
-    const inputRef = useRef(null);
 
 
     function handleTopicSelection(topic) {
 
-        if (topic == "Выберите тему") {
-            setSelectedTopic("");
-        } else {
-            setSelectedTopic(topic);
+        switch (topic) {
+            case "Выберите тему":
+                setSelectedTopic("");
+                break;
+            case "Все":
+                setSelectedTopic("all");
+                break;
+            default:
+                setSelectedTopic(topic);
+                break;
         }
 
-        /*setDirection("forward");*/
 
     }
 
@@ -53,7 +56,7 @@ export default function Words() {
 
                             onChangeHandler={handleDirectionChange} useFlags="true"/>
 
-                    <Selector options={topics} optionSelectedFunction={handleTopicSelection}/>
+                    <Selector options={topics} optionSelectedFunction={handleTopicSelection} includeAllOption={false}/>
 
 
                 </div>

@@ -86,6 +86,11 @@
 
 }
 
+.flow_line_break {
+    flex-basis: 100%;
+    height: 0;
+}
+
 .results_info {
 
     display: flex;
@@ -148,11 +153,8 @@
     color: var(--info-text-value-color);
 }
 
-.check_value {
-    font-size: 14px;
-    border: none;
+.input_field .check_value {
     background: none;
-
     color: var(--info-text-value-color);
 
 }
@@ -200,6 +202,7 @@
     transition: background 200ms, border 200ms;
     color: var(--default-button-color);
     min-width: 3rem;
+    outline: none;
 
 }
 
@@ -216,6 +219,7 @@
     transition: background 200ms, border 200ms;
     color: var(--secondary-button-color);
     min-width: 3rem;
+    outline: none;
 }
 
 .default_button:hover {
@@ -462,7 +466,7 @@
     padding: 0.3rem;
     border-radius: var(--border-radius);
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
-    /*  background: rgba(var(--card-rgb), 0.1);*/
+    background-color: var(--input-background-color);
     font-family: var(--font-mono);
     font-size: larger;
     /*background-color: var(--input-background-color);
@@ -476,15 +480,15 @@
     outline: none;
 }
 
-.correct_input {
-    border: 1px solid var(--correct-input-color);
-    box-shadow: 0 0 10px var(--correct-input-color);
+input.correct_input {
+    border-bottom: 2px solid var(--correct-input-color);
+    /*box-shadow: 0 0 10px var(--correct-input-color);*/
 
 }
 
-.incorrect_input {
-    border: 1px solid var(--incorrect-input-color);
-    box-shadow: 0 0 10px var(--incorrect-input-color);
+input.incorrect_input {
+    border-bottom: 2px solid var(--incorrect-input-color);
+    /*box-shadow: 0 0 10px var(--incorrect-input-color);*/
 }
 
 .correct_text {

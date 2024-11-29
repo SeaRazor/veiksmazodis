@@ -1,7 +1,7 @@
 import commonStyles from '@/app/page.module.css'
 import styles from "@/app/words/page.module.css";
 import {useEffect, useRef, useState} from "react";
-import {checkWord, getRandomWord, getTopicWords} from "@/app/utils/words";
+import {checkWord, getRandomWord, getWords} from "@/app/utils/words";
 import {IconCheck, IconRefresh} from "@tabler/icons-react";
 import WordCard from "@/app/UI/WordCard";
 import {Progress} from "@/app/UI/Progress";
@@ -65,7 +65,7 @@ export function TestTopicWords({selectedTopic, direction}) {
     }
 
     function startTopicTest() {
-        const topicWords = getTopicWords(selectedTopic);
+        const topicWords = getWords(selectedTopic);
         setUnansweredWords(topicWords);
         setAnsweredWords([]);
         setFilteredWords([]);

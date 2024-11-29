@@ -72,7 +72,7 @@ export default function Cases() {
             <NounInfo  {...noun}/>
             {noun && <div className={styles.tab_container}>
                 <ModeSwitcher current={mode} onModeSwitch={handleUserMode}/>
-                {mode && <NounCasesGrid {...noun} mode={mode}/>}
+                {mode && <NounCasesGrid word={noun} mode={mode}/>}
             </div>}
 
 

@@ -3,7 +3,7 @@ import {shuffle} from "@/app/utils/helpers";
 import FlipCard from "@/app/UI/FlipCard";
 import commonStyles from "@/app/page.module.css";
 import {useEffect, useRef, useState} from "react";
-import {getTopicWords} from "@/app/utils/words";
+import {getWords} from "@/app/utils/words";
 
 export function DisplayTopicWords({selectedTopic, direction}) {
 
@@ -12,7 +12,7 @@ export function DisplayTopicWords({selectedTopic, direction}) {
     const inputRef = useRef(null);
 
     useEffect(() => {
-        const topicWords = getTopicWords(selectedTopic);
+        const topicWords = getWords(selectedTopic);
         setTopicWords(topicWords);
         setFilteredWords(topicWords);
     }, [selectedTopic]);

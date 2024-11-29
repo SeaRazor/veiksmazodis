@@ -1,5 +1,5 @@
 import styles from "@/app/page.module.css";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 
 export default function InputField({label, correct_value, isCheck, id}) {
     const [inputValue, setInputValue] = useState('');
@@ -7,6 +7,10 @@ export default function InputField({label, correct_value, isCheck, id}) {
 
     const inputClassName = isCheck ? "check_value" : "input_input";
 
+    useEffect(() => {
+        setInputValue('');
+        setCheckInputClassName('');
+    }, [correct_value]);
 
     function handleInputChange(event) {
         if (event.target.value === "") {

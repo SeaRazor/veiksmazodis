@@ -50,8 +50,8 @@
     --secondary-button-hover-color: #52b788;
     --card-rgb: 180, 185, 188;
     --card-border-rgb: 131, 134, 135;
-    --correct-input-color: teal;
-    --incorrect-input-color: #e4405f;
+    --correct-input-color: #25a244;
+    --incorrect-input-color: #ee6055;
     --total-text-color: #7392b7;
     --nav-backgtound-color: #e9ecef;
     --nav-menu-item-color: dimgray;
@@ -92,6 +92,7 @@
     --word-info-color: black;
     --word-info-back-color: #f9f9f9;
     --info-text-value-color: #2a9d8f;
+    --tab-icon-color: black;
 
 }
 
@@ -130,7 +131,7 @@
         --selector-text-color: white;
         --selector-focus-color: #7392b7;
         --app-back-color: #121212;
-        --input-background-color: #edf2fb;
+        --input-background-color: rgba(200, 200, 200, 0.5);
         --input-text-color: black;
         --tab-container-back-color: #3f3f3f;
         --nav-menu-item-color: #adb5bd;
@@ -148,6 +149,8 @@
         --word-info-color: white;
         --word-info-back-color: black;
         --info-text-value-color: #62d0b5;
+        --tab-icon-color: white;
+
     }
 }
 

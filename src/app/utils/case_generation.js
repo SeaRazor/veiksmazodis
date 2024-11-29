@@ -98,7 +98,7 @@ function getFemaleCases(noun, ending, root) {
                     nominative: noun,
                     genitive: root + "ės",
                     dative: root + "ei",
-                    accusative: noun,
+                    accusative: root + 'ę',
                     instrumental: root + "e",
                     locative: root + "ėje",
                     vocative: root + "e"
@@ -170,7 +170,7 @@ function getMaleCases(noun, ending, root) {
                     nominative: noun,
                     genitive: root + "o",
                     dative: root + "ui",
-                    accusative: root + "a",
+                    accusative: root + "ą",
                     instrumental: root + "u",
                     locative: root + "e",
                     vocative: root + "e"
