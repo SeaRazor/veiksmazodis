@@ -173,7 +173,7 @@ function getMaleCases(noun, ending, root) {
                     accusative: root + "ą",
                     instrumental: root + "u",
                     locative: root + "e",
-                    vocative: root + "e"
+                    vocative: root + "ai"
                 },
                 plural: {
                     nominative: root + "ai",
