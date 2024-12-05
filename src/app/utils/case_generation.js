@@ -34,10 +34,7 @@ export function generateNounCases(noun, gender) {
         default:
             return null;
     }
-
-
 }
-
 
 function findEnding(noun, endings) {
     for (const ending of endings) {
@@ -54,63 +51,63 @@ function getFemaleCases(noun, ending, root) {
             return {
                 single: {
                     nominative: noun,
-                    genitive: root + "os",
-                    dative: root + "ai",
-                    accusative: root + "ą",
-                    instrumental: root + "a",
-                    locative: root + "oje",
-                    vocative: noun
+                    genitive: composeCase(root, 'os'),
+                    dative: composeCase(root, "ai"),
+                    accusative: composeCase(root, "ą"),
+                    instrumental: composeCase(root, "a"),
+                    locative: composeCase(root, "oje"),
+                    vocative: composeCase(root, 'a')
                 },
                 plural: {
-                    nominative: root + "os",
-                    genitive: root + "ų",
-                    dative: root + "oms",
-                    accusative: root + "as",
-                    instrumental: root + "omis",
-                    locative: root + "ose",
-                    vocative: root + "os"
+                    nominative: composeCase(root, "os"),
+                    genitive: composeCase(root, "ų"),
+                    dative: composeCase(root, "oms"),
+                    accusative: composeCase(root, "as"),
+                    instrumental: composeCase(root, "omis"),
+                    locative: composeCase(root, "ose"),
+                    vocative: composeCase(root, "os")
                 }
             };
         case "ia":
             return {
                 single: {
                     nominative: noun,
-                    genitive: root + "ios",
-                    dative: root + "iai",
-                    accusative: root + "ią",
-                    instrumental: root + "ia",
-                    locative: root + "ioje",
+                    genitive: composeCase(root, "ios"),
+                    dative: composeCase(root, "iai"),
+                    accusative: composeCase(root, "ią"),
+                    instrumental: composeCase(root, "ia"),
+                    locative: composeCase(root, "ioje"),
                     vocative: noun
                 },
                 plural: {
-                    nominative: root + "ios",
-                    genitive: root + "ių",
-                    dative: root + "ioms",
-                    accusative: root + "ias",
-                    instrumental: root + "iomis",
-                    locative: root + "iose",
-                    vocative: root + "ios"
+                    nominative: composeCase(root, "ios"),
+                    genitive: composeCase(root, "ių"),
+                    dative: composeCase(root, "ioms"),
+                    accusative: composeCase(root, "ias"),
+                    instrumental: composeCase(root, "iomis"),
+                    locative: composeCase(root, "iose"),
+                    vocative: composeCase(root, "ios")
                 }
             };
         case "ė":
             return {
                 single: {
                     nominative: noun,
-                    genitive: root + "ės",
-                    dative: root + "ei",
-                    accusative: root + 'ę',
-                    instrumental: root + "e",
-                    locative: root + "ėje",
-                    vocative: root + "e"
+                    genitive: composeCase(root, "ės"),
+                    dative: composeCase(root, "ei"),
+                    accusative: composeCase(root, 'ę'),
+                    instrumental: composeCase(root, "e"),
+                    locative: composeCase(root, "ėje"),
+                    vocative: composeCase(root, "e")
                 },
                 plural: {
-                    nominative: root + "ės",
-                    genitive: root + "ių",
-                    dative: root + "ėms",
-                    accusative: root + "es",
-                    instrumental: root + "ėmis",
-                    locative: root + "ėse",
-                    vocative: root + "ės"
+                    nominative: composeCase(root, "ės"),
+                    genitive: composeCase(root, "ių"),
+                    dative: composeCase(root, "ėms"),
+                    accusative: composeCase(root, "es"),
+                    instrumental: composeCase(root, "ėmis"),
+                    locative: composeCase(root, "ėse"),
+                    vocative: composeCase(root, "ės")
                 }
 
             };
@@ -118,42 +115,42 @@ function getFemaleCases(noun, ending, root) {
             return {
                 single: {
                     nominative: noun,
-                    genitive: root + "ies",
-                    dative: root + "iai",
+                    genitive: composeCase(root, "ies"),
+                    dative: composeCase(root, "iai"),
                     accusative: "i",
-                    instrumental: root + "imi",
-                    locative: root + "yje",
-                    vocative: root + "ie"
+                    instrumental: composeCase(root, "imi"),
+                    locative: composeCase(root, "yje"),
+                    vocative: composeCase(root, "ie")
                 },
                 plural: {
-                    nominative: root + "ys",
-                    genitive: root + "ių",
-                    dative: root + "ims",
-                    accusative: root + "is",
-                    instrumental: root + "imis",
-                    locative: root + "yse",
-                    vocative: root + "ys"
+                    nominative: composeCase(root, "ys"),
+                    genitive: composeCase(root, "ių"),
+                    dative: composeCase(root, "ims"),
+                    accusative: composeCase(root, "is"),
+                    instrumental: composeCase(root, "imis"),
+                    locative: composeCase(root, "yse"),
+                    vocative: composeCase(root, "ys")
                 }
             };
         case "uo":
             return {
                 single: {
                     nominative: noun,
-                    genitive: root + "ers",
-                    dative: root + "eriai",
-                    accusative: root + "eri",
-                    instrumental: root + "erimi",
-                    locative: root + "eryie",
-                    vocative: root + "erie"
+                    genitive: composeCase(root, "ers"),
+                    dative: composeCase(root, "eriai"),
+                    accusative: composeCase(root, "eri"),
+                    instrumental: composeCase(root, "erimi"),
+                    locative: composeCase(root, "eryie"),
+                    vocative: composeCase(root, "erie")
                 },
                 plural: {
-                    nominative: root + "erys",
-                    genitive: root + "erų",
-                    dative: root + "erims",
-                    accusative: root + "eris",
-                    instrumental: root + "erimis",
-                    locative: root + "eryse",
-                    vocative: root + "erys"
+                    nominative: composeCase(root, "erys"),
+                    genitive: composeCase(root, "erų"),
+                    dative: composeCase(root, "erims"),
+                    accusative: composeCase(root, "eris"),
+                    instrumental: composeCase(root, "erimis"),
+                    locative: composeCase(root, "eryse"),
+                    vocative: composeCase(root, "erys")
                 }
             };
         default:
@@ -163,136 +160,141 @@ function getFemaleCases(noun, ending, root) {
 
 function getMaleCases(noun, ending, root) {
     switch (ending) {
-
         case "as":
             return {
                 single: {
                     nominative: noun,
-                    genitive: root + "o",
-                    dative: root + "ui",
-                    accusative: root + "ą",
-                    instrumental: root + "u",
-                    locative: root + "e",
-                    vocative: root + "ai"
+                    genitive: composeCase(root, "o"),
+                    dative: composeCase(root, "ui"),
+                    accusative: composeCase(root, "ą"),
+                    instrumental: composeCase(root, "u"),
+                    locative: composeCase(root, "e"),
+                    vocative: composeCase(root, "ai")
                 },
                 plural: {
-                    nominative: root + "ai",
-                    genitive: root + "ų",
-                    dative: root + "ams",
-                    accusative: root + "us",
-                    instrumental: root + "ais",
-                    locative: root + "uose",
-                    vocative: root + "ai"
+                    nominative: composeCase(root, "ai"),
+                    genitive: composeCase(root, "ų"),
+                    dative: composeCase(root, "ams"),
+                    accusative: composeCase(root, "us"),
+                    instrumental: composeCase(root, "ais"),
+                    locative: composeCase(root, "uose"),
+                    vocative: composeCase(root, "ai")
                 }
             };
         case "ias":
             return {
                 single: {
                     nominative: noun,
-                    genitive: root + "io",
-                    dative: root + "iui",
-                    accusative: root + "ia",
-                    instrumental: root + "iu",
-                    locative: root + "ie",
-                    vocative: root + "ie"
+                    genitive: composeCase(root, "io"),
+                    dative: composeCase(root, "iui"),
+                    accusative: composeCase(root, "ią"),
+                    instrumental: composeCase(root, "iu"),
+                    locative: composeCase(root, "ie"),
+                    vocative: composeCase(root, "ie")
                 },
                 plural: {
-                    nominative: root + "iai",
-                    genitive: root + "ių",
-                    dative: root + "iams",
-                    accusative: root + "ius",
-                    instrumental: root + "iais",
-                    locative: root + "iuose",
-                    vocative: root + "iai"
+                    nominative: composeCase(root, "iai"),
+                    genitive: composeCase(root, "ių"),
+                    dative: composeCase(root, "iams"),
+                    accusative: composeCase(root, "ius"),
+                    instrumental: composeCase(root, "iais"),
+                    locative: composeCase(root, "iuose"),
+                    vocative: composeCase(root, "iai")
                 }
             };
         case "us":
             return {
                 single: {
                     nominative: noun,
-                    genitive: root + "aus",
-                    dative: root + "ui",
-                    accusative: root + "u",
-                    instrumental: root + "umi",
-                    locative: root + "uje",
-                    vocative: root + "au"
+                    genitive: composeCase(root, "aus"),
+                    dative: composeCase(root, "ui"),
+                    accusative: composeCase(root, "u"),
+                    instrumental: composeCase(root, "umi"),
+                    locative: composeCase(root, "uje"),
+                    vocative: composeCase(root, "au")
                 },
                 plural: {
-                    nominative: root + "us",
-                    genitive: root + "ių",
-                    dative: root + "ums",
-                    accusative: root + "ius",
-                    instrumental: root + "umis",
-                    locative: root + "uose",
-                    vocative: root + "us"
+                    nominative: composeCase(root, "us"),
+                    genitive: composeCase(root, "ių"),
+                    dative: composeCase(root, "ums"),
+                    accusative: composeCase(root, "ius"),
+                    instrumental: composeCase(root, "umis"),
+                    locative: composeCase(root, "uose"),
+                    vocative: composeCase(root, "us")
                 }
             };
         case "ys":
             return {
                 single: {
                     nominative: noun,
-                    genitive: root + "io",
-                    dative: root + "iui",
-                    accusative: root + "į",
-                    instrumental: root + "iu",
-                    locative: root + "yje",
-                    vocative: root + "y"
+                    genitive: composeCase(root, "io"),
+                    dative: composeCase(root, "iui"),
+                    accusative: composeCase(root, "į"),
+                    instrumental: composeCase(root, "iu"),
+                    locative: composeCase(root, "yje"),
+                    vocative: composeCase(root, "y")
                 },
                 plural: {
-                    nominative: root + "iai",
-                    genitive: root + "ų",
-                    dative: root + "iams",
-                    accusative: root + "us",
-                    instrumental: root + "iais",
-                    locative: root + "iuose",
-                    vocative: root + "iai"
+                    nominative: composeCase(root, "iai"),
+                    genitive: composeCase(root, "ų"),
+                    dative: composeCase(root, "iams"),
+                    accusative: composeCase(root, "us"),
+                    instrumental: composeCase(root, "iais"),
+                    locative: composeCase(root, "iuose"),
+                    vocative: composeCase(root, "iai")
                 }
             };
         case "is":
             return {
                 single: {
                     nominative: noun,
-                    genitive: root + "io",
-                    dative: root + "iui",
-                    accusative: root + "i",
-                    instrumental: root + "iu",
-                    locative: root + "yje",
-                    vocative: root + "i"
+                    genitive: composeCase(root, "io"),
+                    dative: composeCase(root, "iui"),
+                    accusative: composeCase(root, "į"),
+                    instrumental: composeCase(root, "iu"),
+                    locative: composeCase(root, "yje"),
+                    vocative: composeCase(root, "i")
                 },
                 plural: {
-                    nominative: root + "iai",
-                    genitive: root + "ių",
-                    dative: root + "iams",
-                    accusative: root + "ius",
-                    instrumental: root + "iais",
-                    locative: root + "iuose",
-                    vocative: root + "iai"
+                    nominative: composeCase(root, "iai"),
+                    genitive: composeCase(root, "ių"),
+                    dative: composeCase(root, "iams"),
+                    accusative: composeCase(root, "ius"),
+                    instrumental: composeCase(root, "iais"),
+                    locative: composeCase(root, "iuose"),
+                    vocative: composeCase(root, "iai")
                 }
             };
         case "uo":
             return {
                 single: {
                     nominative: noun,
-                    genitive: root + "ens",
-                    dative: root + "iui",
-                    accusative: root + "eni",
-                    instrumental: root + "eniu",
-                    locative: root + "enyje",
-                    vocative: root + "enie"
+                    genitive: composeCase(root, "ens"),
+                    dative: composeCase(root, "iui"),
+                    accusative: composeCase(root, "eni"),
+                    instrumental: composeCase(root, "eniu"),
+                    locative: composeCase(root, "enyje"),
+                    vocative: composeCase(root, "enie")
                 },
                 plural: {
-                    nominative: root + "enys",
-                    genitive: root + "enu",
-                    dative: root + "ims",
-                    accusative: root + "enis",
-                    instrumental: root + "enimis",
-                    locative: root + "enyse",
-                    vocative: root + "enys"
+                    nominative: composeCase(root, "enys"),
+                    genitive: composeCase(root, "enu"),
+                    dative: composeCase(root, "ims"),
+                    accusative: composeCase(root, "enis"),
+                    instrumental: composeCase(root, "enimis"),
+                    locative: composeCase(root, "enyse"),
+                    vocative: composeCase(root, "enys")
                 }
             };
         default:
             return null;
-
-
     }
+}
+
+function composeCase(root, ending) {
+    const lastRootLetter = root.slice(-1);
+    if (lastRootLetter === 't' && ending !== 'į') {
+        return root.slice(0, -1) + 'č' + ending;
+    }
+    return root + ending;
 }

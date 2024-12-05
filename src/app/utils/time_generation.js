@@ -111,7 +111,7 @@ function generatePresentTime(root, ending, asDirect) {
         case 'a':
             return {
                 first_singular: composeTimeVerb(root, '', asDirect ? 'u' : 'uosi'),
-                second_singular: composeTimeVerb(root, '', asDirect ? 'i' : 'iesi'),
+                second_singular: composeTimeVerb(root, '', asDirect ? 'i' : 'esi'),
                 third_singular: composeTimeVerb(root, '', asDirect ? 'a' : 'asi'),
                 first_plural: composeTimeVerb(root, '', asDirect ? 'ame' : 'amės'),
                 second_plural: composeTimeVerb(root, '', asDirect ? 'ate' : 'atės'),

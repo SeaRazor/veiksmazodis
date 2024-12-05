@@ -37,7 +37,9 @@ export default function InputField({label, correct_value, isCheck, id}) {
             <input type="text" id={id} name={id} value={isCheck ? correct_value : inputValue}
                    onChange={handleInputChange}
                    onBlur={handleInputLeave} readOnly={isCheck}
-                   className={`${styles[inputClassName]} ${isCheck ? '' : styles[checkInputClassName]}`}/>
+                   className={`${styles[inputClassName]} ${isCheck ? '' : styles[checkInputClassName]}`}
+                   disabled={isCheck ? true : false}
+            />
             {/* {!isCheck && <button onClick={handleInputLeave} title="Проверить" className={commonStyles.default_button}>
                 <IconCheck size={12}/>
             </button>}*/}

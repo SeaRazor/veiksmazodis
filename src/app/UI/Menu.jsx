@@ -2,6 +2,7 @@ import styles from "@/app/page.module.css";
 import Link from "next/link";
 import {usePathname} from "next/navigation";
 
+
 export function Menu({className}) {
     const pathname = usePathname();
     return (

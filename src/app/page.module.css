@@ -317,7 +317,6 @@
     font-family: var(--font-mono);
     position: relative; /* Needed to position the tooltip content */
     display: inline-block;
-    cursor: pointer; /* Changes the cursor to pointer */
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 
 }
@@ -534,7 +533,7 @@ input.incorrect_input {
     /*   justify-content: space-around; */
     align-items: center;
     gap: 1rem;
-    padding: 0.5rem;
+    /*padding: 0.5rem;*/
     /* background: #7ca4e6;*/
     /*  border: 1px solid rgba(var(--card-border-rgb), 0.15);*/
     transition: background 200ms, border 200ms;
@@ -893,6 +892,10 @@ input.incorrect_input {
 
     .card {
         flex: 1;
+    }
+
+    .cards_grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
 }
 

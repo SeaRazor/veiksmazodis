@@ -27,17 +27,12 @@ export function ModeSwitcher({current, onModeSwitch}) {
 
                         <label htmlFor={option.id}>
                             <div className={commonStyles.flow} style={{padding: 0}}>
-                                {option.iconComponent}
+                                {/*{option.iconComponent}*/}
                                 <span className={styles.tab_text}>{option.name}</span></div>
                         </label>
                     </Fragment>
                 );
             })}
-            {/* <input type="radio" id="check" name="modeTabGroup" className="tab" checked={current === 'check'}/>
-            <label htmlFor="check">Short</label>
-
-            <input type="radio" id="tab2" name="modeTabGroup" className="tab" checked={current === 'test'}/>
-            <label htmlFor="test">Medium</label>*/}
         </>
     );
 }

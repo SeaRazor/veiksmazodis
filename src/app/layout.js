@@ -19,9 +19,10 @@ export default function RootLayout({children}) {
 
         <body className={rubik.className}>
 
-        <Navigation/>
 
+        <Navigation/>
         <div>{children}</div>
+
         </body>
         </html>
     );

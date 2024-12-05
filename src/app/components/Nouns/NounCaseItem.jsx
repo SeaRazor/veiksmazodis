@@ -1,19 +1,21 @@
-import styles from "../../page.module.css";
+import commonStyles from "../../page.module.css";
+import styles from './noun.module.css';
 import InputField from "@/app/UI/InputField";
 
 export default function NounCaseItem({
                                          mode,
                                          name,
+                                         questions,
                                          single,
                                          plural
                                      }) {
     return (
-        <div className={styles.card}>
-            <h4 style={{textAlign: "center"}}>{name}</h4>
-            <div className={styles.cards_grid}>
-                <InputField  label="Единственное" correct_value={single}
+        <div className={commonStyles.card}>
+            <div className={styles.noun_name}>{name} ({questions})</div>
+            <div className={commonStyles.cards_grid}>
+                <InputField label="Единственное" correct_value={single}
                             isCheck={mode === 'check'}/>
-                <InputField  label="Множественное" correct_value={plural}
+                <InputField label="Множественное" correct_value={plural}
                             isCheck={mode === 'check'}/>
 
             </div>

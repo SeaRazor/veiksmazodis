@@ -828,7 +828,7 @@
     },
     {
       "word": "šluostė",
-      "translation": "тряпка"
+      "translation": "ткань"
     },
     {
       "word": "valyti",
@@ -1148,7 +1148,10 @@
     },
     {
       "word": "praustis",
-      "translation": "умыться"
+      "translation": "умыться",
+      "synonyms": [
+        "умываться"
+      ]
     },
     {
       "word": "maudytis",
@@ -1299,7 +1302,10 @@
   "Laisvalaikis": [
     {
       "word": "laisvalaikis",
-      "translation": "досуг"
+      "translation": "досуг",
+      "synonyms": [
+        "свободное время"
+      ]
     },
     {
       "word": "savaitgalis",
@@ -1350,10 +1356,6 @@
       "translation": "фотографировать"
     },
     {
-      "word": "groti",
-      "translation": "играть (на инструменте)"
-    },
-    {
       "word": "jodinėti",
       "translation": "ездить верхом"
     },
@@ -1372,10 +1374,6 @@
     {
       "word": "nardyti",
       "translation": "нырять"
-    },
-    {
-      "word": "piešti",
-      "translation": "рисовать"
     },
     {
       "word": "siūti",
@@ -1399,7 +1397,10 @@
     },
     {
       "word": "žvejoti",
-      "translation": "рыбачить"
+      "translation": "рыбачить",
+      "synonyms": [
+        "ловить рыбу"
+      ]
     },
     {
       "word": "dailė",
@@ -1408,10 +1409,6 @@
     {
       "word": "kinas",
       "translation": "кино"
-    },
-    {
-      "word": "kompiuteriai",
-      "translation": "компьютеры"
     },
     {
       "word": "muzika",
@@ -1458,8 +1455,8 @@
       "translation": "программа"
     },
     {
-      "word": "mobilusis (išmanusis) telefonas",
-      "translation": "мобильный (смартфон) телефон"
+      "word": "išmanusis",
+      "translation": "смартфон"
     },
     {
       "word": "kompaktinė plokštelė",
@@ -1542,28 +1539,15 @@
       "translation": "спектакль"
     },
     {
-      "word": "groti",
-      "translation": "играть (на инструменте)"
-    },
-    {
-      "word": "dainuoti",
-      "translation": "петь"
-    },
-    {
-      "word": "šokti",
-      "translation": "танцевать"
-    },
-    {
-      "word": "vaidinti",
-      "translation": "играть (в театре)"
-    },
-    {
       "word": "bilietas",
       "translation": "билет"
     },
     {
       "word": "užsisakyti",
-      "translation": "заказать"
+      "translation": "заказать",
+      "synonyms": [
+        "заказывать"
+      ]
     },
     {
       "word": "programa",
@@ -1591,7 +1575,10 @@
     },
     {
       "word": "pertrauka",
-      "translation": "перерыв"
+      "translation": "перерыв",
+      "synonyms": [
+        "перемена"
+      ]
     },
     {
       "word": "klausyti",
@@ -1686,24 +1673,12 @@
       "translation": "фотографировать"
     },
     {
-      "word": "piešti",
-      "translation": "рисовать"
-    },
-    {
       "word": "vaidinti",
       "translation": "играть (в театре)"
     },
     {
       "word": "groti",
       "translation": "играть (на инструменте)"
-    },
-    {
-      "word": "dainuoti",
-      "translation": "петь"
-    },
-    {
-      "word": "šokti",
-      "translation": "танцевать"
     },
     {
       "word": "sportas",
@@ -1730,8 +1705,8 @@
       "translation": "бейсбол"
     },
     {
-      "word": "lakrosas (vartinis tenisas)",
-      "translation": "лакросс (воротный теннис)"
+      "word": "lakrosas",
+      "translation": "лакросс"
     },
     {
       "word": "plaukimas",
@@ -1946,10 +1921,6 @@
       "translation": "статья"
     },
     {
-      "word": "nuotrauka arba fotografija",
-      "translation": "фотография"
-    },
-    {
       "word": "žurnalistas",
       "translation": "журналист"
     },
@@ -1984,10 +1955,6 @@
     {
       "word": "švęsti",
       "translation": "праздновать"
-    },
-    {
-      "word": "gimimo diena arba gimtadienis",
-      "translation": "день рождения"
     },
     {
       "word": "krikštynos",
@@ -2309,11 +2276,17 @@
     },
     {
       "word": "atostogos",
-      "translation": "отпуск"
+      "translation": "отпуск",
+      "synonyms": [
+        "каникулы"
+      ]
     },
     {
       "word": "atostogauti",
-      "translation": "быть в отпуске"
+      "translation": "быть в отпуске",
+      "synonyms": [
+        "быть на каникулах"
+      ]
     },
     {
       "word": "stovykla",
@@ -3382,10 +3355,6 @@
       "translation": "считать"
     },
     {
-      "word": "piešti",
-      "translation": "рисовать"
-    },
-    {
       "word": "žymėti",
       "translation": "отмечать"
     },
@@ -3801,7 +3770,10 @@
     },
     {
       "word": "parodyti",
-      "translation": "показать"
+      "translation": "показать",
+      "synonyms": [
+        "показывать"
+      ]
     },
     {
       "word": "matuotis",
