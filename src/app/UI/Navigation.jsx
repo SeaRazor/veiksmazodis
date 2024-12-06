@@ -7,7 +7,7 @@ import {Menu} from "@/app/UI/Menu";
 export default function Navigation() {
     const pathname = usePathname();
 
-    const [hamburgerIsOpen, setHamburgerOpenState] = useState();
+    const [hamburgerIsOpen, setHamburgerOpenState] = useState(false);
     const logoStyle = hamburgerIsOpen ? 'pointer' : ''
 
     function toggleHamburgerOpen() {
@@ -18,7 +18,7 @@ export default function Navigation() {
     return (<header>
         <nav className={styles.nav}>
             <div className={styles.logo} onClick={toggleHamburgerOpen}>
-                <img src="/lithuania_64.png" className={styles.logo_img}/>
+                <img src="/lithuania_64.png" className={styles.logo_img} alt="logo img"/>
                 {hamburgerIsOpen && <Menu className={styles.hamburger}/>}
 
 

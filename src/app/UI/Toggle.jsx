@@ -17,7 +17,7 @@ export default function Toggle({id, name1, name2, value1, value2, currentValue, 
                    checked={value1 === selected}/>
             <label htmlFor={`${id}_${value1}`}>{useFlags ? <CustomFlag country={name1}/> : name1}</label>
             <input type="radio" id={`${id}_${value2}`} name={id} value={value2} onChange={checkHandler}
-                   checked={value2 == selected}/>
+                   checked={value2 === selected}/>
             <label htmlFor={`${id}_${value2}`}>{useFlags ? <CustomFlag country={name2}/> : name2}</label>
         </div>
 
