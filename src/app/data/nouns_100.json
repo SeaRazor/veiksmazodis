@@ -152,7 +152,8 @@
   {
     "noun": "rytas",
     "gender": "m",
-    "translation": "утро"
+    "translation": "утро",
+    "palatalize": false
   },
   {
     "noun": "naktis",
@@ -397,7 +398,8 @@
   {
     "noun": "lietus",
     "gender": "m",
-    "translation": "дождь"
+    "translation": "дождь",
+    "palatalize": false
   },
   {
     "noun": "audra",

@@ -115,8 +115,60 @@
       "translation": "день рождения"
     },
     {
-      "word": "kelintiniai skaitvardžiai",
-      "translation": "порядковые числительные"
+      "word": "pirmas",
+      "translation": "первый"
+    },
+    {
+      "word": "antras",
+      "translation": "второй"
+    },
+    {
+      "word": "trečias",
+      "translation": "третий"
+    },
+    {
+      "word": "ketvirtas",
+      "translation": "четвёртый"
+    },
+    {
+      "word": "penktas",
+      "translation": "пятый"
+    },
+    {
+      "word": "šeštas",
+      "translation": "шестой"
+    },
+    {
+      "word": "septintas",
+      "translation": "седьмой"
+    },
+    {
+      "word": "aštuntas",
+      "translation": "восьмой"
+    },
+    {
+      "word": "devintas",
+      "translation": "девятый"
+    },
+    {
+      "word": "dešimtas",
+      "translation": "десятый"
+    },
+    {
+      "word": "vienuoliktas",
+      "translation": "одиннадцатый"
+    },
+    {
+      "word": "dvyliktas",
+      "translation": "двенадцатый"
+    },
+    {
+      "word": "tryliktas",
+      "translation": "тринадцатый"
+    },
+    {
+      "word": "dvidešimtas",
+      "translation": "двадцатый"
     },
     {
       "word": "gimimo vieta",
@@ -1436,7 +1488,10 @@
     },
     {
       "word": "įrašyti",
-      "translation": "записывать"
+      "translation": "записывать",
+      "synonyms": [
+        "записать"
+      ]
     },
     {
       "word": "televizorius",

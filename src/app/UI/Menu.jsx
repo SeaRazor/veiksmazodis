@@ -9,13 +9,13 @@ export function Menu({className}) {
         <ul className={className}>
 
             <li className={styles.menu_item}>
-                <Link href="/verbs" className={pathname == '/verbs' ? 'active' : ''}>Глаголы</Link>
+                <Link href="/verbs" className={pathname === '/verbs' ? 'active' : ''}>Глаголы</Link>
             </li>
             <li className={styles.menu_item}>
-                <Link href="/cases" className={pathname == '/cases' ? 'active' : ''}>Падежи</Link>
+                <Link href="/cases" className={pathname === '/cases' ? 'active' : ''}>Падежи</Link>
             </li>
             <li className={styles.menu_item}>
-                <Link href="/words" className={pathname == '/words' ? 'active' : ''}>Словарь A2</Link>
+                <Link href="/words" className={pathname === '/words' ? 'active' : ''}>Словарь A2</Link>
             </li>
 
 

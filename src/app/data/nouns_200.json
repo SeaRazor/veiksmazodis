@@ -1,0 +1,592 @@
+[
+  {
+    "noun": "Žmogus",
+    "gender": "masculine",
+    "translation": "человек"
+  },
+  {
+    "noun": "Metai",
+    "gender": "plural",
+    "translation": "год"
+  },
+  {
+    "noun": "Diena",
+    "gender": "feminine",
+    "translation": "день"
+  },
+  {
+    "noun": "Laikas",
+    "gender": "masculine",
+    "translation": "время"
+  },
+  {
+    "noun": "Vieta",
+    "gender": "feminine",
+    "translation": "место"
+  },
+  {
+    "noun": "Vaikas",
+    "gender": "masculine",
+    "translation": "ребенок"
+  },
+  {
+    "noun": "Šeima",
+    "gender": "feminine",
+    "translation": "семья"
+  },
+  {
+    "noun": "Moteris",
+    "gender": "feminine",
+    "translation": "женщина"
+  },
+  {
+    "noun": "Vyras",
+    "gender": "masculine",
+    "translation": "мужчина"
+  },
+  {
+    "noun": "Namas",
+    "gender": "masculine",
+    "translation": "дом"
+  },
+  {
+    "noun": "Darbas",
+    "gender": "masculine",
+    "translation": "работа"
+  },
+  {
+    "noun": "Miestas",
+    "gender": "masculine",
+    "translation": "город"
+  },
+  {
+    "noun": "Kelias",
+    "gender": "masculine",
+    "translation": "дорога"
+  },
+  {
+    "noun": "Vanduo",
+    "gender": "masculine",
+    "translation": "вода"
+  },
+  {
+    "noun": "Mašina",
+    "gender": "feminine",
+    "translation": "машина"
+  },
+  {
+    "noun": "Knyga",
+    "gender": "feminine",
+    "translation": "книга"
+  },
+  {
+    "noun": "Mokykla",
+    "gender": "feminine",
+    "translation": "школа"
+  },
+  {
+    "noun": "Draugas",
+    "gender": "masculine",
+    "translation": "друг"
+  },
+  {
+    "noun": "Gyvenimas",
+    "gender": "masculine",
+    "translation": "жизнь"
+  },
+  {
+    "noun": "Pinigai",
+    "gender": "plural",
+    "translation": "деньги"
+  },
+  {
+    "noun": "Mama",
+    "gender": "feminine",
+    "translation": "мать"
+  },
+  {
+    "noun": "Tėvas",
+    "gender": "masculine",
+    "translation": "отец"
+  },
+  {
+    "noun": "Sesuo",
+    "gender": "feminine",
+    "translation": "сестра"
+  },
+  {
+    "noun": "Brolis",
+    "gender": "masculine",
+    "translation": "брат"
+  },
+  {
+    "noun": "Mokytojas",
+    "gender": "masculine",
+    "translation": "учитель"
+  },
+  {
+    "noun": "Studentas",
+    "gender": "masculine",
+    "translation": "студент"
+  },
+  {
+    "noun": "Universitetas",
+    "gender": "masculine",
+    "translation": "университет"
+  },
+  {
+    "noun": "Klasė",
+    "gender": "feminine",
+    "translation": "класс"
+  },
+  {
+    "noun": "Pamoka",
+    "gender": "feminine",
+    "translation": "урок"
+  },
+  {
+    "noun": "Pasaulis",
+    "gender": "masculine",
+    "translation": "мир"
+  },
+  {
+    "noun": "Šalis",
+    "gender": "feminine",
+    "translation": "страна"
+  },
+  {
+    "noun": "Valstybė",
+    "gender": "feminine",
+    "translation": "государство"
+  },
+  {
+    "noun": "Miškas",
+    "gender": "masculine",
+    "translation": "лес"
+  },
+  {
+    "noun": "Kalnas",
+    "gender": "masculine",
+    "translation": "гора"
+  },
+  {
+    "noun": "Upė",
+    "gender": "feminine",
+    "translation": "река"
+  },
+  {
+    "noun": "Ežeras",
+    "gender": "masculine",
+    "translation": "озеро"
+  },
+  {
+    "noun": "Jūra",
+    "gender": "feminine",
+    "translation": "море"
+  },
+  {
+    "noun": "Dangus",
+    "gender": "masculine",
+    "translation": "небо"
+  },
+  {
+    "noun": "Saulė",
+    "gender": "feminine",
+    "translation": "солнце"
+  },
+  {
+    "noun": "Mėnulis",
+    "gender": "masculine",
+    "translation": "луна"
+  },
+  {
+    "noun": "Žvaigždė",
+    "gender": "feminine",
+    "translation": "звезда"
+  },
+  {
+    "noun": "Gėlė",
+    "gender": "feminine",
+    "translation": "цветок"
+  },
+  {
+    "noun": "Medis",
+    "gender": "masculine",
+    "translation": "дерево"
+  },
+  {
+    "noun": "Žolė",
+    "gender": "feminine",
+    "translation": "трава"
+  },
+  {
+    "noun": "Gyvūnas",
+    "gender": "masculine",
+    "translation": "животное"
+  },
+  {
+    "noun": "Paukštis",
+    "gender": "masculine",
+    "translation": "птица"
+  },
+  {
+    "noun": "Žuvis",
+    "gender": "feminine",
+    "translation": "рыба"
+  },
+  {
+    "noun": "Katė",
+    "gender": "feminine",
+    "translation": "кошка"
+  },
+  {
+    "noun": "Šuo",
+    "gender": "masculine",
+    "translation": "собака"
+  },
+  {
+    "noun": "Žaidimas",
+    "gender": "masculine",
+    "translation": "игра"
+  },
+  {
+    "noun": "Sportas",
+    "gender": "masculine",
+    "translation": "спорт"
+  },
+  {
+    "noun": "Muzika",
+    "gender": "feminine",
+    "translation": "музыка"
+  },
+  {
+    "noun": "Filmas",
+    "gender": "masculine",
+    "translation": "фильм"
+  },
+  {
+    "noun": "Teatras",
+    "gender": "masculine",
+    "translation": "театр"
+  },
+  {
+    "noun": "Muziejus",
+    "gender": "masculine",
+    "translation": "музей"
+  },
+  {
+    "noun": "Biblioteka",
+    "gender": "feminine",
+    "translation": "библиотека"
+  },
+  {
+    "noun": "Restoranas",
+    "gender": "masculine",
+    "translation": "ресторан"
+  },
+  {
+    "noun": "Kavinė",
+    "gender": "feminine",
+    "translation": "кафе"
+  },
+  {
+    "noun": "Parduotuvė",
+    "gender": "feminine",
+    "translation": "магазин"
+  },
+  {
+    "noun": "Rinka",
+    "gender": "feminine",
+    "translation": "рынок"
+  },
+  {
+    "noun": "Prekė",
+    "gender": "feminine",
+    "translation": "товар"
+  },
+  {
+    "noun": "Kaina",
+    "gender": "feminine",
+    "translation": "цена"
+  },
+  {
+    "noun": "Pinigai",
+    "gender": "plural",
+    "translation": "деньги"
+  },
+  {
+    "noun": "Bankas",
+    "gender": "masculine",
+    "translation": "банк"
+  },
+  {
+    "noun": "Kortelė",
+    "gender": "feminine",
+    "translation": "карта"
+  },
+  {
+    "noun": "Sąskaita",
+    "gender": "feminine",
+    "translation": "счет"
+  },
+  {
+    "noun": "Telefonas",
+    "gender": "masculine",
+    "translation": "телефон"
+  },
+  {
+    "noun": "Kompiuteris",
+    "gender": "masculine",
+    "translation": "компьютер"
+  },
+  {
+    "noun": "Internetas",
+    "gender": "masculine",
+    "translation": "интернет"
+  },
+  {
+    "noun": "Elektroninis paštas",
+    "gender": "masculine",
+    "translation": "электронная почта"
+  },
+  {
+    "noun": "Žinutė",
+    "gender": "feminine",
+    "translation": "сообщение"
+  },
+  {
+    "noun": "Nuotrauka",
+    "gender": "feminine",
+    "translation": "фотография"
+  },
+  {
+    "noun": "Vaizdo įrašas",
+    "gender": "masculine",
+    "translation": "видео"
+  },
+  {
+    "noun": "Programa",
+    "gender": "feminine",
+    "translation": "программа"
+  },
+  {
+    "noun": "Žaidimas",
+    "gender": "masculine",
+    "translation": "игра"
+  },
+  {
+    "noun": "Automobilis",
+    "gender": "masculine",
+    "translation": "автомобиль"
+  },
+  {
+    "noun": "Dviračiai",
+    "gender": "masculine",
+    "translation": "велосипед"
+  },
+  {
+    "noun": "Autobusas",
+    "gender": "masculine",
+    "translation": "автобус"
+  },
+  {
+    "noun": "Traukinys",
+    "gender": "masculine",
+    "translation": "поезд"
+  },
+  {
+    "noun": "Lėktuvas",
+    "gender": "masculine",
+    "translation": "самолет"
+  },
+  {
+    "noun": "Laivas",
+    "gender": "masculine",
+    "translation": "корабль"
+  },
+  {
+    "noun": "Kelionė",
+    "gender": "feminine",
+    "translation": "путешествие"
+  },
+  {
+    "noun": "Atostogos",
+    "gender": "plural",
+    "translation": "отпуск"
+  },
+  {
+    "noun": "Viešbutis",
+    "gender": "masculine",
+    "translation": "гостиница"
+  },
+  {
+    "noun": "Kambarys",
+    "gender": "masculine",
+    "translation": "комната"
+  },
+  {
+    "noun": "Lova",
+    "gender": "feminine",
+    "translation": "кровать"
+  },
+  {
+    "noun": "Durys",
+    "gender": "plural",
+    "translation": "дверь"
+  },
+  {
+    "noun": "Langas",
+    "gender": "masculine",
+    "translation": "окно"
+  },
+  {
+    "noun": "Virtuvė",
+    "gender": "feminine",
+    "translation": "кухня"
+  },
+  {
+    "noun": "Vonios kambarys",
+    "gender": "masculine",
+    "translation": "ванная комната"
+  },
+  {
+    "noun": "Svetainė",
+    "gender": "feminine",
+    "translation": "гостиная"
+  },
+  {
+    "noun": "Sodas",
+    "gender": "masculine",
+    "translation": "сад"
+  },
+  {
+    "noun": "Gatvė",
+    "gender": "feminine",
+    "translation": "улица"
+  },
+  {
+    "noun": "Aikštė",
+    "gender": "feminine",
+    "translation": "площадь"
+  },
+  {
+    "noun": "Parkas",
+    "gender": "masculine",
+    "translation": "парк"
+  },
+  {
+    "noun": "Tiltas",
+    "gender": "masculine",
+    "translation": "мост"
+  },
+  {
+    "noun": "Stotis",
+    "gender": "feminine",
+    "translation": "станция"
+  },
+  {
+    "noun": "Knyga",
+    "gender": "feminine",
+    "translation": "книга"
+  },
+  {
+    "noun": "Žurnalas",
+    "gender": "masculine",
+    "translation": "журнал"
+  },
+  {
+    "noun": "Laikraštis",
+    "gender": "masculine",
+    "translation": "газета"
+  },
+  {
+    "noun": "Rašiklis",
+    "gender": "masculine",
+    "translation": "ручка"
+  },
+  {
+    "noun": "Pieštukas",
+    "gender": "masculine",
+    "translation": "карандаш"
+  },
+  {
+    "noun": "Popierius",
+    "gender": "masculine",
+    "translation": "бумага"
+  },
+  {
+    "noun": "Knyga",
+    "gender": "feminine",
+    "translation": "книга"
+  },
+  {
+    "noun": "Sąsiuvinis",
+    "gender": "masculine",
+    "translation": "тетрадь"
+  },
+  {
+    "noun": "Stalas",
+    "gender": "masculine",
+    "translation": "стол"
+  },
+  {
+    "noun": "Kėdė",
+    "gender": "feminine",
+    "translation": "стул"
+  },
+  {
+    "noun": "Lempa",
+    "gender": "feminine",
+    "translation": "лампа"
+  },
+  {
+    "noun": "Kompiuteris",
+    "gender": "masculine",
+    "translation": "компьютер"
+  },
+  {
+    "noun": "Monitorius",
+    "gender": "masculine",
+    "translation": "монитор"
+  },
+  {
+    "noun": "Klaviatūra",
+    "gender": "feminine",
+    "translation": "клавиатура"
+  },
+  {
+    "noun": "Pele",
+    "gender": "feminine",
+    "translation": "мышь"
+  },
+  {
+    "noun": "Spinta",
+    "gender": "feminine",
+    "translation": "шкаф"
+  },
+  {
+    "noun": "Lentyna",
+    "gender": "feminine",
+    "translation": "полка"
+  },
+  {
+    "noun": "Durys",
+    "gender": "plural",
+    "translation": "дверь"
+  },
+  {
+    "noun": "Langas",
+    "gender": "masculine",
+    "translation": "окно"
+  },
+  {
+    "noun": "Užuolaidos",
+    "gender": "plural",
+    "translation": "занавески"
+  },
+  {
+    "noun": "Kilimas",
+    "gender": "masculine",
+    "translation": "ковер"
+  }
+]

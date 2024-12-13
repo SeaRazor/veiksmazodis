@@ -3,8 +3,8 @@ import styles from "@/app/page.module.css";
 import NounCaseItem from "@/app/components/Nouns/NounCaseItem";
 
 export default function NounCasesGrid({word, mode}) {
-    const {noun, gender} = word;
-    const nounCases = generateNounCases(noun, gender);
+    const {noun, gender, palatalize} = word;
+    const nounCases = generateNounCases(noun, gender, palatalize);
     if (!nounCases) {
         return null;
     }

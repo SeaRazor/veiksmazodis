@@ -103,7 +103,7 @@ export function TestTopicWords({selectedTopic, direction}) {
         if (filter === '') {
             setFilteredWords(answeredWords);
         } else {
-            const filterCondition = filter === 'correct' ? true : false;
+            const filterCondition = filter === 'correct';
             setFilteredWords(answeredWords.filter((word) => word.checkResult === filterCondition));
         }
 

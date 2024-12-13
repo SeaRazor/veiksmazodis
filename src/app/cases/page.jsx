@@ -2,7 +2,7 @@
 import {toast, ToastContainer} from "react-toastify";
 import styles from "@/app/page.module.css";
 import {IconDice5Filled, IconSearch} from "@tabler/icons-react";
-import {useState} from "react";
+import {useRef, useState} from "react";
 import {getRandomNoun, searchNoun} from "@/app/utils/nouns";
 import NounInfo from "@/app/components/Nouns/NounInfo";
 import NounCasesGrid from "@/app/components/Nouns/NounCasesGrid";
@@ -12,6 +12,7 @@ export default function Cases() {
 
     const [noun, setNoun] = useState();
     const [mode, setMode] = useState("check");
+    const inputRef = useRef();
 
     function handleUserMode(selectedMode) {
         setMode(selectedMode);
@@ -41,18 +42,21 @@ export default function Cases() {
 
     function handleGetNewNoun() {
         setNoun(getRandomNoun());
+        inputRef.current.value = '';
     }
 
     return (
         <>
-            <ToastContainer hideProgressBar={true} position="top-center" autoClose="3000" closeOnClick={true}/>
+            <ToastContainer hideProgressBar={true} position="top-center" autoClose="2000" closeOnClick={true}/>
 
             <div className={styles.input_flow}>
 
                 <input className={styles.search_input} type="text"
                        id="searchString"
                        placeholder="Введите слово на литовском или перевод на русский"
-                       onKeyUp={handleSearchInput}/>
+                       onKeyUp={handleSearchInput}
+                       ref={inputRef}
+                />
 
 
                 <button onClick={handleSearchButtonClick} title="Найти слово" className={styles.default_button}>
@@ -63,9 +67,6 @@ export default function Cases() {
                     <IconDice5Filled size={20}/>
                     <span className={styles.hidden_on_mobile}>Случайный</span>
                 </button>
-                {/*   {noun && <Toggle id="check" name1="Посмотреть" name2="Проверить" value1="check" value2="test"
-                                 currentValue={mode}
-                                 onChangeHandler={handleUserMode}/>}*/}
 
 
             </div>
