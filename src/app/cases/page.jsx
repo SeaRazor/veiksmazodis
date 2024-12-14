@@ -1,33 +1,22 @@
 'use client';
 import {toast, ToastContainer} from "react-toastify";
 import styles from "@/app/page.module.css";
-import {IconDice5Filled, IconSearch} from "@tabler/icons-react";
-import {useRef, useState} from "react";
+import {IconDice5Filled} from "@tabler/icons-react";
+import {useState} from "react";
 import {getRandomNoun, searchNoun} from "@/app/utils/nouns";
 import NounInfo from "@/app/components/Nouns/NounInfo";
 import NounCasesGrid from "@/app/components/Nouns/NounCasesGrid";
 import {ModeSwitcher} from "@/app/UI/ModeSwitcher";
+import {SearchInput} from "@/app/UI/SearchInput";
 
 export default function Cases() {
 
     const [noun, setNoun] = useState();
     const [mode, setMode] = useState("check");
-    const inputRef = useRef();
+    const [searchValue, setSearchValue] = useState('');
 
     function handleUserMode(selectedMode) {
         setMode(selectedMode);
-    }
-
-    function handleSearchInput(e) {
-        if (e.key === 'Enter' || e.keyCode === 13) {
-            searchNounFromInput(e.target.value);
-        }
-    }
-
-    function handleSearchButtonClick() {
-        const searchValue = document.getElementById('searchString').value;
-        searchNounFromInput(searchValue);
-
     }
 
     function searchNounFromInput(searchValue) {
@@ -41,8 +30,10 @@ export default function Cases() {
     }
 
     function handleGetNewNoun() {
-        setNoun(getRandomNoun());
-        inputRef.current.value = '';
+        const newNoun = getRandomNoun();
+        setNoun(newNoun);
+        setSearchValue(newNoun.noun);
+
     }
 
     return (
@@ -50,19 +41,8 @@ export default function Cases() {
             <ToastContainer hideProgressBar={true} position="top-center" autoClose="2000" closeOnClick={true}/>
 
             <div className={styles.input_flow}>
-
-                <input className={styles.search_input} type="text"
-                       id="searchString"
-                       placeholder="Введите слово на литовском или перевод на русский"
-                       onKeyUp={handleSearchInput}
-                       ref={inputRef}
-                />
-
-
-                <button onClick={handleSearchButtonClick} title="Найти слово" className={styles.default_button}>
-                    <IconSearch size={20}/>
-                    <span className={styles.hidden_on_mobile}>Найти</span>
-                </button>
+                <SearchInput searchHandler={searchNounFromInput} currentValue={searchValue}
+                             placeholder="Введите сущесвительное на литовском или перевод на русский"/>
                 <button onClick={handleGetNewNoun} title="Получить случайное слово" className={styles.secondary_button}>
                     <IconDice5Filled size={20}/>
                     <span className={styles.hidden_on_mobile}>Случайный</span>

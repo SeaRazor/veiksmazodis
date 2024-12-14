@@ -5,36 +5,28 @@ import {toast, ToastContainer} from "react-toastify";
 import VerbInfo from "@/app/components/Verbs/VerbInfo";
 import VerbFormsGrid from "@/app/components/Verbs/VerbFormsGrid";
 import styles from "@/app/page.module.css";
-import {IconDice5Filled, IconSearch} from "@tabler/icons-react";
+import {IconDice5Filled} from "@tabler/icons-react";
 import {ModeSwitcher} from "@/app/UI/ModeSwitcher";
 import Toggle from "@/app/UI/Toggle";
+import {SearchInput} from "@/app/UI/SearchInput";
 
 export default function VerbsTrainer(props) {
 
     const [verb, setVerb] = useState();
     const [mode, setMode] = useState("check");
     const [isDirect, setDirection] = useState(true);
+    const [searchValue, setSearchValue] = useState('');
 
 
     function handleGetNewVerb() {
-        setVerb(getRandomVerb(isDirect));
+        const newVerb = getRandomVerb(isDirect)
+        setVerb(newVerb);
+        setSearchValue(newVerb.infinitive)
     }
 
     function handleUserMode(selectedMode) {
         /* const selectedMode = document.querySelector('input[name="mode"]:checked').value;*/
         setMode(selectedMode);
-    }
-
-    function handleSearchInput(e) {
-        if (e.key === 'Enter' || e.keyCode === 13) {
-            searchVerbFromInput(e.target.value);
-        }
-    }
-
-    function handleSearchButtonClick() {
-        const searchValue = document.getElementById('searchInput').value;
-        searchVerbFromInput(searchValue);
-
     }
 
     function handleTypeChange() {
@@ -62,16 +54,8 @@ export default function VerbsTrainer(props) {
                     onChangeHandler={handleTypeChange}
             />
 
-            <input className={styles.search_input} type="text"
-                   id="searchInput"
-                   placeholder="Введите инфинитив на литовском или перевод на русский"
-                   onKeyUp={handleSearchInput}/>
-
-
-            <button onClick={handleSearchButtonClick} title="Найти глагол" className={styles.default_button}>
-                <IconSearch size={20}/>
-                <span className={styles.hidden_on_mobile}>Найти</span>
-            </button>
+            <SearchInput searchHandler={searchVerbFromInput} currentValue={searchValue}
+                         placeholder="Введите инфинитив на литовском или русском"/>
             <button onClick={handleGetNewVerb} title="Получить случайный глагол" className={styles.secondary_button}>
                 <IconDice5Filled size={20}/>
                 <span className={styles.hidden_on_mobile}>Случайный</span>

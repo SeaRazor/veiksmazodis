@@ -405,14 +405,27 @@
     flex-basis: 0;
 }
 
+.search_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+
+
+}
 
 .search_input {
     padding: 0.5rem;
-    border-radius: var(--border-radius);
-    border: 1px solid rgba(var(--card-border-rgb), 0.15);
+    border-top-left-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+    border-top: 1px solid var(--default-button-back-color);
+    border-bottom: 1px solid var(--default-button-back-color);
+    border-left: 1px solid var(--default-button-back-color);
+    border-right: none;
     font-family: var(--font-mono);
-    max-width: 50%;
-    min-width: 25%;
+    /* max-width: 50%;
+*/
+    min-width: 75%;
     min-height: 2.5rem;
 
 
@@ -422,6 +435,30 @@
     outline: none;
 }
 
+.search_button {
+    padding: 0.5rem;
+    border-top-right-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+
+    border: 1px solid rgba(var(--card-border-rgb), 0.15);
+    background-color: var(--default-button-back-color);
+    color: var(--default-button-color);
+    outline: none;
+
+}
+
+.search_button:hover {
+    background: var(--default-button-hover-color);
+    border: 1px solid rgba(var(--card-border-rgb), 0.25);
+    cursor: pointer;
+}
+
+.test_input {
+    border: 1px solid rgba(var(--card-border-rgb), 0.15);
+    border-radius: var(--border-radius);
+    outline: none;
+    padding: 0.5rem;
+}
 
 .input_field_grid {
     display: grid;

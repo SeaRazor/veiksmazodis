@@ -114,7 +114,7 @@ export function TestTopicWords({selectedTopic, direction}) {
 
             {currentWord && <div className={commonStyles.input_flow}>
                 <WordCard word={direction === 'forward' ? currentWord.word : currentWord.translation}/>
-                <input className={`${commonStyles.search_input} ${commonStyles[checkInputClassName]}`} type="text"
+                <input className={`${commonStyles.test_input} ${commonStyles[checkInputClassName]}`} type="text"
                        id="testString" ref={inputRef}
                        onKeyUp={handleTestInput}
                        placeholder="Перевод"
