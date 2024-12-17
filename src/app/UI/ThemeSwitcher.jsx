@@ -1,23 +1,30 @@
 "use client";
 import {useTheme} from "next-themes";
-import {useEffect, useState} from "react";
+import React from "react";
+import styles from "@/app/UI/ui.module.css";
 import Toggle from "@/app/UI/Toggle";
+import {IconMoonFilled, IconSunFilled} from "@tabler/icons-react";
 
 const ThemeSwitcher = () => {
-    const [mount, setMount] = useState(false);
-    const {systemTheme, theme, setTheme} = useTheme();
-    const currentTheme = theme === "system" ? systemTheme : theme;
+    const {theme, setTheme} = useTheme();
 
-    function handleThemeChange(newTheme) {
-        setTheme(currentTheme === "dark" ? "light" : "dark");
+    function toggleTheme(newTheme) {
+        setTheme(newTheme);
     }
 
-    useEffect(() => {
-        setMount(true);
-    }, []);
-    return mount ? (
-        <Toggle name1="light" value1="Светлая" name2="dark" value2="Темная" currentValue="light"
-                onChangeHandler={handleThemeChange}/>
-    ) : null;
+    return (
+        /* <div className={`${styles.switch_field} ${styles.theme_toggle}`}>
+             <input type="radio" id="light" name="theme" value="light" onChange={() => setTheme("light")}
+                    checked={theme === 'light'}/>
+             <label htmlFor="light" className={styles.theme_label}><IconSunFilled size={20} color="#fdc500"/></label>
+             <input type="radio" id="dark" name="theme" value="dark" onChange={() => setTheme("dark")}
+                    checked={theme === 'dark'}/>
+             <label htmlFor="dark" className={styles.theme_label}><IconMoonFilled size={20} color="lightblue"/> </label>
+         </div>*/
+        <div className={styles.image_toggle}>
+            <Toggle id={theme} name1={<IconSunFilled size={20} color="#fdc500"/>} value1="light"
+                    name2={<IconMoonFilled size={20} color="lightblue"/>} value2="dark" onChangeHandler={toggleTheme}/>
+        </div>
+    );
 };
 export default ThemeSwitcher;

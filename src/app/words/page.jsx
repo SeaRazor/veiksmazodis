@@ -52,9 +52,12 @@ export default function Words() {
 
             <div className={styles.wrapping_container}>
                 <div className={commonStyles.input_flow}>
-                    <Toggle id="lang_toggle" name1="LT" value1="forward" name2="RU" value2="reverse"
 
-                            onChangeHandler={handleDirectionChange} useFlags="true"/>
+                    
+                    <Toggle id="lang_toggle" name1={<img src={`/flags/LT.png`} width={18} height={18}
+                                                         alt="RU"/>} value1="forward" name2={<img
+                        src={`/flags/RU.png`} width={18} height={18} alt="LT"/>} value2="reverse"
+                            onChangeHandler={handleDirectionChange}/>
 
                     <Selector options={topics} optionSelectedFunction={handleTopicSelection} includeAllOption={false}/>
 

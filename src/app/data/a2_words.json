@@ -2051,11 +2051,17 @@
     },
     {
       "word": "skristi",
-      "translation": "лететь"
+      "translation": "лететь",
+      "synonyms": [
+        "летать"
+      ]
     },
     {
       "word": "plaukti",
-      "translation": "плыть"
+      "translation": "плыть",
+      "synonyms": [
+        "плавать"
+      ]
     },
     {
       "word": "keliauti",
@@ -2127,7 +2133,10 @@
     },
     {
       "word": "stotis",
-      "translation": "станция"
+      "translation": "станция",
+      "synonyms": [
+        "вокзал"
+      ]
     },
     {
       "word": "bagažas",
@@ -2437,7 +2446,10 @@
     },
     {
       "word": "viešbutis",
-      "translation": "гостиница"
+      "translation": "гостиница",
+      "synonyms": [
+        "отель"
+      ]
     },
     {
       "word": "kempingas",

@@ -3,6 +3,7 @@ import styles from "@/app/page.module.css";
 import {usePathname} from "next/navigation";
 import {useState} from "react";
 import {Menu} from "@/app/UI/Menu";
+import ThemeSwitcher from "@/app/UI/ThemeSwitcher";
 
 export default function Navigation() {
     const pathname = usePathname();
@@ -25,6 +26,7 @@ export default function Navigation() {
             </div>
 
             <Menu className={styles.navbar}/>
+            <ThemeSwitcher/>
 
 
         </nav>

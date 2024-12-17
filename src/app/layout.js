@@ -2,6 +2,7 @@ import "./globals.css";
 import 'react-toastify/dist/ReactToastify.css';
 import Navigation from "@/app/UI/Navigation";
 import localFont from 'next/font/local'
+import {ThemeProvider} from "next-themes";
 
 
 /*const poppins = localFont({src: './fonts/Poppins-Regular.ttf', variable: '--font-mono'});
@@ -15,15 +16,17 @@ export const metadata = {
 export default function RootLayout({children}) {
 
     return (
+
         <html lang="en">
-
         <body className={rubik.className}>
-
-
-        <Navigation/>
-        <div>{children}</div>
+        <ThemeProvider>
+            <Navigation/>
+            <div>{children}</div>
+        </ThemeProvider>
 
         </body>
         </html>
+
+
     );
 }

@@ -277,10 +277,9 @@
 }
 
 
-.switch_field input:checked + label {
+.switch_field input:checked + label,
+.switch_field.image_toggle input:checked + label.theme_label {
     background-color: var(--switch-checked-label-back-color);
-    /* box-shadow: inset 1px 1px 1px var(--switch-checked-label-box-shadow-color);
-     transform: translateY(1px);*/
     color: var(--switch-checked-label-text-color);
 
 }
@@ -291,6 +290,19 @@
 
 .switch_field label:last-of-type {
     border-radius: 0 4px 4px 0;
+}
+
+.switch_field label.theme_label {
+    min-width: 3rem;
+}
+
+.image_toggle {
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+.image_toggle label {
+    min-width: 0;
 }
 
 .progress_wrapper {
