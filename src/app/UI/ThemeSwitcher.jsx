@@ -23,7 +23,8 @@ const ThemeSwitcher = () => {
          </div>*/
         <div className={styles.image_toggle}>
             <Toggle id={theme} name1={<IconSunFilled size={20} color="#fdc500"/>} value1="light"
-                    name2={<IconMoonFilled size={20} color="lightblue"/>} value2="dark" onChangeHandler={toggleTheme}/>
+                    name2={<IconMoonFilled size={20} color="lightblue"/>} value2="dark" currentValue={theme}
+                    onChangeHandler={toggleTheme}/>
         </div>
     );
 };

@@ -295,13 +295,21 @@ function getMaleCases(noun, ending, root, palatalize) {
 
 function composeCase(root, ending, palatalize = true) {
 
+    const resultCandidate = root + ending;
+    const replacementPatterns = ['tia', 'tią', 'tiu', 'tių', 'tiū', 'tio', 'dią', 'dią', 'diu', 'dių', 'diū', 'dio'];
+    for (const pattern of replacementPatterns) {
+        if (resultCandidate.includes(pattern)) {
+            const firstPatternLetter = pattern.charAt(0);
+            switch (firstPatternLetter) {
+                case 't':
+                    return resultCandidate.replace(pattern, 'č' + pattern.slice(-2));
+                case 'd':
+                    return resultCandidate.replace(pattern, 'dž' + pattern.slice(-2));
+                default:
+                    return resultCandidate;
+            }
 
-    if (palatalize) {
-        const lastRootLetter = root.slice(-1);
-        if (lastRootLetter === 't' && ending !== 'į') {
-            return root.slice(0, -1) + 'č' + ending;
         }
     }
-
-    return root + ending;
+    return resultCandidate;
 }

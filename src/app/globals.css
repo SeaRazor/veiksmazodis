@@ -93,6 +93,8 @@
     --word-info-back-color: #f9f9f9;
     --info-text-value-color: #2a9d8f;
     --tab-icon-color: black;
+    --light-shadow: rgba(0, 0, 0, 0.12);
+    --dark-shadow: rgba(0, 0, 0, 0.24);
 
 }
 
@@ -148,6 +150,7 @@
     --word-info-back-color: black;
     --info-text-value-color: #62d0b5;
     --tab-icon-color: white;
+
 
 }
 

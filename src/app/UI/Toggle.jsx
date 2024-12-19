@@ -3,7 +3,7 @@ import {useState} from "react";
 import {CustomFlag} from "@/app/UI/CustomFlag";
 
 export default function Toggle({id, name1, name2, value1, value2, currentValue, onChangeHandler, useFlags = false}) {
-    const [selected, setSelected] = useState(value1);
+    const [selected, setSelected] = useState(currentValue ? currentValue : value1);
 
     function checkHandler(event) {
         setSelected(event.target.value);
