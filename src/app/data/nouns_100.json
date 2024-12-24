@@ -515,5 +515,10 @@
     "noun": "kalnas",
     "gender": "m",
     "translation": "гора"
+  },
+  {
+    "noun" : "akmuo",
+    "gender" : "m",
+    "translation" : "камень"
   }
 ]

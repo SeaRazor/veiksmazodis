@@ -125,7 +125,7 @@
     z-index: 10;
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
     border-radius: var(--border-radius);
-    margin: 1rem;
+    margin: 0.5rem 1rem;
     position: relative;
     color: var(--word-info-color);
     background-color: var(--word-info-back-color);
@@ -135,7 +135,7 @@
 .info_icon {
     position: absolute;
     top: -15px;
-    left: 0px
+    right: -5px;
 }
 
 .info_item {
@@ -240,7 +240,7 @@
     justify-content: center;
     gap: 0.5rem;
     align-items: stretch;
-    padding: 1rem;
+    padding: 0.5rem;
     /*  width: 100%;*/
 
 }

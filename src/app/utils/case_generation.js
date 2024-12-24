@@ -296,7 +296,7 @@ function getMaleCases(noun, ending, root, palatalize) {
 function composeCase(root, ending, palatalize = true) {
 
     const resultCandidate = root + ending;
-    const replacementPatterns = ['tia', 'tią', 'tiu', 'tių', 'tiū', 'tio', 'dią', 'dią', 'diu', 'dių', 'diū', 'dio'];
+    const replacementPatterns = ['tia', 'tią', 'tiu', 'tių', 'tiū', 'tio', 'dia', 'dią', 'diu', 'dių', 'diū', 'dio'];
     for (const pattern of replacementPatterns) {
         if (resultCandidate.includes(pattern)) {
             const firstPatternLetter = pattern.charAt(0);
