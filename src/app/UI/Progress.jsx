@@ -39,7 +39,7 @@ export function Progress({correctNum, incorrectNum, total, handleFilterBy}) {
                      style={{width: `${incorrectWidth}%`}}
                      onClick={handleFilterClick}>{incorrectWidth > 0 && incorrectNum}</div>}
 
-            {totalWidth > 1 && <div className={styles.progress_total} style={{width: `${totalWidth}%`}}>{rest}</div>}
+            {totalWidth > 0 && <div className={styles.progress_total} style={{width: `${totalWidth}%`}}>{rest}</div>}
 
 
         </div>

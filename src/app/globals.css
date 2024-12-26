@@ -128,7 +128,7 @@
     --card-rgb: 100, 100, 100;
     --card-border-rgb: 200, 200, 200;
     --selector-back-color: black;
-    --selector-text-color: white;
+    --selector-text-color: #121212;
     --selector-focus-color: #7392b7;
     --app-back-color: #121212;
     --input-background-color: rgba(200, 200, 200, 0.5);

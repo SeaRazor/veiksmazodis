@@ -128,7 +128,8 @@
     },
     {
       "word": "ketvirtas",
-      "translation": "четвёртый"
+      "translation": "четвёртый",
+      "synonyms" : ["четвертый"]
     },
     {
       "word": "penktas",
@@ -688,11 +689,13 @@
     },
     {
       "word": "atrakinti",
-      "translation": "открыть (ключом)"
+      "translation": "открыть ключом",
+      "synonyms" : ["отпереть"]
     },
     {
       "word": "užrakinti",
-      "translation": "закрыть (ключом)"
+      "translation": "закрыть ключом",
+      "synonyms" : ["запереть"]
     },
     {
       "word": "skambutis",
@@ -1074,7 +1077,8 @@
     },
     {
       "word": "geras (gražus) oras",
-      "translation": "хорошая (красивая) погода"
+      "translation": "хорошая  погода",
+      "synonyms" : ["красивая погода"]
     },
     {
       "word": "blogas oras",
@@ -2109,7 +2113,8 @@
     },
     {
       "word": "mėnesinis bilietas",
-      "translation": "месячный билет"
+      "translation": "месячный билет",
+      "synonyms" : ["месячный проездной"]
     },
     {
       "word": "bilietas į priekį ir atgal",
@@ -2418,11 +2423,12 @@
     },
     {
       "word": "užsienis",
-      "translation": "зарубеж"
+      "translation": "зарубеж",
+      "synonyms" : ["заграница"]
     },
     {
       "word": "užsienio šalys",
-      "translation": "иностранные страны"
+      "translation": "зарубежные страны"
     },
     {
       "word": "Afrika",
@@ -2635,7 +2641,8 @@
     },
     {
       "word": "pasimatymas",
-      "translation": "свидание"
+      "translation": "свидание",
+      "synonyms" : ["встреча"]
     },
     {
       "word": "susitarti",

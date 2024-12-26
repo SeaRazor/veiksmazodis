@@ -53,7 +53,7 @@ export default function Words() {
             <div className={styles.wrapping_container}>
                 <div className={commonStyles.input_flow}>
 
-                    
+
                     <Toggle id="lang_toggle" name1={<img src={`/flags/LT.png`} width={18} height={18}
                                                          alt="RU"/>} value1="forward" name2={<img
                         src={`/flags/RU.png`} width={18} height={18} alt="LT"/>} value2="reverse"
@@ -64,6 +64,7 @@ export default function Words() {
 
                 </div>
                 {selectedTopic && <div className={commonStyles.tab_container}>
+
                     <ModeSwitcher current={mode} onModeSwitch={handleModeChange}/>
                     {mode === 'check' ? <DisplayTopicWords selectedTopic={selectedTopic} direction={direction}/>
                         : <TestTopicWords selectedTopic={selectedTopic} direction={direction}/>}
