@@ -118,7 +118,7 @@ function getFemaleCases(noun, ending, root, palatalize) {
                     nominative: noun,
                     genitive: composeCase(root, "ies", palatalize),
                     dative: composeCase(root, "iai", palatalize),
-                    accusative: "i",
+                    accusative: composeCase(root,"i"),
                     instrumental: composeCase(root, "imi", palatalize),
                     locative: composeCase(root, "yje", palatalize),
                     vocative: composeCase(root, "ie", palatalize)

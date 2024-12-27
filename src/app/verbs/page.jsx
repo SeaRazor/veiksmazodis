@@ -13,7 +13,7 @@ import {SearchInput} from "@/app/UI/SearchInput";
 export default function VerbsTrainer(props) {
 
     const [verb, setVerb] = useState();
-    const [mode, setMode] = useState("check");
+    const [mode, setMode] = useState("test");
     const [isDirect, setDirection] = useState(true);
     const [searchValue, setSearchValue] = useState('');
 
@@ -50,9 +50,7 @@ export default function VerbsTrainer(props) {
 
         <div className={styles.input_flow}>
 
-            <Toggle id="type_toggle" name1="Прямые" name2="Возвратные" value1="direct" value2="reflex"
-                    onChangeHandler={handleTypeChange}
-            />
+
 
             <SearchInput searchHandler={searchVerbFromInput} currentValue={searchValue}
                          placeholder="Введите инфинитив на литовском или русском"/>
@@ -60,6 +58,9 @@ export default function VerbsTrainer(props) {
                 <IconDice5Filled size={20}/>
                 <span className={styles.hidden_on_mobile}>Случайный</span>
             </button>
+            <Toggle id="type_toggle" name1="Прямые" name2="Возвратные" value1="direct" value2="reflex"
+                    onChangeHandler={handleTypeChange}
+            />
             {/*{verb && <Toggle id="mode_toggle" name1="Посмотреть" name2="Проверить" value1="check" value2="test"
                              currentValue={mode}
                              onChangeHandler={handleUserMode}/>}*/}

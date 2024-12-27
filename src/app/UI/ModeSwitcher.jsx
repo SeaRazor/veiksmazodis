@@ -8,17 +8,19 @@ export function ModeSwitcher({current, onModeSwitch}) {
         {
             id: "check",
             name: "Изучение",
-            iconComponent: <IconEye size={24} className={styles.tab_icon}/>
+            iconComponent: <IconEye size={24} className={styles.tab_icon}/>,
+            order : 10
         },
         {
             id: "test",
             name: "Проверка",
-            iconComponent: <IconTextSpellcheck size={24} className={styles.tab_icon}/>
+            iconComponent: <IconTextSpellcheck size={24} className={styles.tab_icon}/>,
+            order: 20
         }
     ];
     return (
         <>
-            {options.map((option) => {
+            {options.sort((a,b) => b.order - a.order).map((option) => {
                 return (
                     <Fragment key={option.id}>
                         <input type="radio" id={option.id} name="modeTabGroup" className={styles.tab}

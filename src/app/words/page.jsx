@@ -14,7 +14,7 @@ export default function Words() {
     const topics = getTopics();
     const [selectedTopic, setSelectedTopic] = useState("");
     const [direction, setDirection] = useState("forward");
-    const [mode, setMode] = useState("check");
+    const [mode, setMode] = useState("test");
 
 
     function handleTopicSelection(topic) {

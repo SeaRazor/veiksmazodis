@@ -13,7 +13,7 @@ import Toggle from "@/app/UI/Toggle";
 export default function Cases() {
 
     const [noun, setNoun] = useState();
-    const [mode, setMode] = useState("check");
+    const [mode, setMode] = useState("test");
     const [searchValue, setSearchValue] = useState('');
     const [view, setView] = useState('case');
 
