@@ -18,6 +18,7 @@ export function TestTopicWords({selectedTopic, direction}) {
     const [complete, setComplete] = useState(false);
     const [filteredWords, setFilteredWords] = useState([]);
     const inputRef = useRef(null);
+    let totalWords;
 
 
     useEffect(() => {
@@ -27,7 +28,7 @@ export function TestTopicWords({selectedTopic, direction}) {
     useEffect(() => {
         if (unAnsweredWords.length > 0) {
             setNewWord();
-        } else if (answeredWords.length > 0 && answeredWords.length === results.totalNum) {
+        } else if (answeredWords.length > 0 && answeredWords.length === totalWords) {
             setCurrentWord(null);
             setComplete(true);
         }
@@ -66,11 +67,13 @@ export function TestTopicWords({selectedTopic, direction}) {
 
     function startTopicTest() {
         const topicWords = getWords(selectedTopic);
+        totalWords = topicWords.length;
         setUnansweredWords(topicWords);
         setAnsweredWords([]);
         setFilteredWords([]);
         setResults({correctNum: 0, incorrectNum: 0, totalNum: topicWords.length});
         setComplete(false);
+
     }
 
     function setNewWord() {

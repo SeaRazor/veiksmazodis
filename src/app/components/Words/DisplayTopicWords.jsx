@@ -38,6 +38,7 @@ export function DisplayTopicWords({selectedTopic, direction}) {
 
     return (
         <div className={commonStyles.column_flow}>
+
             <SearchInput searchHandler={handleSearchInput} currentValue="" placeholder="Введите слово или его часть"
                          searchOnType={true}/>
             <div className={styles.words_container}>

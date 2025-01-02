@@ -1,14 +1,15 @@
 'use client';
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import {getRandomVerb, searchVerb} from "@/app/utils/verbs";
 import {toast, ToastContainer} from "react-toastify";
 import VerbInfo from "@/app/components/Verbs/VerbInfo";
 import VerbFormsGrid from "@/app/components/Verbs/VerbFormsGrid";
 import styles from "@/app/page.module.css";
-import {IconDice5Filled} from "@tabler/icons-react";
+import {IconDice5Filled, IconQuestionMark} from "@tabler/icons-react";
 import {ModeSwitcher} from "@/app/UI/ModeSwitcher";
 import Toggle from "@/app/UI/Toggle";
 import {SearchInput} from "@/app/UI/SearchInput";
+import InputField from "@/app/UI/InputField";
 
 export default function VerbsTrainer(props) {
 
@@ -16,12 +17,18 @@ export default function VerbsTrainer(props) {
     const [mode, setMode] = useState("test");
     const [isDirect, setDirection] = useState(true);
     const [searchValue, setSearchValue] = useState('');
+    const [helpRequested, setHelpRequested] = useState(false);
+
+
+    useEffect(() => {
+        setHelpRequested(false);
+    }, [verb]);
 
 
     function handleGetNewVerb() {
         const newVerb = getRandomVerb(isDirect)
         setVerb(newVerb);
-        setSearchValue(newVerb.infinitive)
+        setSearchValue('');
     }
 
     function handleUserMode(selectedMode) {
@@ -44,12 +51,15 @@ export default function VerbsTrainer(props) {
         }
     }
 
+    function handleHelpClick() {
+        setHelpRequested(true);
+    }
+
     return <>
         <ToastContainer hideProgressBar={true} position="top-center" autoClose="3000" closeOnClick={true}/>
 
 
         <div className={styles.input_flow}>
-
 
 
             <SearchInput searchHandler={searchVerbFromInput} currentValue={searchValue}
@@ -61,12 +71,23 @@ export default function VerbsTrainer(props) {
             <Toggle id="type_toggle" name1="Прямые" name2="Возвратные" value1="direct" value2="reflex"
                     onChangeHandler={handleTypeChange}
             />
-            {/*{verb && <Toggle id="mode_toggle" name1="Посмотреть" name2="Проверить" value1="check" value2="test"
-                             currentValue={mode}
-                             onChangeHandler={handleUserMode}/>}*/}
+
 
         </div>
-        {verb && <VerbInfo  {...verb}/>}
+        {verb && <div className={styles.word_info}>
+            <InputField isCheck={true} correct_value={`${verb.infinitive} (${verb.translation})`}
+                        label="Инфинитив"/>
+            <InputField isCheck={mode === 'check' || helpRequested} correct_value={verb.present}
+                        label="Настоящее"/>
+            <InputField isCheck={mode === 'check' || helpRequested} correct_value={verb.past} label="Прошлое"/>
+            <button className={styles.default_button} title="Помощь" onClick={handleHelpClick} disabled={mode=== 'check' || helpRequested}
+                    tabIndex="-1">
+                <IconQuestionMark size={20}/>
+                {/* <span className={styles.hidden_on_mobile}>Помощь</span>*/}
+            </button>
+        </div>
+        }
+
         {verb && <div className={styles.tab_container}>
             <ModeSwitcher current={mode} onModeSwitch={handleUserMode}/>
             {mode && <VerbFormsGrid verb_forms={verb} mode={mode} isDirect={isDirect}/>}

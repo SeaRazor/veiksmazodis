@@ -117,18 +117,21 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     gap: 0.5rem;
+    padding: 0 0.5rem;
     text-align: center;
     position: sticky !important;
     top: 0px;
     z-index: 10;
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
     border-radius: var(--border-radius);
-    margin: 0.5rem 1rem;
+    margin: 1rem;
     position: relative;
     color: var(--word-info-color);
-    background-color: var(--word-info-back-color);
+    background-color: var(--nav-back-color);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 
 }
 
@@ -156,6 +159,7 @@
 .input_field .check_value {
     background: none;
     color: var(--info-text-value-color);
+
 
 }
 
@@ -203,9 +207,13 @@
     color: var(--default-button-color);
     min-width: 3rem;
     outline: none;
+    /*max-height: 3rem;*/
 
 }
-
+.default_button:disabled {
+  opacity: 0.3;
+    cursor: initial;
+}
 .secondary_button {
     display: flex;
     justify-content: center;
@@ -255,14 +263,14 @@
     flex-direction: column;
     justify-content: center;
     gap: 0.5rem;
-    align-items: center;
+    align-items: stretch;
     /*    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
         border-radius: var(--border-radius);*/
     align-self: stretch;
-    /* margin: 1rem;*/
+     margin: 0.5rem;
 
     width: 100%;
-    padding: 1rem;
+   /* padding: 1rem;*/
 
 
 }
@@ -390,7 +398,7 @@
     transition: background 200ms, border 200ms;
     font-family: var(--font-mono);
     padding: 0.5rem;
-    width: 100%;
+   /* width: 100%;*/
     font-size: smaller;
 
 }
@@ -407,9 +415,10 @@
 
 .search_container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    width: 50%;
+    /*padding:0.5rem;*/
+    flex-basis: 50%;
 
 
 }
@@ -425,7 +434,8 @@
     font-family: var(--font-mono);
     /* max-width: 50%;
 */
-    min-width: 75%;
+   /* min-width: 75%;*/
+    flex-basis: 100%;
     min-height: 2.5rem;
 
 
@@ -502,7 +512,8 @@
 .input_field input {
     padding: 0.3rem;
     border-radius: var(--border-radius);
-    border: 1px solid rgba(var(--card-border-rgb), 0.15);
+    border: none;
+    border-bottom: 2px solid rgba(var(--card-border-rgb), 0);
     background-color: var(--input-background-color);
     font-family: var(--font-mono);
     font-size: larger;
@@ -516,6 +527,12 @@
 .input_field input:focus {
     outline: none;
 }
+
+.input_filed input:disabled {
+    border: 2px solid var(--card-border-rgb);
+}
+
+
 
 input.correct_input {
     border-bottom: 2px solid var(--correct-input-color);
@@ -595,7 +612,7 @@ input.incorrect_input {
 .menu_item:hover {
     color: var(--nav-menu-item-selected-color);
     cursor: pointer;
-    border-bottom: 1px solid var(--nav-menu-item-selected-color);
+    /*border-bottom: 1px solid var(--nav-menu-item-selected-color);*/
 }
 
 .navbar {
@@ -700,6 +717,17 @@ input.incorrect_input {
         margin-bottom: 120px;
         /*max-width: 320px;*/
         /*text-align: center;*/
+    }
+    .flow {
+        display: flex;
+        flex-direction: column;
+    }
+    .word_info {
+        display: flex;
+        flex-direction: row;
+    }
+    .word_info .default_button {
+        /*display : none;*/
     }
 
     .card {

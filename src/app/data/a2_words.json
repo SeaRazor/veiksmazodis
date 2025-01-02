@@ -2908,7 +2908,7 @@
     },
     {
       "word": "skaudėti",
-      "translation": "болеть (о части тела)"
+      "translation": "болеть"
     },
     {
       "word": "temperatūra",
@@ -3016,7 +3016,8 @@
     },
     {
       "word": "gerti vaistus",
-      "translation": "принимать лекарства"
+      "translation": "принимать лекарства",
+      "synonyms" : ["пить лекарства", "употреблять лекарства"]
     },
     {
       "word": "receptas",
@@ -3128,7 +3129,7 @@
     },
     {
       "word": "ragauti",
-      "translation": "пробовать на вкус"
+      "translation": "пробовать"
     },
     {
       "word": "nervintis",

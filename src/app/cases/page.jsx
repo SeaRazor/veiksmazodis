@@ -15,7 +15,7 @@ export default function Cases() {
     const [noun, setNoun] = useState();
     const [mode, setMode] = useState("test");
     const [searchValue, setSearchValue] = useState('');
-    const [view, setView] = useState('case');
+    const [view, setView] = useState('number');
 
     function handleUserMode(selectedMode) {
         setMode(selectedMode);
@@ -34,7 +34,7 @@ export default function Cases() {
     function handleGetNewNoun() {
         const newNoun = getRandomNoun();
         setNoun(newNoun);
-        setSearchValue(newNoun.noun);
+        setSearchValue('');
 
     }
 

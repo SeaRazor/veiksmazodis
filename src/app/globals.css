@@ -233,9 +233,13 @@ a {
 }
 
 a.active {
-    color: var(--nav-menu-item-selected-color);
+    color: var(--default-button-color);
+    background: var(--default-button-back-color);
+    border-radius: var(--border-radius);
+    padding: 0.5rem;
     /*border-bottom: 1px solid var(--nav-menu-item-selected-color);*/
 }
+
 
 dialog {
     margin: 0; /* `margin: auto;` is the default. */

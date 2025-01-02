@@ -20,7 +20,7 @@ export default function VerbFormItem({
     return (
         <div className={styles.card}>
             <div style={{textAlign: "center"}}>{name}</div>
-            <div className={styles.cards_grid}>
+            <div className={styles.column_flow}>
                 <InputField key={"first_singular_" + infinitive} label="Aš" correct_value={first_singular}
                             isCheck={isCheck || isImperative}
                             id={"first_singular_" + infinitive}/>
