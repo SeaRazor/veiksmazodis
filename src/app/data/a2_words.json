@@ -448,11 +448,13 @@
     },
     {
       "word": "pusbrolis",
-      "translation": "двоюродный брат"
+      "translation": "двоюродный брат",
+      "synonyms" : ["кузен"]
     },
     {
       "word": "pusseserė",
-      "translation": "двоюродная сестра"
+      "translation": "двоюродная сестра",
+      "synonyms" : ["кузина"]
     },
     {
       "word": "senelis",
@@ -1555,7 +1557,8 @@
     },
     {
       "word": "interneto puslapis",
-      "translation": "веб-страница"
+      "translation": "веб-страница",
+      "synonyms" : ["интернет-страница"]
     },
     {
       "word": "kinas",

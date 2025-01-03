@@ -295,8 +295,8 @@
 }
 
 .image_toggle {
-    margin-left: auto;
-    margin-right: 1rem;
+   /* margin-left: auto;
+    margin-right: 1rem;*/
 }
 
 .image_toggle label {
@@ -466,6 +466,10 @@
 
 .tab_icon {
     color: var(--tab-icon-color);
+}
+.theme_switch_wrapper{
+    margin-left: auto;
+    margin-right: 0.5rem;
 }
 
 @media (max-width: 768px) {

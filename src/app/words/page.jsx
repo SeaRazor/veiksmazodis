@@ -57,7 +57,7 @@ export default function Words() {
                     <Toggle id="lang_toggle" name1={<img src={`/flags/LT.png`} width={18} height={18}
                                                          alt="RU"/>} value1="forward" name2={<img
                         src={`/flags/RU.png`} width={18} height={18} alt="LT"/>} value2="reverse"
-                            onChangeHandler={handleDirectionChange}/>
+                            onChangeHandler={handleDirectionChange} useImages={true}/>
 
                     <Selector options={topics} optionSelectedFunction={handleTopicSelection} includeAllOption={false}/>
 
