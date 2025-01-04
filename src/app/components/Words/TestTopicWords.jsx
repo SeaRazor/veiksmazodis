@@ -2,7 +2,7 @@ import commonStyles from '@/app/page.module.css'
 import styles from "@/app/words/page.module.css";
 import {useEffect, useRef, useState} from "react";
 import {checkWord, getRandomWord, getWords} from "@/app/utils/words";
-import {IconCheck, IconRefresh} from "@tabler/icons-react";
+import {IconCheck, IconQuestionMark, IconRefresh} from "@tabler/icons-react";
 import WordCard from "@/app/UI/WordCard";
 import {Progress} from "@/app/UI/Progress";
 import FlipCard from "@/app/UI/FlipCard";
@@ -17,6 +17,7 @@ export function TestTopicWords({selectedTopic, direction}) {
     const [checkInputClassName, setCheckInputClassName] = useState('');
     const [complete, setComplete] = useState(false);
     const [filteredWords, setFilteredWords] = useState([]);
+  /*  const [hintsLeft, setHintsLeft] = useState(3);*/
     const inputRef = useRef(null);
     let totalWords;
 
@@ -121,6 +122,7 @@ export function TestTopicWords({selectedTopic, direction}) {
 
             {currentWord && <div className={commonStyles.input_flow}>
                 <WordCard word={direction === 'forward' ? currentWord.word : currentWord.translation}/>
+
                 <input className={`${commonStyles.test_input} ${commonStyles[checkInputClassName]}`} type="text"
                        id="testString" ref={inputRef}
                        onKeyUp={handleTestInput}
@@ -133,10 +135,15 @@ export function TestTopicWords({selectedTopic, direction}) {
                     <IconCheck size={20}/>
                     <span className={commonStyles.hidden_on_mobile}>Проверить</span>
                 </button>
+               {/* <button onClick={handleHelpRequested} title="Помощь" className={commonStyles.help_button} disabled={hintsLeft === 0}>
+                    <IconQuestionMark size={20}/>
+                    <span>Подсказать(подсказок: {hintsLeft})</span>
+                </button>*/}
                 <button onClick={handleRefreshButtonClick} title="Заново" className={commonStyles.secondary_button}>
                     <IconRefresh size={20}/>
                     <span className={commonStyles.hidden_on_mobile}>Заново</span>
                 </button>
+
 
 
             </div>

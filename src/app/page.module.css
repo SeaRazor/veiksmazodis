@@ -79,7 +79,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 0.5rem;
-    align-items: center;
+    align-items: stretch;
     padding: 1rem;
     width: 100%;
 
@@ -205,7 +205,7 @@
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
     transition: background 200ms, border 200ms;
     color: var(--default-button-color);
-    min-width: 3rem;
+    /*min-width: 3rem;*/
     outline: none;
     /*max-height: 3rem;*/
 
@@ -240,6 +240,22 @@
     background: var(--secondary-button-hover-color);
     border: 1px solid rgba(var(--card-border-rgb), 0.25);
     cursor: pointer;
+}
+
+.inner_button {
+    padding : 0.3rem;
+    border:none;
+    background-color: var(--secondary-button-back-color);
+    color: var(--secondary-button-color);
+    border-top-right-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+
+}
+.inner_button:hover {
+    cursor: pointer;
+}
+.inner_button:disabled {
+    opacity: 0.3;
 }
 
 .input_flow {
@@ -328,7 +344,8 @@
     position: relative; /* Needed to position the tooltip content */
     display: inline-block;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-
+    flex-basis: 0;
+    flex-grow: 0;
 }
 
 .card span {
@@ -392,9 +409,10 @@
 .input_field {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+
+    justify-content:  space-around;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
     /*background: rgba(var(--card-rgb), 0.1);
     border: 1px solid rgba(var(--card-border-rgb), 0.15);*/
     transition: background 200ms, border 200ms;
@@ -406,8 +424,8 @@
 }
 
 .input_label {
-    flex-grow: 1;
-    flex-basis: 0;
+    /*flex-grow: 1;*/
+    flex-basis: 100%;
 }
 
 .input_input {
@@ -472,6 +490,15 @@
     padding: 0.5rem;
 }
 
+.input_container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border:1px solid slategray;
+    /*padding:1px;*/
+    border-radius: var(--border-radius);
+}
+
 .input_field_grid {
     display: grid;
     grid-template-columns: 35% 65%;
@@ -490,7 +517,9 @@
 
 .cards_grid {
     display: grid;
+    /*
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    */
     grid-gap: 0.5rem;
 
 }
@@ -513,7 +542,8 @@
 
 .input_field input {
     padding: 0.3rem;
-    border-radius: var(--border-radius);
+    border-top-left-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
     border: none;
     border-bottom: 2px solid rgba(var(--card-border-rgb), 0);
     background-color: var(--input-background-color);
@@ -536,15 +566,20 @@
 
 
 
-input.correct_input {
+.input_container:has(input.correct_input) {
     border-bottom: 2px solid var(--correct-input-color);
-    /*box-shadow: 0 0 10px var(--correct-input-color);*/
-
 }
 
-input.incorrect_input {
+.test_input.correct_input {
+    border-bottom: 2px solid var(--correct-input-color);
+}
+
+.input_container:has(input.incorrect_input){
     border-bottom: 2px solid var(--incorrect-input-color);
-    /*box-shadow: 0 0 10px var(--incorrect-input-color);*/
+}
+
+.test_input.incorrect_input {
+    border-bottom: 2px solid var(--incorrect-input-color);
 }
 
 .correct_text {
@@ -726,7 +761,8 @@ input.incorrect_input {
     }
     .word_info {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        align-items: stretch;
     }
     .word_info .default_button {
         /*display : none;*/
@@ -937,7 +973,7 @@ input.incorrect_input {
 
     .input_field input {
         /*font-size: smaller;*/
-        width: 100%;
+       /* width: 100%;*/
         flex-basis: 60%;
         flex-grow: 0;
 

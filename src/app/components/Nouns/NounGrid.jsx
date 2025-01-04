@@ -28,8 +28,8 @@ export default function NounGrid({word, mode, viewMode}) {
             <NounCaseItem mode={mode} {...genitive} name="Родительный" questions="Ko?"/>
             <NounCaseItem mode={mode} {...dative} name="Дательный" questions="Kam?"/>
             <NounCaseItem mode={mode} {...accusative} name="Винительный" questions="Ką?"/>
-            <NounCaseItem mode={mode} {...instrumental} name="Творительный (инструментальный)" questions="Kuo?"/>
-            <NounCaseItem mode={mode} {...locative} name="Предложный (местный)" questions="Kur? Kame?"/>
+            <NounCaseItem mode={mode} {...instrumental} name="Творительный/Инструментальный" questions="Kuo?"/>
+            <NounCaseItem mode={mode} {...locative} name="Предложный/Местный" questions="Kur? Kame?"/>
             <NounCaseItem mode={mode} {...vocative} name="Звательный" questions="Kas?"/>
             </>
             }

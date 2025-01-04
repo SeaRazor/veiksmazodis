@@ -80,11 +80,11 @@ export default function VerbsTrainer(props) {
             <InputField isCheck={mode === 'check' || helpRequested} correct_value={verb.present}
                         label="Настоящее"/>
             <InputField isCheck={mode === 'check' || helpRequested} correct_value={verb.past} label="Прошлое"/>
-            <button className={styles.default_button} title="Помощь" onClick={handleHelpClick} disabled={mode=== 'check' || helpRequested}
+           {/* <button className={styles.default_button} title="Помощь" onClick={handleHelpClick} disabled={mode=== 'check' || helpRequested}
                     tabIndex="-1">
                 <IconQuestionMark size={20}/>
-                {/* <span className={styles.hidden_on_mobile}>Помощь</span>*/}
-            </button>
+
+            </button>*/}
         </div>
         }
 

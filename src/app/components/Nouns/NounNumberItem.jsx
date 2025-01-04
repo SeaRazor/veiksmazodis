@@ -24,9 +24,9 @@ export default function NounNumberItem({
                             isCheck={mode === 'check'}/>
                 <InputField key={"accusative_" + number} label="Винительный (Ką?)" correct_value={accusative}
                             isCheck={mode === 'check'}/>
-                <InputField key={"instrumental_" + number} label="Творительный (инструментальный) (Kuo?)" correct_value={instrumental}
+                <InputField key={"instrumental_" + number} label="Творительный/Инструментальный (Kuo?)" correct_value={instrumental}
                             isCheck={mode === 'check'}/>
-                <InputField key={"locative_" + number} label="Местный (предложный) (Kur? Kame?)" correct_value={locative}
+                <InputField key={"locative_" + number} label="Местный/Предложный (Kur? Kame?)" correct_value={locative}
                             isCheck={mode === 'check'}/>
                 <InputField key={"vocative_" + number} label="Звательный (Kas?)" correct_value={vocative}
                             isCheck={mode === 'check'}/>
