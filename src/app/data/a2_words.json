@@ -3385,8 +3385,12 @@
       "translation": "религия"
     },
     {
-      "word": "pratimas ir užduotis",
-      "translation": "упражнение и задание"
+      "word": "pratimas",
+      "translation": "упражнение"
+    },
+    {
+      "word": "užduotis",
+      "translation": "задание"
     },
     {
       "word": "pavyzdys",
@@ -3398,7 +3402,8 @@
     },
     {
       "word": "namų darbas",
-      "translation": "домашнее задание"
+      "translation": "домашнее задание",
+      "synonyms": ["домашняя работа"]
     },
     {
       "word": "referatas",
@@ -3454,7 +3459,8 @@
     },
     {
       "word": "lenta",
-      "translation": "доска"
+      "translation": "доска",
+      "synonyms" : ["полка"]
     },
     {
       "word": "išmanioji lenta",
@@ -3494,7 +3500,8 @@
     },
     {
       "word": "parkeris",
-      "translation": "перо"
+      "translation": "перо",
+      "synonyms": ["перьевая ручка", "авторучка"]
     },
     {
       "word": "flomasteris",
@@ -3574,7 +3581,8 @@
     },
     {
       "word": "dirbti kompiuteriu",
-      "translation": "работать на компьютере"
+      "translation": "работать на компьютере",
+      "synonyms": ["работать за компьютером"]
     },
     {
       "word": "stojamasis",
@@ -3681,8 +3689,9 @@
       "translation": "хорошо"
     },
     {
-      "word": "šiek tiek arba truputį",
-      "translation": "немного"
+      "word": "šiek tiek, truputį",
+      "translation": "немного",
+      "synonyms" : ["чуть-чуть"]
     },
     {
       "word": "blogai",

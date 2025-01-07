@@ -246,7 +246,8 @@
 .switch_field {
     display: flex;
     overflow: hidden;
-    border-radius: 5px;
+    border-radius: var(--border-radius);
+
 }
 
 .switch_field input {
