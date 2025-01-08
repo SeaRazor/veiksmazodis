@@ -2,11 +2,12 @@ import commonStyles from '@/app/page.module.css'
 import styles from "@/app/words/page.module.css";
 import {useEffect, useRef, useState} from "react";
 import {checkWord, getRandomWord, getWords} from "@/app/utils/words";
-import {IconCheck, IconQuestionMark, IconRefresh} from "@tabler/icons-react";
+import {IconCheck, IconPlayerTrackNext, IconRefresh} from "@tabler/icons-react";
 import WordCard from "@/app/UI/WordCard";
 import {Progress} from "@/app/UI/Progress";
 import FlipCard from "@/app/UI/FlipCard";
 import {Modal} from "@/app/UI/ResultsDialog";
+
 
 export function TestTopicWords({selectedTopic, direction}) {
 
@@ -17,7 +18,7 @@ export function TestTopicWords({selectedTopic, direction}) {
     const [checkInputClassName, setCheckInputClassName] = useState('');
     const [complete, setComplete] = useState(false);
     const [filteredWords, setFilteredWords] = useState([]);
-  /*  const [hintsLeft, setHintsLeft] = useState(3);*/
+    /*  const [hintsLeft, setHintsLeft] = useState(3);*/
     const inputRef = useRef(null);
     let totalWords;
 
@@ -60,11 +61,10 @@ export function TestTopicWords({selectedTopic, direction}) {
         }
         setResults(newResults);
         inputRef.current.value = '';
-        if (newResults.totalNum === newResults.correctNum + newResults.incorrectNum){
+        if (newResults.totalNum === newResults.correctNum + newResults.incorrectNum) {
             setComplete(true);
             setCurrentWord(null);
-        }
-        else {
+        } else {
             setNewWord();
         }
     }
@@ -76,7 +76,6 @@ export function TestTopicWords({selectedTopic, direction}) {
         setFilteredWords([]);
         setResults({correctNum: 0, incorrectNum: 0, totalNum: topicWords.length});
         setComplete(false);
-
 
 
     }
@@ -107,6 +106,11 @@ export function TestTopicWords({selectedTopic, direction}) {
         startTopicTest();
     }
 
+    function handleNextButtonClick() {
+        setNewWord();
+    }
+
+
     function handleFilterChange(filter) {
         if (filter === '') {
             setFilteredWords(answeredWords);
@@ -135,15 +139,18 @@ export function TestTopicWords({selectedTopic, direction}) {
                     <IconCheck size={20}/>
                     <span className={commonStyles.hidden_on_mobile}>Проверить</span>
                 </button>
-               {/* <button onClick={handleHelpRequested} title="Помощь" className={commonStyles.help_button} disabled={hintsLeft === 0}>
+                {/* <button onClick={handleHelpRequested} title="Помощь" className={commonStyles.help_button} disabled={hintsLeft === 0}>
                     <IconQuestionMark size={20}/>
                     <span>Подсказать(подсказок: {hintsLeft})</span>
                 </button>*/}
+                <button onClick={handleNextButtonClick} title="Пропустить" className={commonStyles.third_button}>
+                    <IconPlayerTrackNext size={20}/>
+                    <span className={commonStyles.hidden_on_mobile}>Пропустить</span>
+                </button>
                 <button onClick={handleRefreshButtonClick} title="Заново" className={commonStyles.secondary_button}>
                     <IconRefresh size={20}/>
                     <span className={commonStyles.hidden_on_mobile}>Заново</span>
                 </button>
-
 
 
             </div>

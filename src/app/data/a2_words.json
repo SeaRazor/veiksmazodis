@@ -129,7 +129,9 @@
     {
       "word": "ketvirtas",
       "translation": "четвёртый",
-      "synonyms" : ["четвертый"]
+      "synonyms": [
+        "четвертый"
+      ]
     },
     {
       "word": "penktas",
@@ -449,12 +451,16 @@
     {
       "word": "pusbrolis",
       "translation": "двоюродный брат",
-      "synonyms" : ["кузен"]
+      "synonyms": [
+        "кузен"
+      ]
     },
     {
       "word": "pusseserė",
       "translation": "двоюродная сестра",
-      "synonyms" : ["кузина"]
+      "synonyms": [
+        "кузина"
+      ]
     },
     {
       "word": "senelis",
@@ -692,12 +698,16 @@
     {
       "word": "atrakinti",
       "translation": "открыть ключом",
-      "synonyms" : ["отпереть"]
+      "synonyms": [
+        "отпереть"
+      ]
     },
     {
       "word": "užrakinti",
       "translation": "закрыть ключом",
-      "synonyms" : ["запереть"]
+      "synonyms": [
+        "запереть"
+      ]
     },
     {
       "word": "skambutis",
@@ -1080,7 +1090,9 @@
     {
       "word": "geras (gražus) oras",
       "translation": "хорошая  погода",
-      "synonyms" : ["красивая погода"]
+      "synonyms": [
+        "красивая погода"
+      ]
     },
     {
       "word": "blogas oras",
@@ -1558,7 +1570,9 @@
     {
       "word": "interneto puslapis",
       "translation": "веб-страница",
-      "synonyms" : ["интернет-страница"]
+      "synonyms": [
+        "интернет-страница"
+      ]
     },
     {
       "word": "kinas",
@@ -2117,7 +2131,9 @@
     {
       "word": "mėnesinis bilietas",
       "translation": "месячный билет",
-      "synonyms" : ["месячный проездной"]
+      "synonyms": [
+        "месячный проездной"
+      ]
     },
     {
       "word": "bilietas į priekį ir atgal",
@@ -2427,7 +2443,9 @@
     {
       "word": "užsienis",
       "translation": "зарубеж",
-      "synonyms" : ["заграница"]
+      "synonyms": [
+        "заграница"
+      ]
     },
     {
       "word": "užsienio šalys",
@@ -2645,7 +2663,9 @@
     {
       "word": "pasimatymas",
       "translation": "свидание",
-      "synonyms" : ["встреча"]
+      "synonyms": [
+        "встреча"
+      ]
     },
     {
       "word": "susitarti",
@@ -3020,7 +3040,10 @@
     {
       "word": "gerti vaistus",
       "translation": "принимать лекарства",
-      "synonyms" : ["пить лекарства", "употреблять лекарства"]
+      "synonyms": [
+        "пить лекарства",
+        "употреблять лекарства"
+      ]
     },
     {
       "word": "receptas",
@@ -3414,10 +3437,6 @@
       "translation": "доклад"
     },
     {
-      "word": "rengti",
-      "translation": "готовить"
-    },
-    {
       "word": "ruošti",
       "translation": "готовить"
     },
@@ -3510,10 +3529,6 @@
     {
       "word": "teptukas",
       "translation": "кисть"
-    },
-    {
-      "word": "rašyti",
-      "translation": "писать"
     },
     {
       "word": "piešti",
@@ -3621,10 +3636,6 @@
       "translation": "свидетельство"
     },
     {
-      "word": "kalba",
-      "translation": "язык"
-    },
-    {
       "word": "kalbėti",
       "translation": "говорить"
     },
@@ -3653,20 +3664,12 @@
       "translation": "произносить"
     },
     {
-      "word": "skaityti",
-      "translation": "читать"
-    },
-    {
       "word": "klausyti",
       "translation": "слушать"
     },
     {
       "word": "suprasti",
       "translation": "понимать"
-    },
-    {
-      "word": "rašyti",
-      "translation": "писать"
     },
     {
       "word": "kartoti",

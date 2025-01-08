@@ -9,7 +9,7 @@ import {ThemeProvider} from "next-themes";
 const inter = localFont({src: './fonts/Inter.ttf', variable: '--font-mono'});*/
 const rubik = localFont({src: './fonts/Rubik.ttf', variable: '--font-mono', weight: '400', display: 'swap'});
 export const metadata = {
-    title: "Kalbu!"
+    title: "Treniruoklis"
 };
 
 

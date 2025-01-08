@@ -48,6 +48,7 @@
     --secondary-button-color: white;
     --secondary-button-back-color: #67b99a;
     --secondary-button-hover-color: #52b788;
+    --third-button-back-color: #FF7E70;
     --card-rgb: 180, 185, 188;
     --card-border-rgb: 131, 134, 135;
     --correct-input-color: #25a244;
@@ -127,6 +128,7 @@
     --callout-border-rgb: 108, 108, 108;
     --card-rgb: 100, 100, 100;
     --card-border-rgb: 200, 200, 200;
+    --card-front-back-color: #8e9aaf;
     --selector-back-color: black;
     --selector-text-color: #121212;
     --selector-focus-color: #7392b7;
@@ -184,6 +186,7 @@
         --callout-border-rgb: 108, 108, 108;
         --card-rgb: 100, 100, 100;
         --card-border-rgb: 200, 200, 200;
+        --card-front-back-color: #8e9aaf;
         --selector-back-color: black;
         --selector-text-color: white;
         --selector-focus-color: #7392b7;
