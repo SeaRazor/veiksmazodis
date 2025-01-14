@@ -18,9 +18,8 @@ export function TestTopicWords({selectedTopic, direction}) {
     const [checkInputClassName, setCheckInputClassName] = useState('');
     const [complete, setComplete] = useState(false);
     const [filteredWords, setFilteredWords] = useState([]);
-    /*  const [hintsLeft, setHintsLeft] = useState(3);*/
+    const [triesLeft, setTriesLeft] = useState(3);
     const inputRef = useRef(null);
-    let totalWords;
 
 
     useEffect(() => {
@@ -76,6 +75,7 @@ export function TestTopicWords({selectedTopic, direction}) {
         setFilteredWords([]);
         setResults({correctNum: 0, incorrectNum: 0, totalNum: topicWords.length});
         setComplete(false);
+        setTriesLeft(3);
 
 
     }
@@ -108,6 +108,7 @@ export function TestTopicWords({selectedTopic, direction}) {
 
     function handleNextButtonClick() {
         setNewWord();
+        setTriesLeft(prevState => prevState - 1);
     }
 
 
@@ -124,36 +125,36 @@ export function TestTopicWords({selectedTopic, direction}) {
     return (
         <div className={commonStyles.column_flow}>
 
-            {currentWord && <div className={commonStyles.input_flow}>
-                <WordCard word={direction === 'forward' ? currentWord.word : currentWord.translation}/>
+            {currentWord && <>
+                <div className={commonStyles.input_flow}>
+                    <WordCard word={direction === 'forward' ? currentWord.word : currentWord.translation}/>
 
-                <input className={`${commonStyles.test_input} ${commonStyles[checkInputClassName]}`} type="text"
-                       id="testString" ref={inputRef}
-                       onKeyUp={handleTestInput}
-                       placeholder="Перевод"
+                    <input className={`${commonStyles.test_input} ${commonStyles[checkInputClassName]}`} type="text"
+                           id="testString" ref={inputRef}
+                           onKeyUp={handleTestInput}
+                           placeholder="Перевод"
 
-                />
-
-
-                <button onClick={handleCheckButtonClick} title="Проверить" className={commonStyles.default_button}>
-                    <IconCheck size={20}/>
-                    <span className={commonStyles.hidden_on_mobile}>Проверить</span>
-                </button>
-                {/* <button onClick={handleHelpRequested} title="Помощь" className={commonStyles.help_button} disabled={hintsLeft === 0}>
-                    <IconQuestionMark size={20}/>
-                    <span>Подсказать(подсказок: {hintsLeft})</span>
-                </button>*/}
-                <button onClick={handleNextButtonClick} title="Пропустить" className={commonStyles.third_button}>
-                    <IconPlayerTrackNext size={20}/>
-                    <span className={commonStyles.hidden_on_mobile}>Пропустить</span>
-                </button>
-                <button onClick={handleRefreshButtonClick} title="Заново" className={commonStyles.secondary_button}>
-                    <IconRefresh size={20}/>
-                    <span className={commonStyles.hidden_on_mobile}>Заново</span>
-                </button>
+                    />
 
 
-            </div>
+                </div>
+                <div className={commonStyles.buttons_container}>
+                    <button onClick={handleCheckButtonClick} title="Проверить" className={commonStyles.default_button}>
+                        <IconCheck size={20}/>
+                        <span className={commonStyles.hidden_on_mobile}>Проверить</span>
+                    </button>
+
+                    <button onClick={handleNextButtonClick} title="Пропустить" className={commonStyles.third_button}
+                            disabled={triesLeft === 0}>
+                        <IconPlayerTrackNext size={20}/>
+                        <span className={commonStyles.hidden_on_mobile}>Пропустить</span><span>({triesLeft})</span>
+                    </button>
+                    <button onClick={handleRefreshButtonClick} title="Заново" className={commonStyles.secondary_button}>
+                        <IconRefresh size={20}/>
+                        <span className={commonStyles.hidden_on_mobile}>Заново</span>
+                    </button>
+                </div>
+            </>
             }
 
 

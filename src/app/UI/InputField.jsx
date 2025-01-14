@@ -1,6 +1,6 @@
 import styles from "@/app/page.module.css";
 import {useEffect, useState} from "react";
-import {IconHelp, IconQuestionMark} from "@tabler/icons-react";
+import {IconHelp} from "@tabler/icons-react";
 
 export default function InputField({label, correct_value, isCheck, id}) {
     const [inputValue, setInputValue] = useState('');
@@ -43,17 +43,19 @@ export default function InputField({label, correct_value, isCheck, id}) {
     return (
         <div className={styles.input_field}>
             <label htmlFor={id} className={styles.input_label}>{label}</label>
-            <div className={styles.input_container}   style={{border: isCheck ? 'none' : ''}}>
-            <input type="text" id={id} name={id} value={isCheck || helpRequested ? correct_value : inputValue}
-                   onChange={handleInputChange}
-                   onBlur={handleInputLeave} readOnly={isCheck}
-                   className={`${helpRequested ? styles['check_value'] : styles[inputClassName]} ${isCheck ? '' : styles[checkInputClassName]}`}
-                   disabled={!!isCheck || helpRequested}
+            <div className={styles.input_container}>
+                <input type="text" id={id} name={id} value={isCheck || helpRequested ? correct_value : inputValue}
+                       onChange={handleInputChange}
+                       onBlur={handleInputLeave} readOnly={isCheck}
+                       className={`${helpRequested ? styles['check_value'] : styles[inputClassName]} ${isCheck ? '' : styles[checkInputClassName]}`}
+                       disabled={!!isCheck || helpRequested}
 
-            />
-             {(!isCheck ) &&  <button onClick={handleRequestHelp} title="Помощь" className={styles.inner_button} tabIndex={-1} disabled={helpRequested}>
-                 <IconHelp size={20} cla/>
-            </button>}
+                />
+
+                <button onClick={handleRequestHelp} title="Помощь" className={styles.inner_button} tabIndex={-1}
+                        disabled={helpRequested || isCheck} style={{opacity: isCheck ? 0 : ''}}>
+                    <IconHelp size={20}/>
+                </button>
             </div>
 
 

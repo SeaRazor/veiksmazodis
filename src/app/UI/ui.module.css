@@ -2,7 +2,7 @@
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
     transition: background 200ms, border 200ms;
     border-radius: 5px;
-    background-color: var(--card-back-color);
+    background-color: var(--card-front-back-color);
     color: var(--card-text-color);
     font-family: var(--font-mono);
     padding: 0.5rem;
@@ -108,7 +108,7 @@
     transform-style: preserve-3d;
     perspective: 600px;
     transition: 0.5s;
-    flex-basis: 20%;
+    flex-basis: 15%;
     flex-grow: 0;
     flex-shrink: 0;
 }
@@ -296,8 +296,8 @@
 }
 
 .image_toggle {
-   /* margin-left: auto;
-    margin-right: 1rem;*/
+    /* margin-left: auto;
+     margin-right: 1rem;*/
 }
 
 .image_toggle label {
@@ -468,7 +468,8 @@
 .tab_icon {
     color: var(--tab-icon-color);
 }
-.theme_switch_wrapper{
+
+.theme_switch_wrapper {
     margin-left: auto;
     margin-right: 0.5rem;
 }

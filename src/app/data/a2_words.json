@@ -3426,7 +3426,9 @@
     {
       "word": "namų darbas",
       "translation": "домашнее задание",
-      "synonyms": ["домашняя работа"]
+      "synonyms": [
+        "домашняя работа"
+      ]
     },
     {
       "word": "referatas",
@@ -3479,7 +3481,9 @@
     {
       "word": "lenta",
       "translation": "доска",
-      "synonyms" : ["полка"]
+      "synonyms": [
+        "полка"
+      ]
     },
     {
       "word": "išmanioji lenta",
@@ -3520,7 +3524,10 @@
     {
       "word": "parkeris",
       "translation": "перо",
-      "synonyms": ["перьевая ручка", "авторучка"]
+      "synonyms": [
+        "перьевая ручка",
+        "авторучка"
+      ]
     },
     {
       "word": "flomasteris",
@@ -3597,7 +3604,9 @@
     {
       "word": "dirbti kompiuteriu",
       "translation": "работать на компьютере",
-      "synonyms": ["работать за компьютером"]
+      "synonyms": [
+        "работать за компьютером"
+      ]
     },
     {
       "word": "stojamasis",
@@ -3694,7 +3703,9 @@
     {
       "word": "šiek tiek, truputį",
       "translation": "немного",
-      "synonyms" : ["чуть-чуть"]
+      "synonyms": [
+        "чуть-чуть"
+      ]
     },
     {
       "word": "blogai",
@@ -3799,40 +3810,28 @@
       "translation": "цена"
     },
     {
-      "word": "kainuoti",
-      "translation": "стоить"
+      "word": "baldų parduotuvė",
+      "translation": "мебельный магазин"
     },
     {
-      "word": "nuolaida",
-      "translation": "скидка"
+      "word": "batų parduotuvė",
+      "translation": "обувной магазин"
     },
     {
-      "word": "baldų",
-      "translation": "мебельный"
+      "word": "maisto parduotuvė",
+      "translation": "продуктовый магазин"
     },
     {
-      "word": "batų",
-      "translation": "обувной"
+      "word": "drabužių parduotuvė",
+      "translation": "магазин одежды"
     },
     {
-      "word": "maisto",
-      "translation": "продуктовый"
+      "word": "žaislų parduotuvė",
+      "translation": "магазин игрушек"
     },
     {
-      "word": "drabužių",
-      "translation": "одежды"
-    },
-    {
-      "word": "indų",
-      "translation": "посуды"
-    },
-    {
-      "word": "žaislų",
-      "translation": "игрушек"
-    },
-    {
-      "word": "namų prekių",
-      "translation": "товаров для дома"
+      "word": "namų prekių parduotuvė",
+      "translation": "товары для дома"
     },
     {
       "word": "pirkti",
@@ -3971,7 +3970,10 @@
     },
     {
       "word": "šlepetės",
-      "translation": "тапочки"
+      "translation": "тапочки",
+      "synonyms": [
+        "тапки"
+      ]
     },
     {
       "word": "siūlai",
@@ -3979,7 +3981,10 @@
     },
     {
       "word": "adata",
-      "translation": "игла"
+      "translation": "игла",
+      "synonyms": [
+        "иголка"
+      ]
     },
     {
       "word": "medžiaga",
@@ -4195,7 +4200,7 @@
     },
     {
       "word": "virdulys",
-      "translation": "чайник"
+      "translation": "заварочный чайник"
     },
     {
       "word": "keptuvė",
@@ -4204,10 +4209,6 @@
     {
       "word": "atidarytuvas",
       "translation": "открывалка"
-    },
-    {
-      "word": "stiklainis",
-      "translation": "банка"
     },
     {
       "word": "degtukai",
@@ -4239,7 +4240,10 @@
     },
     {
       "word": "mokėti kortele",
-      "translation": "платить картой"
+      "translation": "платить картой",
+      "synonyms": [
+        "платить карточкой"
+      ]
     },
     {
       "word": "pinigai",
@@ -4255,7 +4259,11 @@
     },
     {
       "word": "nuolaidų kortelė",
-      "translation": "дисконтная карта"
+      "translation": "дисконтная карта",
+      "synonyms": [
+        "скидочная карта",
+        "карта скидок"
+      ]
     },
     {
       "word": "centimetras",
@@ -4302,16 +4310,15 @@
       "translation": "баночка"
     },
     {
-      "word": "pakelis",
-      "translation": "пакет"
-    },
-    {
       "word": "stiklainis",
       "translation": "банка"
     },
     {
       "word": "maišas",
-      "translation": "мешок"
+      "translation": "мешок",
+      "synonyms": [
+        "пакет"
+      ]
     },
     {
       "word": "maišelis",

@@ -260,6 +260,17 @@
     cursor: pointer;
 }
 
+.third_button:hover {
+    background: var(--third-button-hover-color);
+    border: 1px solid rgba(var(--card-border-rgb), 0.25);
+    cursor: pointer;
+}
+
+.third_button:disabled {
+    cursor: initial;
+    opacity: 0.3;
+}
+
 .inner_button {
     padding: 0.3rem;
     border: none;
@@ -294,6 +305,7 @@
     max-width: 50%;
     font-family: var(--font-mono);
     font-size: larger;
+    background-color: var(--input-background-color);
 }
 
 .column_flow {
@@ -306,13 +318,28 @@
         border-radius: var(--border-radius);*/
     align-self: stretch;
     margin: 0.5rem;
+    flex-basis: 100%;
 
-    width: 100%;
+    /* width: 100%;*/
     /* padding: 1rem;*/
 
 
 }
 
+.buttons_container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 0.5rem;
+
+}
+
+.buttons_container button {
+    flex-basis: 20%;
+    flex-shrink: 0;
+    font-family: var(--font-mono);
+
+}
 
 /*.get_button {
     display: flex;
@@ -456,7 +483,7 @@
 .search_container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     /*padding:0.5rem;*/
     flex-basis: 50%;
 
@@ -475,7 +502,8 @@
     /* max-width: 50%;
 */
     /* min-width: 75%;*/
-    flex-basis: 100%;
+    flex-basis: 50%;
+    flex-grow: 1;
     min-height: 2.5rem;
 
 
@@ -702,18 +730,8 @@
     position: relative;
     list-style: none;
     background-color: var(--tab-container-back-color);
-    /*box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);*/
-    /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;*/
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
-
-/*
-.hamburger span {
-    width: 25px;
-    height: 3px;
-    background-color: white;
-    border-radius: 3px;
-    transition: 0.3s;
-}*/
 
 
 /* create media query for mobile devices */
@@ -904,11 +922,6 @@
     }
 }*/
 
-@media (prefers-reduced-motion) {
-    .card:hover span {
-        transform: none;
-    }
-}
 
 /* Mobile */
 @media (max-width: 700px) {
@@ -1031,15 +1044,6 @@
     }
 }
 
-/*@media (prefers-color-scheme: dark) {*/
-/*    .vercelLogo {*/
-/*        filter: invert(1);*/
-/*    }*/
-
-/*    .logo {*/
-/*        filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);*/
-/*    }*/
-/*}*/
 
 @keyframes rotate {
     from {

@@ -8,9 +8,13 @@ export function getTopics() {
 
 export function getWords(topic) {
     if (!topic) return [];
-    if (topic === 'all') return Object.values(words).flat();
-    return words[topic];
-
+    const seen = new Set();
+    const topicWords = topic === 'all' ? Object.values(words).flat() : words[topic];
+    return topicWords.filter(item => {
+        const duplicate = seen.has(item.word);
+        seen.add(item.word);
+        return !duplicate;
+    });
 }
 
 export function getRandomWord(words) {
