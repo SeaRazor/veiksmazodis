@@ -118,7 +118,7 @@ function getFemaleCases(noun, ending, root, palatalize) {
                     nominative: noun,
                     genitive: composeCase(root, "ies", palatalize),
                     dative: composeCase(root, "iai", palatalize),
-                    accusative: composeCase(root,"i"),
+                    accusative: composeCase(root, "i"),
                     instrumental: composeCase(root, "imi", palatalize),
                     locative: composeCase(root, "yje", palatalize),
                     vocative: composeCase(root, "ie", palatalize)
@@ -272,14 +272,14 @@ function getMaleCases(noun, ending, root, palatalize) {
                     nominative: noun,
                     genitive: composeCase(root, "ens", palatalize),
                     dative: composeCase(root, "iui", palatalize),
-                    accusative: composeCase(root, "eni", palatalize),
+                    accusative: composeCase(root, "enį", palatalize),
                     instrumental: composeCase(root, "eniu", palatalize),
                     locative: composeCase(root, "enyje", palatalize),
                     vocative: composeCase(root, "enie", palatalize)
                 },
                 plural: {
                     nominative: composeCase(root, "enys", palatalize),
-                    genitive: composeCase(root, "enu", palatalize),
+                    genitive: composeCase(root, "enų", palatalize),
                     dative: composeCase(root, "ims", palatalize),
                     accusative: composeCase(root, "enis", palatalize),
                     instrumental: composeCase(root, "enimis", palatalize),

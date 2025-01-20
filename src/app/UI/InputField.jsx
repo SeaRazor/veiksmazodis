@@ -1,6 +1,6 @@
 import styles from "@/app/page.module.css";
 import {useEffect, useState} from "react";
-import {IconHelp} from "@tabler/icons-react";
+import {IconCheck, IconHelp} from "@tabler/icons-react";
 
 export default function InputField({label, correct_value, isCheck, id}) {
     const [inputValue, setInputValue] = useState('');
@@ -43,7 +43,7 @@ export default function InputField({label, correct_value, isCheck, id}) {
     return (
         <div className={styles.input_field}>
             <label htmlFor={id} className={styles.input_label}>{label}</label>
-            <div className={styles.input_container}>
+            <div className={`${styles.input_container} ${isCheck ? styles['readonly'] : ''}`}>
                 <input type="text" id={id} name={id} value={isCheck || helpRequested ? correct_value : inputValue}
                        onChange={handleInputChange}
                        onBlur={handleInputLeave} readOnly={isCheck}
@@ -52,11 +52,23 @@ export default function InputField({label, correct_value, isCheck, id}) {
 
                 />
 
-                <button onClick={handleRequestHelp} title="Помощь" className={styles.inner_button} tabIndex={-1}
+
+                {/*  <button onClick={handleRequestHelp} title="Помощь" className={styles.inner_button} tabIndex={-1}
                         disabled={helpRequested || isCheck} style={{opacity: isCheck ? 0 : ''}}>
                     <IconHelp size={20}/>
-                </button>
+                </button>*/}
             </div>
+            {!isCheck && <>
+                <button onClick={handleInputLeave} title="Проверить" className={styles.default_button} tabIndex={-1}
+                >
+                    <IconCheck size={16}/>
+                </button>
+                <button onClick={handleRequestHelp} title="Помощь" className={styles.secondary_button} tabIndex={-1}
+                        disabled={helpRequested || isCheck} style={{opacity: isCheck ? 0 : ''}}>
+                    <IconHelp size={16}/>
+                </button>
+
+            </>}
 
 
         </div>

@@ -228,7 +228,7 @@
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
     transition: background 200ms, border 200ms;
     color: var(--secondary-button-color);
-    min-width: 3rem;
+    /* min-width: 3rem;*/
     outline: none;
 }
 
@@ -547,6 +547,10 @@
     border-radius: var(--border-radius);
 }
 
+.input_container.readonly {
+    border: none;
+}
+
 .input_field_grid {
     display: grid;
     grid-template-columns: 35% 65%;
@@ -590,8 +594,9 @@
 
 .input_field input {
     padding: 0.3rem;
-    border-top-left-radius: var(--border-radius);
-    border-bottom-left-radius: var(--border-radius);
+    /* border-top-left-radius: var(--border-radius);
+     border-bottom-left-radius: var(--border-radius);*/
+    border-radius: var(--border-radius);
     border: none;
     border-bottom: 2px solid rgba(var(--card-border-rgb), 0);
     background-color: var(--input-background-color);

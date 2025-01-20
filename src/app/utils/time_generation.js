@@ -169,7 +169,7 @@ function generatePastSimpleTime(root, ending, asDirect) {
 function composeTimeVerb(root, suffix, ending) {
     const lastRootLetter = root.slice(-1);
     const firstEndingLetter = ending.slice(0, 1);
-    if (lastRootLetter === suffix) {
+    if ((suffix && lastRootLetter === suffix) || (suffix === '' && lastRootLetter === firstEndingLetter)) {
         return root.slice(0, -1) + suffix + ending;
     }
     if (lastRootLetter === 'š' && suffix === 's') {

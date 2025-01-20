@@ -36,7 +36,7 @@ export default function Words() {
 
 
     function handleDirectionChange() {
-        const newDirection = direction == "forward" ? "reverse" : "forward";
+        const newDirection = direction === "forward" ? "reverse" : "forward";
         setDirection(newDirection);
 
 
@@ -54,12 +54,14 @@ export default function Words() {
                 <div className={commonStyles.input_flow}>
 
 
-                    <Toggle id="lang_toggle" name1={<img src={`/flags/LT.png`} width={18} height={18}
-                                                         alt="RU"/>} value1="forward" name2={<img
-                        src={`/flags/RU.png`} width={18} height={18} alt="LT"/>} value2="reverse"
+                    <Toggle id="lang_toggle"
+                            name1={<img src={`/flags/LT.png`} width={18} height={18} alt="RU"/>}
+                            value1="forward"
+                            name2={<img src={`/flags/RU.png`} width={18} height={18} alt="LT"/>}
+                            value2="reverse"
                             onChangeHandler={handleDirectionChange} useImages={true}/>
 
-                    <Selector options={topics} optionSelectedFunction={handleTopicSelection} includeAllOption={false}/>
+                    <Selector options={topics} optionSelectedFunction={handleTopicSelection} includeAllOption={true}/>
 
 
                 </div>

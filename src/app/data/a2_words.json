@@ -217,7 +217,7 @@
     },
     {
       "word": "nevedęs",
-      "translation": " не женат",
+      "translation": "не женат",
       "synonyms": [
         "холостяк",
         "холостой"
@@ -830,8 +830,12 @@
       "translation": "туалет"
     },
     {
-      "word": "vanduo (karštas, šaltas)",
-      "translation": "вода (горячая, холодная)"
+      "word": "karštas vanduo",
+      "translation": "горячая вода"
+    },
+    {
+      "word": "šaltas vanduo",
+      "translation": "холодная вода"
     },
     {
       "word": "internetas",
@@ -1285,7 +1289,7 @@
     },
     {
       "word": "ruošti namų darbus",
-      "translation": "делать домашние задания",
+      "translation": "делать домашнее задание",
       "synonyms": [
         "делать домашнюю работу"
       ]
@@ -2093,8 +2097,8 @@
       "translation": "путешествие"
     },
     {
-      "word": "automobilis (mašina)",
-      "translation": "автомобиль (машина)"
+      "word": "automobilis",
+      "translation": "автомобиль"
     },
     {
       "word": "taksi",
@@ -2212,7 +2216,10 @@
     },
     {
       "word": "registruotis",
-      "translation": "регистрироваться"
+      "translation": "регистрироваться",
+      "synonyms": [
+        "зарегистрироваться"
+      ]
     },
     {
       "word": "registracija",
@@ -2239,8 +2246,8 @@
       "translation": "продавать"
     },
     {
-      "word": "automobilis (mašina)",
-      "translation": "автомобиль (машина)"
+      "word": "automobilis",
+      "translation": "автомобиль"
     },
     {
       "word": "dviratis",
@@ -2602,7 +2609,10 @@
     },
     {
       "word": "pristatyti",
-      "translation": "представить"
+      "translation": "представить",
+      "synonyms": [
+        "представлять"
+      ]
     },
     {
       "word": "mylėti",
@@ -2729,7 +2739,10 @@
     },
     {
       "word": "vogti",
-      "translation": "воровать"
+      "translation": "воровать",
+      "synonyms": [
+        "красть"
+      ]
     },
     {
       "word": "vagis",
@@ -3126,7 +3139,7 @@
       "translation": "исследования"
     },
     {
-      "word": "greitoji",
+      "word": "greitoji pagalba",
       "translation": "скорая помощь"
     },
     {
@@ -3143,7 +3156,10 @@
     },
     {
       "word": "girdėti",
-      "translation": "слышать"
+      "translation": "слышать",
+      "synonyms": [
+        "слушать"
+      ]
     },
     {
       "word": "klausyti",
@@ -3332,10 +3348,6 @@
       "translation": "группа"
     },
     {
-      "word": "kursas",
-      "translation": "курс"
-    },
-    {
       "word": "semestras",
       "translation": "семестр"
     },
@@ -3444,7 +3456,10 @@
     },
     {
       "word": "aiškinti",
-      "translation": "объяснять"
+      "translation": "объяснять",
+      "synonyms": [
+        "объяснить"
+      ]
     },
     {
       "word": "rašyti",
@@ -3472,7 +3487,10 @@
     },
     {
       "word": "pasakoti",
-      "translation": "рассказывать"
+      "translation": "рассказывать",
+      "synonyms": [
+        "рассказать"
+      ]
     },
     {
       "word": "atmintinai",
@@ -3480,10 +3498,7 @@
     },
     {
       "word": "lenta",
-      "translation": "доска",
-      "synonyms": [
-        "полка"
-      ]
+      "translation": "доска"
     },
     {
       "word": "išmanioji lenta",
@@ -3587,7 +3602,10 @@
     },
     {
       "word": "matuoti",
-      "translation": "измерять"
+      "translation": "измерять",
+      "synonyms": [
+        "мерить"
+      ]
     },
     {
       "word": "aplankas",
@@ -3642,7 +3660,10 @@
     },
     {
       "word": "pažymėjimas",
-      "translation": "свидетельство"
+      "translation": "свидетельство",
+      "synonyms": [
+        "сертификат"
+      ]
     },
     {
       "word": "kalbėti",
@@ -4060,7 +4081,10 @@
     },
     {
       "word": "auskarai",
-      "translation": "серьги"
+      "translation": "серьги",
+      "synonyms": [
+        "сережки"
+      ]
     },
     {
       "word": "grandinėlė",
@@ -4336,7 +4360,10 @@
   "Maistas ir gėrimai": [
     {
       "word": "maistas",
-      "translation": "еда"
+      "translation": "еда",
+      "synonyms": [
+        "продукты"
+      ]
     },
     {
       "word": "produktai",
@@ -4774,15 +4801,14 @@
     },
     {
       "word": "telefono numeris",
-      "translation": "номер телефона"
+      "translation": "номер телефона",
+      "synonyms": [
+        "телефонный номер"
+      ]
     },
     {
       "word": "mobilusis telefonas",
       "translation": "мобильный телефон"
-    },
-    {
-      "word": "telef. knyga",
-      "translation": "телефонная книга"
     },
     {
       "word": "pranešimai",
@@ -4794,7 +4820,10 @@
     },
     {
       "word": "gesti",
-      "translation": "ломаться"
+      "translation": "ломаться",
+      "synonyms": [
+        "сломаться"
+      ]
     },
     {
       "word": "taisyti",
@@ -4842,7 +4871,10 @@
     },
     {
       "word": "pavogti",
-      "translation": "украсть"
+      "translation": "украсть",
+      "synonyms": [
+        "воровать"
+      ]
     }
   ]
 }

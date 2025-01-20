@@ -28,7 +28,7 @@ export function checkWord(enteredWord, correctWord, direction) {
         case "forward":
             isCorrect = enteredWord.toLowerCase() === correctWord.translation.toLowerCase();
             if (!isCorrect && correctWord.synonyms) {
-                isCorrect = correctWord.synonyms.some(synonym => synonym.toLowerCase() === enteredWord.toLowerCase());
+                isCorrect = correctWord.synonyms.some(synonym => synonym.toLowerCase().trim() === enteredWord.toLowerCase().trim());
             }
             break;
         case "reverse":

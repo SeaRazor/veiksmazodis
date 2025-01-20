@@ -1,13 +1,14 @@
 import styles from "@/app/page.module.css";
 import {IconSearch} from "@tabler/icons-react";
-import {useEffect, useRef} from "react";
+import {useRef} from "react";
 
 export function SearchInput({searchHandler, currentValue, placeholder, searchOnType = false}) {
-    const inputRef = useRef();
+    const inputRef = useRef(currentValue);
 
-    useEffect(() => {
-        inputRef.current.value = currentValue;
-    }, [currentValue]);
+    /*   useEffect(() => {
+           inputRef.current.value = currentValue;
+       }, [currentValue]);*/
+
 
     function handleSearchInput(e) {
         if (searchOnType) {

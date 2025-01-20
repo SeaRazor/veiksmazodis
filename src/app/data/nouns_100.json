@@ -517,8 +517,13 @@
     "translation": "гора"
   },
   {
-    "noun" : "akmuo",
-    "gender" : "m",
-    "translation" : "камень"
+    "noun": "akmuo",
+    "gender": "m",
+    "translation": "камень"
+  },
+  {
+    "noun": "sesuo",
+    "gender": "f",
+    "translation": "сестра"
   }
 ]
