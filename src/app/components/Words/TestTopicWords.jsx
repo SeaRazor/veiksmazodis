@@ -1,7 +1,7 @@
 import commonStyles from '@/app/page.module.css'
 import styles from "@/app/words/page.module.css";
 import {useEffect, useRef, useState} from "react";
-import {checkWord, getRandomWord, getWords} from "@/app/utils/words";
+import {checkWordGracefully, getRandomWord, getWords} from "@/app/utils/words";
 import {IconCheck, IconPlayerTrackNext, IconRefresh} from "@tabler/icons-react";
 import WordCard from "@/app/UI/WordCard";
 import {Progress} from "@/app/UI/Progress";
@@ -14,7 +14,7 @@ export function TestTopicWords({selectedTopic, direction}) {
     const [unAnsweredWords, setUnansweredWords] = useState([]);
     const [answeredWords, setAnsweredWords] = useState([]);
     const [currentWord, setCurrentWord] = useState({word: null, translation: null});
-    const [results, setResults] = useState({correctNum: 0, incorrectNum: 0, totalNum: 0})
+    const [results, setResults] = useState({correctNum: 0, incorrectNum: 0, warningNum: 0, totalNum: 0})
     const [checkInputClassName, setCheckInputClassName] = useState('');
     const [complete, setComplete] = useState(false);
     const [filteredWords, setFilteredWords] = useState([]);
@@ -31,7 +31,6 @@ export function TestTopicWords({selectedTopic, direction}) {
             setNewWord();
         }
     }, [unAnsweredWords, direction]);
-
     useEffect(() => {
         const timer = setTimeout(() => {
             setCheckInputClassName('');
@@ -44,28 +43,43 @@ export function TestTopicWords({selectedTopic, direction}) {
     function handleCheckButtonClick() {
         const enteredWord = inputRef.current.value;
         let checkedWord;
-        const isCorrect = checkWord(enteredWord, currentWord, direction);
+        const wordCheckResult = checkWordGracefully(enteredWord, currentWord, direction);
 
-        checkedWord = {...currentWord, checkResult: isCorrect};
+
+        checkedWord = {...currentWord, checkResult: wordCheckResult};
         setAnsweredWords(prevState => [checkedWord, ...prevState]);
         setFilteredWords(prevState => [checkedWord, ...prevState]);
         setUnansweredWords(prevState => prevState.filter(word => word.word !== checkedWord.word));
         let newResults;
-        if (isCorrect) {
-            newResults = {...results, correctNum: results.correctNum + 1};
-            setCheckInputClassName("correct_input")
-        } else {
-            newResults = {...results, incorrectNum: results.incorrectNum + 1};
-            setCheckInputClassName("incorrect_input")
+        switch (wordCheckResult) {
+            case 'correct':
+                newResults = {...results, correctNum: results.correctNum + 1};
+                setCheckInputClassName("correct_input");
+                break;
+            case 'incorrect':
+                newResults = {...results, incorrectNum: results.incorrectNum + 1};
+                setCheckInputClassName("incorrect_input");
+                break;
+            case 'warning':
+                newResults = {...results, warningNum: results.warningNum + 1};
+                setCheckInputClassName("warning_input");
+                break;
         }
+        /* if (isCorrect) {
+             newResults = {...results, correctNum: results.correctNum + 1};
+             setCheckInputClassName("correct_input")
+         } else {
+             newResults = {...results, incorrectNum: results.incorrectNum + 1};
+             setCheckInputClassName("incorrect_input")
+         }*/
         setResults(newResults);
         inputRef.current.value = '';
-        if (newResults.totalNum === newResults.correctNum + newResults.incorrectNum) {
+        if (newResults.totalNum === newResults.correctNum + newResults.incorrectNum + newResults.warningNum) {
             setComplete(true);
             setCurrentWord(null);
-        } else {
+        } /*else {
             setNewWord();
-        }
+        }*/
     }
 
     function startTopicTest() {
@@ -73,7 +87,7 @@ export function TestTopicWords({selectedTopic, direction}) {
         setUnansweredWords(topicWords);
         setAnsweredWords([]);
         setFilteredWords([]);
-        setResults({correctNum: 0, incorrectNum: 0, totalNum: topicWords.length});
+        setResults({correctNum: 0, incorrectNum: 0, warningNum: 0, totalNum: topicWords.length});
         setComplete(false);
         setTriesLeft(3);
 
@@ -116,7 +130,7 @@ export function TestTopicWords({selectedTopic, direction}) {
         if (filter === '') {
             setFilteredWords(answeredWords);
         } else {
-            const filterCondition = filter === 'correct';
+            const filterCondition = filter;
             setFilteredWords(answeredWords.filter((word) => word.checkResult === filterCondition));
         }
 
@@ -127,7 +141,8 @@ export function TestTopicWords({selectedTopic, direction}) {
 
             {currentWord && <>
                 <div className={commonStyles.input_flow}>
-                    <WordCard word={direction === 'forward' ? currentWord.word : currentWord.translation}/>
+                    <WordCard word={direction === 'forward' ? currentWord.word : currentWord.translation}
+                              comment={currentWord.comment}/>
 
                     <input className={`${commonStyles.test_input} ${commonStyles[checkInputClassName]}`} type="text"
                            id="testString" ref={inputRef}
@@ -162,6 +177,7 @@ export function TestTopicWords({selectedTopic, direction}) {
                 <div className={commonStyles.results_info_header}>Результаты</div>
                 <div className={commonStyles.flow}>
                     <Progress correctNum={results.correctNum} incorrectNum={results.incorrectNum}
+                              warningNum={results.warningNum}
                               total={results.totalNum} handleFilterBy={handleFilterChange}/>
 
                 </div>
@@ -190,6 +206,10 @@ export function TestTopicWords({selectedTopic, direction}) {
                     <div className={styles.result_line_container}>
                         <span>Неправильных ответов:</span>
                         <span className={commonStyles.incorrect_text}> {results.incorrectNum}</span>
+                    </div>
+                    <div className={styles.result_line_container}>
+                        <span>Почти правильных ответов:</span>
+                        <span className={commonStyles.warning_text}> {results.warningNum}</span>
                     </div>
                 </div>
             </Modal>

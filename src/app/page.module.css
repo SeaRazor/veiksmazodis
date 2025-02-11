@@ -642,6 +642,10 @@
     color: var(--incorrect-input-color);
 }
 
+.warning_text {
+    color: #eeba0b;
+}
+
 .total_text {
     color: var(--total-text-color);
 }

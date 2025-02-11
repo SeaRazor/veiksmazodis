@@ -46,7 +46,8 @@ export function DisplayTopicWords({selectedTopic, direction}) {
                     key={word.word + index}
                     front={word.word}
                     back={word.translation}
-                    direction={direction}/>
+                    direction={direction}
+                    comment={word.comment}/>
                 )}
 
             </div>

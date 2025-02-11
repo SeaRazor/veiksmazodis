@@ -11,8 +11,8 @@ export function getWords(topic) {
     const seen = new Set();
     const topicWords = topic === 'all' ? Object.values(words).flat() : words[topic];
     return topicWords.filter(item => {
-        const duplicate = seen.has(item.word);
-        seen.add(item.word);
+        const duplicate = seen.has(item.word + item.comment);
+        seen.add(item.word + item.comment);
         return !duplicate;
     });
 }
@@ -30,6 +30,7 @@ export function checkWord(enteredWord, correctWord, direction) {
             if (!isCorrect && correctWord.synonyms) {
                 isCorrect = correctWord.synonyms.some(synonym => synonym.toLowerCase().trim() === enteredWord.toLowerCase().trim());
             }
+
             break;
         case "reverse":
             isCorrect = enteredWord.toLowerCase() === correctWord.word.toLowerCase();
@@ -37,4 +38,41 @@ export function checkWord(enteredWord, correctWord, direction) {
 
     }
     return isCorrect;
+}
+
+export function checkWordGracefully(enteredWord, correctWord, direction) {
+    /*let checkResult;
+    let isCorrect = checkWord(enteredWord, correctWord, direction);
+    if (isCorrect) {
+        return 'correct';
+    }*/
+    const wordToCompare = direction === 'forward' ? correctWord.translation : correctWord.word;
+    if (enteredWord.toLowerCase() === wordToCompare.toLowerCase()) {
+        return 'correct';
+    }
+    if (correctWord.synonyms) {
+        if (correctWord.synonyms.some(synonym => synonym.toLowerCase().trim() === enteredWord.toLowerCase().trim())) {
+            return 'correct';
+        }
+    }
+
+    const normalizedEnteredWord = replaceDiacriticSymbols(enteredWord);
+    const normalizedCorrectWord = replaceDiacriticSymbols(wordToCompare);
+    if (normalizedEnteredWord.toLowerCase() === normalizedCorrectWord.toLowerCase()) {
+        return 'warning';
+    }
+    return 'incorrect';
+}
+
+function replaceDiacriticSymbols(word) {
+    const diacriticReplacements = {
+        "ą": "a",
+        "ę": "e",
+        "ė": "e",
+        "į": "i",
+        "ų": "u",
+        "ū": "u"
+    }
+    const result = word.replace(/[ąęėįųū]/g, m => diacriticReplacements[m]);
+    return result;
 }

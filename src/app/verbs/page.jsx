@@ -2,10 +2,9 @@
 import {useEffect, useState} from "react";
 import {getRandomVerb, searchVerb} from "@/app/utils/verbs";
 import {toast, ToastContainer} from "react-toastify";
-import VerbInfo from "@/app/components/Verbs/VerbInfo";
 import VerbFormsGrid from "@/app/components/Verbs/VerbFormsGrid";
 import styles from "@/app/page.module.css";
-import {IconDice5Filled, IconQuestionMark} from "@tabler/icons-react";
+import {IconDice5Filled} from "@tabler/icons-react";
 import {ModeSwitcher} from "@/app/UI/ModeSwitcher";
 import Toggle from "@/app/UI/Toggle";
 import {SearchInput} from "@/app/UI/SearchInput";
@@ -41,8 +40,8 @@ export default function VerbsTrainer(props) {
         setVerb('');
     }
 
-    function searchVerbFromInput(searchValue) {
-        const searchResult = searchVerb(searchValue, isDirect);
+    async function searchVerbFromInput(searchValue) {
+        const searchResult = await searchVerb(searchValue, isDirect);
         if (searchResult) {
             setVerb(searchResult);
         } else {
@@ -80,7 +79,7 @@ export default function VerbsTrainer(props) {
             <InputField isCheck={mode === 'check' || helpRequested} correct_value={verb.present}
                         label="Настоящее"/>
             <InputField isCheck={mode === 'check' || helpRequested} correct_value={verb.past} label="Прошлое"/>
-           {/* <button className={styles.default_button} title="Помощь" onClick={handleHelpClick} disabled={mode=== 'check' || helpRequested}
+            {/* <button className={styles.default_button} title="Помощь" onClick={handleHelpClick} disabled={mode=== 'check' || helpRequested}
                     tabIndex="-1">
                 <IconQuestionMark size={20}/>
 

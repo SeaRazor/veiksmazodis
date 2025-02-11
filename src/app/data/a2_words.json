@@ -18,7 +18,8 @@
     },
     {
       "word": "panelė",
-      "translation": "девушка"
+      "translation": "девушка",
+      "comment": "пани"
     },
     {
       "word": "pasakyti paraidžiui",
@@ -409,8 +410,9 @@
       "translation": "мама"
     },
     {
-      "word": "vyras (сем. положение)",
-      "translation": "муж"
+      "word": "vyras",
+      "translation": "муж",
+      "comment": "сем. положение"
     },
     {
       "word": "žmona",
@@ -475,7 +477,8 @@
       "translation": "нравиться",
       "synonyms": [
         "любить"
-      ]
+      ],
+      "comment": "любить"
     },
     {
       "word": "patikti",
@@ -883,7 +886,8 @@
     },
     {
       "word": "skalbimo mašina",
-      "translation": "стиральная машина"
+      "translation": "стиральная машина",
+      "comment": "два слова"
     },
     {
       "word": "džiovyklė",
@@ -1092,11 +1096,8 @@
       "translation": "погода"
     },
     {
-      "word": "geras (gražus) oras",
-      "translation": "хорошая  погода",
-      "synonyms": [
-        "красивая погода"
-      ]
+      "word": "geras oras",
+      "translation": "хорошая  погода"
     },
     {
       "word": "blogas oras",
@@ -1152,7 +1153,8 @@
     },
     {
       "word": "šiluma",
-      "translation": "тепло"
+      "translation": "тепло",
+      "comment": "сущ."
     },
     {
       "word": "debesis",
@@ -1172,11 +1174,13 @@
     },
     {
       "word": "šalta",
-      "translation": "холодно"
+      "translation": "холодно",
+      "comment": "наречие"
     },
     {
       "word": "šilta",
-      "translation": "тепло"
+      "translation": "тепло",
+      "comment": "наречие"
     },
     {
       "word": "karšta",
@@ -1280,7 +1284,7 @@
       "translation": "идти в школу"
     },
     {
-      "word": "pareiti (grįžti) namo",
+      "word": "pareiti namo",
       "translation": "возвращаться домой"
     },
     {
@@ -1291,7 +1295,8 @@
       "word": "ruošti namų darbus",
       "translation": "делать домашнее задание",
       "synonyms": [
-        "делать домашнюю работу"
+        "делать домашнюю работу",
+        "готовить домашнее задание"
       ]
     },
     {
@@ -1419,7 +1424,8 @@
     },
     {
       "word": "mėgti",
-      "translation": "нравиться"
+      "translation": "нравиться",
+      "comment": "любить"
     },
     {
       "word": "dainuoti",
@@ -2620,7 +2626,8 @@
     },
     {
       "word": "mėgti",
-      "translation": "нравиться"
+      "translation": "нравиться",
+      "comment": "любить"
     },
     {
       "word": "patikti",
@@ -2723,7 +2730,10 @@
     },
     {
       "word": "gauti",
-      "translation": "получать"
+      "translation": "получать",
+      "synonyms": [
+        "получить"
+      ]
     },
     {
       "word": "elektroninis paštas",
@@ -2836,7 +2846,10 @@
     },
     {
       "word": "pavargti",
-      "translation": "устать"
+      "translation": "устать",
+      "synonyms": [
+        "уставать"
+      ]
     },
     {
       "word": "ramus",
@@ -2936,7 +2949,8 @@
     },
     {
       "word": "sirgti",
-      "translation": "болеть"
+      "translation": "болеть",
+      "comment": "состояние"
     },
     {
       "word": "mirti",
@@ -2944,7 +2958,8 @@
     },
     {
       "word": "skaudėti",
-      "translation": "болеть"
+      "translation": "болеть",
+      "comment": "об органе"
     },
     {
       "word": "temperatūra",
@@ -3297,7 +3312,10 @@
     },
     {
       "word": "baigti",
-      "translation": "закончить"
+      "translation": "закончить",
+      "synonyms": [
+        "заканчивать"
+      ]
     },
     {
       "word": "pamoka",
@@ -3722,7 +3740,7 @@
       "translation": "хорошо"
     },
     {
-      "word": "šiek tiek, truputį",
+      "word": "truputį",
       "translation": "немного",
       "synonyms": [
         "чуть-чуть"
@@ -3836,11 +3854,17 @@
     },
     {
       "word": "batų parduotuvė",
-      "translation": "обувной магазин"
+      "translation": "обувной магазин",
+      "synonyms": [
+        "магазин обуви"
+      ]
     },
     {
       "word": "maisto parduotuvė",
-      "translation": "продуктовый магазин"
+      "translation": "продуктовый магазин",
+      "synonyms": [
+        "магазин продуктов"
+      ]
     },
     {
       "word": "drabužių parduotuvė",
@@ -4041,7 +4065,10 @@
     },
     {
       "word": "languotas",
-      "translation": "в клетку"
+      "translation": "в клетку",
+      "synonyms": [
+        "в клеточку"
+      ]
     },
     {
       "word": "taškuotas",
@@ -4192,7 +4219,7 @@
     },
     {
       "word": "arbatinukas",
-      "translation": "чайник"
+      "translation": "чайничек"
     },
     {
       "word": "peilis",
@@ -4216,7 +4243,10 @@
     },
     {
       "word": "samtis",
-      "translation": "половник"
+      "translation": "половник",
+      "synonyms": [
+        "черпак"
+      ]
     },
     {
       "word": "arbatinis",
@@ -4224,7 +4254,7 @@
     },
     {
       "word": "virdulys",
-      "translation": "заварочный чайник"
+      "translation": "заварочник"
     },
     {
       "word": "keptuvė",
@@ -4777,7 +4807,12 @@
     },
     {
       "word": "supakuoti",
-      "translation": "упаковать"
+      "translation": "упаковать",
+      "synonyms": [
+        "упаковывать",
+        "запаковывать",
+        "запаковать"
+      ]
     },
     {
       "word": "gauti",
