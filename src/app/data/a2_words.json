@@ -4701,7 +4701,13 @@
     },
     {
       "word": "pipirai",
-      "translation": "перец"
+      "translation": "перец",
+      "comment": "приправа"
+    },
+    {
+      "word": "paprika",
+      "translation": "перец",
+      "comment": "овощ"
     },
     {
       "word": "cukrus",
@@ -4753,10 +4759,6 @@
     },
     {
       "word": "valgiaraštis",
-      "translation": "меню"
-    },
-    {
-      "word": "meniu",
       "translation": "меню"
     },
     {
