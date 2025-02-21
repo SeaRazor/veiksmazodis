@@ -108,9 +108,11 @@
     transform-style: preserve-3d;
     perspective: 600px;
     transition: 0.5s;
-    flex-basis: 15%;
+    /*flex-basis: 15%;
     flex-grow: 0;
-    flex-shrink: 0;
+    flex-shrink: 0;*/
+    min-width: 10rem;
+    max-width: 0;
 }
 
 .flipCard:hover .cardFront {
@@ -312,7 +314,7 @@
     align-items: stretch;
     /*  background-color: #cce6f4;*/
     flex: 2;
-    padding: 1rem;
+    /*padding: 1rem;*/
     width: 100%;
 }
 
@@ -493,6 +495,33 @@
 .theme_switch_wrapper {
     margin-left: auto;
     margin-right: 0.5rem;
+}
+
+.answers_container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.5rem;
+    border-radius: var(--border-radius);
+    justify-content: space-evenly;
+    flex: 1;
+    align-items: center;
+    align-content: flex-start;
+    gap: 0.5rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px
+
+}
+
+.answers_container.correct_answer {
+    border: 1px solid var(--progress-correct-color);
+}
+
+.answers_container.incorrect_answer {
+    border: 1px solid var(--progress-incorrect-color);
+
+}
+
+.answers_container.warning_answer {
+    border: 1px solid #eeba0b;
 }
 
 @media (max-width: 768px) {

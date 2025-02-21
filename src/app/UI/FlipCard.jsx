@@ -42,9 +42,9 @@ export default function FlipCard({front, back, direction = "forward", checkResul
              onClick={handleFlip}>
             <div className={`${styles.cardFront}`}>
                 <span>{displayText}</span>
-                {isMarked && <div className={styles.marked}>
+                {/*   {isMarked && <div className={styles.marked}>
                     {checkResult && resultIcon}
-                </div>}
+                </div>}*/}
             </div>
             <div className={styles.cardBack}>{direction === "forward" ? back : front}</div>
         </div>

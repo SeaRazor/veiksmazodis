@@ -541,7 +541,7 @@
 .input_container {
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction: column;
     border: 1px solid slategray;
     /*padding:1px;*/
     border-radius: var(--border-radius);
@@ -1017,9 +1017,9 @@
 
     .input_field input {
         /*font-size: smaller;*/
-        /* width: 100%;*/
-        flex-basis: 60%;
-        flex-grow: 0;
+        width: 100%;
+        /* flex-basis: 60%;
+         flex-grow: 0;*/
 
 
     }
@@ -1034,7 +1034,7 @@
 @media (max-width: 500px) {
 
     .input_field {
-        flex-direction: column;
+        /*flex-direction: column;*/
     }
 
     .card {

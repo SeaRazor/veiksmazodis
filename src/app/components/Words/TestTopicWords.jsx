@@ -5,8 +5,8 @@ import {checkWordGracefully, getRandomWord, getWords} from "@/app/utils/words";
 import {IconCheck, IconPlayerTrackNext, IconRefresh} from "@tabler/icons-react";
 import WordCard from "@/app/UI/WordCard";
 import {Progress} from "@/app/UI/Progress";
-import FlipCard from "@/app/UI/FlipCard";
 import {Modal} from "@/app/UI/ResultsDialog";
+import AnswersContainer from "@/app/UI/AnswersContainer";
 
 
 export function TestTopicWords({selectedTopic, direction}) {
@@ -20,6 +20,10 @@ export function TestTopicWords({selectedTopic, direction}) {
     const [filteredWords, setFilteredWords] = useState([]);
     const [triesLeft, setTriesLeft] = useState(3);
     const inputRef = useRef(null);
+
+    const correctAnswers = filteredWords.filter(word => word.checkResult === 'correct');
+    const incorrectAnswers = filteredWords.filter(word => word.checkResult === 'incorrect');
+    const warningAnswers = filteredWords.filter(word => word.checkResult === 'warning');
 
 
     useEffect(() => {
@@ -183,10 +187,18 @@ export function TestTopicWords({selectedTopic, direction}) {
                 </div>
                 <div className={styles.words_container}>
 
-                    {filteredWords.map(word => {
+                    <AnswersContainer answers={correctAnswers}
+                                      resultType='correct' direction={direction}/>
+
+                    <AnswersContainer answers={incorrectAnswers}
+                                      resultType='incorrect' direction={direction}/>
+                    <AnswersContainer answers={warningAnswers}
+                                      resultType='warning' direction={direction}/>
+
+                    {/*{filteredWords.map(word => {
                         return <FlipCard front={word.word} back={word.translation} direction={direction}
                                          checkResult={word.checkResult}/>
-                    })}
+                    })}*/}
 
 
                 </div>

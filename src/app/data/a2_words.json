@@ -65,7 +65,8 @@
     },
     {
       "word": "namo",
-      "translation": "дом"
+      "translation": "дом",
+      "comment": "родной"
     },
     {
       "word": "buto numeris",
@@ -584,7 +585,8 @@
   "Būstas": [
     {
       "word": "namas",
-      "translation": "дом"
+      "translation": "дом",
+      "comment": "здание"
     },
     {
       "word": "namai",
@@ -656,7 +658,8 @@
     },
     {
       "word": "valgomasis",
-      "translation": "столовая"
+      "translation": "столовая",
+      "comment": "комната"
     },
     {
       "word": "langas",
@@ -1037,7 +1040,8 @@
     },
     {
       "word": "višta",
-      "translation": "курица"
+      "translation": "курица",
+      "comment": "птица"
     },
     {
       "word": "kiškis",
@@ -2822,7 +2826,8 @@
     },
     {
       "word": "jaustis",
-      "translation": "чувствовать"
+      "translation": "чувствовать",
+      "comment": "себя"
     },
     {
       "word": "linksmas",
@@ -3011,7 +3016,8 @@
     },
     {
       "word": "susilaužyti",
-      "translation": "сломать"
+      "translation": "сломать",
+      "comment": "руку"
     },
     {
       "word": "nudegti",
@@ -3596,7 +3602,8 @@
     },
     {
       "word": "trinti",
-      "translation": "стирать"
+      "translation": "стирать",
+      "comment": "ластиком"
     },
     {
       "word": "popierius",
@@ -4537,7 +4544,8 @@
     },
     {
       "word": "vištiena",
-      "translation": "курица"
+      "translation": "курица",
+      "comment": "мясо"
     },
     {
       "word": "kiauliena",
@@ -4701,7 +4709,13 @@
     },
     {
       "word": "pipirai",
-      "translation": "перец"
+      "translation": "перец",
+      "comment": "приправа"
+    },
+    {
+      "word": "paprika",
+      "translation": "перец",
+      "comment": "овощ"
     },
     {
       "word": "cukrus",
@@ -4753,10 +4767,6 @@
     },
     {
       "word": "valgiaraštis",
-      "translation": "меню"
-    },
-    {
-      "word": "meniu",
       "translation": "меню"
     },
     {
