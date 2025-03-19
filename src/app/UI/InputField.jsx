@@ -51,6 +51,18 @@ export default function InputField({label, correct_value, isCheck, id}) {
                        disabled={!!isCheck || helpRequested}
 
                 />
+                {!isCheck && <>
+                    <button onClick={handleInputLeave} title="Проверить" className={styles.default_button} tabIndex={-1}
+                            disabled={helpRequested || isCheck} style={{opacity: isCheck ? 0 : ''}}
+                    >
+                        <IconCheck size={16}/>
+                    </button>
+                    <button onClick={handleRequestHelp} title="Помощь" className={styles.secondary_button} tabIndex={-1}
+                            disabled={helpRequested || isCheck} style={{opacity: isCheck ? 0 : ''}}>
+                        <IconHelp size={16}/>
+                    </button>
+
+                </>}
 
 
                 {/*  <button onClick={handleRequestHelp} title="Помощь" className={styles.inner_button} tabIndex={-1}
@@ -58,17 +70,6 @@ export default function InputField({label, correct_value, isCheck, id}) {
                     <IconHelp size={20}/>
                 </button>*/}
             </div>
-            {!isCheck && <>
-                <button onClick={handleInputLeave} title="Проверить" className={styles.default_button} tabIndex={-1}
-                >
-                    <IconCheck size={16}/>
-                </button>
-                <button onClick={handleRequestHelp} title="Помощь" className={styles.secondary_button} tabIndex={-1}
-                        disabled={helpRequested || isCheck} style={{opacity: isCheck ? 0 : ''}}>
-                    <IconHelp size={16}/>
-                </button>
-
-            </>}
 
 
         </div>

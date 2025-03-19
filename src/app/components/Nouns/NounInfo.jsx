@@ -10,7 +10,7 @@ export default function NounInfo({noun, translation, gender}) {
             <div className={styles.word_info}>
                 <div className={styles.info_icon}><IconInfoCircleFilled size={24} color="#2dc653"/></div>
                 <div className={styles.info_item}>
-                    <label>Именительный падеж ед.число:</label>
+                    <label>Именительный падеж:</label>
                     <span>{noun} ({translation})</span>
                 </div>
                 {/*  <div className={styles.info_item}>

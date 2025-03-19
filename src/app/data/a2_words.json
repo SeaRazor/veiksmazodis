@@ -3546,11 +3546,13 @@
     },
     {
       "word": "atversti",
-      "translation": "открыть"
+      "translation": "открыть",
+      "comment": "versti"
     },
     {
       "word": "užversti",
-      "translation": "закрыть"
+      "translation": "закрыть",
+      "comment": "versti"
     },
     {
       "word": "pieštukas",

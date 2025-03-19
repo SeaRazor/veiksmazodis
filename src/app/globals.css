@@ -127,7 +127,7 @@
 
     --callout-rgb: 20, 20, 20;
     --callout-border-rgb: 108, 108, 108;
-    --card-rgb: 100, 100, 100;
+    --card-rgb: var(#575757, 0.1);
     --card-border-rgb: 200, 200, 200;
     --card-front-back-color: #8e9aaf;
     --selector-back-color: black;
@@ -140,10 +140,10 @@
     --nav-menu-item-color: #adb5bd;
     --nav-menu-item-selected-color: white;
     --nav-back-color: #3f3f3f;
-    --default-button-back-color: #a8cfdf;
+    --default-button-back-color: #6f81aa;
     --default-button-color: black;
     --default-button-hover-color: #60acc7;
-    --secondary-button-back-color: #b0b9e9;
+    --secondary-button-back-color: #c8cede;
     --secondary-button-hover-color: #7089d7;
     --secondary-button-color: black;
     --tab-item-back-color: #d3d3d3;
@@ -185,7 +185,7 @@
 
         --callout-rgb: 20, 20, 20;
         --callout-border-rgb: 108, 108, 108;
-        --card-rgb: 100, 100, 100;
+        --card-rgb: #575757;
         --card-border-rgb: 200, 200, 200;
         --card-front-back-color: #8e9aaf;
         --selector-back-color: black;
@@ -265,6 +265,15 @@ dialog header {
 
 dialog::backdrop {
     background: rgba(0, 0, 0, 0.4);
+}
+
+button[disabled] {
+    opacity: 0.3;
+
+}
+
+button[disabled]:hover {
+    cursor: not-allowed;
 }
 
 /*@media (prefers-color-scheme: dark) {

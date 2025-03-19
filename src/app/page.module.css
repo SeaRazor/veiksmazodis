@@ -145,6 +145,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     gap: 0.5rem;
     text-align: center;
 
@@ -464,7 +465,7 @@
     border: 1px solid rgba(var(--card-border-rgb), 0.15);*/
     transition: background 200ms, border 200ms;
     font-family: var(--font-mono);
-    padding: 0.5rem;
+    padding: 0.2rem;
     /* width: 100%;*/
     font-size: smaller;
 
@@ -541,10 +542,10 @@
 .input_container {
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
-    border: 1px solid slategray;
-    /*padding:1px;*/
+    flex-direction: row;
+    /*border: 1px solid slategray;*/
     border-radius: var(--border-radius);
+    gap: 0.3rem;
 }
 
 .input_container.readonly {
@@ -597,8 +598,8 @@
     /* border-top-left-radius: var(--border-radius);
      border-bottom-left-radius: var(--border-radius);*/
     border-radius: var(--border-radius);
-    border: none;
-    border-bottom: 2px solid rgba(var(--card-border-rgb), 0);
+    border: 1px solid slategray;
+    /* border: 2px solid rgba(var(--card-border-rgb), 0);*/
     background-color: var(--input-background-color);
     font-family: var(--font-mono);
     font-size: larger;
@@ -613,12 +614,12 @@
     outline: none;
 }
 
-.input_filed input:disabled {
+.input_field input:disabled {
     border: 2px solid var(--card-border-rgb);
 }
 
 
-.input_container:has(input.correct_input) {
+.input_container:has(input.correct_input) input {
     border-bottom: 2px solid var(--correct-input-color);
 }
 
@@ -626,7 +627,7 @@
     border-bottom: 2px solid var(--correct-input-color);
 }
 
-.input_container:has(input.incorrect_input) {
+.input_container:has(input.incorrect_input) input {
     border-bottom: 2px solid var(--incorrect-input-color);
 }
 
@@ -1034,7 +1035,7 @@
 @media (max-width: 500px) {
 
     .input_field {
-        /*flex-direction: column;*/
+        flex-direction: column;
     }
 
     .card {
